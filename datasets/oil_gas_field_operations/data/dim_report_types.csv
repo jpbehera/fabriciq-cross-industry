@@ -1,0 +1,19 @@
+report_type_id,name,category,frequency,avg_completion_min,regulatory_required
+RPT-001,Daily Drilling Report,drilling,daily,180,True
+RPT-002,Morning Report,drilling,daily,45,False
+RPT-003,Mud Report,drilling,daily,60,False
+RPT-004,Bit Record,drilling,per_run,30,False
+RPT-005,Casing Report,completions,per_run,90,True
+RPT-006,Cement Report,completions,per_run,75,True
+RPT-007,Well Test Report,production,per_test,120,True
+RPT-008,Daily Production Report,production,daily,60,True
+RPT-009,Monthly Production Report,production,monthly,240,True
+RPT-010,HSE Inspection Report,hse,weekly,90,True
+RPT-011,Incident Investigation Report,hse,per_event,180,True
+RPT-012,PTW Form,hse,per_event,45,True
+RPT-013,JSA / Risk Assessment,hse,per_event,30,True
+RPT-014,Environmental Monitoring Report,environmental,monthly,120,True
+RPT-015,Emissions Report,environmental,quarterly,180,True
+RPT-016,Well Integrity Report,integrity,per_test,90,True
+RPT-017,Barrier Diagram Update,integrity,per_event,60,True
+RPT-018,Equipment Maintenance Report,maintenance,per_event,45,False

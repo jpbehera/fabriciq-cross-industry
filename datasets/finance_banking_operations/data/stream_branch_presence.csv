@@ -1,0 +1,81 @@
+ping_id,advisor_id,branch_id,timestamp,location_type,zone,is_in_meeting
+SPR-00001,ADV-004,BRN-005,2025-12-15T09:31:00Z,conference_room,conference_room,False
+SPR-00002,ADV-022,BRN-003,2025-12-15T09:35:00Z,remote,remote,False
+SPR-00003,ADV-025,BRN-001,2025-12-15T09:37:00Z,conference_room,conference_room,True
+SPR-00004,ADV-004,BRN-005,2025-12-15T09:39:00Z,office,Advisor Suite,True
+SPR-00005,ADV-012,BRN-003,2025-12-15T09:44:00Z,office,Executive Suite,True
+SPR-00006,ADV-002,BRN-003,2025-12-15T09:47:00Z,client_site,client_site,False
+SPR-00007,ADV-020,BRN-001,2025-12-15T09:50:00Z,office,Break Room,False
+SPR-00008,ADV-010,BRN-001,2025-12-15T09:52:00Z,conference_room,conference_room,True
+SPR-00009,ADV-025,BRN-001,2025-12-15T09:55:00Z,remote,remote,True
+SPR-00010,ADV-024,BRN-005,2025-12-15T09:59:00Z,remote,remote,True
+SPR-00011,ADV-009,BRN-005,2025-12-15T10:00:00Z,client_site,client_site,True
+SPR-00012,ADV-022,BRN-003,2025-12-15T10:04:00Z,remote,remote,False
+SPR-00013,ADV-023,BRN-004,2025-12-15T10:06:00Z,remote,remote,True
+SPR-00014,ADV-019,BRN-005,2025-12-15T10:11:00Z,remote,remote,True
+SPR-00015,ADV-004,BRN-005,2025-12-15T10:12:00Z,conference_room,conference_room,True
+SPR-00016,ADV-009,BRN-005,2025-12-15T10:15:00Z,remote,remote,False
+SPR-00017,ADV-001,BRN-002,2025-12-15T10:20:00Z,remote,remote,True
+SPR-00018,ADV-002,BRN-003,2025-12-15T10:22:00Z,conference_room,conference_room,False
+SPR-00019,ADV-023,BRN-004,2025-12-15T10:26:00Z,remote,remote,True
+SPR-00020,ADV-011,BRN-002,2025-12-15T10:28:00Z,conference_room,conference_room,True
+SPR-00021,ADV-017,BRN-003,2025-12-15T10:31:00Z,office,Conference Room,True
+SPR-00022,ADV-009,BRN-005,2025-12-15T10:34:00Z,client_site,client_site,False
+SPR-00023,ADV-023,BRN-004,2025-12-15T10:37:00Z,remote,remote,False
+SPR-00024,ADV-002,BRN-003,2025-12-15T10:39:00Z,office,Trading Floor,True
+SPR-00025,ADV-022,BRN-003,2025-12-15T10:44:00Z,client_site,client_site,True
+SPR-00026,ADV-010,BRN-001,2025-12-15T10:46:00Z,client_site,client_site,True
+SPR-00027,ADV-014,BRN-005,2025-12-15T10:48:00Z,client_site,client_site,False
+SPR-00028,ADV-012,BRN-003,2025-12-15T10:52:00Z,client_site,client_site,True
+SPR-00029,ADV-004,BRN-005,2025-12-15T10:56:00Z,office,Lobby,True
+SPR-00030,ADV-011,BRN-002,2025-12-15T10:58:00Z,client_site,client_site,False
+SPR-00031,ADV-008,BRN-004,2025-12-15T11:02:00Z,client_site,client_site,True
+SPR-00032,ADV-019,BRN-005,2025-12-15T11:04:00Z,office,Trading Floor,True
+SPR-00033,ADV-021,BRN-002,2025-12-15T11:08:00Z,office,Trading Floor,True
+SPR-00034,ADV-007,BRN-003,2025-12-15T11:11:00Z,conference_room,conference_room,True
+SPR-00035,ADV-003,BRN-004,2025-12-15T11:14:00Z,client_site,client_site,False
+SPR-00036,ADV-024,BRN-005,2025-12-15T11:16:00Z,remote,remote,True
+SPR-00037,ADV-002,BRN-003,2025-12-15T11:18:00Z,remote,remote,False
+SPR-00038,ADV-018,BRN-004,2025-12-15T11:23:00Z,client_site,client_site,False
+SPR-00039,ADV-012,BRN-003,2025-12-15T11:25:00Z,office,Break Room,True
+SPR-00040,ADV-016,BRN-002,2025-12-15T11:28:00Z,office,Advisor Suite,False
+SPR-00041,ADV-023,BRN-004,2025-12-15T11:30:00Z,client_site,client_site,True
+SPR-00042,ADV-019,BRN-005,2025-12-15T11:33:00Z,remote,remote,False
+SPR-00043,ADV-016,BRN-002,2025-12-15T11:38:00Z,office,Advisor Suite,False
+SPR-00044,ADV-025,BRN-001,2025-12-15T11:41:00Z,conference_room,conference_room,False
+SPR-00045,ADV-013,BRN-004,2025-12-15T11:44:00Z,client_site,client_site,True
+SPR-00046,ADV-006,BRN-002,2025-12-15T11:45:00Z,remote,remote,True
+SPR-00047,ADV-019,BRN-005,2025-12-15T11:50:00Z,office,Executive Suite,False
+SPR-00048,ADV-017,BRN-003,2025-12-15T11:53:00Z,client_site,client_site,False
+SPR-00049,ADV-008,BRN-004,2025-12-15T11:55:00Z,client_site,client_site,True
+SPR-00050,ADV-006,BRN-002,2025-12-15T11:57:00Z,office,Compliance Office,True
+SPR-00051,ADV-010,BRN-001,2025-12-15T12:00:00Z,remote,remote,False
+SPR-00052,ADV-005,BRN-001,2025-12-15T12:04:00Z,office,Lobby,True
+SPR-00053,ADV-007,BRN-003,2025-12-15T12:08:00Z,office,Trading Floor,False
+SPR-00054,ADV-021,BRN-002,2025-12-15T12:11:00Z,client_site,client_site,False
+SPR-00055,ADV-003,BRN-004,2025-12-15T12:14:00Z,client_site,client_site,True
+SPR-00056,ADV-014,BRN-005,2025-12-15T12:17:00Z,client_site,client_site,False
+SPR-00057,ADV-002,BRN-003,2025-12-15T12:20:00Z,office,Executive Suite,False
+SPR-00058,ADV-008,BRN-004,2025-12-15T12:23:00Z,client_site,client_site,True
+SPR-00059,ADV-009,BRN-005,2025-12-15T12:24:00Z,office,Lobby,False
+SPR-00060,ADV-021,BRN-002,2025-12-15T12:28:00Z,remote,remote,False
+SPR-00061,ADV-008,BRN-004,2025-12-15T12:31:00Z,client_site,client_site,True
+SPR-00062,ADV-019,BRN-005,2025-12-15T12:35:00Z,conference_room,conference_room,True
+SPR-00063,ADV-015,BRN-001,2025-12-15T12:36:00Z,conference_room,conference_room,False
+SPR-00064,ADV-005,BRN-001,2025-12-15T12:40:00Z,office,Break Room,True
+SPR-00065,ADV-015,BRN-001,2025-12-15T12:42:00Z,remote,remote,True
+SPR-00066,ADV-019,BRN-005,2025-12-15T12:46:00Z,remote,remote,False
+SPR-00067,ADV-001,BRN-002,2025-12-15T12:49:00Z,remote,remote,True
+SPR-00068,ADV-013,BRN-004,2025-12-15T12:53:00Z,remote,remote,True
+SPR-00069,ADV-005,BRN-001,2025-12-15T12:54:00Z,conference_room,conference_room,True
+SPR-00070,ADV-015,BRN-001,2025-12-15T12:59:00Z,conference_room,conference_room,True
+SPR-00071,ADV-024,BRN-005,2025-12-15T13:02:00Z,remote,remote,True
+SPR-00072,ADV-020,BRN-001,2025-12-15T13:03:00Z,conference_room,conference_room,False
+SPR-00073,ADV-001,BRN-002,2025-12-15T13:06:00Z,office,Executive Suite,True
+SPR-00074,ADV-005,BRN-001,2025-12-15T13:09:00Z,office,Conference Room,True
+SPR-00075,ADV-021,BRN-002,2025-12-15T13:14:00Z,office,Executive Suite,True
+SPR-00076,ADV-004,BRN-005,2025-12-15T13:17:00Z,client_site,client_site,True
+SPR-00077,ADV-007,BRN-003,2025-12-15T13:18:00Z,conference_room,conference_room,False
+SPR-00078,ADV-006,BRN-002,2025-12-15T13:22:00Z,client_site,client_site,False
+SPR-00079,ADV-005,BRN-001,2025-12-15T13:24:00Z,office,Compliance Office,False
+SPR-00080,ADV-021,BRN-002,2025-12-15T13:29:00Z,office,Trading Floor,True

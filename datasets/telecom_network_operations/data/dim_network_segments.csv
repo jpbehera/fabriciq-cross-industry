@@ -1,0 +1,13 @@
+segment_id,name,type,technology,region,node_count,circuit_count,capacity_gbps,redundancy_level
+SEG-001,NE-Core-Ring,Core,IP/MPLS,Northeast,8,240,4000,N+1
+SEG-002,NE-Metro-Aggregation,Aggregation,Ethernet/MPLS,Northeast,24,480,1600,Active-Active
+SEG-003,NE-Access-GPON,Access,GPON,Northeast,120,12000,800,Ring
+SEG-004,SE-Core-Ring,Core,IP/MPLS,Southeast,10,320,5000,N+1
+SEG-005,SE-Metro-Aggregation,Aggregation,Ethernet/MPLS,Southeast,32,640,2200,Active-Active
+SEG-006,SE-Access-Mixed,Access,GPON + DOCSIS,Southeast,180,18000,1200,Ring
+SEG-007,MW-Core-Ring,Core,IP/MPLS,Midwest,6,180,3000,N+1
+SEG-008,MW-Metro-Aggregation,Aggregation,Ethernet/MPLS,Midwest,18,360,1000,Active-Active
+SEG-009,MW-Access-GPON,Access,GPON,Midwest,90,9000,600,Ring
+SEG-010,W-Core-Ring,Core,IP/MPLS,West,12,400,6000,N+1
+SEG-011,W-Metro-Aggregation,Aggregation,Ethernet/MPLS,West,40,800,2800,Active-Active
+SEG-012,W-Access-Mixed,Access,GPON + 5G,West,200,20000,1500,Ring

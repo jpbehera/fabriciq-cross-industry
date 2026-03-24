@@ -1,0 +1,41 @@
+matter_id,client_id,name,practice_area,matter_type,open_date,status,budget,lead_attorney_id
+MAT-001,CLI-001,Apex v. Sterling Partners,Litigation,dispute,2024-05-01,active,1429517,ATT-012
+MAT-002,CLI-002,TechVenture Series C Round,Corporate,transaction,2024-06-01,active,582034,ATT-007
+MAT-003,CLI-003,Metro Health HIPAA Compliance,Regulatory/Compliance,advisory,2026-03-01,active,1378713,ATT-005
+MAT-004,CLI-004,GreenField Wind Farm Permits,Real Estate,permitting,2025-08-01,active,1973292,ATT-013
+MAT-005,CLI-005,BlueStar Patent Infringement,IP,infringement,2024-02-01,active,986094,ATT-010
+MAT-006,CLI-006,Pacific Realty Tower Acquisition,Real Estate,acquisition,2024-10-01,active,178638,ATT-009
+MAT-007,CLI-007,NovaCorp FDA Approval,Regulatory/Compliance,regulatory,2026-04-01,active,581165,ATT-003
+MAT-008,CLI-008,Titan Logistics Trademark,IP,trademark,2024-06-01,active,1868963,ATT-004
+MAT-009,CLI-009,Meridian Coverage Dispute,Litigation,coverage,2025-06-01,active,355819,ATT-008
+MAT-010,CLI-010,Atlas DOD Contract Review,Corporate,review,2026-09-01,active,659424,ATT-010
+MAT-011,CLI-011,Harbor Fund III Formation,Corporate,formation,2026-11-01,active,41406,ATT-011
+MAT-012,CLI-012,Pinnacle Franchise Agreement,Corporate,franchise,2025-09-01,active,1979034,ATT-011
+MAT-013,CLI-013,Quantum Trade Secret Litigation,Litigation,trade_secret,2024-02-01,active,579625,ATT-002
+MAT-014,CLI-014,Westfield 510k Submission,Regulatory/Compliance,submission,2026-02-01,active,1185194,ATT-003
+MAT-015,CLI-015,Continental Recall Defense,Litigation,defense,2025-05-01,active,1293420,ATT-004
+MAT-016,CLI-016,Summit Drug Patent Portfolio,IP,portfolio,2025-12-01,active,451974,ATT-011
+MAT-017,CLI-017,Lakeshore Zoning Appeal,Real Estate,appeal,2025-11-01,active,1084919,ATT-008
+MAT-018,CLI-018,CyberShield Data Breach Response,Litigation,incident_response,2024-05-01,active,218563,ATT-011
+MAT-019,CLI-019,Premier FDA Label Compliance,Regulatory/Compliance,compliance,2025-07-01,active,117456,ATT-001
+MAT-020,CLI-020,NorthStar Route Antitrust,Litigation,antitrust,2024-06-01,active,1361123,ATT-005
+MAT-021,CLI-021,DataStream SaaS License,IP,licensing,2026-03-01,active,951596,ATT-009
+MAT-022,CLI-022,Cascade Mechanics Lien Defense,Litigation,defense,2025-12-01,active,1201306,ATT-001
+MAT-023,CLI-023,EcoVolt Tax Credit Optimization,Tax,optimization,2024-02-01,active,1877008,ATT-012
+MAT-024,CLI-024,Ironclad Environmental Remediation,Regulatory/Compliance,remediation,2026-03-01,active,100556,ATT-014
+MAT-025,CLI-025,GlobalComm Spectrum License,Regulatory/Compliance,licensing,2026-06-01,active,1183729,ATT-003
+MAT-026,CLI-001,Apex Regulatory Investigation,Litigation,investigation,2024-07-01,pending,112721,ATT-005
+MAT-027,CLI-002,TechVenture IP Licensing,IP,licensing,2024-06-01,active,1910181,ATT-006
+MAT-028,CLI-003,Metro Health Employment Dispute,Employment & Labor,dispute,2026-04-01,active,548301,ATT-011
+MAT-029,CLI-004,GreenField Project Finance,Corporate,finance,2025-02-01,active,1661022,ATT-009
+MAT-030,CLI-005,BlueStar Supply Chain Contract,Corporate,contract,2026-07-01,active,1596768,ATT-003
+MAT-031,CLI-006,Pacific Realty Lease Portfolio,Real Estate,lease,2024-04-01,active,1702484,ATT-013
+MAT-032,CLI-007,NovaCorp M&A Due Diligence,Corporate,due_diligence,2025-03-01,active,76980,ATT-003
+MAT-033,CLI-008,Titan Bankruptcy Restructuring,Bankruptcy,restructuring,2025-12-01,active,1665783,ATT-015
+MAT-034,CLI-009,Meridian Reinsurance Treaty,Corporate,negotiation,2026-07-01,active,1837073,ATT-012
+MAT-035,CLI-010,Atlas Export Compliance,Regulatory/Compliance,compliance,2025-04-01,pending,358862,ATT-013
+MAT-036,CLI-011,Harbor Investor Dispute,Litigation,dispute,2024-12-01,active,827248,ATT-014
+MAT-037,CLI-012,Pinnacle Employment Class Action,Employment & Labor,class_action,2025-01-01,active,491477,ATT-004
+MAT-038,CLI-013,Quantum SEC Investigation,Litigation,investigation,2025-08-01,active,665031,ATT-014
+MAT-039,CLI-014,Westfield Product Liability,Litigation,liability,2024-04-01,active,74627,ATT-011
+MAT-040,CLI-015,Continental Dealer Agreement,Corporate,agreement,2025-04-01,active,713415,ATT-005

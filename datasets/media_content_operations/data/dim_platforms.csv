@@ -1,0 +1,13 @@
+platform_id,name,type,spec_requirements,delivery_format,region,resolution,audio_format,subtitle_required,turnaround_sla_hours
+PLT-001,GlobalStream+,SVOD,4K HDR Dolby Vision,MXF/IMF,Global,3840x2160,Dolby Atmos,Yes,48
+PLT-002,GlobalTV Broadcast,Linear Broadcast,HD 1080i,MXF AS-11,North America,1920x1080,Stereo + 5.1,Yes,24
+PLT-003,SportsMax App,Streaming,1080p60,HLS/DASH,North America,1920x1080,Stereo,Yes,4
+PLT-004,SportsMax Cable,Linear Cable,1080i,MXF AS-11,North America,1920x1080,Stereo + 5.1,Yes,12
+PLT-005,YouTube,AVOD,4K,MP4 H.265,Global,3840x2160,Stereo,Optional,72
+PLT-006,Social Clips,Short-form,1080p Vertical,MP4 H.264,Global,1080x1920,Stereo,No,24
+PLT-007,Apple TV+,SVOD,4K HDR10,IMF,Global,3840x2160,Dolby Atmos,Yes,72
+PLT-008,Amazon Prime,SVOD,4K HDR,MXF/IMF,Global,3840x2160,Dolby Atmos,Yes,72
+PLT-009,International Broadcast,Linear Broadcast,HD 1080i,MXF,Europe/Asia,1920x1080,Stereo,Yes,96
+PLT-010,Podcast Platforms,Audio,High-Quality,AAC/MP3,Global,N/A,Stereo,N/A,24
+PLT-011,FAST Channels,AVOD,1080p,HLS,North America,1920x1080,Stereo,Yes,48
+PLT-012,Theatrical,Cinema,4K DCP,DCP SMPTE,Global,4096x2160,7.1,Yes,168

@@ -1,0 +1,401 @@
+interaction_id,supervisor_id,timestamp,system,module,action,duration_ms,document_type
+INT-0001,SUP-001,2026-02-24T07:15:22,Procore,Daily Log,create_entry,45200,daily_report
+INT-0002,SUP-001,2026-02-24T07:22:45,Procore,Daily Log,add_photo,12300,photo_documentation
+INT-0003,SUP-001,2026-02-24T07:35:10,Procore,Daily Log,add_weather,3200,weather_log
+INT-0004,SUP-001,2026-02-24T08:10:30,PlanGrid,Drawings,markup_sheet,28500,drawing_markup
+INT-0005,SUP-001,2026-02-24T08:45:15,Procore,RFI,create_rfi,62000,rfi_document
+INT-0006,SUP-001,2026-02-24T09:30:00,Bluebeam,Review,annotate_plan,35800,plan_annotation
+INT-0007,SUP-001,2026-02-24T10:15:22,Procore,Safety,log_observation,18500,safety_observation
+INT-0008,SUP-001,2026-02-24T14:20:00,Autodesk Build,Model,clash_review,42000,clash_report
+INT-0009,SUP-002,2026-02-24T07:20:15,Procore,Daily Log,create_entry,38500,daily_report
+INT-0010,SUP-002,2026-02-24T07:30:00,Procore,Daily Log,add_crew_count,5200,crew_log
+INT-0011,SUP-002,2026-02-24T08:00:30,PlanGrid,Drawings,view_sheet,8500,drawing_review
+INT-0012,SUP-002,2026-02-24T08:45:22,Procore,Inspections,create_inspection,52000,inspection_report
+INT-0013,SUP-002,2026-02-24T10:30:15,Procore,Submittals,review_submittal,35000,submittal_review
+INT-0014,SUP-002,2026-02-24T13:15:00,Bluebeam,Review,compare_drawings,28000,drawing_comparison
+INT-0015,SUP-003,2026-02-24T06:45:30,Procore,Daily Log,create_entry,48000,daily_report
+INT-0016,SUP-003,2026-02-24T07:15:00,Procore,Daily Log,add_photo,15600,photo_documentation
+INT-0017,SUP-003,2026-02-24T07:45:22,PlanGrid,Drawings,markup_sheet,32000,drawing_markup
+INT-0018,SUP-003,2026-02-24T08:30:00,Procore,RFI,respond_rfi,42000,rfi_response
+INT-0019,SUP-003,2026-02-24T09:15:15,Procore,Change Orders,create_pco,55000,change_order
+INT-0020,SUP-003,2026-02-24T11:00:30,Autodesk Build,Model,view_model,18000,model_review
+INT-0021,SUP-004,2026-02-24T07:00:00,Procore,Daily Log,create_entry,42500,daily_report
+INT-0022,SUP-004,2026-02-24T07:28:15,Procore,Daily Log,add_photo,18200,photo_documentation
+INT-0023,SUP-004,2026-02-24T08:15:30,Procore,Inspections,create_inspection,48000,inspection_report
+INT-0024,SUP-004,2026-02-24T09:30:00,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0025,SUP-004,2026-02-24T10:45:22,Procore,Submittals,create_submittal,38000,submittal
+INT-0026,SUP-005,2026-02-24T07:30:15,Procore,Daily Log,create_entry,35000,daily_report
+INT-0027,SUP-005,2026-02-24T07:55:00,Procore,Daily Log,add_photo,10200,photo_documentation
+INT-0028,SUP-005,2026-02-24T08:30:22,PlanGrid,Drawings,view_sheet,7500,drawing_review
+INT-0029,SUP-005,2026-02-24T09:00:00,Procore,Punch List,create_item,22000,punch_list
+INT-0030,SUP-005,2026-02-24T10:30:15,Bluebeam,Review,annotate_plan,28000,plan_annotation
+INT-0031,SUP-009,2026-02-24T07:15:00,Procore,Daily Log,create_entry,32000,daily_report
+INT-0032,SUP-009,2026-02-24T07:40:30,Procore,Daily Log,add_photo,8500,photo_documentation
+INT-0033,SUP-009,2026-02-24T08:20:15,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0034,SUP-009,2026-02-24T09:45:00,Procore,Inspections,create_inspection,38000,inspection_report
+INT-0035,SUP-011,2026-02-24T06:30:22,Procore,Daily Log,create_entry,42000,daily_report
+INT-0036,SUP-011,2026-02-24T07:10:00,Procore,Daily Log,add_photo,14200,photo_documentation
+INT-0037,SUP-011,2026-02-24T07:45:30,PlanGrid,Drawings,view_sheet,9500,drawing_review
+INT-0038,SUP-011,2026-02-24T08:30:15,Procore,RFI,create_rfi,55000,rfi_document
+INT-0039,SUP-011,2026-02-24T10:00:00,Autodesk Build,Model,clash_review,38000,clash_report
+INT-0040,SUP-013,2026-02-24T07:30:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0041,SUP-013,2026-02-24T07:50:22,Procore,Daily Log,add_photo,9800,photo_documentation
+INT-0042,SUP-013,2026-02-24T08:15:00,PlanGrid,Drawings,markup_sheet,18000,drawing_markup
+INT-0043,SUP-019,2026-02-24T06:15:30,Procore,Daily Log,create_entry,52000,daily_report
+INT-0044,SUP-019,2026-02-24T07:05:00,Procore,Daily Log,add_photo,22500,photo_documentation
+INT-0045,SUP-019,2026-02-24T07:35:15,Procore,Daily Log,add_weather,4200,weather_log
+INT-0046,SUP-019,2026-02-24T08:00:22,PlanGrid,Drawings,markup_sheet,35000,drawing_markup
+INT-0047,SUP-019,2026-02-24T08:45:00,Procore,RFI,create_rfi,68000,rfi_document
+INT-0048,SUP-019,2026-02-24T09:30:30,Procore,Inspections,create_inspection,55000,inspection_report
+INT-0049,SUP-019,2026-02-24T10:30:00,Autodesk Build,Model,clash_review,45000,clash_report
+INT-0050,SUP-019,2026-02-24T11:15:15,Bluebeam,Review,annotate_plan,32000,plan_annotation
+INT-0051,SUP-025,2026-02-24T07:20:00,Procore,Daily Log,create_entry,38000,daily_report
+INT-0052,SUP-025,2026-02-24T07:48:22,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0053,SUP-025,2026-02-24T08:15:30,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0054,SUP-025,2026-02-24T09:00:00,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0055,SUP-001,2026-02-25T07:10:15,Procore,Daily Log,create_entry,48000,daily_report
+INT-0056,SUP-001,2026-02-25T07:30:00,Procore,Daily Log,add_photo,15500,photo_documentation
+INT-0057,SUP-001,2026-02-25T08:00:22,Procore,RFI,respond_rfi,38000,rfi_response
+INT-0058,SUP-001,2026-02-25T08:45:30,PlanGrid,Drawings,markup_sheet,30000,drawing_markup
+INT-0059,SUP-001,2026-02-25T09:30:00,Procore,Change Orders,review_co,48000,change_order
+INT-0060,SUP-001,2026-02-25T10:45:15,Bluebeam,Review,compare_drawings,32000,drawing_comparison
+INT-0061,SUP-002,2026-02-25T07:15:22,Procore,Daily Log,create_entry,40000,daily_report
+INT-0062,SUP-002,2026-02-25T07:45:00,Procore,Submittals,review_submittal,28000,submittal_review
+INT-0063,SUP-002,2026-02-25T08:30:30,PlanGrid,Drawings,view_sheet,8000,drawing_review
+INT-0064,SUP-002,2026-02-25T09:15:15,Procore,Inspections,create_inspection,45000,inspection_report
+INT-0065,SUP-003,2026-02-25T06:50:00,Procore,Daily Log,create_entry,45000,daily_report
+INT-0066,SUP-003,2026-02-25T07:30:22,Procore,Daily Log,add_photo,16800,photo_documentation
+INT-0067,SUP-003,2026-02-25T08:00:15,Procore,Safety,log_observation,22000,safety_observation
+INT-0068,SUP-003,2026-02-25T09:00:00,Procore,RFI,create_rfi,58000,rfi_document
+INT-0069,SUP-005,2026-02-25T07:25:30,Procore,Daily Log,create_entry,32000,daily_report
+INT-0070,SUP-005,2026-02-25T07:50:00,Procore,Daily Log,add_photo,9500,photo_documentation
+INT-0071,SUP-005,2026-02-25T08:20:22,PlanGrid,Drawings,view_sheet,7000,drawing_review
+INT-0072,SUP-005,2026-02-25T09:15:15,Procore,Punch List,update_item,18000,punch_list
+INT-0073,SUP-008,2026-02-25T07:30:00,Procore,Daily Log,create_entry,30000,daily_report
+INT-0074,SUP-008,2026-02-25T07:55:30,PlanGrid,Drawings,markup_sheet,20000,drawing_markup
+INT-0075,SUP-008,2026-02-25T08:30:22,Procore,Inspections,create_inspection,40000,inspection_report
+INT-0076,SUP-015,2026-02-25T07:20:15,Procore,Daily Log,create_entry,38000,daily_report
+INT-0077,SUP-015,2026-02-25T07:50:00,Procore,Daily Log,add_photo,12500,photo_documentation
+INT-0078,SUP-015,2026-02-25T08:15:30,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0079,SUP-015,2026-02-25T09:00:22,Procore,Safety,log_observation,20000,safety_observation
+INT-0080,SUP-016,2026-02-25T07:30:15,Procore,Daily Log,create_entry,32000,daily_report
+INT-0081,SUP-016,2026-02-25T08:00:00,PlanGrid,Drawings,view_sheet,8500,drawing_review
+INT-0082,SUP-019,2026-02-25T06:20:22,Procore,Daily Log,create_entry,55000,daily_report
+INT-0083,SUP-019,2026-02-25T07:10:00,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0084,SUP-019,2026-02-25T07:45:30,PlanGrid,Drawings,markup_sheet,38000,drawing_markup
+INT-0085,SUP-019,2026-02-25T08:30:15,Procore,RFI,create_rfi,62000,rfi_document
+INT-0086,SUP-019,2026-02-25T09:30:00,Autodesk Build,Model,view_model,28000,model_review
+INT-0087,SUP-019,2026-02-25T10:15:22,Procore,Inspections,create_inspection,52000,inspection_report
+INT-0088,SUP-019,2026-02-25T11:30:00,Procore,Change Orders,create_pco,48000,change_order
+INT-0089,SUP-023,2026-02-25T07:45:30,Procore,Daily Log,create_entry,25000,daily_report
+INT-0090,SUP-023,2026-02-25T08:10:15,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0091,SUP-021,2026-02-25T07:30:00,Procore,Daily Log,create_entry,22000,daily_report
+INT-0092,SUP-021,2026-02-25T07:50:22,PlanGrid,Drawings,view_sheet,6000,drawing_review
+INT-0093,SUP-001,2026-02-26T07:20:30,Procore,Daily Log,create_entry,42000,daily_report
+INT-0094,SUP-001,2026-02-26T07:45:00,Procore,Daily Log,add_photo,14200,photo_documentation
+INT-0095,SUP-001,2026-02-26T08:15:15,PlanGrid,Drawings,markup_sheet,32000,drawing_markup
+INT-0096,SUP-001,2026-02-26T09:00:22,Procore,Submittals,review_submittal,35000,submittal_review
+INT-0097,SUP-001,2026-02-26T10:00:00,Autodesk Build,Model,view_model,22000,model_review
+INT-0098,SUP-004,2026-02-26T07:00:30,Procore,Daily Log,create_entry,45000,daily_report
+INT-0099,SUP-004,2026-02-26T07:35:15,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0100,SUP-004,2026-02-26T08:00:00,Procore,RFI,respond_rfi,40000,rfi_response
+INT-0101,SUP-004,2026-02-26T09:00:22,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0102,SUP-004,2026-02-26T10:15:30,Procore,Inspections,create_inspection,50000,inspection_report
+INT-0103,SUP-006,2026-02-26T07:30:00,Procore,Daily Log,create_entry,35000,daily_report
+INT-0104,SUP-006,2026-02-26T08:00:15,Procore,Daily Log,add_photo,9000,photo_documentation
+INT-0105,SUP-006,2026-02-26T08:30:22,PlanGrid,Drawings,view_sheet,7500,drawing_review
+INT-0106,SUP-009,2026-02-26T07:20:00,Procore,Daily Log,create_entry,34000,daily_report
+INT-0107,SUP-009,2026-02-26T07:50:30,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0108,SUP-009,2026-02-26T08:40:15,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0109,SUP-010,2026-02-26T07:10:22,Procore,Daily Log,create_entry,35000,daily_report
+INT-0110,SUP-010,2026-02-26T07:40:00,Procore,Daily Log,add_photo,11500,photo_documentation
+INT-0111,SUP-010,2026-02-26T08:15:30,Procore,Safety,log_observation,18000,safety_observation
+INT-0112,SUP-012,2026-02-26T07:25:15,Procore,Daily Log,create_entry,28000,daily_report
+INT-0113,SUP-012,2026-02-26T07:50:00,PlanGrid,Drawings,markup_sheet,18000,drawing_markup
+INT-0114,SUP-012,2026-02-26T08:30:22,Procore,Submittals,create_submittal,32000,submittal
+INT-0115,SUP-017,2026-02-26T07:35:30,Procore,Daily Log,create_entry,26000,daily_report
+INT-0116,SUP-017,2026-02-26T07:55:00,PlanGrid,Drawings,view_sheet,6500,drawing_review
+INT-0117,SUP-020,2026-02-26T07:15:15,Procore,Daily Log,create_entry,40000,daily_report
+INT-0118,SUP-020,2026-02-26T07:45:22,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0119,SUP-020,2026-02-26T08:10:00,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0120,SUP-024,2026-02-26T07:40:30,Procore,Daily Log,create_entry,28000,daily_report
+INT-0121,SUP-024,2026-02-26T08:05:15,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0122,SUP-025,2026-02-26T07:25:00,Procore,Daily Log,create_entry,38000,daily_report
+INT-0123,SUP-025,2026-02-26T07:55:22,Procore,Daily Log,add_photo,11000,photo_documentation
+INT-0124,SUP-025,2026-02-26T08:20:30,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0125,SUP-001,2026-02-27T07:05:15,Procore,Daily Log,create_entry,50000,daily_report
+INT-0126,SUP-001,2026-02-27T07:35:00,Procore,Daily Log,add_photo,22000,photo_documentation
+INT-0127,SUP-001,2026-02-27T08:00:22,Procore,Safety,log_observation,25000,safety_observation
+INT-0128,SUP-001,2026-02-27T08:45:30,PlanGrid,Drawings,markup_sheet,35000,drawing_markup
+INT-0129,SUP-001,2026-02-27T09:45:00,Procore,RFI,respond_rfi,42000,rfi_response
+INT-0130,SUP-001,2026-02-27T11:00:15,Autodesk Build,Model,clash_review,48000,clash_report
+INT-0131,SUP-002,2026-02-27T07:15:22,Procore,Daily Log,create_entry,38000,daily_report
+INT-0132,SUP-002,2026-02-27T07:45:00,Procore,Submittals,review_submittal,30000,submittal_review
+INT-0133,SUP-003,2026-02-27T06:55:30,Procore,Daily Log,create_entry,48000,daily_report
+INT-0134,SUP-003,2026-02-27T07:30:15,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0135,SUP-003,2026-02-27T08:00:00,Procore,RFI,create_rfi,60000,rfi_document
+INT-0136,SUP-003,2026-02-27T09:15:22,Procore,Inspections,create_inspection,48000,inspection_report
+INT-0137,SUP-005,2026-02-27T07:30:30,Procore,Daily Log,create_entry,32000,daily_report
+INT-0138,SUP-005,2026-02-27T08:00:00,PlanGrid,Drawings,view_sheet,7500,drawing_review
+INT-0139,SUP-011,2026-02-27T06:40:15,Procore,Daily Log,create_entry,42000,daily_report
+INT-0140,SUP-011,2026-02-27T07:15:22,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0141,SUP-011,2026-02-27T07:45:00,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0142,SUP-011,2026-02-27T08:30:30,Procore,RFI,create_rfi,52000,rfi_document
+INT-0143,SUP-013,2026-02-27T07:25:15,Procore,Daily Log,create_entry,30000,daily_report
+INT-0144,SUP-013,2026-02-27T07:50:00,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0145,SUP-018,2026-02-27T07:20:22,Procore,Daily Log,create_entry,35000,daily_report
+INT-0146,SUP-018,2026-02-27T07:50:30,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0147,SUP-018,2026-02-27T08:30:00,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0148,SUP-019,2026-02-27T06:15:15,Procore,Daily Log,create_entry,55000,daily_report
+INT-0149,SUP-019,2026-02-27T07:05:22,Procore,Daily Log,add_photo,22000,photo_documentation
+INT-0150,SUP-019,2026-02-27T07:40:00,PlanGrid,Drawings,markup_sheet,38000,drawing_markup
+INT-0151,SUP-019,2026-02-27T08:20:30,Procore,RFI,respond_rfi,45000,rfi_response
+INT-0152,SUP-019,2026-02-27T09:15:15,Procore,Inspections,create_inspection,58000,inspection_report
+INT-0153,SUP-019,2026-02-27T10:30:00,Autodesk Build,Model,clash_review,42000,clash_report
+INT-0154,SUP-022,2026-02-27T07:35:22,Procore,Daily Log,create_entry,24000,daily_report
+INT-0155,SUP-022,2026-02-27T07:55:30,PlanGrid,Drawings,view_sheet,6000,drawing_review
+INT-0156,SUP-001,2026-02-28T07:15:00,Procore,Daily Log,create_entry,48000,daily_report
+INT-0157,SUP-001,2026-02-28T07:40:15,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0158,SUP-001,2026-02-28T08:15:22,PlanGrid,Drawings,markup_sheet,30000,drawing_markup
+INT-0159,SUP-001,2026-02-28T09:00:00,Procore,Submittals,review_submittal,35000,submittal_review
+INT-0160,SUP-004,2026-02-28T07:00:30,Procore,Daily Log,create_entry,44000,daily_report
+INT-0161,SUP-004,2026-02-28T07:35:15,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0162,SUP-004,2026-02-28T08:00:00,Procore,Safety,log_observation,22000,safety_observation
+INT-0163,SUP-006,2026-02-28T07:30:22,Procore,Daily Log,create_entry,36000,daily_report
+INT-0164,SUP-006,2026-02-28T08:05:30,PlanGrid,Drawings,markup_sheet,24000,drawing_markup
+INT-0165,SUP-008,2026-02-28T07:25:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0166,SUP-008,2026-02-28T07:50:15,PlanGrid,Drawings,view_sheet,8000,drawing_review
+INT-0167,SUP-010,2026-02-28T07:15:22,Procore,Daily Log,create_entry,36000,daily_report
+INT-0168,SUP-010,2026-02-28T07:45:00,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0169,SUP-010,2026-02-28T08:20:30,Procore,RFI,create_rfi,55000,rfi_document
+INT-0170,SUP-012,2026-02-28T07:30:15,Procore,Daily Log,create_entry,32000,daily_report
+INT-0171,SUP-012,2026-02-28T08:00:00,Procore,Inspections,create_inspection,45000,inspection_report
+INT-0172,SUP-015,2026-02-28T07:20:22,Procore,Daily Log,create_entry,36000,daily_report
+INT-0173,SUP-015,2026-02-28T07:50:30,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0174,SUP-015,2026-02-28T08:15:00,PlanGrid,Drawings,markup_sheet,26000,drawing_markup
+INT-0175,SUP-017,2026-02-28T07:40:15,Procore,Daily Log,create_entry,25000,daily_report
+INT-0176,SUP-017,2026-02-28T08:00:22,PlanGrid,Drawings,view_sheet,6000,drawing_review
+INT-0177,SUP-019,2026-02-28T06:20:00,Procore,Daily Log,create_entry,52000,daily_report
+INT-0178,SUP-019,2026-02-28T07:10:30,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0179,SUP-019,2026-02-28T07:40:15,PlanGrid,Drawings,markup_sheet,35000,drawing_markup
+INT-0180,SUP-019,2026-02-28T08:20:00,Procore,RFI,create_rfi,62000,rfi_document
+INT-0181,SUP-019,2026-02-28T09:30:22,Autodesk Build,Model,view_model,28000,model_review
+INT-0182,SUP-019,2026-02-28T10:15:30,Procore,Inspections,create_inspection,52000,inspection_report
+INT-0183,SUP-023,2026-02-28T07:45:00,Procore,Daily Log,create_entry,26000,daily_report
+INT-0184,SUP-023,2026-02-28T08:10:15,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0185,SUP-025,2026-02-28T07:25:22,Procore,Daily Log,create_entry,40000,daily_report
+INT-0186,SUP-025,2026-02-28T07:55:00,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0187,SUP-025,2026-02-28T08:20:30,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0188,SUP-001,2026-03-02T07:10:00,Procore,Daily Log,create_entry,45000,daily_report
+INT-0189,SUP-001,2026-03-02T07:35:15,Procore,Daily Log,add_photo,16000,photo_documentation
+INT-0190,SUP-001,2026-03-02T08:00:22,Procore,RFI,respond_rfi,40000,rfi_response
+INT-0191,SUP-001,2026-03-02T08:45:30,PlanGrid,Drawings,markup_sheet,32000,drawing_markup
+INT-0192,SUP-001,2026-03-02T09:30:00,Bluebeam,Review,annotate_plan,30000,plan_annotation
+INT-0193,SUP-002,2026-03-02T07:18:15,Procore,Daily Log,create_entry,38000,daily_report
+INT-0194,SUP-002,2026-03-02T07:48:22,Procore,Daily Log,add_crew_count,5500,crew_log
+INT-0195,SUP-002,2026-03-02T08:15:00,Procore,Submittals,review_submittal,32000,submittal_review
+INT-0196,SUP-003,2026-03-02T06:50:30,Procore,Daily Log,create_entry,46000,daily_report
+INT-0197,SUP-003,2026-03-02T07:30:15,Procore,Daily Log,add_photo,16000,photo_documentation
+INT-0198,SUP-003,2026-03-02T08:00:00,Procore,Inspections,create_inspection,50000,inspection_report
+INT-0199,SUP-004,2026-03-02T07:05:22,Procore,Daily Log,create_entry,44000,daily_report
+INT-0200,SUP-004,2026-03-02T07:38:30,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0201,SUP-004,2026-03-02T08:10:00,Procore,Safety,log_observation,24000,safety_observation
+INT-0202,SUP-005,2026-03-02T07:30:15,Procore,Daily Log,create_entry,34000,daily_report
+INT-0203,SUP-005,2026-03-02T07:58:22,PlanGrid,Drawings,view_sheet,7800,drawing_review
+INT-0204,SUP-009,2026-03-02T07:15:00,Procore,Daily Log,create_entry,35000,daily_report
+INT-0205,SUP-009,2026-03-02T07:48:30,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0206,SUP-011,2026-03-02T06:35:15,Procore,Daily Log,create_entry,42000,daily_report
+INT-0207,SUP-011,2026-03-02T07:10:00,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0208,SUP-011,2026-03-02T07:45:22,PlanGrid,Drawings,markup_sheet,30000,drawing_markup
+INT-0209,SUP-013,2026-03-02T07:30:30,Procore,Daily Log,create_entry,28000,daily_report
+INT-0210,SUP-013,2026-03-02T07:55:00,PlanGrid,Drawings,markup_sheet,18000,drawing_markup
+INT-0211,SUP-016,2026-03-02T07:25:15,Procore,Daily Log,create_entry,32000,daily_report
+INT-0212,SUP-016,2026-03-02T07:52:22,PlanGrid,Drawings,view_sheet,8000,drawing_review
+INT-0213,SUP-018,2026-03-02T07:20:00,Procore,Daily Log,create_entry,34000,daily_report
+INT-0214,SUP-018,2026-03-02T07:50:30,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0215,SUP-019,2026-03-02T06:18:15,Procore,Daily Log,create_entry,54000,daily_report
+INT-0216,SUP-019,2026-03-02T07:08:00,Procore,Daily Log,add_photo,22000,photo_documentation
+INT-0217,SUP-019,2026-03-02T07:42:22,PlanGrid,Drawings,markup_sheet,36000,drawing_markup
+INT-0218,SUP-019,2026-03-02T08:25:30,Procore,RFI,create_rfi,60000,rfi_document
+INT-0219,SUP-019,2026-03-02T09:30:00,Procore,Change Orders,create_pco,52000,change_order
+INT-0220,SUP-019,2026-03-02T10:45:15,Autodesk Build,Model,clash_review,44000,clash_report
+INT-0221,SUP-020,2026-03-02T07:12:22,Procore,Daily Log,create_entry,42000,daily_report
+INT-0222,SUP-020,2026-03-02T07:45:00,Procore,Daily Log,add_photo,15000,photo_documentation
+INT-0223,SUP-020,2026-03-02T08:10:30,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0224,SUP-021,2026-03-02T07:35:15,Procore,Daily Log,create_entry,22000,daily_report
+INT-0225,SUP-021,2026-03-02T07:55:00,PlanGrid,Drawings,view_sheet,5500,drawing_review
+INT-0226,SUP-023,2026-03-02T07:50:22,Procore,Daily Log,create_entry,28000,daily_report
+INT-0227,SUP-023,2026-03-02T08:15:30,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0228,SUP-025,2026-03-02T07:20:00,Procore,Daily Log,create_entry,38000,daily_report
+INT-0229,SUP-025,2026-03-02T07:50:15,Procore,Daily Log,add_photo,11000,photo_documentation
+INT-0230,SUP-025,2026-03-02T08:15:22,Procore,Inspections,create_inspection,45000,inspection_report
+INT-0231,SUP-001,2026-03-03T07:08:00,Procore,Daily Log,create_entry,44000,daily_report
+INT-0232,SUP-001,2026-03-03T07:30:30,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0233,SUP-001,2026-03-03T08:00:15,Procore,Submittals,review_submittal,35000,submittal_review
+INT-0234,SUP-001,2026-03-03T08:45:22,PlanGrid,Drawings,markup_sheet,30000,drawing_markup
+INT-0235,SUP-002,2026-03-03T07:15:00,Procore,Daily Log,create_entry,38000,daily_report
+INT-0236,SUP-002,2026-03-03T07:45:30,Procore,Inspections,create_inspection,44000,inspection_report
+INT-0237,SUP-003,2026-03-03T06:48:15,Procore,Daily Log,create_entry,46000,daily_report
+INT-0238,SUP-003,2026-03-03T07:25:22,Procore,Daily Log,add_photo,15000,photo_documentation
+INT-0239,SUP-003,2026-03-03T07:55:00,Procore,RFI,respond_rfi,40000,rfi_response
+INT-0240,SUP-005,2026-03-03T07:28:30,Procore,Daily Log,create_entry,34000,daily_report
+INT-0241,SUP-005,2026-03-03T07:55:15,Procore,Punch List,create_item,20000,punch_list
+INT-0242,SUP-007,2026-03-03T07:00:00,Procore,Safety,log_observation,28000,safety_observation
+INT-0243,SUP-007,2026-03-03T07:35:22,Procore,Inspections,create_inspection,55000,inspection_report
+INT-0244,SUP-007,2026-03-03T08:30:30,Procore,Daily Log,create_entry,42000,daily_report
+INT-0245,SUP-007,2026-03-03T09:10:00,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0246,SUP-009,2026-03-03T07:18:15,Procore,Daily Log,create_entry,34000,daily_report
+INT-0247,SUP-009,2026-03-03T07:50:22,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0248,SUP-012,2026-03-03T07:30:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0249,SUP-012,2026-03-03T07:55:30,Procore,Inspections,create_inspection,40000,inspection_report
+INT-0250,SUP-014,2026-03-03T07:10:15,Procore,Safety,log_observation,30000,safety_observation
+INT-0251,SUP-014,2026-03-03T07:45:00,Procore,Inspections,create_inspection,50000,inspection_report
+INT-0252,SUP-014,2026-03-03T08:40:22,Procore,Daily Log,create_entry,40000,daily_report
+INT-0253,SUP-015,2026-03-03T07:22:30,Procore,Daily Log,create_entry,34000,daily_report
+INT-0254,SUP-015,2026-03-03T07:50:00,PlanGrid,Drawings,markup_sheet,25000,drawing_markup
+INT-0255,SUP-017,2026-03-03T07:35:15,Procore,Daily Log,create_entry,26000,daily_report
+INT-0256,SUP-017,2026-03-03T07:58:22,PlanGrid,Drawings,view_sheet,6500,drawing_review
+INT-0257,SUP-019,2026-03-03T06:22:00,Procore,Daily Log,create_entry,52000,daily_report
+INT-0258,SUP-019,2026-03-03T07:12:30,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0259,SUP-019,2026-03-03T07:42:15,PlanGrid,Drawings,markup_sheet,38000,drawing_markup
+INT-0260,SUP-019,2026-03-03T08:25:00,Procore,RFI,create_rfi,58000,rfi_document
+INT-0261,SUP-019,2026-03-03T09:30:22,Procore,Inspections,create_inspection,52000,inspection_report
+INT-0262,SUP-022,2026-03-03T07:38:30,Procore,Daily Log,create_entry,24000,daily_report
+INT-0263,SUP-022,2026-03-03T07:58:00,PlanGrid,Drawings,view_sheet,5800,drawing_review
+INT-0264,SUP-024,2026-03-03T07:42:15,Procore,Daily Log,create_entry,26000,daily_report
+INT-0265,SUP-024,2026-03-03T08:08:22,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0266,SUP-025,2026-03-03T07:22:00,Procore,Daily Log,create_entry,40000,daily_report
+INT-0267,SUP-025,2026-03-03T07:52:30,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0268,SUP-025,2026-03-03T08:15:15,PlanGrid,Drawings,markup_sheet,24000,drawing_markup
+INT-0269,SUP-001,2026-03-04T07:12:00,Procore,Daily Log,create_entry,42000,daily_report
+INT-0270,SUP-001,2026-03-04T07:38:22,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0271,SUP-001,2026-03-04T08:05:30,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0272,SUP-001,2026-03-04T08:40:00,Procore,Safety,log_observation,22000,safety_observation
+INT-0273,SUP-004,2026-03-04T07:02:15,Procore,Daily Log,create_entry,46000,daily_report
+INT-0274,SUP-004,2026-03-04T07:38:22,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0275,SUP-004,2026-03-04T08:05:00,Procore,Change Orders,create_pco,55000,change_order
+INT-0276,SUP-005,2026-03-04T07:32:30,Procore,Daily Log,create_entry,32000,daily_report
+INT-0277,SUP-005,2026-03-04T07:58:15,PlanGrid,Drawings,view_sheet,7200,drawing_review
+INT-0278,SUP-008,2026-03-04T07:28:00,Procore,Daily Log,create_entry,30000,daily_report
+INT-0279,SUP-008,2026-03-04T07:55:22,PlanGrid,Drawings,markup_sheet,20000,drawing_markup
+INT-0280,SUP-010,2026-03-04T07:12:30,Procore,Daily Log,create_entry,36000,daily_report
+INT-0281,SUP-010,2026-03-04T07:42:00,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0282,SUP-011,2026-03-04T06:38:15,Procore,Daily Log,create_entry,40000,daily_report
+INT-0283,SUP-011,2026-03-04T07:08:22,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0284,SUP-011,2026-03-04T07:35:00,PlanGrid,Drawings,markup_sheet,28000,drawing_markup
+INT-0285,SUP-013,2026-03-04T07:30:30,Procore,Daily Log,create_entry,26000,daily_report
+INT-0286,SUP-013,2026-03-04T07:52:15,PlanGrid,Drawings,view_sheet,7000,drawing_review
+INT-0287,SUP-016,2026-03-04T07:28:00,Procore,Daily Log,create_entry,30000,daily_report
+INT-0288,SUP-016,2026-03-04T07:52:22,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0289,SUP-018,2026-03-04T07:22:30,Procore,Daily Log,create_entry,34000,daily_report
+INT-0290,SUP-018,2026-03-04T07:50:00,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0291,SUP-019,2026-03-04T06:20:15,Procore,Daily Log,create_entry,54000,daily_report
+INT-0292,SUP-019,2026-03-04T07:10:22,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0293,SUP-019,2026-03-04T07:40:00,PlanGrid,Drawings,markup_sheet,36000,drawing_markup
+INT-0294,SUP-019,2026-03-04T08:22:30,Procore,RFI,respond_rfi,45000,rfi_response
+INT-0295,SUP-019,2026-03-04T09:10:15,Autodesk Build,Model,clash_review,42000,clash_report
+INT-0296,SUP-023,2026-03-04T07:48:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0297,SUP-023,2026-03-04T08:12:22,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0298,SUP-025,2026-03-04T07:20:30,Procore,Daily Log,create_entry,40000,daily_report
+INT-0299,SUP-025,2026-03-04T07:50:00,Procore,Daily Log,add_photo,11000,photo_documentation
+INT-0300,SUP-025,2026-03-04T08:15:15,Procore,Inspections,create_inspection,44000,inspection_report
+INT-0301,SUP-001,2026-03-05T07:15:22,Procore,Daily Log,create_entry,40000,daily_report
+INT-0302,SUP-001,2026-03-05T07:40:00,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0303,SUP-002,2026-03-05T07:18:30,Procore,Daily Log,create_entry,36000,daily_report
+INT-0304,SUP-002,2026-03-05T07:48:15,Procore,Submittals,create_submittal,30000,submittal
+INT-0305,SUP-003,2026-03-05T06:52:00,Procore,Daily Log,create_entry,44000,daily_report
+INT-0306,SUP-003,2026-03-05T07:28:22,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0307,SUP-004,2026-03-05T07:05:30,Procore,Daily Log,create_entry,44000,daily_report
+INT-0308,SUP-004,2026-03-05T07:40:00,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0309,SUP-005,2026-03-05T07:30:15,Procore,Daily Log,create_entry,34000,daily_report
+INT-0310,SUP-005,2026-03-05T07:58:22,Procore,Punch List,update_item,18000,punch_list
+INT-0311,SUP-009,2026-03-05T07:18:00,Procore,Daily Log,create_entry,32000,daily_report
+INT-0312,SUP-009,2026-03-05T07:45:30,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0313,SUP-011,2026-03-05T06:40:15,Procore,Daily Log,create_entry,38000,daily_report
+INT-0314,SUP-011,2026-03-05T07:12:00,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0315,SUP-012,2026-03-05T07:28:22,Procore,Daily Log,create_entry,30000,daily_report
+INT-0316,SUP-012,2026-03-05T07:55:30,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0317,SUP-015,2026-03-05T07:22:00,Procore,Daily Log,create_entry,38000,daily_report
+INT-0318,SUP-015,2026-03-05T07:52:15,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0319,SUP-019,2026-03-05T06:18:22,Procore,Daily Log,create_entry,56000,daily_report
+INT-0320,SUP-019,2026-03-05T07:08:00,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0321,SUP-019,2026-03-05T07:38:30,PlanGrid,Drawings,markup_sheet,38000,drawing_markup
+INT-0322,SUP-019,2026-03-05T08:20:15,Procore,RFI,create_rfi,62000,rfi_document
+INT-0323,SUP-019,2026-03-05T09:25:00,Procore,Inspections,create_inspection,55000,inspection_report
+INT-0324,SUP-021,2026-03-05T07:35:22,Procore,Daily Log,create_entry,22000,daily_report
+INT-0325,SUP-025,2026-03-05T07:22:30,Procore,Daily Log,create_entry,38000,daily_report
+INT-0326,SUP-025,2026-03-05T07:52:00,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0327,SUP-001,2026-03-06T07:08:15,Procore,Daily Log,create_entry,46000,daily_report
+INT-0328,SUP-001,2026-03-06T07:35:22,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0329,SUP-001,2026-03-06T08:00:00,PlanGrid,Drawings,markup_sheet,32000,drawing_markup
+INT-0330,SUP-001,2026-03-06T08:40:30,Procore,RFI,create_rfi,58000,rfi_document
+INT-0331,SUP-003,2026-03-06T06:48:15,Procore,Daily Log,create_entry,48000,daily_report
+INT-0332,SUP-003,2026-03-06T07:30:00,Procore,Daily Log,add_photo,16000,photo_documentation
+INT-0333,SUP-003,2026-03-06T08:00:22,Procore,Change Orders,review_co,45000,change_order
+INT-0334,SUP-005,2026-03-06T07:30:30,Procore,Daily Log,create_entry,32000,daily_report
+INT-0335,SUP-005,2026-03-06T07:58:00,PlanGrid,Drawings,view_sheet,7500,drawing_review
+INT-0336,SUP-006,2026-03-06T07:25:15,Procore,Daily Log,create_entry,36000,daily_report
+INT-0337,SUP-006,2026-03-06T07:55:22,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0338,SUP-008,2026-03-06T07:30:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0339,SUP-008,2026-03-06T07:55:30,PlanGrid,Drawings,view_sheet,7000,drawing_review
+INT-0340,SUP-010,2026-03-06T07:10:15,Procore,Daily Log,create_entry,36000,daily_report
+INT-0341,SUP-010,2026-03-06T07:42:00,Procore,Daily Log,add_photo,11000,photo_documentation
+INT-0342,SUP-013,2026-03-06T07:28:22,Procore,Daily Log,create_entry,30000,daily_report
+INT-0343,SUP-013,2026-03-06T07:55:30,Procore,Inspections,create_inspection,38000,inspection_report
+INT-0344,SUP-016,2026-03-06T07:25:00,Procore,Daily Log,create_entry,32000,daily_report
+INT-0345,SUP-016,2026-03-06T07:52:15,PlanGrid,Drawings,markup_sheet,22000,drawing_markup
+INT-0346,SUP-017,2026-03-06T07:38:22,Procore,Daily Log,create_entry,25000,daily_report
+INT-0347,SUP-017,2026-03-06T07:58:00,PlanGrid,Drawings,view_sheet,6000,drawing_review
+INT-0348,SUP-018,2026-03-06T07:20:30,Procore,Daily Log,create_entry,36000,daily_report
+INT-0349,SUP-018,2026-03-06T07:50:15,Procore,Daily Log,add_photo,12000,photo_documentation
+INT-0350,SUP-019,2026-03-06T06:15:00,Procore,Daily Log,create_entry,50000,daily_report
+INT-0351,SUP-019,2026-03-06T07:02:22,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0352,SUP-019,2026-03-06T07:32:30,PlanGrid,Drawings,markup_sheet,36000,drawing_markup
+INT-0353,SUP-019,2026-03-06T08:15:00,Procore,Inspections,create_inspection,52000,inspection_report
+INT-0354,SUP-020,2026-03-06T07:15:15,Procore,Daily Log,create_entry,40000,daily_report
+INT-0355,SUP-020,2026-03-06T07:45:22,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0356,SUP-022,2026-03-06T07:38:00,Procore,Daily Log,create_entry,24000,daily_report
+INT-0357,SUP-024,2026-03-06T07:42:30,Procore,Daily Log,create_entry,25000,daily_report
+INT-0358,SUP-024,2026-03-06T08:05:15,Procore,Daily Log,add_photo,10000,photo_documentation
+INT-0359,SUP-025,2026-03-06T07:18:00,Procore,Daily Log,create_entry,40000,daily_report
+INT-0360,SUP-025,2026-03-06T07:48:22,Procore,Daily Log,add_photo,11000,photo_documentation
+INT-0361,SUP-001,2026-03-07T07:10:30,Procore,Daily Log,create_entry,48000,daily_report
+INT-0362,SUP-001,2026-03-07T07:38:00,Procore,Daily Log,add_photo,22000,photo_documentation
+INT-0363,SUP-001,2026-03-07T08:05:15,Procore,Submittals,review_submittal,38000,submittal_review
+INT-0364,SUP-002,2026-03-07T07:15:22,Procore,Daily Log,create_entry,36000,daily_report
+INT-0365,SUP-002,2026-03-07T07:45:00,Procore,Inspections,create_inspection,42000,inspection_report
+INT-0366,SUP-004,2026-03-07T07:02:30,Procore,Daily Log,create_entry,42000,daily_report
+INT-0367,SUP-004,2026-03-07T07:35:15,Procore,Daily Log,add_photo,16000,photo_documentation
+INT-0368,SUP-005,2026-03-07T07:30:00,Procore,Daily Log,create_entry,34000,daily_report
+INT-0369,SUP-005,2026-03-07T07:58:22,Procore,Punch List,create_item,22000,punch_list
+INT-0370,SUP-009,2026-03-07T07:18:30,Procore,Daily Log,create_entry,34000,daily_report
+INT-0371,SUP-009,2026-03-07T07:48:00,Procore,Inspections,create_inspection,40000,inspection_report
+INT-0372,SUP-011,2026-03-07T06:38:15,Procore,Daily Log,create_entry,38000,daily_report
+INT-0373,SUP-011,2026-03-07T07:10:22,PlanGrid,Drawings,markup_sheet,26000,drawing_markup
+INT-0374,SUP-012,2026-03-07T07:30:00,Procore,Daily Log,create_entry,28000,daily_report
+INT-0375,SUP-012,2026-03-07T07:55:30,Procore,Inspections,create_inspection,38000,inspection_report
+INT-0376,SUP-015,2026-03-07T07:20:15,Procore,Daily Log,create_entry,36000,daily_report
+INT-0377,SUP-015,2026-03-07T07:52:00,PlanGrid,Drawings,markup_sheet,26000,drawing_markup
+INT-0378,SUP-019,2026-03-07T06:20:22,Procore,Daily Log,create_entry,50000,daily_report
+INT-0379,SUP-019,2026-03-07T07:08:30,Procore,Daily Log,add_photo,18000,photo_documentation
+INT-0380,SUP-019,2026-03-07T07:38:00,PlanGrid,Drawings,markup_sheet,35000,drawing_markup
+INT-0381,SUP-019,2026-03-07T08:18:15,Procore,RFI,respond_rfi,42000,rfi_response
+INT-0382,SUP-019,2026-03-07T09:05:22,Autodesk Build,Model,view_model,25000,model_review
+INT-0383,SUP-023,2026-03-07T07:48:00,Procore,Daily Log,create_entry,24000,daily_report
+INT-0384,SUP-023,2026-03-07T08:10:30,Procore,Daily Log,add_photo,8000,photo_documentation
+INT-0385,SUP-001,2026-03-09T07:12:15,Procore,Daily Log,create_entry,42000,daily_report
+INT-0386,SUP-001,2026-03-09T07:38:00,Procore,Daily Log,add_photo,14000,photo_documentation
+INT-0387,SUP-003,2026-03-09T06:50:22,Procore,Daily Log,create_entry,46000,daily_report
+INT-0388,SUP-003,2026-03-09T07:30:30,Procore,RFI,respond_rfi,38000,rfi_response
+INT-0389,SUP-004,2026-03-09T07:05:00,Procore,Daily Log,create_entry,42000,daily_report
+INT-0390,SUP-004,2026-03-09T07:38:15,Procore,Daily Log,add_photo,16000,photo_documentation
+INT-0391,SUP-005,2026-03-09T07:30:22,Procore,Daily Log,create_entry,32000,daily_report
+INT-0392,SUP-008,2026-03-09T07:28:00,Procore,Daily Log,create_entry,30000,daily_report
+INT-0393,SUP-010,2026-03-09T07:10:30,Procore,Daily Log,create_entry,38000,daily_report
+INT-0394,SUP-013,2026-03-09T07:32:15,Procore,Daily Log,create_entry,26000,daily_report
+INT-0395,SUP-016,2026-03-09T07:28:00,Procore,Daily Log,create_entry,30000,daily_report
+INT-0396,SUP-017,2026-03-09T07:38:22,Procore,Daily Log,create_entry,24000,daily_report
+INT-0397,SUP-019,2026-03-09T06:18:30,Procore,Daily Log,create_entry,52000,daily_report
+INT-0398,SUP-019,2026-03-09T07:08:00,Procore,Daily Log,add_photo,20000,photo_documentation
+INT-0399,SUP-021,2026-03-09T07:35:15,Procore,Daily Log,create_entry,20000,daily_report
+INT-0400,SUP-025,2026-03-09T07:22:22,Procore,Daily Log,create_entry,38000,daily_report

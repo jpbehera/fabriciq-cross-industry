@@ -1,0 +1,16 @@
+coverage_id,name,line_of_business,limit_range,deductible_range
+COV-001,Auto Liability,Auto,25K-500K,250-1000
+COV-002,Auto Collision,Auto,ACV,250-2000
+COV-003,Auto Comprehensive,Auto,ACV,100-1000
+COV-004,Homeowner Dwelling,Property,100K-2M,1000-10000
+COV-005,Homeowner Personal Property,Property,50K-500K,500-5000
+COV-006,Renter Personal Property,Property,10K-100K,250-1000
+COV-007,Commercial General Liability,Commercial,1M-10M,2500-25000
+COV-008,Professional Liability (E&O),Commercial,500K-5M,5000-25000
+COV-009,Workers Compensation,Workers Comp,Statutory,0
+COV-010,Commercial Property,Commercial,500K-50M,5000-100000
+COV-011,Umbrella/Excess Liability,Commercial,1M-25M,10000-50000
+COV-012,Inland Marine,Specialty,10K-5M,500-10000
+COV-013,Cyber Liability,Specialty,250K-10M,5000-50000
+COV-014,Directors & Officers,Specialty,1M-25M,10000-100000
+COV-015,Medical Payments,Auto,1K-10K,0

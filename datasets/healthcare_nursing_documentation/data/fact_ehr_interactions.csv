@@ -1,0 +1,50 @@
+interaction_id,nurse_id,shift_id,unit_id,timestamp,action_type,ehr_module,screen_name,duration_seconds,click_count,keystrokes,is_productive,frustration_indicator,notes
+INT-001,NRS-001,SHF-001,UNIT-001,2026-02-23T06:50:00,Login,System,Login Screen,15,2,28,Yes,No,Start of shift login
+INT-002,NRS-001,SHF-001,UNIT-001,2026-02-23T06:51:00,Chart Review,Patient Chart,Patient Summary,420,18,0,Yes,No,Reviewing patient charts pre-handoff
+INT-003,NRS-001,SHF-001,UNIT-001,2026-02-23T07:15:00,Documentation,Flowsheets,Assessment Flowsheet,1320,45,2200,Yes,No,Head-to-toe assessment PAT-001
+INT-004,NRS-001,SHF-001,UNIT-001,2026-02-23T07:38:00,Navigation,System,Patient List,30,4,0,No,No,Switching between patients
+INT-005,NRS-001,SHF-001,UNIT-001,2026-02-23T07:40:00,Documentation,Flowsheets,Assessment Flowsheet,1080,38,1800,Yes,No,Head-to-toe assessment PAT-007
+INT-006,NRS-001,SHF-001,UNIT-001,2026-02-23T08:00:00,Documentation,Flowsheets,Assessment Flowsheet,1200,42,1950,Yes,No,Head-to-toe assessment PAT-010
+INT-007,NRS-001,SHF-001,UNIT-001,2026-02-23T08:25:00,Documentation,Flowsheets,Assessment Flowsheet,1440,52,2400,Yes,No,Head-to-toe assessment PAT-011 (complex)
+INT-008,NRS-001,SHF-001,UNIT-001,2026-02-23T09:10:00,Documentation,MAR,Medication Administration,960,28,600,Yes,No,Morning med pass - multiple patients
+INT-009,NRS-001,SHF-001,UNIT-001,2026-02-23T09:10:00,Barcode Scan,MAR,MAR Scanner,5,1,0,Yes,No,Patient wristband scan
+INT-010,NRS-001,SHF-001,UNIT-001,2026-02-23T12:30:00,Documentation,Notes,Progress Notes,840,22,2200,Yes,No,SOAP note PAT-001
+INT-011,NRS-001,SHF-001,UNIT-001,2026-02-23T12:48:00,Search,System,Order Search,45,6,22,No,Yes,Looking for specific order - took multiple searches
+INT-012,NRS-001,SHF-001,UNIT-001,2026-02-23T17:00:00,Documentation,Care Planning,Care Plan,480,18,700,Partial,No,Copy-forward care plan - minimal edits
+INT-013,NRS-001,SHF-001,UNIT-001,2026-02-23T19:45:00,Logout,System,Login Screen,5,1,0,Yes,No,End of shift logout - 45 min after scheduled
+INT-014,NRS-002,SHF-002,UNIT-001,2026-02-23T06:55:00,Login,System,Login Screen,25,3,28,Yes,Yes,Password issue - second attempt
+INT-015,NRS-002,SHF-002,UNIT-001,2026-02-23T07:20:00,Documentation,Flowsheets,Assessment Flowsheet,1500,55,2400,Yes,No,Head-to-toe assessment PAT-003
+INT-016,NRS-002,SHF-002,UNIT-001,2026-02-23T08:30:00,Navigation,System,Patient List,60,8,0,No,Yes,Difficulty finding correct patient chart
+INT-017,NRS-002,SHF-002,UNIT-001,2026-02-23T09:30:00,Documentation,MAR,Medication Administration,1200,35,700,Yes,No,Morning med pass - slower than NRS-001
+INT-018,NRS-002,SHF-002,UNIT-001,2026-02-23T11:15:00,Documentation,Admission,Admission Assessment,2280,82,4800,Yes,No,Full admission documentation for PAT-006
+INT-019,NRS-002,SHF-002,UNIT-001,2026-02-23T12:00:00,Documentation,MAR,Med Reconciliation,1080,40,2000,Yes,No,Medication reconciliation new patient
+INT-020,NRS-002,SHF-002,UNIT-001,2026-02-23T13:00:00,Documentation,Notes,Progress Notes,960,25,2500,Yes,No,SOAP note - taking longer than experienced nurses
+INT-021,NRS-002,SHF-002,UNIT-001,2026-02-23T14:00:00,Search,System,Result Lookup,90,12,35,No,Yes,Searching for lab results - navigation confusion
+INT-022,NRS-002,SHF-002,UNIT-001,2026-02-23T15:30:00,Error Correction,Flowsheets,Vital Signs,180,8,120,No,Yes,Correcting wrong vital signs entry for wrong patient
+INT-023,NRS-002,SHF-002,UNIT-001,2026-02-23T19:10:00,Documentation,MAR,Medication Administration,240,8,250,Yes,No,Late charting after shift
+INT-024,NRS-002,SHF-002,UNIT-001,2026-02-23T20:10:00,Logout,System,Login Screen,5,1,0,Yes,No,70 min after scheduled end
+INT-025,NRS-009,SHF-008,UNIT-002,2026-02-23T06:45:00,Login,System,Login Screen,12,2,28,Yes,No,Start of shift
+INT-026,NRS-009,SHF-008,UNIT-002,2026-02-23T06:46:00,Chart Review,Patient Chart,ICU Flowsheet,600,24,0,Yes,No,Detailed ICU chart review
+INT-027,NRS-009,SHF-008,UNIT-002,2026-02-23T07:10:00,Documentation,Flowsheets,Assessment Flowsheet,1680,62,3200,Yes,No,ICU head-to-toe PAT-005 - very detailed
+INT-028,NRS-009,SHF-008,UNIT-002,2026-02-23T07:45:00,Documentation,Flowsheets,Assessment Flowsheet,1800,68,3500,Yes,No,ICU head-to-toe PAT-017 - hemodynamically unstable
+INT-029,NRS-009,SHF-008,UNIT-002,2026-02-23T09:00:00,Documentation,MAR,Medication Administration,720,22,450,Yes,No,Heparin drip documentation with dual verification
+INT-030,NRS-009,SHF-008,UNIT-002,2026-02-23T10:00:00,Documentation,Flowsheets,Vital Signs,300,12,400,Yes,No,Hourly vitals - ICU standard
+INT-031,NRS-009,SHF-008,UNIT-002,2026-02-23T10:15:00,Documentation,Flowsheets,IV Assessment,180,8,250,Yes,No,IV site and drip assessment
+INT-032,NRS-009,SHF-008,UNIT-002,2026-02-23T12:00:00,Documentation,Notes,Progress Notes,1080,32,3200,Yes,No,Detailed ICU progress note
+INT-033,NRS-009,SHF-008,UNIT-002,2026-02-23T16:00:00,Documentation,Care Planning,Care Plan,720,24,1400,Yes,No,ICU care plan - detailed interventions
+INT-034,NRS-009,SHF-008,UNIT-002,2026-02-23T19:55:00,Logout,System,Login Screen,5,1,0,Yes,No,55 min after shift end
+INT-035,NRS-015,SHF-013,UNIT-003,2026-02-23T06:50:00,Login,System,Login Screen,12,2,28,Yes,No,Start of shift
+INT-036,NRS-015,SHF-013,UNIT-003,2026-02-23T10:35:00,Documentation,Flowsheets,Assessment Flowsheet,900,32,1200,Yes,No,ED assessment PAT-018
+INT-037,NRS-015,SHF-013,UNIT-003,2026-02-23T11:00:00,Documentation,MAR,Medication Administration,360,12,280,Yes,No,ED med administration
+INT-038,NRS-015,SHF-013,UNIT-003,2026-02-23T12:00:00,Documentation,Notes,Progress Notes,600,18,1600,Yes,No,ED progress note - shorter format
+INT-039,NRS-015,SHF-013,UNIT-003,2026-02-23T14:25:00,Documentation,Flowsheets,Assessment Flowsheet,720,26,1000,Yes,No,Second patient assessment
+INT-040,NRS-015,SHF-013,UNIT-003,2026-02-23T16:30:00,Documentation,Discharge,Discharge Instructions,1320,48,3200,Yes,No,Discharge documentation - time consuming
+INT-041,NRS-015,SHF-013,UNIT-003,2026-02-23T17:30:00,Search,System,Patient Track Board,30,4,0,No,No,Checking patient flow board
+INT-042,NRS-015,SHF-013,UNIT-003,2026-02-23T20:00:00,Logout,System,Login Screen,5,1,0,Yes,No,60 min after shift end
+INT-043,NRS-006,SHF-006,UNIT-001,2026-02-23T18:55:00,Login,System,Login Screen,35,4,28,Yes,Yes,New grad - slow login process
+INT-044,NRS-006,SHF-006,UNIT-001,2026-02-23T19:10:00,Chart Review,Patient Chart,Patient Summary,720,32,0,Yes,Yes,Lengthy chart review - unfamiliar with system navigation
+INT-045,NRS-006,SHF-006,UNIT-001,2026-02-23T19:25:00,Documentation,Flowsheets,Assessment Flowsheet,1800,65,2800,Yes,Yes,Very slow assessment documentation - looking up how to chart
+INT-046,NRS-006,SHF-006,UNIT-001,2026-02-23T21:00:00,Search,System,Help Documentation,120,15,45,No,Yes,Searching EHR help for charting guidance
+INT-047,NRS-006,SHF-006,UNIT-001,2026-02-23T22:00:00,Documentation,MAR,Medication Administration,1500,45,850,Yes,Yes,Slow med pass - double checking everything
+INT-048,NRS-006,SHF-006,UNIT-001,2026-02-24T01:00:00,Error Correction,Flowsheets,Assessment Flowsheet,300,12,200,No,Yes,Correcting assessment entered on wrong patient
+INT-049,NRS-006,SHF-006,UNIT-001,2026-02-24T08:00:00,Logout,System,Login Screen,5,1,0,Yes,No,60 min after shift end

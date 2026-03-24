@@ -1,0 +1,26 @@
+engineer_id,name,role,certifications,rotation_schedule,base,years_experience
+ENG-001,James Anderson,Drilling Supervisor,"IWCF Well Control,BOSIET",28/28,Calgary AB,6
+ENG-002,Maria Garcia,Production Engineer,"OSHA 30-Hour,SafeGulf",resident,Bakersfield CA,3
+ENG-003,Mike Rawlings,Drilling Supervisor,"SafeGulf,H2S Alive",28/28,Houston TX,19
+ENG-004,Sarah Chen,Completions Engineer,"OSHA 30-Hour,Confined Space,H2S Alive",7/7,Lafayette LA,27
+ENG-005,Raj Patel,Reservoir Engineer,"PEC SafeLand,Confined Space",21/21,Lafayette LA,6
+ENG-006,Emily Johansen,Field Operator,"HUET,SafeGulf,OSHA 30-Hour",7/7,Midland TX,13
+ENG-007,Carlos Mendez,Drilling Supervisor,"API 510,BOSIET,IWCF Well Control,HUET",7/7,Midland TX,14
+ENG-008,Aisha Ibrahim,Production Engineer,"OSHA 30-Hour,BOSIET",resident,Oklahoma City OK,20
+ENG-009,Tommy Duval,HSE Officer,"SafeGulf,IWCF Well Control,H2S Alive",21/21,Midland TX,29
+ENG-010,Jennifer Walsh,Completions Engineer,"SafeGulf,Confined Space,BOSIET",7/7,Oklahoma City OK,7
+ENG-011,David Kowalski,Reservoir Engineer,"HUET,H2S Alive,BOSIET,API 510",14/14,Denver CO,19
+ENG-012,Priya Venkatesh,Production Engineer,"PEC SafeLand,Gas Detection,Confined Space",21/21,Calgary AB,23
+ENG-013,Roberto Santos,Drilling Supervisor,"IWCF Well Control,H2S Alive,API 510,Confined Space",21/21,Bakersfield CA,10
+ENG-014,Karen Phillips,Production Engineer,"H2S Alive,HUET",28/28,Anchorage AK,14
+ENG-015,Mohammed Al-Rashidi,HSE Officer,"PEC SafeLand,BOSIET,API 510,SafeGulf,HUET",resident,Lafayette LA,25
+ENG-016,Natalie Morrison,Completions Engineer,"API 510,Confined Space,HUET,SafeGulf,OSHA 30-Hour",resident,Anchorage AK,4
+ENG-017,Derek Thompson,Reservoir Engineer,"SafeGulf,PEC SafeLand",28/28,Bakersfield CA,21
+ENG-018,Carlos Rivera,HSE Officer,"Confined Space,API 510",resident,Anchorage AK,18
+ENG-019,Wei Zhang,Drilling Supervisor,"OSHA 30-Hour,IWCF Well Control,SafeGulf,HUET",resident,Lafayette LA,26
+ENG-020,Samantha Nguyen,Production Engineer,"SafeGulf,BOSIET,Confined Space,API 510",7/7,Houston TX,25
+ENG-021,Tyler McBride,HSE Officer,"OSHA 30-Hour,PEC SafeLand,SafeGulf,Confined Space",21/21,Calgary AB,6
+ENG-022,Fatima Hassan,Completions Engineer,"PEC SafeLand,OSHA 30-Hour,IWCF Well Control,BOSIET",21/21,Anchorage AK,2
+ENG-023,Brandon Cole,Reservoir Engineer,"HUET,BOSIET",28/28,Houston TX,9
+ENG-024,Olga Petrov,Field Operator,"SafeGulf,Gas Detection",14/14,Denver CO,6
+ENG-025,Patrick O'Brien,Drilling Supervisor,"OSHA 30-Hour,PEC SafeLand,BOSIET,Gas Detection,Confined Space",7/7,Calgary AB,19

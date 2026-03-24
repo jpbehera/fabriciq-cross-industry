@@ -1,0 +1,21 @@
+inspection_type_id,name,category,required_frequency,avg_duration_min,checklist_items
+INS-001,Daily Safety Walk,Safety,Daily,30,15
+INS-002,Toolbox Talk Documentation,Safety,Daily,20,8
+INS-003,Fall Protection Inspection,Safety,Weekly,45,22
+INS-004,Scaffolding Inspection,Safety,Weekly,40,18
+INS-005,Confined Space Entry,Safety,Per Entry,60,25
+INS-006,Electrical Safety Check,Safety,Weekly,35,16
+INS-007,Excavation & Trenching,Safety,Daily,50,20
+INS-008,Crane & Rigging Inspection,Safety,Daily,55,24
+INS-009,Fire Protection Systems,Safety,Monthly,45,19
+INS-010,Concrete Pour Inspection,Quality,Per Pour,90,30
+INS-011,Structural Steel Inspection,Quality,Per Installation,75,28
+INS-012,Waterproofing Inspection,Quality,Per Application,60,22
+INS-013,MEP Rough-In Inspection,Quality,Per Floor,80,26
+INS-014,Finish Quality Walkthrough,Quality,Weekly,60,35
+INS-015,Environmental Compliance,Environmental,Monthly,40,14
+INS-016,Stormwater Management,Environmental,Weekly,30,12
+INS-017,Noise & Dust Monitoring,Environmental,Daily,25,10
+INS-018,Progress Photography,Progress,Daily,20,5
+INS-019,Material Delivery Verification,Quality,Per Delivery,25,12
+INS-020,As-Built Documentation,Progress,Weekly,45,15

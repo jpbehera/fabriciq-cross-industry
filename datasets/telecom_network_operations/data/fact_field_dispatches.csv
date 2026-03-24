@@ -1,0 +1,151 @@
+dispatch_id,technician_id,ticket_id,dispatch_date,site_type,travel_time_min,work_time_min,doc_time_min,resolution,parts_used,area_id,equipment_id,mileage,vehicle_id
+FD-0001,ENG-007,TKT-0009,2026-02-24,Central Office,15,180,40,PM Complete,Fiber cleaning kit,SA-001,EQ-005,8,VAN-12
+FD-0002,ENG-009,TKT-0010,2026-02-24,Underground Vault,45,240,60,Fiber Spliced,Splice tray - fiber connectors,SA-007,EQ-019,32,VAN-08
+FD-0003,ENG-010,TKT-0021,2026-02-25,Aerial Pole,60,300,65,Fiber Repaired,Splice closure - 50m fiber - dead-end clamp,SA-008,EQ-020,42,VAN-15
+FD-0004,ENG-015,TKT-0030,2026-02-27,Cell Tower,35,150,40,Radio Replaced,5G Radio Unit,SA-011,EQ-028,18,VAN-03
+FD-0005,ENG-019,TKT-0025,2026-02-26,Cell Tower,40,240,45,PM Complete,Antenna jumper - torque wrench calibration,SA-001,EQ-007,22,VAN-07
+FD-0006,ENG-021,TKT-0038,2026-02-28,Cell Tower,55,210,35,PM Complete,Coax jumper - grounding kit,SA-004,EQ-016,38,VAN-11
+FD-0007,ENG-023,TKT-0029,2026-02-27,Underground Vault,50,280,55,Fiber Spliced,Splice tray - OTDR calibration,SA-008,EQ-020,35,VAN-05
+FD-0008,ENG-027,TKT-0043,2026-03-01,Customer Premise,25,90,25,ONT Replaced,GPON ONT - fiber patch cord,SA-012,EQ-027,12,VAN-09
+FD-0009,ENG-007,TKT-0044,2026-03-01,Underground Vault,30,330,60,Fiber Spliced,Splice closure - 25m fiber - conduit seal,SA-001,EQ-006,15,VAN-12
+FD-0010,ENG-009,TKT-0039,2026-02-28,Customer Premise,40,150,85,Service Activated,GPON ONT - drop fiber 75m - mounting bracket,SA-007,EQ-019,28,VAN-08
+FD-0011,ENG-015,TKT-0060,2026-03-04,Customer Premise,55,240,80,Service Activated,5G CPE - mounting pole - Ethernet cable,SA-011,EQ-029,40,VAN-03
+FD-0012,ENG-010,TKT-0048,2026-03-02,Central Office,20,210,45,PM Complete,Fiber cleaning kit - SFP optics,SA-008,EQ-020,10,VAN-15
+FD-0013,ENG-021,TKT-0054,2026-03-03,Aerial Pole,65,360,70,Fiber Repaired,Splice closure - 100m fiber - aerial hardware,SA-005,EQ-014,48,VAN-11
+FD-0014,ENG-019,TKT-0058,2026-03-04,Cell Tower,45,240,45,PM Complete,Drive test equipment - antenna alignment tool,SA-015,EQ-008,30,VAN-07
+FD-0015,ENG-023,TKT-0059,2026-03-04,Central Office,25,270,55,Hardware Replaced,Power supply module,SA-007,EQ-017,14,VAN-05
+FD-0016,ENG-027,TKT-0075,2026-03-06,Cell Tower,50,240,40,PM Complete,Coax jumper - VSWR meter,SA-012,EQ-028,35,VAN-09
+FD-0017,ENG-007,TKT-0087,2026-03-08,Customer Premise,20,480,90,Service Activated,GPON ONT x12 - drop fiber - mounting hardware,SA-001,EQ-005,8,VAN-12
+FD-0018,ENG-010,TKT-0080,2026-03-07,Aerial Pole,55,270,55,Fiber Repaired,Splice closure - 30m fiber - pole hardware,SA-008,EQ-020,40,VAN-15
+FD-0019,ENG-009,TKT-0103,2026-03-11,Underground Vault,60,320,60,Fiber Spliced,Splice tray - 40m fiber - excavation supplies,SA-007,EQ-017,45,VAN-08
+FD-0020,ENG-015,TKT-0091,2026-03-09,Aerial Pole,40,270,55,Fiber Repaired,Splice closure - aerial hardware,SA-011,EQ-029,25,VAN-03
+FD-0021,ENG-023,TKT-0089,2026-03-09,Central Office,30,210,45,PM Complete,Fiber cleaning kit - config backup device,SA-008,EQ-045,18,VAN-05
+FD-0022,ENG-021,TKT-0099,2026-03-10,Cell Tower,70,240,40,PM Complete,Tower climbing gear - grounding test equipment,SA-005,EQ-016,52,VAN-11
+FD-0023,ENG-019,TKT-0109,2026-03-12,Cell Tower,35,240,45,PM Complete,MIMO test equipment - antenna alignment tool,SA-001,EQ-007,20,VAN-07
+FD-0024,ENG-010,TKT-0108,2026-03-12,Customer Premise,30,60,20,ONT Reprovisioned,None - remote reprovisioning tool,SA-008,EQ-020,16,VAN-15
+FD-0025,ENG-027,TKT-0111,2026-03-12,Customer Premise,25,120,40,Fiber Repaired,Splice kit - 5m fiber,SA-014,EQ-027,14,VAN-09
+FD-0026,ENG-007,TKT-0109,2026-03-12,Cell Tower,40,240,45,PM Complete,Drive test equipment,SA-001,EQ-007,22,VAN-12
+FD-0027,ENG-023,TKT-0116,2026-03-13,Central Office,25,120,50,SFP Replaced,SFP+ 10G optic,SA-008,EQ-018,14,VAN-05
+FD-0028,ENG-015,TKT-0120,2026-03-13,Customer Premise,60,360,85,Service Activated,5G CPE - mounting hardware - Ethernet,SA-011,EQ-029,45,VAN-03
+FD-0029,ENG-009,TKT-0131,2026-03-15,Central Office,35,270,50,Supervisor Replaced,Supervisor module,SA-007,EQ-045,22,VAN-08
+FD-0030,ENG-010,TKT-0147,2026-03-18,Aerial Pole,55,270,55,Fiber Repaired,Splice closure - 25m fiber - aerial clamps,SA-008,EQ-020,38,VAN-15
+FD-0031,ENG-021,TKT-0133,2026-03-16,Underground Vault,50,300,55,Fiber Spliced,Splice tray - excavation supplies,SA-004,EQ-044,36,VAN-11
+FD-0032,ENG-023,TKT-0137,2026-03-16,Central Office,30,360,50,Chassis Replaced,Full chassis assembly,SA-003,EQ-011,18,VAN-05
+FD-0033,ENG-019,TKT-0127,2026-03-15,Cell Tower,35,240,40,PM Complete,Panel inspection tools - drive test kit,SA-002,EQ-008,20,VAN-07
+FD-0034,ENG-027,TKT-0143,2026-03-17,Central Office,20,240,45,PM Complete,Fiber cleaning kit - optics meter,SA-001,EQ-042,10,VAN-09
+FD-0035,ENG-015,TKT-0145,2026-03-17,Cell Tower,45,180,30,Parameters Adjusted,None - configuration tools only,SA-011,EQ-046,30,VAN-03
+FD-0036,ENG-007,TKT-0143,2026-03-17,Central Office,15,240,45,PM Complete,Fiber cleaning supplies - OTDR,SA-001,EQ-042,8,VAN-12
+FD-0037,ENG-010,TKT-0138,2026-03-16,Customer Premise,25,60,18,ONT Reconfigured,None,SA-008,EQ-020,12,VAN-15
+FD-0038,ENG-009,TKT-0154,2026-03-19,Customer Premise,40,90,20,Fiber Rerouted,Drop fiber 50m - armored conduit,SA-007,EQ-019,28,VAN-08
+FD-0039,ENG-023,TKT-0155,2026-03-19,Central Office,25,180,50,PSU Replaced,Power supply module,SA-001,EQ-006,14,VAN-05
+FD-0040,ENG-021,TKT-0159,2026-03-20,Cell Tower,65,300,50,Radio Replaced,5G Radio Unit - CPRI cable,SA-005,EQ-043,48,VAN-11
+FD-0041,ENG-027,TKT-0152,2026-03-18,Cell Tower,50,240,40,PM Complete,Tower climbing gear - grounding meter,SA-012,EQ-029,35,VAN-09
+FD-0042,ENG-015,TKT-0173,2026-03-22,Aerial Pole,40,270,55,Fiber Repaired,Splice closure - aerial hardware,SA-011,EQ-029,25,VAN-03
+FD-0043,ENG-019,TKT-0157,2026-03-19,Customer Premise,30,120,40,Fiber Repaired,Splice kit - 3m fiber,SA-002,EQ-008,16,VAN-07
+FD-0044,ENG-010,TKT-0168,2026-03-21,Central Office,20,300,50,OLT Card Installed,OLT line card - SFP optics x16,SA-008,EQ-020,10,VAN-15
+FD-0045,ENG-007,TKT-0178,2026-03-22,Central Office,15,210,35,Maintenance Complete,Fiber cleaning kit - software tools,SA-001,EQ-005,8,VAN-12
+FD-0046,ENG-023,TKT-0177,2026-03-22,Customer Premise,35,90,30,Port Corrected,Fiber patch cord,SA-008,EQ-045,22,VAN-05
+FD-0047,ENG-009,TKT-0188,2026-03-22,Central Office,30,210,45,PM Complete,Fiber cleaning kit - OTDR - config backup,SA-007,EQ-045,18,VAN-08
+FD-0048,ENG-021,TKT-0189,2026-03-22,Customer Premise,55,360,90,Service Activated,GPON ONT - drop fiber 100m - mounting kit,SA-005,EQ-014,42,VAN-11
+FD-0049,ENG-027,TKT-0184,2026-03-22,Underground Vault,45,180,40,Fiber Repaired,Splice tray - 10m fiber,SA-012,EQ-046,30,VAN-09
+FD-0050,ENG-015,TKT-0207,2026-03-22,Cell Tower,55,240,45,BBU Replaced,5G Baseband Unit,SA-011,EQ-028,38,VAN-03
+FD-0051,ENG-019,TKT-0190,2026-03-22,Cell Tower,40,180,35,Radio Replaced,5G Radio Unit,SA-002,EQ-008,25,VAN-07
+FD-0052,ENG-010,TKT-0198,2026-03-22,Central Office,20,150,38,Firmware Updated,USB console cable,SA-008,EQ-048,10,VAN-15
+FD-0053,ENG-023,TKT-0214,2026-03-22,Underground Vault,50,300,55,Fiber Spliced,Splice tray - 30m fiber - excavation tools,SA-008,EQ-020,36,VAN-05
+FD-0054,ENG-007,TKT-0206,2026-03-22,Central Office,15,150,48,Uplink Upgraded,25G SFP28 optics x2,SA-001,EQ-006,8,VAN-12
+FD-0055,ENG-021,TKT-0218,2026-03-22,Aerial Pole,60,330,58,Fiber Repaired,Temporary aerial cable - splice closure,SA-005,EQ-014,45,VAN-11
+FD-0056,ENG-009,TKT-0243,2026-03-22,Customer Premise,35,120,25,Route Added,None - configuration only,SA-007,EQ-045,20,VAN-08
+FD-0057,ENG-027,TKT-0221,2026-03-22,Central Office,25,210,42,PM Complete,Fiber cleaning kit - power meter,SA-014,EQ-026,14,VAN-09
+FD-0058,ENG-015,TKT-0233,2026-03-22,Cell Tower,50,240,45,PM Complete,Drive test kit - sector analyzer,SA-011,EQ-046,32,VAN-03
+FD-0059,ENG-019,TKT-0244,2026-03-22,Aerial Pole,35,180,35,Fiber Replaced,Aerial fiber 50m - dead-end hardware,SA-002,EQ-008,18,VAN-07
+FD-0060,ENG-010,TKT-0224,2026-03-22,Central Office,20,120,28,Channels Added,None - remote configuration,SA-008,EQ-048,10,VAN-15
+FD-0061,ENG-023,TKT-0266,2026-03-22,Central Office,25,180,48,Fan Replaced,Fan tray assembly,SA-008,EQ-045,14,VAN-05
+FD-0062,ENG-021,TKT-0248,2026-03-22,Customer Premise,30,45,15,Config Applied,None,SA-005,EQ-014,16,VAN-11
+FD-0063,ENG-007,TKT-0236,2026-03-22,Central Office,15,120,35,SFP Replaced,GPON SFP optic,SA-001,EQ-042,8,VAN-12
+FD-0064,ENG-009,TKT-0271,2026-03-22,Customer Premise,40,60,18,Patch Cord Replaced,Fiber patch cord,SA-007,EQ-045,28,VAN-08
+FD-0065,ENG-015,TKT-0267,2026-03-22,Cell Tower,45,90,15,Config Corrected,None - S1 interface configuration,SA-011,EQ-028,30,VAN-03
+FD-0066,ENG-027,TKT-0277,2026-03-22,Customer Premise,35,90,18,Antenna Adjusted,None - antenna tilt tool,SA-012,EQ-028,20,VAN-09
+FD-0067,ENG-019,TKT-0278,2026-03-22,Cell Tower,30,60,15,Neighbor Updated,None - configuration only,SA-002,EQ-008,15,VAN-07
+FD-0068,ENG-010,TKT-0256,2026-03-22,Customer Premise,25,45,12,Power Adjusted,None - CMTS remote adjust,SA-008,EQ-048,12,VAN-15
+FD-0069,ENG-021,TKT-0280,2026-03-22,Cell Tower,55,180,35,Firmware Updated,USB console - firmware media,SA-005,EQ-043,40,VAN-11
+FD-0070,ENG-023,TKT-0250,2026-03-22,Underground Vault,50,330,55,Fiber Spliced,Splice tray - 35m fiber - excavation,SA-003,EQ-013,35,VAN-05
+FD-0071,ENG-015,TKT-0246,2026-03-22,Customer Premise,60,60,18,Beam Adjusted,None - beam config tool,SA-011,EQ-029,42,VAN-03
+FD-0072,ENG-007,TKT-0261,2026-03-22,Customer Premise,20,30,10,ONT Added,None - whitelist update,SA-001,EQ-042,8,VAN-12
+FD-0073,ENG-009,TKT-0295,2026-03-22,Central Office,35,240,48,EDFA Replaced,DWDM EDFA module,SA-007,EQ-032,22,VAN-08
+FD-0074,ENG-027,TKT-0294,2026-03-22,Underground Vault,45,180,35,Fiber Repaired,Splice kit - 8m fiber,SA-012,EQ-046,30,VAN-09
+FD-0075,ENG-021,TKT-0274,2026-03-22,Customer Premise,55,480,88,Service Activated,GPON ONT - drop fiber 120m - mounting kit - ethernet,SA-004,EQ-014,42,VAN-11
+FD-0076,ENG-019,TKT-0282,2026-03-22,Cell Tower,35,240,42,PM Complete,Drive test kit - antenna tools,SA-002,EQ-008,20,VAN-07
+FD-0077,ENG-015,TKT-0298,2026-03-22,Cell Tower,48,60,18,Cable Replaced,Antenna cable assembly,SA-011,EQ-028,32,VAN-03
+FD-0078,ENG-010,TKT-0284,2026-03-22,Central Office,20,150,38,Card Replaced,OLT line card,SA-006,EQ-019,10,VAN-15
+FD-0079,ENG-023,TKT-0283,2026-03-22,Customer Premise,30,90,28,STP Corrected,None - configuration only,SA-003,EQ-012,18,VAN-05
+FD-0080,ENG-007,TKT-0291,2026-03-22,Central Office,15,90,22,SFP Replaced,GPON SFP optic,SA-001,EQ-005,8,VAN-12
+FD-0081,ENG-009,TKT-0214,2026-03-22,Underground Vault,55,300,55,Fiber Spliced,Splice tray - excavation tools - 25m fiber,SA-008,EQ-020,38,VAN-08
+FD-0082,ENG-021,TKT-0259,2026-03-22,Cell Tower,50,90,25,Parameters Adjusted,None - X2 config tool,SA-003,EQ-016,35,VAN-11
+FD-0083,ENG-027,TKT-0205,2026-03-22,Customer Premise,30,120,38,Drop Replaced,Armored drop fiber 15m,SA-012,EQ-027,16,VAN-09
+FD-0084,ENG-015,TKT-0294,2026-03-22,Underground Vault,55,180,35,Fiber Repaired,Splice kit - 10m fiber,SA-011,EQ-046,38,VAN-03
+FD-0085,ENG-019,TKT-0216,2026-03-22,Customer Premise,40,60,18,Antenna Aligned,None - 5G CPE alignment tool,SA-002,EQ-008,22,VAN-07
+FD-0086,ENG-010,TKT-0265,2026-03-22,Customer Premise,25,45,22,WiFi Adjusted,None - ONT remote config,SA-001,EQ-005,12,VAN-15
+FD-0087,ENG-023,TKT-0273,2026-03-22,Central Office,25,90,25,Port Reset,None,SA-006,EQ-019,14,VAN-05
+FD-0088,ENG-007,TKT-0296,2026-03-22,Central Office,15,210,30,PM Complete,Fiber cleaning kit - DBA optimization tools,SA-001,EQ-006,8,VAN-12
+FD-0089,ENG-021,TKT-0292,2026-03-22,Central Office,30,180,45,Channels Added,None - CMTS configuration,SA-004,EQ-015,18,VAN-11
+FD-0090,ENG-009,TKT-0281,2026-03-22,Underground Vault,45,210,32,Fiber Repaired,Splice kit - 15m fiber,SA-015,EQ-004,30,VAN-08
+FD-0091,ENG-027,TKT-0268,2026-03-22,Central Office,25,210,52,Fiber Spliced,Splice tray - OTDR,SA-010,EQ-027,14,VAN-09
+FD-0092,ENG-015,TKT-0255,2026-03-22,Cell Tower,50,240,42,PM Complete,Tower gear - sector analyzer - drive test kit,SA-003,EQ-016,35,VAN-03
+FD-0093,ENG-019,TKT-0263,2026-03-22,Central Office,25,210,40,PM Complete,Optics meter - fiber cleaning kit,SA-014,EQ-047,14,VAN-07
+FD-0094,ENG-010,TKT-0242,2026-03-22,Customer Premise,20,120,32,Fiber Repaired,Splice kit - 3m pigtail,SA-001,EQ-006,10,VAN-15
+FD-0095,ENG-023,TKT-0235,2026-03-22,Cabinet,30,60,22,Patch Replaced,Fiber patch cord,SA-003,EQ-013,18,VAN-05
+FD-0096,ENG-007,TKT-0275,2026-03-22,Central Office,15,150,35,Firmware Updated,USB console cable - firmware media,SA-001,EQ-005,8,VAN-12
+FD-0097,ENG-021,TKT-0197,2026-03-22,Underground Vault,65,360,65,Fiber Repaired,Splice closure x3 - 200m fiber - excavation heavy,SA-003,EQ-044,50,VAN-11
+FD-0098,ENG-009,TKT-0239,2026-03-22,Central Office,35,150,38,Firmware Updated,USB console cable,SA-007,EQ-017,22,VAN-08
+FD-0099,ENG-015,TKT-0192,2026-03-22,Cell Tower,55,240,40,PM Complete,Full sector test kit - optimization tools,SA-004,EQ-043,38,VAN-03
+FD-0100,ENG-027,TKT-0249,2026-03-22,Central Office,25,210,40,PM Complete,Optics meter - config backup - cleaning kit,SA-015,EQ-004,14,VAN-09
+FD-0101,ENG-019,TKT-0182,2026-03-22,Cell Tower,45,240,40,PM Complete,Drive test - coverage optimization tools,SA-003,EQ-016,28,VAN-07
+FD-0102,ENG-010,TKT-0200,2026-03-22,Customer Premise,25,45,20,Profile Corrected,None - remote provisioning,SA-003,EQ-013,12,VAN-15
+FD-0103,ENG-023,TKT-0204,2026-03-22,Customer Premise,30,30,12,Port Cleared,None,SA-007,EQ-019,18,VAN-05
+FD-0104,ENG-021,TKT-0211,2026-03-22,Customer Premise,40,60,28,ONT Replaced,GPON ONT,SA-005,EQ-014,25,VAN-11
+FD-0105,ENG-007,TKT-0231,2026-03-22,Customer Premise,20,30,12,VLAN Corrected,None - remote config,SA-001,EQ-005,10,VAN-12
+FD-0106,ENG-015,TKT-0293,2026-03-22,Customer Premise,50,30,10,DHCPv6 Enabled,None - OLT remote config,SA-003,EQ-013,32,VAN-03
+FD-0107,ENG-009,TKT-0243,2026-03-22,Customer Premise,35,60,25,Redistribution Added,None - PE router config,SA-007,EQ-045,20,VAN-08
+FD-0108,ENG-027,TKT-0234,2026-03-22,Customer Premise,30,30,12,Power Save Disabled,None - OLT remote config,SA-014,EQ-026,14,VAN-09
+FD-0109,ENG-010,TKT-0286,2026-03-22,Customer Premise,25,45,20,Tier Corrected,None - provisioning system,SA-004,EQ-013,12,VAN-15
+FD-0110,ENG-023,TKT-0161,2026-03-20,Customer Premise,30,60,28,BFD Tuned,None - PE router config,SA-006,EQ-018,18,VAN-05
+FD-0111,ENG-021,TKT-0129,2026-03-15,Customer Premise,45,60,20,Fiber Dried,Fusion splice - desiccant packs,SA-005,EQ-014,30,VAN-11
+FD-0112,ENG-007,TKT-0252,2026-03-22,Central Office,15,150,35,Firmware Updated,USB console - TCAM tools,SA-001,EQ-003,8,VAN-12
+FD-0113,ENG-019,TKT-0244,2026-03-22,Aerial Pole,35,150,35,Span Replaced,50m aerial fiber - dead-end hardware,SA-002,EQ-008,18,VAN-07
+FD-0114,ENG-009,TKT-0160,2026-03-20,Central Office,30,90,18,LDP Corrected,None - router CLI,SA-007,EQ-017,18,VAN-08
+FD-0115,ENG-015,TKT-0207,2026-03-22,Cell Tower,55,300,45,BBU Replaced,Baseband Unit - CPRI cable,SA-011,EQ-028,40,VAN-03
+FD-0116,ENG-010,TKT-0185,2026-03-22,Customer Premise,25,60,18,ONT Replaced,WiFi 6E ONT,SA-006,EQ-019,12,VAN-15
+FD-0117,ENG-023,TKT-0245,2026-03-22,Central Office,25,180,42,Card Replaced,OLT line card,SA-006,EQ-019,14,VAN-05
+FD-0118,ENG-027,TKT-0174,2026-03-22,Customer Premise,30,60,20,ONT Replaced,GPON ONT,SA-014,EQ-027,16,VAN-09
+FD-0119,ENG-007,TKT-0265,2026-03-22,Customer Premise,20,30,22,WiFi Optimized,None - remote ONT config,SA-001,EQ-005,10,VAN-12
+FD-0120,ENG-021,TKT-0069,2026-03-06,Underground Vault,60,330,55,Fiber Spliced,Splice closure - 50m fiber - locating equipment,SA-005,EQ-044,45,VAN-11
+FD-0121,ENG-019,TKT-0117,2026-03-13,Cell Tower,40,150,40,Firmware Pushed,None - OTA firmware tools,SA-005,EQ-043,25,VAN-07
+FD-0122,ENG-009,TKT-0072,2026-03-06,Central Office,30,240,50,Line Card Replaced,CMTS line card,SA-008,EQ-048,18,VAN-08
+FD-0123,ENG-015,TKT-0097,2026-03-10,Cell Tower,45,120,30,CPRI Replaced,CPRI cable assembly,SA-011,EQ-028,30,VAN-03
+FD-0124,ENG-010,TKT-0095,2026-03-10,Customer Premise,25,30,18,Channel Changed,None - remote WiFi config,SA-001,EQ-006,12,VAN-15
+FD-0125,ENG-027,TKT-0085,2026-03-08,Customer Premise,35,45,25,Connectors Cleaned,Fiber cleaning supplies,SA-004,EQ-013,20,VAN-09
+FD-0126,ENG-023,TKT-0074,2026-03-06,Cell Tower,40,90,25,Traffic Rebalanced,None - backhaul optimization,SA-003,EQ-016,25,VAN-05
+FD-0127,ENG-019,TKT-0025,2026-02-26,Cell Tower,40,240,45,PM Complete,Antenna tools - drive test kit,SA-001,EQ-007,22,VAN-07
+FD-0128,ENG-021,TKT-0046,2026-03-02,Cabinet,35,90,30,Splitter Replaced,1x8 optical splitter,SA-004,EQ-013,20,VAN-11
+FD-0129,ENG-007,TKT-0018,2026-02-25,Cabinet,25,90,30,Splitter Replaced,1x16 optical splitter,SA-001,EQ-006,12,VAN-12
+FD-0130,ENG-010,TKT-0037,2026-02-28,Customer Premise,40,45,20,Connector Replaced,SC/APC fiber connector,SA-007,EQ-019,25,VAN-15
+FD-0131,ENG-015,TKT-0005,2026-02-23,Central Office,30,90,30,SFP Replaced,10G SFP+ optic,SA-003,EQ-011,18,VAN-03
+FD-0132,ENG-009,TKT-0003,2026-02-23,Customer Premise,20,45,20,VLAN Corrected,None - CLI config,SA-002,EQ-006,12,VAN-08
+FD-0133,ENG-023,TKT-0032,2026-02-27,Customer Premise,30,60,25,Traffic Shaped,None - QoS config,SA-001,EQ-005,15,VAN-05
+FD-0134,ENG-027,TKT-0013,2026-02-24,Customer Premise,25,45,20,ONT Reset,None,SA-010,EQ-027,14,VAN-09
+FD-0135,ENG-021,TKT-0008,2026-02-23,Customer Premise,45,30,25,Tech Visit Scheduled,None - preliminary assessment,SA-006,EQ-019,28,VAN-11
+FD-0136,ENG-019,TKT-0038,2026-02-28,Cell Tower,55,210,35,PM Complete,Coax jumper - grounding kit,SA-004,EQ-016,38,VAN-07
+FD-0137,ENG-007,TKT-0031,2026-02-27,Customer Premise,20,30,15,QoS Updated,None - service profile,SA-001,EQ-006,10,VAN-12
+FD-0138,ENG-010,TKT-0053,2026-03-03,Customer Premise,35,45,20,Bend Corrected,None - drop cable repositioned,SA-014,EQ-026,22,VAN-15
+FD-0139,ENG-023,TKT-0057,2026-03-04,Central Office,25,60,30,Connector Cleaned,Fiber cleaning kit,SA-003,EQ-011,14,VAN-05
+FD-0140,ENG-015,TKT-0035,2026-02-28,Cell Tower,40,180,45,Radio Installed,5G Cell Site radio equipment,SA-006,EQ-049,25,VAN-03
+FD-0141,ENG-027,TKT-0070,2026-03-06,Customer Premise,30,45,20,Drop Replaced,Drop cable 25m,SA-015,EQ-006,16,VAN-09
+FD-0142,ENG-009,TKT-0065,2026-03-05,Central Office,25,60,20,NAT Expanded,None - config change,SA-007,EQ-019,14,VAN-08
+FD-0143,ENG-021,TKT-0074,2026-03-06,Cell Tower,50,90,25,Backhaul Optimized,None - config tools,SA-003,EQ-016,35,VAN-11
+FD-0144,ENG-019,TKT-0075,2026-03-06,Cell Tower,50,240,40,PM Complete,VSWR meter - coax tools,SA-012,EQ-028,35,VAN-07
+FD-0145,ENG-007,TKT-0061,2026-03-04,Customer Premise,20,45,20,ONT Replaced,GPON ONT - new model,SA-001,EQ-005,10,VAN-12
+FD-0146,ENG-010,TKT-0024,2026-02-26,Customer Premise,30,30,20,ONT Reprovisioned,None,SA-005,EQ-014,16,VAN-15
+FD-0147,ENG-023,TKT-0045,2026-03-01,Central Office,20,30,15,Subnet Expanded,None - DHCP config,SA-003,EQ-011,12,VAN-05
+FD-0148,ENG-015,TKT-0004,2026-02-23,Underground Vault,65,360,75,Emergency Splice,Splice closure - multiple trays - 200m fiber,SA-003,EQ-013,48,VAN-03
+FD-0149,ENG-021,TKT-0014,2026-02-24,Hub Site,70,420,80,Generator Deployed,Portable generator - transfer switch cable,SA-004,EQ-012,55,VAN-11
+FD-0150,ENG-009,TKT-0015,2026-02-24,Customer Premise,40,480,90,Full Install,GPON ONT - drop fiber 200m - inside wiring - mounting,SA-005,EQ-014,30,VAN-08

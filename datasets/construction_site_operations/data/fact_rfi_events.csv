@@ -1,0 +1,81 @@
+rfi_id,supervisor_id,project_id,timestamp,question,status,response_time_hours,doc_time_min,trade
+RFI-001,SUP-001,PRJ-001,2026-02-24T08:45:15,Clarification on structural steel connection detail at level 24,Closed,18.5,45,Structural Steel
+RFI-002,SUP-001,PRJ-001,2026-02-25T09:30:00,Curtainwall anchor spacing deviation from spec at floors 18-20,Open,0,52,Curtainwall/Glazing
+RFI-003,SUP-002,PRJ-001,2026-02-26T10:15:22,HVAC duct routing conflict with fire sprinkler main level 16,Closed,24.0,38,Mechanical/HVAC
+RFI-004,SUP-002,PRJ-001,2026-02-28T08:30:00,Elevator machine room ventilation CFM requirement clarification,Closed,12.0,32,Elevator
+RFI-005,SUP-001,PRJ-001,2026-03-02T09:45:15,Post-tension anchor zone reinforcement detail at level 25,Closed,36.0,55,Concrete
+RFI-006,SUP-007,PRJ-001,2026-03-04T07:30:00,Fall protection anchor point locations for curtainwall crew,Open,0,28,Safety
+RFI-007,SUP-001,PRJ-001,2026-03-06T08:15:22,Mechanical penthouse waterproofing membrane transition detail,Closed,16.5,42,Roofing
+RFI-008,SUP-001,PRJ-001,2026-03-09T10:00:30,Roof steel connection to existing concrete core coordination,Open,0,48,Structural Steel
+RFI-009,SUP-003,PRJ-002,2026-02-24T09:00:00,Med gas piping routing through structural beam web openings,Closed,22.0,55,Medical Gas
+RFI-010,SUP-003,PRJ-002,2026-02-25T08:30:15,Operating room laminar flow diffuser location confirmation,Closed,8.0,48,Mechanical/HVAC
+RFI-011,SUP-004,PRJ-002,2026-02-27T07:45:22,Concrete mix design for radiation shielding walls,Closed,48.0,62,Concrete
+RFI-012,SUP-003,PRJ-002,2026-03-02T08:15:00,Clean room pressure cascade specification clarification,Open,0,58,Mechanical/HVAC
+RFI-013,SUP-004,PRJ-002,2026-03-04T09:30:30,Emergency generator fuel line routing through parking garage,Closed,14.0,42,Electrical
+RFI-014,SUP-003,PRJ-002,2026-03-06T07:50:15,Helipad structural loading requirements with medical equipment,Closed,72.0,65,Structural Steel
+RFI-015,SUP-003,PRJ-002,2026-03-09T10:30:00,MRI room RF shielding door frame continuity detail,Open,0,52,Specialty
+RFI-016,SUP-004,PRJ-002,2026-03-10T08:00:22,Parking structure post-tension profile deviation at level 3,Closed,16.0,45,Concrete
+RFI-017,SUP-005,PRJ-003,2026-02-24T08:30:22,Raised floor load capacity for server rack layout revision,Closed,6.0,35,Data/Low Voltage
+RFI-018,SUP-005,PRJ-003,2026-02-27T09:15:00,Curtainwall thermal break detail at canopy connection,Closed,24.0,40,Curtainwall/Glazing
+RFI-019,SUP-006,PRJ-003,2026-03-03T08:45:15,Parking garage waterproofing membrane termination at expansion joint,Closed,18.0,38,Waterproofing
+RFI-020,SUP-005,PRJ-003,2026-03-06T07:30:30,Solar panel mounting bracket conflict with roof drainage,Open,0,42,Roofing
+RFI-021,SUP-005,PRJ-003,2026-03-09T09:00:00,Tenant improvement demising wall STC rating confirmation,Closed,10.0,32,Drywall/Framing
+RFI-022,SUP-014,PRJ-003,2026-03-10T08:30:22,Confined space ventilation requirements for commissioning,Closed,4.0,28,Safety
+RFI-023,SUP-008,PRJ-004,2026-02-25T08:15:30,Balcony waterproofing detail at sliding door threshold,Closed,32.0,45,Waterproofing
+RFI-024,SUP-009,PRJ-004,2026-02-28T09:00:00,Elevator pit drain connection to storm or sanitary system,Closed,12.0,35,Plumbing
+RFI-025,SUP-008,PRJ-004,2026-03-04T07:45:15,Pool deck structural slab depression dimension confirmation,Closed,20.0,42,Concrete
+RFI-026,SUP-009,PRJ-004,2026-03-06T08:30:22,Unit appliance electrical circuit configuration for kitchens,Closed,8.0,30,Electrical
+RFI-027,SUP-008,PRJ-004,2026-03-09T09:15:00,Amenity center HVAC equipment access panel locations,Open,0,38,Mechanical/HVAC
+RFI-028,SUP-009,PRJ-004,2026-03-12T07:50:30,Certificate of occupancy punch list item clarification,Closed,6.0,28,General
+RFI-029,SUP-010,PRJ-005,2026-02-24T09:00:15,Rail track alignment tolerance at platform curve section,Closed,48.0,55,Rail Systems
+RFI-030,SUP-011,PRJ-005,2026-02-27T08:30:00,Escalator pit waterproofing detail at grade transition,Closed,24.0,42,Waterproofing
+RFI-031,SUP-010,PRJ-005,2026-03-02T07:45:22,Signal system conduit routing through structural elements,Open,0,48,Electrical
+RFI-032,SUP-011,PRJ-005,2026-03-04T09:15:30,Platform edge door wind load calculation verification,Closed,36.0,52,Curtainwall/Glazing
+RFI-033,SUP-010,PRJ-005,2026-03-07T08:00:00,Catenary wire support bracket spacing on curved sections,Closed,18.0,45,Electrical
+RFI-034,SUP-011,PRJ-005,2026-03-10T09:30:15,Art installation structural support from platform ceiling,Closed,12.0,35,Misc Metals
+RFI-035,SUP-012,PRJ-006,2026-02-26T08:15:22,Tilt-up panel connection detail at dock door headers,Closed,16.0,38,Concrete
+RFI-036,SUP-013,PRJ-006,2026-03-02T07:45:00,Loading dock leveler pit dimension clarification,Closed,8.0,30,Sitework
+RFI-037,SUP-012,PRJ-006,2026-03-06T09:00:30,Conveyor system foundation bolt pattern coordination,Closed,20.0,42,Concrete
+RFI-038,SUP-013,PRJ-006,2026-03-10T08:30:15,Final grading elevation discrepancy at parking area,Closed,10.0,28,Sitework
+RFI-039,SUP-012,PRJ-006,2026-03-12T07:30:00,Fire sprinkler head spacing with high-pile storage racks,Open,0,45,Fire Protection
+RFI-040,SUP-015,PRJ-007,2026-02-25T08:45:22,Gymnasium structural steel connection at roof peak,Closed,24.0,42,Structural Steel
+RFI-041,SUP-016,PRJ-007,2026-03-02T09:00:00,Auditorium seating ADA accessibility aisle width clarification,Closed,6.0,28,General
+RFI-042,SUP-015,PRJ-007,2026-03-05T07:30:15,Science lab fume hood exhaust duct material specification,Closed,16.0,38,Mechanical/HVAC
+RFI-043,SUP-016,PRJ-007,2026-03-06T08:15:30,Smart board mounting height and backing requirement,Closed,4.0,22,Data/Low Voltage
+RFI-044,SUP-015,PRJ-007,2026-03-09T09:45:00,Athletic track surface material specification for indoor use,Open,0,35,Specialty
+RFI-045,SUP-015,PRJ-007,2026-03-10T08:00:22,Fire alarm notification appliance placement in gymnasium,Closed,8.0,30,Fire Protection
+RFI-046,SUP-017,PRJ-008,2026-02-26T07:45:00,Pool structural slab post-tension profile at deep end,Closed,32.0,42,Concrete
+RFI-047,SUP-018,PRJ-008,2026-02-28T08:30:15,Hotel tower structural steel floor-to-floor height at restaurant,Closed,14.0,38,Structural Steel
+RFI-048,SUP-017,PRJ-008,2026-03-03T09:00:22,Spa area steam room waterproofing membrane specification,Closed,20.0,45,Waterproofing
+RFI-049,SUP-018,PRJ-008,2026-03-06T07:30:00,Kitchen hood Type I vs Type II classification for prep area,Closed,8.0,30,Mechanical/HVAC
+RFI-050,SUP-017,PRJ-008,2026-03-09T08:45:30,Conference center operable partition track load capacity,Closed,12.0,35,Specialty
+RFI-051,SUP-018,PRJ-008,2026-03-10T09:15:15,Grand staircase marble tread attachment detail confirmation,Open,0,42,Masonry
+RFI-052,SUP-018,PRJ-008,2026-03-12T08:00:00,Chandelier structural support mounting detail at lobby,Closed,16.0,38,Electrical
+RFI-053,SUP-019,PRJ-009,2026-02-24T08:45:00,Data hall floor loading for 52kW rack clusters,Closed,8.0,48,Structural
+RFI-054,SUP-019,PRJ-009,2026-02-25T09:15:22,Cooling tower vibration isolation pad specification,Closed,24.0,55,Mechanical/HVAC
+RFI-055,SUP-020,PRJ-009,2026-02-27T08:00:30,BMS integration protocol for third-party CRAC units,Closed,36.0,52,Controls
+RFI-056,SUP-019,PRJ-009,2026-02-28T09:30:00,Switchgear room arc flash rating and PPE requirements,Closed,12.0,45,Electrical
+RFI-057,SUP-019,PRJ-009,2026-03-02T08:15:15,Generator paralleling switchgear bus rating confirmation,Closed,48.0,62,Electrical
+RFI-058,SUP-020,PRJ-009,2026-03-03T07:45:22,Hot aisle containment panel material fire rating requirement,Closed,8.0,38,Data/Low Voltage
+RFI-059,SUP-019,PRJ-009,2026-03-04T08:30:00,UPS battery room ventilation CFM calculation verification,Open,0,52,Mechanical/HVAC
+RFI-060,SUP-019,PRJ-009,2026-03-06T07:30:30,Security camera mounting locations for data hall corridors,Closed,6.0,35,Security
+RFI-061,SUP-020,PRJ-009,2026-03-07T09:00:15,Fiber optic cable tray fire stopping at rated walls,Closed,14.0,42,Fire Protection
+RFI-062,SUP-019,PRJ-009,2026-03-09T08:15:00,Diesel generator exhaust stack height and location per code,Closed,20.0,48,Mechanical/HVAC
+RFI-063,SUP-019,PRJ-009,2026-03-10T09:45:22,Redundant power feed routing separation requirements,Open,0,55,Electrical
+RFI-064,SUP-020,PRJ-009,2026-03-11T08:00:30,Environmental sensor placement grid for data hall monitoring,Closed,10.0,38,Controls
+RFI-065,SUP-019,PRJ-009,2026-03-12T07:30:00,Network switch PDU circuit assignment for A+B feeds,Closed,4.0,42,Electrical
+RFI-066,SUP-021,PRJ-010,2026-02-25T08:00:22,Solar panel racking wind load calculation for row spacing,Closed,36.0,42,Solar
+RFI-067,SUP-022,PRJ-010,2026-03-03T07:45:00,Combiner box location per NEC code distance requirements,Closed,12.0,30,Electrical
+RFI-068,SUP-021,PRJ-010,2026-03-06T08:30:15,Inverter pad reinforcement for seismic zone classification,Closed,24.0,38,Concrete
+RFI-069,SUP-021,PRJ-010,2026-03-09T09:00:30,Grid interconnect relay settings for utility approval,Open,0,45,Electrical
+RFI-070,SUP-022,PRJ-010,2026-03-11T07:45:00,SCADA system communication protocol specification,Closed,8.0,32,Controls
+RFI-071,SUP-023,PRJ-011,2026-02-25T08:15:15,Historic facade mortar mix for matching existing pointing,Closed,48.0,52,Masonry
+RFI-072,SUP-024,PRJ-011,2026-02-28T09:00:22,Window restoration timber species and profile matching,Closed,72.0,58,Windows/Doors
+RFI-073,SUP-023,PRJ-011,2026-03-04T07:30:00,Structural reinforcement detail at new elevator opening,Closed,24.0,48,Structural Steel
+RFI-074,SUP-024,PRJ-011,2026-03-06T08:15:30,Fire escape restoration code compliance with historic overlay,Open,0,55,Misc Metals
+RFI-075,SUP-023,PRJ-011,2026-03-10T09:30:00,Tin ceiling restoration pattern matching for damaged sections,Closed,16.0,45,Specialty
+RFI-076,SUP-024,PRJ-011,2026-03-13T07:45:15,ADA ramp slope compliance with historic district guidelines,Closed,8.0,38,Sitework
+RFI-077,SUP-025,PRJ-012,2026-02-24T08:30:00,Nurse call system integration with existing facility network,Closed,12.0,42,Data/Low Voltage
+RFI-078,SUP-025,PRJ-012,2026-02-28T09:15:22,Memory care unit door locking mechanism compliance with code,Closed,18.0,48,Security
+RFI-079,SUP-025,PRJ-012,2026-03-05T08:00:30,Kitchen hood exhaust makeup air unit location clarification,Closed,10.0,35,Mechanical/HVAC
+RFI-080,SUP-025,PRJ-012,2026-03-10T07:45:00,Emergency generator transfer time requirement for life safety,Closed,6.0,38,Electrical

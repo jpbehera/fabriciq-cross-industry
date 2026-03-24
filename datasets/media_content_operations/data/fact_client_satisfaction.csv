@@ -1,0 +1,16 @@
+survey_id,show_id,client_id,date,on_time_delivery_pct,revision_count,satisfaction_score,communication_score,quality_score,recommend_likelihood,feedback_category
+CS-001,SHW-001,CLT-001,2026-03-15,92,2,8.5,9.0,8.8,9,Production Quality
+CS-002,SHW-002,CLT-002,2026-03-15,88,3,7.8,8.0,7.5,8,Timing
+CS-003,SHW-003,CLT-003,2026-03-15,85,4,7.0,7.5,7.2,7,Metadata Issues
+CS-004,SHW-004,CLT-004,2026-03-15,95,1,9.0,9.2,9.5,10,Excellent Research
+CS-005,SHW-005,CLT-001,2026-03-15,78,5,6.5,7.0,8.0,6,Delivery Delays
+CS-006,SHW-006,CLT-005,2026-03-15,96,1,9.2,9.5,9.0,9,Live Excellence
+CS-007,SHW-007,CLT-006,2026-03-15,94,2,8.8,9.0,8.5,9,Consistent
+CS-008,SHW-008,CLT-003,2026-03-15,90,2,8.2,8.5,8.0,8,Good Creative
+CS-009,SHW-009,CLT-007,2026-03-15,82,4,7.2,7.0,8.5,7,Rights Delays
+CS-010,SHW-010,CLT-008,2026-03-15,92,2,8.5,8.8,8.5,9,Kid-Friendly
+CS-011,SHW-011,CLT-001,2026-03-15,75,3,6.8,7.2,7.0,6,In Development
+CS-012,SHW-012,CLT-009,2026-03-15,98,1,9.5,9.0,7.0,8,Fast Turnaround
+CS-013,SHW-013,CLT-010,2026-03-15,96,1,9.0,8.5,8.0,9,Strong Content
+CS-014,SHW-014,CLT-005,2026-03-15,90,2,8.0,8.5,8.2,8,Complex Logistics
+CS-015,SHW-015,CLT-007,2026-03-15,70,0,6.0,6.5,7.5,5,Not Yet Delivered

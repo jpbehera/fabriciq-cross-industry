@@ -1,0 +1,9 @@
+facility_id,name,type,location,capacity,operator,regulatory_jurisdiction
+FAC-001,Thunder Horse,Offshore Platform,"45.2387,-104.6431",100000,Operator Alpha,BSEE
+FAC-002,Permian Central,Onshore Processing,"28.154,-94.2614",100000,Operator Beta,Texas RRC
+FAC-003,Eagle Ford Station A,Tank Battery,"44.3926,-88.5581",10000,Operator Gamma,Texas RRC
+FAC-004,Bakken Gas Plant,Gas Plant,"29.6588,-97.2585",10000,Operator Alpha,North Dakota DMR
+FAC-005,DJ Compressor Hub,Compressor Station,"45.0223,-89.756",10000,Operator Beta,Colorado COGCC
+FAC-006,Gulf Terminal-1,Pipeline Terminal,"34.3374,-88.2644",25000,Operator Gamma,BSEE
+FAC-007,Deepwater Horizon II,Offshore Platform,"46.3834,-91.8677",25000,Operator Alpha,BSEE
+FAC-008,Anadarko Processing,Onshore Processing,"35.3062,-88.7683",100000,Operator Beta,Oklahoma OCC

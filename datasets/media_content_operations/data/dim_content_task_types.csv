@@ -1,0 +1,21 @@
+task_type_id,name,category,avg_duration_min,requires_approval,regulatory_flag
+CTT-001,metadata_entry,Metadata,45,No,No
+CTT-002,metadata_review,Metadata,20,Yes,No
+CTT-003,rights_request,Rights,30,No,No
+CTT-004,rights_clearance,Rights,120,Yes,No
+CTT-005,rights_renewal,Rights,60,Yes,No
+CTT-006,music_clearance,Rights,90,Yes,Yes
+CTT-007,talent_clearance,Rights,75,Yes,Yes
+CTT-008,ad_copy_review,Approval,40,Yes,No
+CTT-009,legal_review,Approval,60,Yes,Yes
+CTT-010,standards_practices,Approval,45,Yes,Yes
+CTT-011,qc_review,Quality Control,35,No,No
+CTT-012,technical_qc,Quality Control,50,No,Yes
+CTT-013,accessibility_check,Compliance,40,Yes,Yes
+CTT-014,fcc_filing,Compliance,90,Yes,Yes
+CTT-015,gdpr_review,Compliance,60,Yes,Yes
+CTT-016,content_rating,Compliance,25,Yes,Yes
+CTT-017,delivery_prep,Delivery,30,No,No
+CTT-018,platform_adaptation,Delivery,45,No,No
+CTT-019,archive_cataloging,Metadata,55,No,No
+CTT-020,promo_creation,Creative,35,Yes,No

@@ -1,0 +1,61 @@
+alert_id,site_id,supervisor_id,timestamp,alert_type,severity,description,immediate_action,osha_reportable
+SA-001,SITE-001,SUP-007,2026-02-24T09:15:22,fall_hazard,High,Unsecured guardrail at level 24 perimeter edge,Area barricaded and flagging installed,false
+SA-002,SITE-001,SUP-007,2026-02-24T13:30:00,crane_proximity,Medium,Tower crane swing radius encroaching on adjacent building setback,Crane operator notified and swing limiter adjusted,false
+SA-003,SITE-002,SUP-004,2026-02-24T10:45:15,excavation_hazard,High,Trench wall showing signs of instability near wing C foundation,Workers evacuated and trench box repositioned,false
+SA-004,SITE-005,SUP-011,2026-02-24T11:00:30,struck_by,Critical,Steel beam dropped from crane during erection at platform level,Work stopped area cleared; beam secured; incident investigation initiated,true
+SA-005,SITE-009,SUP-019,2026-02-24T14:20:00,electrical_hazard,High,Exposed live conductors in switchgear room during installation,Power isolated and LOTO procedures reinforced,false
+SA-006,SITE-001,SUP-007,2026-02-25T08:30:22,weather_alert,Medium,Wind speeds approaching crane operation limits at upper floors,Crane operations suspended; crews moved to interior work,false
+SA-007,SITE-003,SUP-014,2026-02-25T10:15:00,fall_hazard,High,Incomplete floor opening cover at curtainwall installation area,Opening covered and secured with bolted plywood,false
+SA-008,SITE-005,SUP-011,2026-02-25T11:45:30,confined_space,Medium,Inadequate ventilation monitoring in tunnel section C,Additional air monitors deployed and fresh air supply increased,false
+SA-009,SITE-009,SUP-020,2026-02-25T13:00:15,fire_hazard,High,Welding operation near combustible cable tray materials,Fire watch posted and combustibles relocated,false
+SA-010,SITE-001,SUP-007,2026-02-26T07:30:00,housekeeping,Low,Debris accumulation blocking egress path on level 18,Laborers assigned to clear debris and restore access,false
+SA-011,SITE-002,SUP-004,2026-02-26T09:45:22,concrete_pour,Medium,Pump truck outrigger on unstable ground near excavation edge,Outrigger repositioned to engineered bearing pad,false
+SA-012,SITE-004,SUP-009,2026-02-26T11:00:30,scaffolding,High,Missing mid-rail on exterior scaffold at roof level,Work suspended on scaffold until mid-rail installed,false
+SA-013,SITE-006,SUP-012,2026-02-26T14:15:00,crane_proximity,Medium,Material hoist load shifting during wind gust,Load secured and hoisting suspended until wind subsides,false
+SA-014,SITE-009,SUP-019,2026-02-26T15:30:15,electrical_hazard,High,Arc flash near miss at temporary power panel during load test,Panel de-energized and PPE requirements upgraded for area,false
+SA-015,SITE-001,SUP-007,2026-02-27T08:00:22,fall_hazard,Critical,Worker observed working at level 28 without fall protection tie-off,Work stopped; worker counseled; safety stand-down conducted,true
+SA-016,SITE-002,SUP-003,2026-02-27T10:30:00,chemical_hazard,Medium,Adhesive fumes exceeding PEL in enclosed patient corridor,Area evacuated and ventilation system activated,false
+SA-017,SITE-005,SUP-011,2026-02-27T12:45:30,weather_alert,High,Lightning detected within 10-mile radius of site,All outdoor work ceased; workers sheltered,false
+SA-018,SITE-008,SUP-018,2026-02-27T14:00:15,struck_by,Medium,Loose tool dropped from elevated work platform at tower A,Tool tethering enforcement and toe board inspection ordered,false
+SA-019,SITE-001,SUP-007,2026-02-28T07:45:00,housekeeping,Low,Water accumulation creating slip hazard at lobby framing area,Pump deployed and absorbent material applied,false
+SA-020,SITE-002,SUP-004,2026-02-28T09:30:22,crane_proximity,High,Tower crane #2 anti-collision alarm triggered near crane #1,Both cranes stopped and coordination meeting held,false
+SA-021,SITE-003,SUP-014,2026-02-28T11:15:30,fall_hazard,Medium,Safety net system showing damage at curtainwall opening,Net replaced and additional inspection stations scheduled,false
+SA-022,SITE-005,SUP-010,2026-02-28T13:00:00,excavation_hazard,High,Underground utility strike during drainage trench excavation,Work stopped; utility company notified; potholing required,false
+SA-023,SITE-009,SUP-019,2026-02-28T14:30:15,fire_hazard,Medium,Diesel fuel leak detected at generator testing area,Spill kit deployed and fuel line repaired,false
+SA-024,SITE-011,SUP-023,2026-02-28T10:00:22,structural,High,Existing floor joist showing unusual deflection during demo,Area shored and structural engineer notified,false
+SA-025,SITE-001,SUP-007,2026-03-02T08:15:00,fall_hazard,Medium,Guardrail gap at material hoist landing on level 20,Temporary chain secured across opening,false
+SA-026,SITE-002,SUP-003,2026-03-02T10:00:30,chemical_hazard,High,Epoxy coating application without required respiratory protection,Work stopped; proper RPE distributed and fit-tested,false
+SA-027,SITE-004,SUP-009,2026-03-02T12:30:15,scaffolding,Medium,Scaffold plank not fully supported at building B corner,Plank repositioned and scaffold inspected,false
+SA-028,SITE-006,SUP-013,2026-03-02T14:00:22,housekeeping,Low,Extension cords creating trip hazard at loading dock,Cords rerouted overhead and secured with cable management,false
+SA-029,SITE-009,SUP-020,2026-03-02T15:45:00,confined_space,High,Atmospheric monitoring alarm in underground utility vault,Workers evacuated and area ventilated before re-entry,false
+SA-030,SITE-001,SUP-007,2026-03-03T07:30:30,crane_proximity,High,Tower crane boom within restricted zone near power lines,Crane repositioned and exclusion zone markers updated,false
+SA-031,SITE-001,SUP-007,2026-03-03T11:00:15,fall_hazard,Critical,Safety harness found with damaged D-ring during morning inspection,All harnesses on site inspected; 3 additional removed from service,true
+SA-032,SITE-003,SUP-014,2026-03-03T09:30:22,fall_hazard,High,Open stairwell penetration at parking garage level 2,Barricades and warning signs installed,false
+SA-033,SITE-005,SUP-011,2026-03-03T13:15:00,struck_by,Medium,Suspended load swinging in wind during lift operation,Lift postponed; taglines added for next attempt,false
+SA-034,SITE-008,SUP-018,2026-03-03T10:45:30,fire_hazard,Medium,Hot work permit expired during welding on structural steel,Work stopped until permit renewed with fire watch,false
+SA-035,SITE-012,SUP-025,2026-03-03T14:00:15,electrical_hazard,Medium,GFCI not functioning on temporary power in resident wing,Outlet replaced and all temporary power GFCIs tested,false
+SA-036,SITE-001,SUP-007,2026-03-04T08:00:00,housekeeping,Low,Material staging area obstructing fire lane access,Materials relocated and fire lane restored,false
+SA-037,SITE-002,SUP-004,2026-03-04T10:30:22,concrete_pour,High,Formwork showing excessive deflection during deck pour level 5,Pouring suspended; formwork reinforced and reshored,false
+SA-038,SITE-005,SUP-010,2026-03-04T12:00:30,electrical_hazard,Medium,Temporary lighting inadequate in tunnel section D,Additional temporary lighting installed before work resumed,false
+SA-039,SITE-007,SUP-015,2026-03-04T09:15:00,scaffolding,Medium,Scaffold base plates not on proper mudsills at gymnasium,Work suspended and mudsills installed,false
+SA-040,SITE-009,SUP-019,2026-03-04T14:30:15,fire_hazard,High,Smoke detected in cable tray during energization testing,Power isolated; source identified as overheated connection,false
+SA-041,SITE-001,SUP-007,2026-03-05T08:30:22,weather_alert,Medium,Ice formation on steel at upper floors after overnight freeze,Salt applied and anti-slip measures implemented,false
+SA-042,SITE-002,SUP-003,2026-03-05T10:45:00,chemical_hazard,Medium,Concrete dust levels exceeding limits during interior demo,Additional dust suppression water misting deployed,false
+SA-043,SITE-005,SUP-011,2026-03-05T13:00:30,confined_space,Medium,Rescue tripod missing at manhole entry for drainage work,Entry suspended until rescue equipment deployed,false
+SA-044,SITE-009,SUP-020,2026-03-05T15:15:15,electrical_hazard,High,Lockout/tagout procedure not followed during UPS maintenance,Work stopped; LOTO procedure review conducted on site,false
+SA-045,SITE-012,SUP-025,2026-03-05T11:30:00,fall_hazard,Medium,Ladder not secured at top during kitchen installation work,Ladder tied off and ladder safety training reviewed,false
+SA-046,SITE-001,SUP-007,2026-03-06T07:45:22,crane_proximity,Medium,Material delivery truck encroaching on crane tail swing radius,Truck repositioned and spotter assigned,false
+SA-047,SITE-003,SUP-014,2026-03-06T09:00:00,fall_hazard,High,Skylight opening unprotected at roof level during solar install,Skylight covered and flagged immediately,false
+SA-048,SITE-004,SUP-009,2026-03-06T11:30:30,housekeeping,Low,Scrap metal accumulation near worker walkway at parking area,Cleanup crew deployed and dumpster relocated closer,false
+SA-049,SITE-008,SUP-018,2026-03-06T13:45:15,structural,Medium,Unusual cracking observed in concrete column at restaurant level,Column shored and structural engineer inspection scheduled,false
+SA-050,SITE-009,SUP-019,2026-03-06T15:00:00,fire_hazard,High,Battery storage area temperature exceeding safe limits,Cooling system activated and batteries inspected,false
+SA-051,SITE-001,SUP-007,2026-03-07T08:00:30,fall_hazard,Medium,Safety net pocket sagging at level 26 curtainwall area,Net retensioned and support cables inspected,false
+SA-052,SITE-002,SUP-004,2026-03-07T10:15:22,crane_proximity,Medium,Crane load chart exceeded during interior equipment placement,Load reduced and rigging plan revised,false
+SA-053,SITE-005,SUP-011,2026-03-07T12:30:00,weather_alert,High,Heavy rain creating ponding on platform structure,Pumps deployed and work on slippery surfaces suspended,false
+SA-054,SITE-010,SUP-021,2026-03-07T09:00:15,electrical_hazard,Medium,Damaged cable insulation found on DC string wiring,Section isolated and cable replaced,false
+SA-055,SITE-001,SUP-007,2026-03-09T07:30:22,housekeeping,Low,Porta-john blocking emergency egress route at ground level,Unit relocated to designated area,false
+SA-056,SITE-002,SUP-003,2026-03-09T09:45:00,chemical_hazard,Medium,MRI room sealant off-gassing exceeding ventilation capacity,Additional exhaust fans deployed and entry restricted,false
+SA-057,SITE-005,SUP-011,2026-03-09T11:00:30,struck_by,Medium,Material falling from canopy structure during glazing install,Exclusion zone expanded below work area,false
+SA-058,SITE-009,SUP-019,2026-03-09T14:30:15,electrical_hazard,High,Ground fault detected during generator paralleling test,System de-energized and fault traced to wiring error,false
+SA-059,SITE-001,SUP-007,2026-03-10T08:00:00,fall_hazard,High,Temporary stair missing intermediate landing handrail,Handrail installed before stair returned to service,false
+SA-060,SITE-011,SUP-023,2026-03-10T10:30:22,structural,Medium,Existing brick veneer separation detected during restoration,Area cordoned off and masonry specialist consulted,false

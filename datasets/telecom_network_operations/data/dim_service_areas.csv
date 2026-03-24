@@ -1,0 +1,16 @@
+area_id,name,region,customer_count,technology,capacity_gbps,last_upgrade,pop_count,fiber_miles
+SA-001,Boston Metro,Northeast,185000,GPON + 5G,2400,2025-06-15,12,4500
+SA-002,Hartford-Springfield,Northeast,62000,GPON,800,2024-11-01,5,1800
+SA-003,Atlanta Metro,Southeast,210000,GPON + 5G + DOCSIS 3.1,3200,2025-09-20,18,6200
+SA-004,Charlotte-Raleigh,Southeast,95000,GPON + DOCSIS 3.1,1600,2025-03-10,8,3100
+SA-005,Miami-Fort Lauderdale,Southeast,175000,GPON + 5G,2800,2025-12-01,15,5400
+SA-006,Chicago Metro,Midwest,230000,GPON + 5G + DOCSIS 3.1,3500,2025-08-15,20,7000
+SA-007,Minneapolis-St Paul,Midwest,78000,GPON,1200,2024-09-25,6,2400
+SA-008,Detroit Metro,Midwest,88000,GPON + DOCSIS 3.1,1400,2025-01-20,7,2800
+SA-009,San Francisco Bay,West,195000,GPON + 5G,2600,2025-10-10,14,4800
+SA-010,Los Angeles Metro,West,280000,GPON + 5G + DOCSIS 3.1,4000,2026-01-05,22,8500
+SA-011,Portland-Seattle,West,120000,GPON + 5G,1800,2025-05-30,10,3600
+SA-012,Denver Metro,West,72000,GPON,1000,2024-07-15,5,2000
+SA-013,Dallas-Fort Worth,Southeast,160000,GPON + 5G,2400,2025-07-22,13,4600
+SA-014,Phoenix Metro,West,105000,GPON + DOCSIS 3.1,1600,2025-04-18,8,3200
+SA-015,Philadelphia Metro,Northeast,145000,GPON + 5G,2200,2025-11-12,11,4000

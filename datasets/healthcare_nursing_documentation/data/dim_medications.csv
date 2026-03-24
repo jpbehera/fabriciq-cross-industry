@@ -1,0 +1,21 @@
+medication_id,name,generic_name,drug_class,route,schedule_type,high_alert,common_for_diagnosis
+MED-001,Lisinopril,Lisinopril,ACE Inhibitor,Oral,Scheduled,No,DX-002
+MED-002,Metoprolol,Metoprolol Tartrate,Beta Blocker,Oral,Scheduled,No,DX-002
+MED-003,Furosemide,Furosemide,Loop Diuretic,IV/Oral,Scheduled,No,DX-001
+MED-004,Heparin,Heparin Sodium,Anticoagulant,SubQ/IV,Scheduled,Yes,DX-005
+MED-005,Insulin Lispro,Insulin Lispro,Insulin (Rapid),SubQ,Sliding Scale,Yes,DX-010
+MED-006,Acetaminophen,Acetaminophen,Analgesic,Oral,PRN,No,DX-006
+MED-007,Morphine,Morphine Sulfate,Opioid Analgesic,IV/Oral,PRN,Yes,DX-006
+MED-008,Ceftriaxone,Ceftriaxone,Cephalosporin Antibiotic,IV,Scheduled,No,DX-003
+MED-009,Vancomycin,Vancomycin HCl,Glycopeptide Antibiotic,IV,Scheduled,Yes,DX-003
+MED-010,Pantoprazole,Pantoprazole Sodium,Proton Pump Inhibitor,IV/Oral,Scheduled,No,DX-008
+MED-011,Ondansetron,Ondansetron,Antiemetic,IV/Oral,PRN,No,DX-008
+MED-012,Albuterol,Albuterol Sulfate,Bronchodilator,Inhaled,PRN,No,DX-004
+MED-013,Prednisone,Prednisone,Corticosteroid,Oral,Scheduled,No,DX-004
+MED-014,Warfarin,Warfarin Sodium,Anticoagulant (Oral),Oral,Scheduled,Yes,DX-005
+MED-015,Metformin,Metformin HCl,Biguanide,Oral,Scheduled,No,DX-010
+MED-016,Amlodipine,Amlodipine Besylate,Calcium Channel Blocker,Oral,Scheduled,No,DX-002
+MED-017,Potassium Chloride,Potassium Chloride,Electrolyte,Oral/IV,Scheduled,Yes,DX-001
+MED-018,Lorazepam,Lorazepam,Benzodiazepine,IV/Oral,PRN,Yes,DX-014
+MED-019,Docusate Sodium,Docusate Sodium,Stool Softener,Oral,Scheduled,No,DX-007
+MED-020,Enoxaparin,Enoxaparin Sodium,Low MW Heparin,SubQ,Scheduled,Yes,DX-005

@@ -1,0 +1,31 @@
+subcontractor_id,name,trade,license_no,safety_rating,projects_completed
+SUB-001,Northeast Steel Erectors,Structural Steel,STL-44821,A,145
+SUB-002,Precision Concrete Corp,Concrete,CON-33901,A,210
+SUB-003,Atlantic Electrical Systems,Electrical,ELE-55123,A,188
+SUB-004,ProMech HVAC Inc,Mechanical/HVAC,MEC-22045,B+,132
+SUB-005,Guardian Fire Protection,Fire Protection,FPR-66789,A,95
+SUB-006,Master Plumbing Solutions,Plumbing,PLM-77234,B+,167
+SUB-007,Summit Elevator Co,Elevator,ELV-88012,A,78
+SUB-008,Pacific Glass & Curtainwall,Curtainwall/Glazing,GLZ-99345,A,62
+SUB-009,Apex Roofing Systems,Roofing,ROF-11456,B,143
+SUB-010,Foundation Specialists Inc,Foundation/Piles,FND-22567,A,88
+SUB-011,AllWeather Waterproofing,Waterproofing,WTP-33678,A,104
+SUB-012,GreenScape Landscaping,Landscaping,LND-44789,B+,156
+SUB-013,Metro Paving & Sitework,Sitework/Paving,SIT-55890,B+,178
+SUB-014,Heritage Masonry LLC,Masonry,MAS-66901,A,91
+SUB-015,Premier Drywall Contractors,Drywall/Framing,DRY-77012,B,202
+SUB-016,Artisan Tile & Flooring,Flooring,FLR-88123,A,134
+SUB-017,SignaturePaint Coatings,Painting,PNT-99234,B+,189
+SUB-018,Industrial Insulation Corp,Insulation,INS-10345,B+,112
+SUB-019,TechConnect Low Voltage,Low Voltage/Data,LVL-21456,A,76
+SUB-020,SafetyFirst Demolition,Demolition,DEM-32567,B,98
+SUB-021,ClearView Windows & Doors,Windows/Doors,WND-43678,A,115
+SUB-022,SteelFrame Miscellaneous Metals,Misc Metals,MIS-54789,B+,83
+SUB-023,ADA Accessibility Solutions,Specialties,SPE-65890,A,54
+SUB-024,ProCaulk Sealants,Sealants/Caulking,SEA-76901,B,167
+SUB-025,Underground Utilities Inc,Utilities,UTL-87012,A,142
+SUB-026,Rebar Masters LLC,Rebar,RBR-98123,A,196
+SUB-027,Custom Millwork Studio,Millwork/Casework,MIL-09234,A,47
+SUB-028,BridgeTech Structural,Structural Repair,STR-10345,B+,65
+SUB-029,Sunshine Solar Installations,Solar,SOL-21456,A,38
+SUB-030,AcousticPro Ceilings,Acoustical Ceilings,ACO-32567,B+,128

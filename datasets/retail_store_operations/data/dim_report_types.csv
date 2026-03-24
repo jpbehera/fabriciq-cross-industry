@@ -1,0 +1,19 @@
+report_type_id,name,category,frequency,avg_completion_time_min,regulatory_required
+RPT-001,Daily Sales Recap,Sales,daily,15,False
+RPT-002,Inventory Cycle Count,Inventory,weekly,45,False
+RPT-003,Shrinkage Report,Loss Prevention,weekly,30,True
+RPT-004,Planogram Compliance Audit,Merchandising,monthly,60,True
+RPT-005,Safety Checklist,Compliance,daily,20,True
+RPT-006,Receiving Log,Inventory,daily,25,False
+RPT-007,Associate Performance Review,HR,quarterly,90,True
+RPT-008,Customer Complaint Log,Customer Service,as_needed,15,False
+RPT-009,Cash Reconciliation,Finance,daily,20,True
+RPT-010,Weekly Labor Summary,HR,weekly,35,True
+RPT-011,Vendor Delivery Verification,Inventory,as_needed,20,False
+RPT-012,Price Change Execution,Merchandising,weekly,25,False
+RPT-013,Opening Checklist,Operations,daily,10,False
+RPT-014,Closing Checklist,Operations,daily,10,False
+RPT-015,Incident Report,Loss Prevention,as_needed,30,True
+RPT-016,OSHA Compliance Log,Compliance,monthly,45,True
+RPT-017,Promotional Display Audit,Merchandising,weekly,20,False
+RPT-018,Break Compliance Log,HR,daily,10,True

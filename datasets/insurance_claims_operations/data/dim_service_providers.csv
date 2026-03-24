@@ -1,0 +1,21 @@
+provider_id,name,type,region,avg_turnaround_days
+SP-001,Precision Auto Body,Body Shop,Northeast,8
+SP-002,Northeast Medical Associates,Medical Provider,Southeast,6
+SP-003,Davis & Marshall LLP,Legal Firm,Midwest,13
+SP-004,ClearView Glass,Glass Repair,West,2
+SP-005,AAA Towing & Recovery,Towing Service,Southwest,1
+SP-006,Heritage Builders Inc,Contractor,Northeast,8
+SP-007,Structural Solutions Engineering,Engineering Firm,Southeast,10
+SP-008,Apex Property Appraisers,Appraiser,Midwest,10
+SP-009,Metro Collision Center,Body Shop,West,2
+SP-010,Southeast Orthopedic Clinic,Medical Provider,Southwest,2
+SP-011,Thompson Legal Group,Legal Firm,Northeast,9
+SP-012,SafeGuard Glass Services,Glass Repair,Southeast,4
+SP-013,Quick Response Towing,Towing Service,Midwest,9
+SP-014,Premier Home Restoration,Contractor,West,5
+SP-015,Pacific Engineering Consultants,Engineering Firm,Southwest,3
+SP-016,Reliable Property Appraisals,Appraiser,Northeast,6
+SP-017,AutoCare Specialists,Body Shop,Southeast,2
+SP-018,Midwest Health Partners,Medical Provider,Midwest,4
+SP-019,Sterling Law Associates,Legal Firm,West,6
+SP-020,Diamond Glass & Mirror,Glass Repair,Southwest,5

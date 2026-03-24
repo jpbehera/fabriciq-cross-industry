@@ -1,0 +1,26 @@
+supervisor_id,name,role,certifications,years_experience,project_id,hire_date,department,region,email,phone,status
+SUP-001,Marcus Rivera,Senior Superintendent,OSHA 30;PMP;LEED AP,22,PRJ-001,2004-03-15,Field Operations,Northeast,mrivera@buildcorpgc.com,555-0101,Active
+SUP-002,Karen Lindstrom,Superintendent,OSHA 30;First Aid/CPR,15,PRJ-001,2011-06-20,Field Operations,Northeast,klindstrom@buildcorpgc.com,555-0102,Active
+SUP-003,James Okafor,Project Manager,PMP;DBIA;LEED AP,18,PRJ-002,2008-01-10,Project Management,Southeast,jokafor@buildcorpgc.com,555-0103,Active
+SUP-004,Rachel Torres,Senior Superintendent,OSHA 30;PMP,20,PRJ-002,2006-05-22,Field Operations,Southeast,rtorres@buildcorpgc.com,555-0104,Active
+SUP-005,David Chen,Superintendent,OSHA 30;First Aid/CPR,12,PRJ-003,2014-09-01,Field Operations,West,dchen@buildcorpgc.com,555-0105,Active
+SUP-006,Lisa Patel,Project Manager,PMP;CPC;LEED AP BD+C,16,PRJ-003,2010-02-14,Project Management,West,lpatel@buildcorpgc.com,555-0106,Active
+SUP-007,Robert Kowalski,Safety Director,OSHA 500;CSP;CHST,25,PRJ-001,2001-08-03,Safety,Northeast,rkowalski@buildcorpgc.com,555-0107,Active
+SUP-008,Sandra Williams,Assistant Superintendent,OSHA 30,8,PRJ-004,2018-04-10,Field Operations,Southeast,swilliams@buildcorpgc.com,555-0108,Active
+SUP-009,Michael Brennan,Senior Superintendent,OSHA 30;PMP,19,PRJ-004,2007-11-28,Field Operations,Southeast,mbrennan@buildcorpgc.com,555-0109,Active
+SUP-010,Yuki Tanaka,Project Engineer,EIT;OSHA 10,5,PRJ-005,2021-03-15,Engineering,West,ytanaka@buildcorpgc.com,555-0110,Active
+SUP-011,Carlos Mendez,Superintendent,OSHA 30;First Aid/CPR,14,PRJ-005,2012-07-22,Field Operations,West,cmendez@buildcorpgc.com,555-0111,Active
+SUP-012,Patricia Hayes,QC Manager,ACI;AWS CWI,17,PRJ-006,2009-10-05,Quality Control,Midwest,phayes@buildcorpgc.com,555-0112,Active
+SUP-013,Ahmed Hassan,Superintendent,OSHA 30;PMP,11,PRJ-006,2015-01-20,Field Operations,Midwest,ahassan@buildcorpgc.com,555-0113,Active
+SUP-014,Jennifer Ross,Safety Manager,OSHA 500;CHST,13,PRJ-003,2013-06-15,Safety,West,jross@buildcorpgc.com,555-0114,Active
+SUP-015,Thomas Wright,Senior Project Manager,PMP;CCM;DBIA,24,PRJ-007,2002-04-08,Project Management,Northeast,twright@buildcorpgc.com,555-0115,Active
+SUP-016,Maria Gonzalez,Superintendent,OSHA 30;First Aid/CPR,10,PRJ-007,2016-08-12,Field Operations,Northeast,mgonzalez@buildcorpgc.com,555-0116,Active
+SUP-017,Brian Murphy,Assistant Superintendent,OSHA 10,6,PRJ-008,2020-02-01,Field Operations,Southeast,bmurphy@buildcorpgc.com,555-0117,Active
+SUP-018,Diana Kim,Project Manager,PMP;LEED AP,14,PRJ-008,2012-11-30,Project Management,Southeast,dkim@buildcorpgc.com,555-0118,Active
+SUP-019,Frank Russo,Senior Superintendent,OSHA 30;PMP;CCM,21,PRJ-009,2005-07-14,Field Operations,Midwest,frusso@buildcorpgc.com,555-0119,Active
+SUP-020,Nicole Adams,MEP Coordinator,OSHA 10;LEED AP,9,PRJ-009,2017-05-20,Engineering,Midwest,nadams@buildcorpgc.com,555-0120,Active
+SUP-021,George Phillips,Superintendent,OSHA 30;First Aid/CPR,16,PRJ-010,2010-09-25,Field Operations,West,gphillips@buildcorpgc.com,555-0121,Active
+SUP-022,Sarah Mitchell,Project Manager,PMP;CPC,13,PRJ-010,2013-03-18,Project Management,West,smitchell@buildcorpgc.com,555-0122,Active
+SUP-023,Kevin O'Brien,Superintendent,OSHA 30,8,PRJ-011,2018-12-01,Field Operations,Northeast,kobrien@buildcorpgc.com,555-0123,Active
+SUP-024,Angela Foster,Safety Coordinator,OSHA 30;CHST,7,PRJ-011,2019-06-10,Safety,Northeast,afoster@buildcorpgc.com,555-0124,Active
+SUP-025,Raymond Jackson,Senior Superintendent,OSHA 30;PMP,23,PRJ-012,2003-01-05,Field Operations,Midwest,rjackson@buildcorpgc.com,555-0125,Active

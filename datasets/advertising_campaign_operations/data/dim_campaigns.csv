@@ -1,0 +1,41 @@
+campaign_id,name,advertiser_id,market_id,start_date,end_date,budget,media_type,contract_value,status
+CMP-001,Spring Auto Showcase 2026,ADV-001,MKT-001,2026-03-01,2026-05-31,450000,billboard,425000,active
+CMP-002,Q1 National QSR Push,ADV-002,MKT-001,2026-01-15,2026-03-31,380000,digital,365000,active
+CMP-003,Metro Transit Wrap — TechCorp,ADV-003,MKT-002,2026-02-01,2026-07-31,620000,transit,590000,active
+CMP-004,Retail Grand Opening Blitz,ADV-004,MKT-002,2026-03-10,2026-04-10,185000,billboard,172000,active
+CMP-005,Healthcare Awareness Q2,ADV-005,MKT-003,2026-04-01,2026-06-30,290000,billboard,275000,active
+CMP-006,Financial Services Brand,ADV-006,MKT-003,2026-02-15,2026-08-15,510000,digital,485000,active
+CMP-007,Summer Movie Launch,ADV-007,MKT-004,2026-05-15,2026-07-15,340000,digital,320000,pending
+CMP-008,QSR Breakfast Campaign,ADV-002,MKT-004,2026-03-01,2026-05-31,275000,billboard,260000,active
+CMP-009,Real Estate Luxury Launch,ADV-008,MKT-005,2026-04-01,2026-09-30,420000,street_furniture,395000,pending
+CMP-010,Telecom 5G Awareness,ADV-009,MKT-005,2026-03-15,2026-06-15,365000,digital,348000,active
+CMP-011,Travel Summer Destinations,ADV-010,MKT-006,2026-05-01,2026-08-31,230000,billboard,215000,pending
+CMP-012,Retail Back-to-School,ADV-004,MKT-006,2026-07-01,2026-09-15,195000,transit,182000,pending
+CMP-013,Auto Dealer Network Spring,ADV-001,MKT-002,2026-03-15,2026-05-15,310000,billboard,295000,active
+CMP-014,CPG Snack Brand Awareness,ADV-011,MKT-001,2026-02-01,2026-04-30,260000,digital,248000,active
+CMP-015,Entertainment Streaming Launch,ADV-007,MKT-001,2026-04-15,2026-06-30,480000,digital,455000,pending
+CMP-016,Insurance Open Enrollment,ADV-012,MKT-003,2026-10-01,2026-12-15,335000,billboard,318000,pending
+CMP-017,Airline Summer Fares,ADV-013,MKT-004,2026-05-01,2026-07-31,290000,transit,275000,pending
+CMP-018,Beverage Festival Sponsorship,ADV-014,MKT-002,2026-06-01,2026-06-30,150000,street_furniture,140000,pending
+CMP-019,Pharma DTC Awareness,ADV-015,MKT-005,2026-03-01,2026-12-31,780000,billboard,745000,active
+CMP-020,University Enrollment,ADV-016,MKT-006,2026-08-01,2026-10-31,165000,transit,155000,pending
+CMP-021,Auto Luxury SUV Launch,ADV-001,MKT-003,2026-04-01,2026-06-30,520000,digital,495000,pending
+CMP-022,Fast Casual Rebrand,ADV-017,MKT-001,2026-03-01,2026-09-30,410000,billboard,388000,active
+CMP-023,Fitness Chain Expansion,ADV-018,MKT-004,2026-02-15,2026-05-15,195000,street_furniture,182000,active
+CMP-024,Home Improvement Spring,ADV-019,MKT-002,2026-03-01,2026-05-31,225000,billboard,212000,active
+CMP-025,Banking Mobile App Launch,ADV-006,MKT-005,2026-04-15,2026-07-15,305000,digital,290000,pending
+CMP-026,Ride Share Expansion,ADV-020,MKT-001,2026-05-01,2026-08-31,350000,transit,332000,pending
+CMP-027,Organic Food Brand,ADV-021,MKT-003,2026-03-15,2026-06-15,180000,street_furniture,168000,active
+CMP-028,Tech Conference Promo,ADV-003,MKT-002,2026-09-01,2026-09-30,120000,digital,112000,pending
+CMP-029,Holiday Retail Push,ADV-004,MKT-001,2026-11-01,2026-12-31,550000,billboard,520000,pending
+CMP-030,Sports Betting Launch,ADV-022,MKT-004,2026-03-01,2026-06-30,440000,digital,418000,active
+CMP-031,EV Charging Network,ADV-023,MKT-005,2026-04-01,2026-10-31,380000,billboard,360000,pending
+CMP-032,Streaming Music Summer,ADV-024,MKT-006,2026-06-01,2026-08-31,210000,digital,198000,pending
+CMP-033,Cannabis Dispensary Chain,ADV-025,MKT-004,2026-03-01,2026-05-31,155000,billboard,145000,active
+CMP-034,Pet Care Brand National,ADV-026,MKT-001,2026-02-15,2026-05-15,275000,transit,260000,active
+CMP-035,Solar Energy Awareness,ADV-027,MKT-003,2026-04-01,2026-09-30,320000,billboard,302000,pending
+CMP-036,Luxury Watch Brand,ADV-028,MKT-002,2026-05-01,2026-07-31,410000,street_furniture,390000,pending
+CMP-037,Food Delivery App,ADV-029,MKT-006,2026-03-15,2026-06-15,185000,digital,174000,active
+CMP-038,Airport Concessions,ADV-030,MKT-005,2026-04-01,2026-12-31,480000,transit,455000,pending
+CMP-039,National Auto Parts,ADV-001,MKT-004,2026-06-01,2026-08-31,295000,billboard,278000,pending
+CMP-040,Craft Beer Regional,ADV-014,MKT-006,2026-05-15,2026-07-15,135000,street_furniture,126000,pending

@@ -1,0 +1,21 @@
+task_type_id,name,category,billable_flag,avg_duration_min,requires_review
+TSK-001,Legal Research,research,true,120,false
+TSK-002,Brief Drafting,drafting,true,180,true
+TSK-003,Contract Drafting,drafting,true,150,true
+TSK-004,Document Review,review,true,60,false
+TSK-005,Deposition Preparation,litigation,true,90,true
+TSK-006,Client Communication,communication,true,30,false
+TSK-007,Court Filing,filing,true,45,true
+TSK-008,Discovery Review,review,true,60,false
+TSK-009,Negotiation,transaction,true,60,false
+TSK-010,Time Entry,admin,false,15,false
+TSK-011,Billing Review,admin,false,20,false
+TSK-012,Conflict Check,compliance,false,15,false
+TSK-013,Matter Administration,admin,false,20,false
+TSK-014,Internal Memo,drafting,true,90,true
+TSK-015,Privilege Review,review,true,45,true
+TSK-016,Redline/Markup,drafting,true,60,false
+TSK-017,Due Diligence,transaction,true,120,true
+TSK-018,Regulatory Filing,filing,true,60,true
+TSK-019,Pro Bono Work,pro_bono,false,60,false
+TSK-020,CLE/Training,admin,false,60,false

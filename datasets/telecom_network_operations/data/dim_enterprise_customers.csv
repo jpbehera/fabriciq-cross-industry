@@ -1,0 +1,26 @@
+customer_id,name,industry,contract_value,sla_tier,circuit_count,region,contract_start,contract_end,account_manager
+CUST-001,Meridian Financial Group,Finance,2400000,Platinum,48,Northeast,2024-01-01,2027-01-01,K. O'Brien
+CUST-002,Atlas Healthcare Systems,Healthcare,1800000,Platinum,36,Southeast,2023-06-15,2026-06-15,R. Taylor
+CUST-003,Pacific Retail Holdings,Retail,950000,Gold,24,West,2024-03-01,2027-03-01,A. Diallo
+CUST-004,Great Lakes Manufacturing,Manufacturing,1200000,Gold,30,Midwest,2023-09-01,2026-09-01,F. Al-Hassan
+CUST-005,Southeastern University,Education,680000,Silver,18,Southeast,2024-07-01,2027-07-01,M. Lopez
+CUST-006,NovaTech Solutions,Technology,3200000,Platinum,64,West,2023-01-01,2026-01-01,T. Garcia
+CUST-007,Mountain View Hospital,Healthcare,1100000,Gold,22,West,2024-04-15,2027-04-15,A. Yamamoto
+CUST-008,Liberty Insurance Corp,Finance,1600000,Platinum,32,Northeast,2023-11-01,2026-11-01,E. Volkov
+CUST-009,Heartland Logistics,Logistics,780000,Silver,16,Midwest,2024-02-01,2027-02-01,H. Foster
+CUST-010,Coastal Media Group,Media,520000,Silver,12,Southeast,2024-08-01,2027-08-01,A. Santos
+CUST-011,Summit Energy Partners,Energy,2100000,Platinum,42,Midwest,2023-04-01,2026-04-01,M. Chen
+CUST-012,Redwood Biotech,Biotech,880000,Gold,20,West,2024-05-15,2027-05-15,Y. Tanaka
+CUST-013,Patriot Defense Systems,Government,1500000,Platinum,28,Northeast,2023-08-01,2026-08-01,K. O'Brien
+CUST-014,Sunshine Hospitality Group,Hospitality,420000,Silver,10,Southeast,2024-10-01,2027-10-01,P. Sharma
+CUST-015,Metro Transit Authority,Government,960000,Gold,20,Northeast,2024-01-15,2027-01-15,J. Okonkwo
+CUST-016,Central Plains Agri-Corp,Agriculture,380000,Silver,8,Midwest,2024-06-01,2027-06-01,R. Patel
+CUST-017,Bay Area Startups Co-op,Technology,640000,Silver,14,West,2024-09-01,2027-09-01,A. Diallo
+CUST-018,Atlantic Shipping Lines,Logistics,1050000,Gold,22,Northeast,2023-12-01,2026-12-01,E. Volkov
+CUST-019,Southern Bell Academy,Education,320000,Silver,6,Southeast,2024-11-01,2027-11-01,M. Lopez
+CUST-020,Midwest Auto Group,Automotive,750000,Gold,16,Midwest,2024-03-15,2027-03-15,F. Al-Hassan
+CUST-021,Pinnacle Sports Network,Media,1350000,Platinum,26,West,2023-05-01,2026-05-01,T. Garcia
+CUST-022,Golden Gate Properties,Real Estate,480000,Silver,10,West,2024-07-15,2027-07-15,A. Yamamoto
+CUST-023,Commonwealth Pharma,Pharma,1450000,Platinum,28,Northeast,2023-10-01,2026-10-01,M. Chen
+CUST-024,Harbor View Medical Center,Healthcare,920000,Gold,18,Northeast,2024-04-01,2027-04-01,J. Okonkwo
+CUST-025,National Grid Services,Energy,1800000,Platinum,38,Midwest,2023-07-01,2026-07-01,K. O'Brien

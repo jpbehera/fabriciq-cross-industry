@@ -1,0 +1,101 @@
+clearance_id,rights_manager_id,show_id,holder_id,date,rights_type,territory,status,doc_time_min,cycle_days
+RC-001,PRD-010,SHW-001,RH-001,2026-02-10,Music Sync,Global,Cleared,120,18
+RC-002,PRD-010,SHW-001,RH-002,2026-02-12,Music Sync,Global,Cleared,95,22
+RC-003,PRD-011,SHW-001,RH-011,2026-02-14,Talent Likeness,North America,Cleared,140,28
+RC-004,PRD-012,SHW-001,RH-006,2026-02-15,Stock Footage,Global,Cleared,45,4
+RC-005,PRD-010,SHW-001,RH-003,2026-02-18,Music Sync,Global,Pending,110,32
+RC-006,PRD-012,SHW-005,RH-007,2026-02-20,Stock Footage,Global,Cleared,35,3
+RC-007,PRD-010,SHW-005,RH-001,2026-02-22,Music Sync,Global,Cleared,105,16
+RC-008,PRD-011,SHW-005,RH-012,2026-02-22,Writer Credit,North America,Cleared,80,24
+RC-009,PRD-010,SHW-005,RH-024,2026-02-24,Music Sync,Global,Cleared,25,1
+RC-010,PRD-012,SHW-005,RH-008,2026-02-25,Stock Footage,Global,Cleared,40,5
+RC-011,PRD-011,SHW-005,RH-013,2026-02-26,Director Credit,North America,Cleared,75,18
+RC-012,PRD-010,SHW-005,RH-002,2026-02-28,Music Sync,Global,Pending,115,22
+RC-013,PRD-012,SHW-009,RH-025,2026-02-20,Archive Footage,Global,Cleared,55,10
+RC-014,PRD-012,SHW-009,RH-016,2026-02-22,Archive Footage,UK/Europe,Cleared,60,14
+RC-015,PRD-011,SHW-009,RH-011,2026-02-25,Talent Likeness,Global,Pending,130,25
+RC-016,PRD-012,SHW-009,RH-009,2026-02-28,News Footage,Global,Cleared,50,6
+RC-017,PRD-010,SHW-009,RH-003,2026-03-01,Music Sync,Global,Cleared,100,20
+RC-018,PRD-012,SHW-009,RH-029,2026-03-02,Archive Footage,North America,Cleared,42,8
+RC-019,PRD-010,SHW-001,RH-004,2026-03-03,Music Performance,North America,Cleared,65,8
+RC-020,PRD-010,SHW-001,RH-005,2026-03-03,Music Performance,North America,Cleared,60,8
+RC-021,PRD-011,SHW-003,RH-011,2026-03-04,Talent Release,North America,Cleared,90,15
+RC-022,PRD-012,SHW-003,RH-006,2026-03-04,Stock Footage,Global,Cleared,30,2
+RC-023,PRD-011,SHW-004,RH-011,2026-03-05,Talent Likeness,North America,Pending,145,30
+RC-024,PRD-012,SHW-004,RH-010,2026-03-05,News Footage,Global,Cleared,48,6
+RC-025,PRD-010,SHW-002,RH-023,2026-03-06,Music Sync,Global,Cleared,20,1
+RC-026,PRD-010,SHW-002,RH-024,2026-03-06,Music Sync,Global,Cleared,22,1
+RC-027,PRD-011,SHW-005,RH-015,2026-03-07,Talent Estate,Global,Denied,160,42
+RC-028,PRD-012,SHW-005,RH-007,2026-03-08,Stock Footage,Global,Cleared,32,2
+RC-029,PRD-010,SHW-005,RH-001,2026-03-08,Music Sync,Europe/Asia,Pending,125,14
+RC-030,PRD-010,SHW-005,RH-021,2026-03-09,Music Sync,UK/Europe,Cleared,70,12
+RC-031,PRD-012,SHW-001,RH-006,2026-03-10,Stock Footage,Global,Cleared,38,3
+RC-032,PRD-011,SHW-001,RH-014,2026-03-10,Brand Placement,North America,Pending,135,35
+RC-033,PRD-010,SHW-009,RH-022,2026-03-11,Music Sync,Asia-Pacific,Cleared,85,15
+RC-034,PRD-012,SHW-009,RH-017,2026-03-11,Archive Footage,UK/Europe,Cleared,58,12
+RC-035,PRD-011,SHW-009,RH-019,2026-03-12,Format Rights,Global,Pending,150,28
+RC-036,PRD-010,SHW-003,RH-030,2026-03-12,Stock Music,Global,Cleared,10,0
+RC-037,PRD-012,SHW-003,RH-008,2026-03-13,Stock Footage,Global,Cleared,35,4
+RC-038,PRD-011,SHW-004,RH-012,2026-03-13,Writer Credit,North America,Cleared,82,20
+RC-039,PRD-010,SHW-008,RH-024,2026-03-14,Music Sync,Global,Cleared,18,1
+RC-040,PRD-012,SHW-008,RH-007,2026-03-14,Stock Footage,Global,Cleared,30,2
+RC-041,PRD-011,SHW-005,RH-011,2026-03-15,Talent Likeness,Global,Cleared,120,22
+RC-042,PRD-010,SHW-005,RH-002,2026-03-15,Music Sync,North America,Cleared,100,18
+RC-043,PRD-012,SHW-005,RH-026,2026-03-16,Archive Footage,Global,Cleared,52,10
+RC-044,PRD-010,SHW-001,RH-003,2026-03-16,Music Sync,Global,Cleared,108,20
+RC-045,PRD-011,SHW-001,RH-013,2026-03-17,Director Credit,North America,Cleared,70,16
+RC-046,PRD-012,SHW-009,RH-018,2026-03-17,Archive Footage,Asia-Pacific,Pending,65,15
+RC-047,PRD-010,SHW-009,RH-004,2026-03-18,Music Performance,North America,Cleared,58,7
+RC-048,PRD-011,SHW-003,RH-014,2026-03-18,Brand Placement,North America,Denied,140,34
+RC-049,PRD-012,SHW-004,RH-025,2026-03-19,Archive Footage,Global,Cleared,48,8
+RC-050,PRD-010,SHW-004,RH-001,2026-03-19,Music Sync,Global,Cleared,95,14
+RC-051,PRD-011,SHW-002,RH-011,2026-03-20,Talent Release,North America,Cleared,85,12
+RC-052,PRD-012,SHW-002,RH-006,2026-03-20,Stock Footage,Global,Cleared,28,2
+RC-053,PRD-010,SHW-005,RH-005,2026-03-20,Music Performance,North America,Cleared,62,7
+RC-054,PRD-012,SHW-005,RH-009,2026-03-21,News Footage,Global,Cleared,46,5
+RC-055,PRD-011,SHW-005,RH-020,2026-03-21,Format Rights,Global,Pending,155,30
+RC-056,PRD-010,SHW-001,RH-001,2026-03-22,Music Sync,Asia-Pacific,Pending,118,0
+RC-057,PRD-012,SHW-001,RH-007,2026-03-22,Stock Footage,Global,Cleared,34,3
+RC-058,PRD-011,SHW-009,RH-027,2026-03-22,Sports Footage,Global,Pending,142,0
+RC-059,PRD-010,SHW-008,RH-023,2026-03-22,Music Sync,Global,Cleared,15,1
+RC-060,PRD-012,SHW-003,RH-030,2026-03-22,Stock Music,Global,Cleared,8,0
+RC-061,PRD-011,SHW-004,RH-015,2026-03-10,Talent Estate,Global,Pending,165,12
+RC-062,PRD-010,SHW-014,RH-027,2026-03-08,Sports Footage,Global,Cleared,90,14
+RC-063,PRD-012,SHW-014,RH-028,2026-03-09,Olympic Footage,Global,Pending,120,13
+RC-064,PRD-011,SHW-010,RH-011,2026-03-04,Voice Talent,North America,Cleared,55,10
+RC-065,PRD-010,SHW-010,RH-024,2026-03-05,Music Sync,Global,Cleared,20,1
+RC-066,PRD-012,SHW-010,RH-006,2026-03-06,Stock Footage,Global,Cleared,32,3
+RC-067,PRD-011,SHW-015,RH-011,2026-03-15,Talent Likeness,Global,Pending,130,7
+RC-068,PRD-012,SHW-015,RH-025,2026-03-16,Archive Footage,Global,Cleared,50,6
+RC-069,PRD-010,SHW-015,RH-001,2026-03-17,Music Sync,Global,Pending,105,5
+RC-070,PRD-012,SHW-011,RH-007,2026-03-01,Stock Footage,Global,Cleared,38,4
+RC-071,PRD-011,SHW-011,RH-011,2026-03-03,Talent Release,North America,Cleared,92,19
+RC-072,PRD-010,SHW-011,RH-024,2026-03-04,Music Sync,Global,Cleared,22,1
+RC-073,PRD-012,SHW-012,RH-030,2026-03-10,Stock Music,Global,Cleared,8,0
+RC-074,PRD-010,SHW-012,RH-023,2026-03-11,Music Sync,Global,Cleared,14,1
+RC-075,PRD-012,SHW-013,RH-030,2026-02-28,Stock Music,Global,Cleared,10,0
+RC-076,PRD-010,SHW-013,RH-024,2026-03-01,Music Sync,Global,Cleared,16,1
+RC-077,PRD-012,SHW-006,RH-027,2026-03-05,Sports Footage,North America,Cleared,72,8
+RC-078,PRD-011,SHW-006,RH-011,2026-03-06,Talent Release,North America,Cleared,60,10
+RC-079,PRD-012,SHW-007,RH-010,2026-03-08,News Footage,Global,Cleared,42,5
+RC-080,PRD-010,SHW-007,RH-030,2026-03-09,Stock Music,Global,Cleared,8,0
+RC-081,PRD-012,SHW-001,RH-029,2026-03-12,Archive Footage,North America,Cleared,44,7
+RC-082,PRD-011,SHW-001,RH-012,2026-03-14,Writer Credit,North America,Cleared,78,18
+RC-083,PRD-010,SHW-005,RH-022,2026-03-16,Music Sync,Asia-Pacific,Cleared,88,14
+RC-084,PRD-012,SHW-005,RH-016,2026-03-17,Archive Footage,UK/Europe,Cleared,56,12
+RC-085,PRD-011,SHW-009,RH-013,2026-03-19,Director Credit,Global,Cleared,72,16
+RC-086,PRD-010,SHW-009,RH-005,2026-03-20,Music Performance,North America,Cleared,58,6
+RC-087,PRD-012,SHW-004,RH-017,2026-03-20,Archive Footage,UK/Europe,Cleared,62,14
+RC-088,PRD-011,SHW-004,RH-019,2026-03-21,Format Rights,Global,Pending,148,1
+RC-089,PRD-010,SHW-003,RH-004,2026-03-21,Music Performance,North America,Cleared,55,7
+RC-090,PRD-012,SHW-003,RH-009,2026-03-22,News Footage,Global,Cleared,44,5
+RC-091,PRD-011,SHW-002,RH-013,2026-03-15,Director Credit,North America,Cleared,68,14
+RC-092,PRD-010,SHW-002,RH-001,2026-03-16,Music Sync,Global,Cleared,98,16
+RC-093,PRD-012,SHW-002,RH-007,2026-03-18,Stock Footage,Global,Cleared,30,2
+RC-094,PRD-011,SHW-008,RH-011,2026-03-10,Talent Release,North America,Cleared,65,12
+RC-095,PRD-010,SHW-014,RH-004,2026-03-14,Music Performance,North America,Cleared,55,7
+RC-096,PRD-012,SHW-014,RH-010,2026-03-15,News Footage,Global,Cleared,40,5
+RC-097,PRD-011,SHW-015,RH-013,2026-03-18,Director Credit,Global,Pending,75,4
+RC-098,PRD-010,SHW-015,RH-024,2026-03-19,Music Sync,Global,Cleared,18,1
+RC-099,PRD-012,SHW-011,RH-006,2026-03-20,Stock Footage,Global,Cleared,36,3
+RC-100,PRD-011,SHW-011,RH-014,2026-03-22,Brand Placement,North America,Pending,138,0

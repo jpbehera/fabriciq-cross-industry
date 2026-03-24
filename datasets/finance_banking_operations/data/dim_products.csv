@@ -1,0 +1,16 @@
+product_id,name,category,risk_tier,regulatory_class
+PRD-001,30-Year Fixed Mortgage,Loan,High,RESPA/TRID
+PRD-002,15-Year Fixed Mortgage,Loan,High,RESPA/TRID
+PRD-003,Home Equity Line,Loan,Medium,RESPA/TRID
+PRD-004,Auto Loan,Loan,Medium,TILA
+PRD-005,Personal Loan,Loan,Low,TILA
+PRD-006,Equity Portfolio,Investment,High,SEC Rule 606
+PRD-007,Fixed Income Portfolio,Investment,Medium,SEC Rule 606
+PRD-008,Mutual Fund Account,Investment,Medium,SEC/ICA
+PRD-009,Managed Account,Investment,High,SEC/IAA
+PRD-010,Checking Account,Deposit,Low,Reg E
+PRD-011,Savings Account,Deposit,Low,Reg D
+PRD-012,Certificate of Deposit,Deposit,Low,Reg D
+PRD-013,Commercial Loan,Loan,High,OCC/CRA
+PRD-014,SBA Loan,Loan,High,SBA/OCC
+PRD-015,Annuity,Investment,High,State Insurance

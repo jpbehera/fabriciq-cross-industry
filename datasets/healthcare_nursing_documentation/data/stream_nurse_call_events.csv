@@ -1,0 +1,36 @@
+call_id,patient_id,nurse_id,unit_id,room_id,timestamp,call_type,priority,source_device,reason,response_time_seconds,resolution,interrupted_documentation,documentation_resume_delay_seconds,escalated,escalated_to
+CALL-001,PAT-001,NRS-001,UNIT-001,RM-401,2026-02-23T07:12:30,CallButton,Routine,Bedside Console,Pain Medication Request,85,Addressed,Yes,210,No,
+CALL-002,PAT-003,NRS-001,UNIT-001,RM-403,2026-02-23T07:31:15,CallButton,Routine,Bedside Console,Bathroom Assistance,120,Addressed,Yes,340,No,
+CALL-003,PAT-005,NRS-002,UNIT-001,RM-405,2026-02-23T07:22:00,BedAlarm,Urgent,Bed Sensor,Patient Attempting to Stand,45,Addressed,Yes,180,No,
+CALL-004,PAT-006,NRS-002,UNIT-001,RM-406,2026-02-23T07:45:30,CallButton,Routine,Bedside Console,Water Request,150,Addressed,No,0,No,
+CALL-005,PAT-002,NRS-001,UNIT-001,RM-402,2026-02-23T08:05:00,FallAlert,Emergency,Motion Sensor,Fall Detected,22,Code Called,Yes,600,Yes,NRS-003
+CALL-006,PAT-004,NRS-002,UNIT-001,RM-404,2026-02-23T08:15:45,CallButton,Routine,Bedside Console,Nausea,95,Addressed,Yes,250,No,
+CALL-007,PAT-001,NRS-001,UNIT-001,RM-401,2026-02-23T08:35:00,CallButton,Routine,Bedside Console,Position Change,110,Addressed,No,0,No,
+CALL-008,PAT-007,NRS-003,UNIT-001,RM-407,2026-02-23T08:50:20,BedAlarm,Urgent,Bed Sensor,Bed Rail Down,55,Addressed,Yes,195,No,
+CALL-009,PAT-003,NRS-001,UNIT-001,RM-403,2026-02-23T09:10:00,CallButton,Routine,Bedside Console,Ice Chips Request,180,Addressed,No,0,No,
+CALL-010,PAT-008,NRS-004,UNIT-001,RM-408,2026-02-23T09:25:30,CallButton,Routine,Bedside Console,Discharge Questions,200,Addressed,Yes,420,No,
+CALL-011,PAT-005,NRS-002,UNIT-001,RM-405,2026-02-23T09:45:00,BedAlarm,Urgent,Bed Sensor,Patient Attempting to Stand,38,Addressed,Yes,165,No,
+CALL-012,PAT-002,NRS-001,UNIT-001,RM-402,2026-02-23T10:00:15,CallButton,Routine,Bedside Console,Pain Medication Request,75,Addressed,Yes,280,No,
+CALL-013,PAT-010,NRS-009,UNIT-002,RM-ICU-01,2026-02-23T07:05:00,VentAlarm,Critical,Ventilator,High Pressure Alarm,12,Addressed,Yes,90,No,
+CALL-014,PAT-011,NRS-010,UNIT-002,RM-ICU-02,2026-02-23T07:20:30,MonitorAlarm,Urgent,Cardiac Monitor,Bradycardia Alert,18,Addressed,Yes,120,No,
+CALL-015,PAT-010,NRS-009,UNIT-002,RM-ICU-01,2026-02-23T07:45:00,VentAlarm,Critical,Ventilator,Disconnect Alarm,8,Addressed,Yes,60,Yes,NRS-011
+CALL-016,PAT-012,NRS-010,UNIT-002,RM-ICU-03,2026-02-23T08:00:15,MonitorAlarm,Urgent,Cardiac Monitor,ST Elevation,15,Addressed,Yes,150,Yes,NRS-012
+CALL-017,PAT-013,NRS-011,UNIT-002,RM-ICU-04,2026-02-23T08:30:00,InfusionAlarm,Routine,IV Pump,Infusion Complete,35,Addressed,Yes,80,No,
+CALL-018,PAT-010,NRS-009,UNIT-002,RM-ICU-01,2026-02-23T08:55:30,CallButton,Routine,Bedside Console,Suction Request,25,Addressed,No,0,No,
+CALL-019,PAT-014,NRS-012,UNIT-002,RM-ICU-05,2026-02-23T09:10:00,MonitorAlarm,Urgent,Cardiac Monitor,Tachycardia Alert,20,Addressed,Yes,130,No,
+CALL-020,PAT-011,NRS-010,UNIT-002,RM-ICU-02,2026-02-23T09:30:45,VentAlarm,Critical,Ventilator,Low Tidal Volume,10,Addressed,Yes,95,No,
+CALL-021,PAT-010,NRS-009,UNIT-002,RM-ICU-01,2026-02-23T09:55:00,InfusionAlarm,Routine,IV Pump,Occlusion Detected,30,Addressed,Yes,110,No,
+CALL-022,PAT-013,NRS-011,UNIT-002,RM-ICU-04,2026-02-23T10:15:30,MonitorAlarm,Urgent,Cardiac Monitor,Desaturation Alert,14,Addressed,Yes,85,Yes,NRS-009
+CALL-023,PAT-021,NRS-015,UNIT-003,RM-ED-A,2026-02-23T07:08:00,CallButton,Routine,Bedside Console,Pain Assessment,60,Addressed,Yes,180,No,
+CALL-024,PAT-022,NRS-015,UNIT-003,RM-ED-B,2026-02-23T07:25:30,CallButton,Urgent,Bedside Console,Chest Pain,28,Addressed,Yes,300,Yes,NRS-016
+CALL-025,PAT-023,NRS-016,UNIT-003,RM-ED-C,2026-02-23T07:40:00,TraumaAlert,Emergency,ED System,Incoming Trauma,0,Code Called,Yes,900,Yes,NRS-017
+CALL-026,PAT-021,NRS-015,UNIT-003,RM-ED-A,2026-02-23T08:00:45,CallButton,Routine,Bedside Console,Medication Question,90,Addressed,No,0,No,
+CALL-027,PAT-024,NRS-016,UNIT-003,RM-ED-D,2026-02-23T08:15:00,CallButton,Routine,Bedside Console,Blanket Request,145,Addressed,No,0,No,
+CALL-028,PAT-025,NRS-017,UNIT-003,RM-ED-E,2026-02-23T08:30:15,FallAlert,Emergency,Motion Sensor,Fall Detected,18,Code Called,Yes,720,Yes,NRS-018
+CALL-029,PAT-022,NRS-015,UNIT-003,RM-ED-B,2026-02-23T08:50:00,MonitorAlarm,Urgent,Cardiac Monitor,Irregular Rhythm,22,Addressed,Yes,240,No,
+CALL-030,PAT-026,NRS-018,UNIT-003,RM-ED-F,2026-02-23T09:05:30,CallButton,Routine,Bedside Console,Nausea,80,Addressed,Yes,190,No,
+CALL-031,PAT-021,NRS-015,UNIT-003,RM-ED-A,2026-02-23T09:20:00,CallButton,Routine,Bedside Console,Discharge Status,110,Addressed,No,0,No,
+CALL-032,PAT-027,NRS-017,UNIT-003,RM-ED-G,2026-02-23T09:35:45,TraumaAlert,Emergency,ED System,MVA Incoming,0,Code Called,Yes,840,Yes,NRS-019
+CALL-033,PAT-023,NRS-016,UNIT-003,RM-ED-C,2026-02-23T09:50:00,CallButton,Routine,Bedside Console,Pain Medication Request,70,Addressed,Yes,200,No,
+CALL-034,PAT-025,NRS-017,UNIT-003,RM-ED-E,2026-02-23T10:05:30,CallButton,Urgent,Bedside Console,Shortness of Breath,25,Addressed,Yes,350,Yes,NRS-015
+CALL-035,PAT-024,NRS-016,UNIT-003,RM-ED-D,2026-02-23T10:20:00,CallButton,Routine,Bedside Console,IV Discomfort,95,Addressed,Yes,160,No,

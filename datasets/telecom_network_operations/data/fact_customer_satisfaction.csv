@@ -1,0 +1,26 @@
+survey_id,customer_id,area_id,survey_date,nps_score,csat_score,resolution_satisfaction,communication_score,would_recommend,response_channel,comments
+CS-001,CUST-001,SA-001,2026-03-15,9,4.5,5,4,Yes,Email,Excellent response time on fiber cut repair. Team was professional and kept us informed.
+CS-002,CUST-002,SA-003,2026-03-15,7,3.8,4,3,Yes,Phone,Resolution was acceptable but took longer than expected for P1 issue.
+CS-003,CUST-003,SA-009,2026-03-15,4,2.5,2,3,No,Email,Multiple outages this quarter. Not meeting our SLA expectations.
+CS-004,CUST-004,SA-004,2026-03-15,8,4.2,4,5,Yes,Portal,Good communication throughout the power outage event. Proactive notifications.
+CS-005,CUST-005,SA-006,2026-03-15,6,3.5,3,3,No,Email,Capacity issues causing performance degradation during peak hours.
+CS-006,CUST-006,SA-001,2026-03-15,10,5.0,5,5,Yes,Email,Outstanding service. Zero downtime this quarter. Very happy with the team.
+CS-007,CUST-007,SA-005,2026-03-15,8,4.0,4,4,Yes,Phone,Good overall service. Fiber repair was handled well last month.
+CS-008,CUST-008,SA-003,2026-03-15,5,3.0,3,2,No,Portal,Documentation of changes affecting our circuits needs improvement. Not enough notice.
+CS-009,CUST-009,SA-010,2026-03-15,7,3.8,4,4,Yes,Email,Satisfied with core service. Would like faster RCA delivery after incidents.
+CS-010,CUST-010,SA-009,2026-03-15,3,2.0,2,2,No,Phone,Unacceptable. Multiple SLA breaches. We are evaluating alternatives.
+CS-011,CUST-011,SA-004,2026-03-15,9,4.5,5,5,Yes,Email,Excellent proactive monitoring. Issues resolved before we noticed them.
+CS-012,CUST-012,SA-006,2026-03-15,6,3.5,3,4,No,Portal,Service is ok but pricing doesn't match the SLA tier we're paying for.
+CS-013,CUST-013,SA-005,2026-03-15,8,4.2,4,4,Yes,Email,The capacity upgrade went smoothly. Good project management.
+CS-014,CUST-014,SA-001,2026-03-15,9,4.8,5,5,Yes,Phone,Top notch service. Your NOC team is responsive and knowledgeable.
+CS-015,CUST-015,SA-003,2026-03-15,7,3.5,3,4,Yes,Email,Generally satisfied but the Feb fiber cut took too long to restore.
+CS-016,CUST-016,SA-010,2026-03-15,8,4.0,4,4,Yes,Portal,Good service this quarter. The new 10G circuit installation was smooth.
+CS-017,CUST-017,SA-008,2026-03-15,5,3.0,2,3,No,Phone,Too many minor incidents. Each one requires us to file paperwork. Frustrating.
+CS-018,CUST-018,SA-009,2026-03-15,6,3.2,3,3,No,Email,The RCA reports are thorough but too slow. Week-long delay not acceptable.
+CS-019,CUST-019,SA-004,2026-03-15,9,4.5,5,4,Yes,Email,Great team. They went above and beyond during the March security incident.
+CS-020,CUST-020,SA-006,2026-03-15,7,3.8,4,3,Yes,Portal,Improvement from last quarter. Capacity augmentation helped our peak traffic.
+CS-021,CUST-021,SA-007,2026-03-15,4,2.8,2,2,No,Phone,The underground fiber breaks are too frequent. Need better route protection.
+CS-022,CUST-022,SA-005,2026-03-15,8,4.0,4,5,Yes,Email,Communication during incidents is excellent. Always kept in the loop.
+CS-023,CUST-023,SA-001,2026-03-15,10,4.8,5,5,Yes,Email,Best telecom provider we've worked with. Consistent performance.
+CS-024,CUST-024,SA-003,2026-03-15,6,3.5,3,3,No,Portal,Average service. Nothing outstanding. Would like more proactive maintenance.
+CS-025,CUST-025,SA-010,2026-03-15,7,3.8,4,4,Yes,Phone,Satisfied with the DWDM wavelength service. Stable and reliable.

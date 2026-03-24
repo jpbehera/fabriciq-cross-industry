@@ -1,0 +1,51 @@
+policyholder_id,name,policy_type,effective_date,risk_tier,segment,state
+PH-001,Anderson Properties LLC,Homeowner,2023-08-16,High Risk,Mid-Market,FL
+PH-002,Bright Future Industries,Commercial Property,2023-07-24,Standard,Mid-Market,GA
+PH-003,Castillo Family Trust,Renter,2023-12-29,Preferred,Personal,TX
+PH-004,Davis & Sons Contracting,Workers Comp,2025-07-24,Preferred,Mid-Market,GA
+PH-005,Eastshore Medical Group,Commercial Property,2024-02-17,Preferred,Large Commercial,OR
+PH-006,Fernandez Auto Body,Homeowner,2023-10-27,Substandard,Mid-Market,OH
+PH-007,Greenleaf Landscaping,Umbrella,2022-03-07,Substandard,Small Commercial,TX
+PH-008,Horizon Tech Solutions,Homeowner,2025-03-07,Substandard,Personal,MI
+PH-009,Iglesias Restaurant Group,Commercial Property,2025-08-09,Standard,Personal,OH
+PH-010,Johnson Transport Inc,Professional Liability,2025-02-23,Standard,Mid-Market,AZ
+PH-011,Keeler Manufacturing,Workers Comp,2024-03-28,Standard,Large Commercial,IL
+PH-012,Lakewood Retail Corp,Workers Comp,2024-10-07,Preferred,Personal,FL
+PH-013,Morrison & Associates,Homeowner,2025-07-09,Preferred,Small Commercial,MD
+PH-014,Northstar Logistics,Auto,2024-02-28,Standard,Large Commercial,MN
+PH-015,Oakdale Construction,Renter,2025-02-07,Substandard,Personal,FL
+PH-016,Patterson Real Estate,Professional Liability,2025-01-04,Substandard,Mid-Market,MA
+PH-017,Quality Parts Supply,Auto,2023-08-25,Standard,Small Commercial,NJ
+PH-018,Riverside Health Clinic,Workers Comp,2023-01-01,Standard,Personal,NC
+PH-019,Summit Financial Group,Umbrella,2025-08-01,Standard,Personal,WA
+PH-020,Turner Broadcasting,Umbrella,2022-11-27,Standard,Mid-Market,MN
+PH-021,United Container Corp,Auto,2025-05-11,Standard,Personal,WA
+PH-022,Vanguard Properties,Umbrella,2023-09-22,Preferred,Personal,TN
+PH-023,Westfield Motors,Auto,2022-06-25,Substandard,Mid-Market,OR
+PH-024,Xavier's Fine Dining,Umbrella,2022-09-15,Preferred,Small Commercial,OR
+PH-025,Yorktown Storage,Homeowner,2023-06-27,Standard,Small Commercial,PA
+PH-026,Zenith Electronics,Workers Comp,2023-02-16,Substandard,Personal,WA
+PH-027,Alpine Sports Club,Commercial Property,2024-11-25,Standard,Personal,TX
+PH-028,Bayshore Marina,Renter,2022-02-13,Standard,Personal,OH
+PH-029,Cedar Heights HOA,Auto,2022-05-26,Substandard,Personal,TX
+PH-030,Diamond Dry Cleaning,Auto,2023-11-08,Preferred,Personal,MI
+PH-031,Emerald City Bakery,Homeowner,2025-01-09,Preferred,Large Commercial,TN
+PH-032,Fairfield Academy,Workers Comp,2024-08-26,Preferred,Small Commercial,AZ
+PH-033,Global Freight Services,Homeowner,2022-07-13,Preferred,Small Commercial,AZ
+PH-034,Hilltop Veterinary,Commercial Property,2024-08-14,Substandard,Personal,FL
+PH-035,Ironside Security,Auto,2024-04-04,Substandard,Mid-Market,FL
+PH-036,Jupiter Solar Energy,Homeowner,2023-01-28,Preferred,Small Commercial,AZ
+PH-037,Kingston Plumbing,Homeowner,2023-07-25,Standard,Mid-Market,TX
+PH-038,Liberty Insurance Agency,Commercial Property,2025-02-01,Preferred,Small Commercial,OR
+PH-039,Maple Grove Farms,Umbrella,2022-01-31,High Risk,Large Commercial,OH
+PH-040,Newport Art Gallery,Homeowner,2024-04-12,Standard,Personal,CO
+PH-041,Oxford Publishing,Auto,2022-12-04,Standard,Large Commercial,NJ
+PH-042,Parkway Dental,Umbrella,2024-07-20,Preferred,Small Commercial,OR
+PH-043,Quantum Computing Inc,Professional Liability,2024-09-23,Preferred,Personal,CA
+PH-044,Redwood Capital,Workers Comp,2025-01-15,Preferred,Personal,CA
+PH-045,Silverline Aviation,Workers Comp,2024-09-03,Standard,Mid-Market,GA
+PH-046,Thornton Law Firm,Auto,2024-11-06,Preferred,Personal,MD
+PH-047,Unity Healthcare,Auto,2023-04-27,Standard,Large Commercial,TN
+PH-048,Vista Financial,Homeowner,2025-03-31,Standard,Small Commercial,AZ
+PH-049,Willow Creek Spa,Professional Liability,2025-04-10,Standard,Personal,NJ
+PH-050,Zenith Consulting,Homeowner,2023-10-06,Preferred,Personal,NC

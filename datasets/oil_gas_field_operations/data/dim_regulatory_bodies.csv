@@ -1,0 +1,7 @@
+reg_id,name,jurisdiction,inspection_frequency,key_requirements
+REG-001,BSEE,Federal - Offshore,annual,SEMS II;Well Control;Pollution Prevention
+REG-002,Texas RRC,Texas,biannual,H-10 Filing;Drilling Permits;Production Reports
+REG-003,EPA,Federal - Environmental,quarterly,Air Emissions;Water Discharge;Waste Management
+REG-004,OSHA,Federal - Safety,annual,Process Safety;Fall Protection;Confined Space
+REG-005,North Dakota DMR,North Dakota,annual,Drilling Permits;Flaring Limits;Spacing Units
+REG-006,Colorado COGCC,Colorado,semiannual,Setback Rules;Emissions Standards;Flowline Safety

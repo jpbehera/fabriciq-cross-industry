@@ -1,0 +1,21 @@
+survey_id,nurse_id,unit_id,survey_date,emotional_exhaustion_score,depersonalization_score,personal_accomplishment_score,burnout_risk_level,overtime_hours_last_2weeks,documentation_satisfaction,ehr_usability_rating,work_life_balance_rating,intent_to_leave_within_year,top_frustration,suggestions,sick_days_last_quarter
+BRN-001,NRS-001,UNIT-001,2026-02-25,22,8,38,Moderate,8.5,3,4,3,No,Documentation takes too much time away from patients,AI-assisted note generation would help,1
+BRN-002,NRS-002,UNIT-001,2026-02-25,32,14,28,High,14.2,2,2,2,Maybe,Cannot keep up with charting and patient care simultaneously,Need better EHR training and documentation templates,3
+BRN-003,NRS-003,UNIT-001,2026-02-25,12,4,42,Low,3.5,4,5,4,No,Repetitive data entry across different forms,Consolidate duplicate documentation requirements,0
+BRN-004,NRS-004,UNIT-001,2026-02-25,28,12,30,Moderate-High,12.0,2,2,2,Maybe,Admission and discharge documentation overwhelming,Streamlined admission workflow needed,2
+BRN-005,NRS-005,UNIT-001,2026-02-25,20,7,36,Moderate,7.0,3,4,3,No,Night shift charting feels more burdensome with fewer resources,Better nighttime staffing ratios,1
+BRN-006,NRS-006,UNIT-001,2026-02-25,35,16,24,High,16.5,1,1,1,Yes,EHR system is confusing and I spend more time charting than caring for patients,Comprehensive EHR training for new graduates and mentorship program,4
+BRN-007,NRS-007,UNIT-001,2026-02-25,18,6,40,Low-Moderate,5.0,3,4,4,No,Administrative burden on charge nurses,Dedicated charge nurse without patient assignment,0
+BRN-008,NRS-008,UNIT-001,2026-02-25,24,10,34,Moderate,8.0,3,3,3,No,After-shift charting cuts into personal time,Real-time documentation support during shift,2
+BRN-009,NRS-009,UNIT-002,2026-02-25,26,9,35,Moderate,10.5,3,3,3,No,Hourly documentation requirements in ICU are excessive,Smart defaults for stable patients,1
+BRN-010,NRS-010,UNIT-002,2026-02-25,14,5,44,Low,4.0,4,4,4,No,Even experienced nurses have redundant charting,System should auto-populate from devices,0
+BRN-011,NRS-011,UNIT-002,2026-02-25,20,8,38,Moderate,6.5,3,4,3,No,Split between charge duties and documentation,More clerical support for charge nurses,1
+BRN-012,NRS-012,UNIT-002,2026-02-25,25,11,32,Moderate,8.5,2,3,3,No,Post-code documentation takes hours,Standardized code documentation templates,2
+BRN-013,NRS-013,UNIT-002,2026-02-25,22,9,36,Moderate,7.0,3,3,3,No,Night shift ICU documentation is relentless,Automated vital sign capture from monitors,1
+BRN-014,NRS-014,UNIT-002,2026-02-25,30,13,26,High,13.0,1,2,2,Maybe,ICU documentation complexity is overwhelming for newer nurses,Structured ICU onboarding with documentation focus,3
+BRN-015,NRS-015,UNIT-003,2026-02-25,24,10,34,Moderate,9.0,3,3,3,No,ED pace makes thorough documentation nearly impossible,Voice-to-text documentation in ED,1
+BRN-016,NRS-016,UNIT-003,2026-02-25,16,6,42,Low-Moderate,5.5,4,4,4,No,Triage documentation could be more efficient,AI-powered triage documentation,0
+BRN-017,NRS-017,UNIT-003,2026-02-25,34,15,26,High,14.0,1,2,1,Yes,Drowning in documentation while patients wait,Scribe or AI assistant for real-time documentation,4
+BRN-018,NRS-018,UNIT-003,2026-02-25,18,7,38,Low-Moderate,5.0,3,4,4,No,Night ED documentation is manageable but still repetitive,Copy-forward with smart edits,0
+BRN-019,NRS-019,UNIT-003,2026-02-25,29,12,28,Moderate-High,11.0,2,2,2,Maybe,Multiple admissions mean hours of documentation backlog,Pre-populated admission templates from triage,3
+BRN-020,NRS-020,UNIT-003,2026-02-25,20,8,36,Moderate,6.0,3,3,3,No,Consistent back-charting after shift,Better real-time charting workflow,1

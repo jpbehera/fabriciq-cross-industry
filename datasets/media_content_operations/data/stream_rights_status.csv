@@ -1,0 +1,81 @@
+status_id,clearance_id,timestamp,rights_type,status,holder_response,territory
+RS-001,RC-001,2026-03-19T08:00:01.112Z,music_sync,Cleared,Approved via blanket license,North America
+RS-002,RC-003,2026-03-19T08:00:02.334Z,stock_footage,Pending,Under review,Worldwide
+RS-003,RC-005,2026-03-19T08:00:03.556Z,music_master,Cleared,License renewed,North America
+RS-004,RC-008,2026-03-19T08:00:04.778Z,talent_likeness,Pending,Agent reviewing terms,United States
+RS-005,RC-012,2026-03-19T08:00:05.890Z,archive_footage,Cleared,Usage approved,Worldwide
+RS-006,RC-015,2026-03-19T08:00:06.223Z,brand_placement,Pending,Brand team reviewing,North America
+RS-007,RC-018,2026-03-19T08:00:07.445Z,music_sync,Denied,Rights holder declined,Europe
+RS-008,RC-022,2026-03-19T08:00:08.667Z,format_rights,Cleared,Multi-year deal active,Worldwide
+RS-009,RC-025,2026-03-19T08:00:09.112Z,news_footage,Cleared,Fair use confirmed,United States
+RS-010,RC-030,2026-03-19T08:00:10.334Z,sports_broadcast,Pending,League office reviewing,North America
+RS-011,RC-002,2026-03-19T08:01:01.556Z,music_performance,Cleared,ASCAP license covers,North America
+RS-012,RC-004,2026-03-19T08:01:02.778Z,talent_likeness,Cleared,Contract signed,Worldwide
+RS-013,RC-007,2026-03-19T08:01:03.890Z,stock_footage,Cleared,Extended license purchased,Worldwide
+RS-014,RC-010,2026-03-19T08:01:04.223Z,music_sync,Pending,Publisher counter-offer,Europe
+RS-015,RC-014,2026-03-19T08:01:05.445Z,archive_footage,Pending,Estate reviewing request,United States
+RS-016,RC-019,2026-03-19T08:01:06.667Z,brand_placement,Cleared,Integration approved,Worldwide
+RS-017,RC-023,2026-03-19T08:01:07.112Z,format_rights,Pending,Territory negotiation,Asia Pacific
+RS-018,RC-028,2026-03-19T08:01:08.334Z,music_master,Denied,Exclusive hold by competitor,North America
+RS-019,RC-033,2026-03-19T08:02:01.556Z,talent_likeness,Cleared,Likeness release signed,United States
+RS-020,RC-035,2026-03-19T08:02:02.778Z,stock_footage,Pending,Resolution upgrade needed,Worldwide
+RS-021,RC-038,2026-03-19T08:02:03.890Z,music_sync,Cleared,Standard rate approved,North America
+RS-022,RC-040,2026-03-19T08:02:04.223Z,sports_broadcast,Cleared,Season rights secured,North America
+RS-023,RC-042,2026-03-19T08:02:05.445Z,archive_footage,Cleared,Restoration complete,Worldwide
+RS-024,RC-045,2026-03-19T08:02:06.667Z,news_footage,Pending,Source verification required,United States
+RS-025,RC-048,2026-03-19T08:02:07.112Z,brand_placement,Denied,Brand conflict detected,North America
+RS-026,RC-050,2026-03-19T08:03:01.334Z,music_performance,Pending,Live performance clearance needed,Europe
+RS-027,RC-052,2026-03-19T08:03:02.556Z,format_rights,Cleared,Adaptation rights confirmed,Latin America
+RS-028,RC-055,2026-03-19T08:03:03.778Z,talent_likeness,Pending,Union review required,United States
+RS-029,RC-058,2026-03-19T08:03:04.890Z,stock_footage,Cleared,Unlimited usage granted,Worldwide
+RS-030,RC-060,2026-03-19T08:03:05.223Z,music_sync,Cleared,Sync fee paid,North America
+RS-031,RC-062,2026-03-19T08:04:01.445Z,archive_footage,Pending,Digitization in progress,Worldwide
+RS-032,RC-065,2026-03-19T08:04:02.667Z,sports_broadcast,Pending,Rights window verification,Asia Pacific
+RS-033,RC-068,2026-03-19T08:04:03.112Z,brand_placement,Cleared,Client approved placement,North America
+RS-034,RC-070,2026-03-19T08:04:04.334Z,music_master,Cleared,Mechanical license secured,Worldwide
+RS-035,RC-072,2026-03-19T08:04:05.556Z,news_footage,Cleared,License extended,United States
+RS-036,RC-075,2026-03-19T08:05:01.778Z,talent_likeness,Cleared,Release on file,Worldwide
+RS-037,RC-078,2026-03-19T08:05:02.890Z,format_rights,Pending,Localization rights review,Europe
+RS-038,RC-080,2026-03-19T08:05:03.223Z,stock_footage,Denied,Copyright claim filed,Worldwide
+RS-039,RC-082,2026-03-19T08:05:04.445Z,music_sync,Pending,Custom arrangement needed,North America
+RS-040,RC-085,2026-03-19T08:06:01.667Z,archive_footage,Cleared,Full restoration approved,Worldwide
+RS-041,RC-088,2026-03-19T08:06:02.112Z,brand_placement,Cleared,Product integration filmed,North America
+RS-042,RC-090,2026-03-19T08:06:03.334Z,sports_broadcast,Cleared,Highlight rights confirmed,Latin America
+RS-043,RC-092,2026-03-19T08:07:01.556Z,music_performance,Cleared,BMI blanket covers,North America
+RS-044,RC-094,2026-03-19T08:07:02.778Z,talent_likeness,Pending,Minor release form needed,United States
+RS-045,RC-096,2026-03-19T08:07:03.890Z,news_footage,Cleared,Attribution added,Worldwide
+RS-046,RC-003,2026-03-19T08:08:01.223Z,stock_footage,Cleared,Review completed - approved,Worldwide
+RS-047,RC-010,2026-03-19T08:08:02.445Z,music_sync,Cleared,Publisher accepted terms,Europe
+RS-048,RC-015,2026-03-19T08:08:03.667Z,brand_placement,Cleared,Brand approved final cut,North America
+RS-049,RC-020,2026-03-19T08:09:01.112Z,stock_footage,Cleared,License upgraded,Worldwide
+RS-050,RC-024,2026-03-19T08:09:02.334Z,news_footage,Cleared,Source verified,United States
+RS-051,RC-028,2026-03-19T08:09:03.556Z,talent_likeness,Cleared,Release signed,United States
+RS-052,RC-032,2026-03-19T08:10:01.778Z,music_master,Pending,Re-negotiation in progress,Asia Pacific
+RS-053,RC-037,2026-03-19T08:10:02.890Z,format_rights,Cleared,Territory confirmed,Europe
+RS-054,RC-044,2026-03-19T08:10:03.223Z,archive_footage,Pending,Condition assessment needed,Worldwide
+RS-055,RC-010,2026-03-19T08:11:01.445Z,music_sync,Cleared,Contract executed,Europe
+RS-056,RC-017,2026-03-19T08:11:02.667Z,format_rights,Pending,Local partner input needed,Asia Pacific
+RS-057,RC-026,2026-03-19T08:11:03.112Z,music_performance,Cleared,Cleared for broadcast,North America
+RS-058,RC-030,2026-03-19T08:12:01.334Z,sports_broadcast,Cleared,League approved highlight package,North America
+RS-059,RC-039,2026-03-19T08:12:02.556Z,music_sync,Cleared,Arrangement approved,North America
+RS-060,RC-044,2026-03-19T08:12:03.778Z,archive_footage,Cleared,Condition acceptable,Worldwide
+RS-061,RC-004,2026-03-19T08:13:01.890Z,talent_likeness,Cleared,Multi-season rights extended,Worldwide
+RS-062,RC-008,2026-03-19T08:13:02.223Z,talent_likeness,Cleared,Agent approved terms,United States
+RS-063,RC-014,2026-03-19T08:13:03.445Z,archive_footage,Cleared,Estate approved usage,United States
+RS-064,RC-018,2026-03-19T08:14:01.667Z,music_sync,Pending,Alternative track evaluation,Europe
+RS-065,RC-032,2026-03-19T08:14:02.112Z,music_master,Cleared,Terms accepted,Asia Pacific
+RS-066,RC-037,2026-03-19T08:14:03.334Z,format_rights,Cleared,Adaptation rights secured,Europe
+RS-067,RC-056,2026-03-19T08:15:01.556Z,format_rights,Cleared,Global distribution approved,Worldwide
+RS-068,RC-044,2026-03-19T08:15:02.778Z,archive_footage,Cleared,Restoration quality verified,Worldwide
+RS-069,RC-052,2026-03-19T08:15:03.890Z,music_master,Cleared,Final payment processed,North America
+RS-070,RC-056,2026-03-19T08:16:01.223Z,brand_placement,Cleared,Integration verified,North America
+RS-071,RC-064,2026-03-19T08:16:02.445Z,stock_footage,Cleared,Extended use confirmed,Worldwide
+RS-072,RC-018,2026-03-19T08:16:03.667Z,music_sync,Cleared,Alternative track approved,Europe
+RS-073,RC-028,2026-03-19T08:17:01.112Z,talent_likeness,Cleared,All releases collected,Worldwide
+RS-074,RC-098,2026-03-19T08:17:02.334Z,music_sync,Cleared,Pre-cleared library track,Worldwide
+RS-075,RC-099,2026-03-19T08:17:03.556Z,sports_broadcast,Pending,Season 2 negotiation,North America
+RS-076,RC-100,2026-03-19T08:18:01.778Z,archive_footage,Cleared,Digital rights confirmed,Worldwide
+RS-077,RC-017,2026-03-19T08:18:02.890Z,format_rights,Cleared,Local partner confirmed,Asia Pacific
+RS-078,RC-064,2026-03-19T08:18:03.223Z,stock_footage,Cleared,Perpetual license,Worldwide
+RS-079,RC-075,2026-03-19T08:19:01.445Z,news_footage,Pending,Updated source needed,United States
+RS-080,RC-088,2026-03-19T08:19:02.667Z,brand_placement,Cleared,Final approval received,North America

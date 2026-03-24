@@ -1,0 +1,13 @@
+site_id,project_id,address,region,active_trades,total_area_sqft,floors,site_status,lat,lon
+SITE-001,PRJ-001,100 Harbor Blvd,Northeast,18,450000,32,Active,42.3601,-71.0489
+SITE-002,PRJ-002,500 River Parkway,Southeast,22,680000,8,Active,33.7490,-84.3880
+SITE-003,PRJ-003,200 Innovation Way,West,15,320000,6,Active,37.7749,-122.4194
+SITE-004,PRJ-004,75 Magnolia Ave,Southeast,14,285000,12,Active,35.2271,-80.8431
+SITE-005,PRJ-005,1 Transit Center Dr,West,20,150000,2,Active,45.5152,-122.6784
+SITE-006,PRJ-006,8000 Logistics Pkwy,Midwest,10,520000,1,Active,39.7684,-86.1581
+SITE-007,PRJ-007,350 Beacon Hill Rd,Northeast,12,95000,3,Active,42.3588,-71.0707
+SITE-008,PRJ-008,1200 Oceanfront Blvd,Southeast,16,340000,5,Active,32.0809,-81.0912
+SITE-009,PRJ-009,4500 Prairie Industrial,Midwest,18,280000,2,Active,41.8781,-87.6298
+SITE-010,PRJ-010,Rural Route 15,West,6,2000000,0,Active,36.7378,-119.7871
+SITE-011,PRJ-011,42 Heritage Lane,Northeast,8,65000,4,Active,41.8240,-71.4128
+SITE-012,PRJ-012,900 Lakeview Drive,Midwest,13,210000,4,Active,43.0389,-87.9065

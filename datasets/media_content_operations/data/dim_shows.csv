@@ -1,0 +1,16 @@
+show_id,name,genre,network,platform,season,episode_count,production_budget,show_type,status,premiere_date,content_rating
+SHW-001,Crimson Tides,Drama,GlobalTV,GlobalStream+,3,10,4200000,Scripted,In Production,2024-09-15,TV-MA
+SHW-002,Last Laugh Standing,Comedy,GlobalTV,GlobalStream+,2,12,1800000,Scripted,In Production,2025-01-10,TV-14
+SHW-003,Wilderness Challenge,Reality,AdventureNet,GlobalStream+,5,14,950000,Unscripted,In Production,2023-06-01,TV-PG
+SHW-004,Cold Case Chronicles,True Crime,InvestiNet,GlobalStream+,1,8,1200000,Unscripted,Post-Production,2026-03-01,TV-14
+SHW-005,Future Forward,Sci-Fi,GlobalTV,GlobalStream+,1,6,6500000,Scripted,In Production,2026-06-15,TV-14
+SHW-006,Sunday Night Football,Sports,SportsMax,SportsMax App,2026,22,850000,Live,Active,2025-09-07,TV-G
+SHW-007,Morning Pulse,News,NewsFirst,GlobalStream+,2026,260,320000,Live,Active,2024-01-02,TV-G
+SHW-008,Cooking Clash,Lifestyle,FoodNet,GlobalStream+,3,10,600000,Unscripted,In Production,2024-03-20,TV-G
+SHW-009,Beyond the Frame,Documentary,DocuWorld,GlobalStream+,1,6,1500000,Unscripted,Post-Production,2026-04-10,TV-PG
+SHW-010,Pixel Hearts,Animation,KidsFirst,GlobalStream+,2,26,2800000,Scripted,In Production,2025-02-14,TV-Y7
+SHW-011,The Startup,Drama,GlobalTV,GlobalStream+,1,8,3200000,Scripted,Pilot Development,2026-09-01,TV-14
+SHW-012,Viral Moments,Short-form,Digital Only,GlobalStream+,2026,150,180000,Digital,Active,2025-06-01,TV-PG
+SHW-013,True Stories Pod,Podcast,Digital Only,GlobalStream+,3,52,85000,Podcast,Active,2024-10-01,Explicit
+SHW-014,World Cup Qualifiers,Sports,SportsMax,SportsMax App,2026,30,1200000,Live,Active,2025-11-01,TV-G
+SHW-015,Eco Warriors,Documentary,DocuWorld,GlobalStream+,1,4,900000,Unscripted,Pre-Production,2026-08-01,TV-PG

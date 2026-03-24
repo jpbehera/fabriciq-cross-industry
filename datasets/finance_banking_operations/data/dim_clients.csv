@@ -1,0 +1,41 @@
+client_id,name,account_type,risk_profile,onboarding_date,segment,relationship_manager
+CLI-001,Apex Financial Group,Individual,Income,2020-12-28,HNW,ADV-011
+CLI-002,TechVenture Holdings,Individual,Aggressive,2022-11-16,Mass Market,ADV-001
+CLI-003,Metro Health Partners,401k,Aggressive,2023-08-13,HNW,ADV-017
+CLI-004,Coastal Properties LLC,Individual,Aggressive,2025-03-02,Affluent,ADV-007
+CLI-005,Greenfield Energy,Joint,Aggressive,2019-10-24,Affluent,ADV-025
+CLI-006,Summit Capital,Corporate,Conservative,2024-09-19,Mass Market,ADV-001
+CLI-007,Lakewood Trust,Individual,Aggressive,2021-06-13,Mass Market,ADV-008
+CLI-008,Pacific Rim Ventures,Corporate,Conservative,2018-12-17,HNW,ADV-003
+CLI-009,Heritage Investments,Corporate,Moderate,2019-06-10,Affluent,ADV-018
+CLI-010,Cornerstone Wealth,Joint,Aggressive,2023-12-02,HNW,ADV-014
+CLI-011,Bridgewater Associates,Joint,Income,2020-04-03,HNW,ADV-013
+CLI-012,Pinnacle Partners,401k,Aggressive,2022-11-30,HNW,ADV-015
+CLI-013,Silverstone Capital,Individual,Moderate,2020-07-09,Mass Market,ADV-001
+CLI-014,Horizon Enterprises,Corporate,Income,2020-07-31,Affluent,ADV-001
+CLI-015,Meridian Group,Individual,Conservative,2020-07-26,Mass Market,ADV-002
+CLI-016,Atlas Holdings,IRA,Conservative,2023-10-07,Mass Market,ADV-022
+CLI-017,Vanguard Properties,Trust,Moderate,2024-01-18,Mass Market,ADV-019
+CLI-018,Sterling & Associates,Corporate,Growth,2020-09-22,HNW,ADV-014
+CLI-019,Northwind Capital,Joint,Conservative,2019-02-02,Affluent,ADV-012
+CLI-020,Ironwood Investments,Trust,Growth,2023-03-28,HNW,ADV-002
+CLI-021,Clearwater Trust,401k,Conservative,2018-09-06,Affluent,ADV-011
+CLI-022,Terra Nova Holdings,Individual,Moderate,2020-02-24,Mass Market,ADV-015
+CLI-023,Goldcrest Wealth,Joint,Growth,2020-01-22,Mass Market,ADV-008
+CLI-024,Redwood Partners,Individual,Growth,2024-03-04,Mass Market,ADV-021
+CLI-025,Sapphire Capital,Corporate,Conservative,2019-01-18,UHNW,ADV-008
+CLI-026,Victoria Lane Trust,Joint,Growth,2023-06-13,Affluent,ADV-013
+CLI-027,Elmhurst Financial,Individual,Moderate,2022-04-02,Mass Market,ADV-013
+CLI-028,Thornton Group,IRA,Growth,2021-03-14,Affluent,ADV-024
+CLI-029,Cascade Investments,Corporate,Growth,2019-09-27,Mass Market,ADV-007
+CLI-030,Ashford Wealth,Individual,Income,2024-01-30,Mass Market,ADV-011
+CLI-031,Preston & Co,Individual,Conservative,2024-07-20,Affluent,ADV-017
+CLI-032,Blackstone Lane,Joint,Conservative,2023-09-12,Mass Market,ADV-006
+CLI-033,Windermere Capital,Individual,Income,2018-10-06,Affluent,ADV-008
+CLI-034,Canterbury Trust,Trust,Conservative,2024-05-22,Mass Market,ADV-020
+CLI-035,Maxwell Holdings,Individual,Income,2018-12-02,Affluent,ADV-019
+CLI-036,Fairview Partners,Corporate,Income,2021-07-19,UHNW,ADV-007
+CLI-037,Harbor Point Wealth,401k,Aggressive,2020-09-04,Mass Market,ADV-005
+CLI-038,Oakridge Financial,401k,Aggressive,2023-02-16,Mass Market,ADV-025
+CLI-039,Cambridge Associates,Individual,Conservative,2023-02-21,Affluent,ADV-019
+CLI-040,Rosewood Investments,Individual,Conservative,2024-01-12,Mass Market,ADV-009

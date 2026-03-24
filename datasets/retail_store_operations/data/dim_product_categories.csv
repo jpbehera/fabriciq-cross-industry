@@ -1,0 +1,16 @@
+category_id,name,department,planogram_reset_frequency,shrinkage_risk_tier
+CAT-001,Fresh Produce,Grocery,quarterly,high
+CAT-002,Dairy & Frozen,Grocery,quarterly,high
+CAT-003,Meat & Seafood,Grocery,quarterly,high
+CAT-004,Bakery,Grocery,monthly,medium
+CAT-005,Apparel - Men,Apparel,seasonal,medium
+CAT-006,Apparel - Women,Apparel,seasonal,medium
+CAT-007,Consumer Electronics,Electronics,quarterly,high
+CAT-008,Home Appliances,Home,semi-annual,low
+CAT-009,Health & Wellness,Health & Beauty,quarterly,medium
+CAT-010,Cosmetics,Health & Beauty,monthly,medium
+CAT-011,Sporting Goods,Sporting Goods,seasonal,medium
+CAT-012,Garden & Outdoor,Garden,seasonal,low
+CAT-013,Automotive Parts,Automotive,semi-annual,low
+CAT-014,Toys & Games,Home,seasonal,high
+CAT-015,Cleaning Supplies,Home,quarterly,low

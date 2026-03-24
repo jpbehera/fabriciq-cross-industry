@@ -1,0 +1,6 @@
+branch_id,name,region,state,branch_type,headcount,compliance_rating
+BRN-001,Manhattan Flagship,Northeast,NY,Flagship,45,A
+BRN-002,Atlanta Financial Center,Southeast,GA,Regional,30,B
+BRN-003,Chicago Loop,Midwest,IL,Regional,35,A
+BRN-004,San Francisco Market,West,CA,Regional,28,A
+BRN-005,Dallas Wealth Center,Southwest,TX,Boutique,20,B

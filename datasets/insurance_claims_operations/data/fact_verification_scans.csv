@@ -1,0 +1,71 @@
+scan_id,adjuster_id,claim_id,timestamp,scan_type,document_source,result,discrepancy_flag
+VS-0001,ADJ-007,CLM-00012,2025-12-02T08:07:00Z,lien_search,Medical Provider,verified,False
+VS-0002,ADJ-002,CLM-00027,2025-12-01T17:19:00Z,lien_search,Body Shop,inconclusive,False
+VS-0003,ADJ-026,CLM-00025,2025-11-30T17:08:00Z,document_authenticity,Legal Firm,discrepancy_found,True
+VS-0004,ADJ-025,CLM-00029,2025-12-25T15:09:00Z,prior_claim_check,Medical Provider,verified,False
+VS-0005,ADJ-020,CLM-00043,2025-12-19T14:24:00Z,document_authenticity,Body Shop,verified,False
+VS-0006,ADJ-002,CLM-00043,2025-11-26T12:41:00Z,coverage_verification,Third Party,verified,False
+VS-0007,ADJ-001,CLM-00037,2025-12-20T12:35:00Z,prior_claim_check,Policyholder,discrepancy_found,True
+VS-0008,ADJ-003,CLM-00013,2025-12-19T16:36:00Z,coverage_verification,Legal Firm,verified,False
+VS-0009,ADJ-025,CLM-00031,2025-12-04T08:07:00Z,prior_claim_check,Legal Firm,verified,False
+VS-0010,ADJ-001,CLM-00018,2025-10-27T11:53:00Z,prior_claim_check,Third Party,pending,False
+VS-0011,ADJ-015,CLM-00006,2025-12-08T17:20:00Z,loss_run_check,Legal Firm,verified,False
+VS-0012,ADJ-028,CLM-00060,2025-10-03T13:27:00Z,document_authenticity,Body Shop,verified,False
+VS-0013,ADJ-017,CLM-00021,2025-11-18T12:05:00Z,coverage_verification,Policyholder,verified,False
+VS-0014,ADJ-010,CLM-00010,2025-10-24T12:49:00Z,coverage_verification,Agent,verified,False
+VS-0015,ADJ-014,CLM-00044,2025-10-22T08:39:00Z,identity_check,Agent,verified,False
+VS-0016,ADJ-002,CLM-00020,2025-11-19T09:20:00Z,document_authenticity,Body Shop,pending,False
+VS-0017,ADJ-009,CLM-00025,2025-10-16T08:12:00Z,document_authenticity,Third Party,discrepancy_found,True
+VS-0018,ADJ-008,CLM-00032,2025-12-05T16:24:00Z,coverage_verification,Medical Provider,verified,False
+VS-0019,ADJ-015,CLM-00036,2025-11-22T09:30:00Z,coverage_verification,Body Shop,discrepancy_found,True
+VS-0020,ADJ-030,CLM-00057,2025-10-03T12:35:00Z,lien_search,Government Agency,verified,False
+VS-0021,ADJ-025,CLM-00036,2025-12-23T10:19:00Z,lien_search,Body Shop,verified,False
+VS-0022,ADJ-028,CLM-00041,2025-12-04T11:50:00Z,document_authenticity,Medical Provider,verified,False
+VS-0023,ADJ-006,CLM-00051,2025-11-01T16:27:00Z,lien_search,Body Shop,verified,False
+VS-0024,ADJ-027,CLM-00030,2025-12-19T12:41:00Z,document_authenticity,Policyholder,verified,False
+VS-0025,ADJ-030,CLM-00031,2025-11-04T17:16:00Z,prior_claim_check,Body Shop,inconclusive,False
+VS-0026,ADJ-027,CLM-00041,2025-10-28T17:53:00Z,lien_search,Medical Provider,verified,False
+VS-0027,ADJ-024,CLM-00035,2025-12-12T09:19:00Z,coverage_verification,Body Shop,discrepancy_found,True
+VS-0028,ADJ-027,CLM-00009,2025-12-11T12:56:00Z,loss_run_check,Agent,discrepancy_found,True
+VS-0029,ADJ-026,CLM-00021,2025-12-27T13:40:00Z,identity_check,Third Party,discrepancy_found,True
+VS-0030,ADJ-009,CLM-00016,2025-12-24T13:21:00Z,document_authenticity,Body Shop,inconclusive,False
+VS-0031,ADJ-011,CLM-00002,2025-12-28T10:41:00Z,coverage_verification,Legal Firm,verified,False
+VS-0032,ADJ-029,CLM-00001,2025-12-26T10:26:00Z,lien_search,Government Agency,discrepancy_found,True
+VS-0033,ADJ-025,CLM-00026,2025-12-08T09:50:00Z,prior_claim_check,Government Agency,verified,False
+VS-0034,ADJ-001,CLM-00058,2025-12-25T15:43:00Z,coverage_verification,Medical Provider,inconclusive,False
+VS-0035,ADJ-013,CLM-00053,2025-12-16T13:24:00Z,document_authenticity,Third Party,pending,False
+VS-0036,ADJ-023,CLM-00001,2025-10-16T15:23:00Z,document_authenticity,Body Shop,verified,False
+VS-0037,ADJ-024,CLM-00002,2025-11-05T13:12:00Z,coverage_verification,Third Party,discrepancy_found,True
+VS-0038,ADJ-010,CLM-00052,2025-12-31T11:14:00Z,loss_run_check,Medical Provider,verified,False
+VS-0039,ADJ-016,CLM-00058,2025-12-30T17:13:00Z,coverage_verification,Agent,inconclusive,False
+VS-0040,ADJ-021,CLM-00026,2025-10-15T12:36:00Z,lien_search,Body Shop,verified,False
+VS-0041,ADJ-007,CLM-00043,2025-12-12T17:36:00Z,document_authenticity,Policyholder,discrepancy_found,True
+VS-0042,ADJ-024,CLM-00005,2025-10-17T12:59:00Z,lien_search,Third Party,verified,False
+VS-0043,ADJ-017,CLM-00047,2025-11-05T11:54:00Z,prior_claim_check,Policyholder,inconclusive,False
+VS-0044,ADJ-023,CLM-00044,2025-12-08T17:16:00Z,prior_claim_check,Legal Firm,pending,False
+VS-0045,ADJ-001,CLM-00028,2025-12-22T08:54:00Z,identity_check,Body Shop,pending,False
+VS-0046,ADJ-014,CLM-00018,2025-10-16T16:29:00Z,loss_run_check,Medical Provider,verified,False
+VS-0047,ADJ-002,CLM-00057,2025-10-29T08:17:00Z,loss_run_check,Legal Firm,verified,False
+VS-0048,ADJ-001,CLM-00026,2025-10-25T13:05:00Z,lien_search,Third Party,verified,False
+VS-0049,ADJ-024,CLM-00015,2025-12-28T14:04:00Z,document_authenticity,Agent,verified,False
+VS-0050,ADJ-010,CLM-00005,2025-12-20T09:01:00Z,loss_run_check,Body Shop,pending,False
+VS-0051,ADJ-019,CLM-00052,2025-12-20T13:53:00Z,identity_check,Agent,verified,False
+VS-0052,ADJ-008,CLM-00022,2025-10-07T13:33:00Z,document_authenticity,Policyholder,pending,False
+VS-0053,ADJ-020,CLM-00029,2025-10-13T15:37:00Z,coverage_verification,Policyholder,inconclusive,False
+VS-0054,ADJ-030,CLM-00003,2025-11-18T13:56:00Z,prior_claim_check,Policyholder,pending,False
+VS-0055,ADJ-002,CLM-00059,2025-11-26T08:19:00Z,lien_search,Government Agency,verified,False
+VS-0056,ADJ-004,CLM-00044,2025-10-08T16:03:00Z,identity_check,Third Party,verified,False
+VS-0057,ADJ-004,CLM-00040,2025-11-22T11:55:00Z,lien_search,Third Party,discrepancy_found,True
+VS-0058,ADJ-001,CLM-00030,2025-11-19T15:50:00Z,loss_run_check,Legal Firm,discrepancy_found,True
+VS-0059,ADJ-011,CLM-00042,2025-12-26T08:29:00Z,lien_search,Medical Provider,discrepancy_found,True
+VS-0060,ADJ-004,CLM-00007,2025-10-02T17:45:00Z,coverage_verification,Legal Firm,pending,False
+VS-0061,ADJ-007,CLM-00058,2025-12-13T10:40:00Z,lien_search,Medical Provider,verified,False
+VS-0062,ADJ-016,CLM-00047,2025-12-19T15:11:00Z,document_authenticity,Agent,pending,False
+VS-0063,ADJ-002,CLM-00009,2025-11-09T17:27:00Z,lien_search,Government Agency,pending,False
+VS-0064,ADJ-010,CLM-00038,2025-12-09T10:09:00Z,loss_run_check,Medical Provider,discrepancy_found,True
+VS-0065,ADJ-010,CLM-00024,2025-10-02T16:37:00Z,prior_claim_check,Government Agency,verified,False
+VS-0066,ADJ-008,CLM-00033,2025-12-11T08:27:00Z,identity_check,Agent,inconclusive,False
+VS-0067,ADJ-021,CLM-00059,2025-10-26T09:21:00Z,document_authenticity,Government Agency,verified,False
+VS-0068,ADJ-023,CLM-00030,2025-12-16T13:54:00Z,lien_search,Legal Firm,inconclusive,False
+VS-0069,ADJ-020,CLM-00020,2025-11-23T13:10:00Z,coverage_verification,Body Shop,pending,False
+VS-0070,ADJ-030,CLM-00003,2025-12-03T11:58:00Z,coverage_verification,Government Agency,verified,False

@@ -1,0 +1,23 @@
+form_type_id,name,category,regulatory_requirement,avg_completion_time_min,applies_to_claim_types
+FRM-001,First Notice of Loss (FNOL),Intake,State DOI,20,"auto,property,workers_comp"
+FRM-002,Police Report Request,Investigation,,10,"auto,property"
+FRM-003,Damage Estimate — Auto,Estimation,State DOI,30,auto
+FRM-004,Damage Estimate — Property,Estimation,State DOI,45,property
+FRM-005,Medical Records Request,Investigation,HIPAA,15,"auto,workers_comp"
+FRM-006,Reserve Estimate Worksheet,Financial,Internal,25,all
+FRM-007,Settlement Letter,Resolution,State DOI,20,"auto,property"
+FRM-008,Denial Letter,Resolution,State DOI,30,all
+FRM-009,Subrogation Demand,Recovery,,35,"auto,property"
+FRM-010,Rental Car Authorization,Expense,,10,auto
+FRM-011,Injury Claim Supplement,Investigation,State DOI,25,"auto,workers_comp"
+FRM-012,Witness Statement Form,Investigation,,15,"auto,property,liability"
+FRM-013,SIU Referral Form,Fraud,NICB,40,all
+FRM-014,Salvage/Total Loss Report,Resolution,State DOI,30,auto
+FRM-015,Underwriting Risk Assessment,Underwriting,Internal,45,all
+FRM-016,Loss Run Report,Underwriting,,20,commercial
+FRM-017,Coverage Verification Form,Intake,Internal,15,all
+FRM-018,Customer Communication Log,Service,,5,all
+FRM-019,Field Inspection Report,Investigation,Internal,35,"property,commercial"
+FRM-020,Workers Comp First Report,Intake,State WC Board,25,workers_comp
+FRM-021,Catastrophe Event Report,Intake,State DOI,20,"property,auto"
+FRM-022,Reinsurance Notification,Financial,Internal,15,"commercial,catastrophe"

@@ -1,0 +1,41 @@
+outage_id,segment_id,timestamp,severity,customers_affected,root_cause,duration_min,doc_time_min,area_id,equipment_id,restoration_method,post_mortem_required
+OUT-001,SEG-001,2026-02-24T03:15:00Z,Critical,2450,Fiber Cut - Third Party Dig,185,240,SA-001,EQ-003,Emergency Splice,Yes
+OUT-002,SEG-004,2026-02-25T14:22:00Z,Major,890,Hardware Failure - Linecard,120,180,SA-004,EQ-015,Linecard Replacement,Yes
+OUT-003,SEG-002,2026-02-27T08:45:00Z,Critical,3200,Power Outage - Utility Failure,240,210,SA-003,EQ-008,Generator Deployment,Yes
+OUT-004,SEG-009,2026-02-28T22:10:00Z,Major,1560,BGP Route Leak,45,120,SA-009,EQ-035,Route Policy Correction,Yes
+OUT-005,SEG-007,2026-03-01T11:30:00Z,Minor,320,Software Bug - Memory Leak,90,90,SA-005,EQ-027,Software Patch,No
+OUT-006,SEG-003,2026-03-02T16:45:00Z,Major,1100,DWDM Amplifier Failure,150,180,SA-003,EQ-011,EDFA Replacement,Yes
+OUT-007,SEG-011,2026-03-03T02:20:00Z,Critical,4100,Fiber Cut - Storm Damage,320,240,SA-008,EQ-042,Cable Restoration,Yes
+OUT-008,SEG-006,2026-03-04T09:15:00Z,Minor,180,Configuration Error,30,60,SA-006,EQ-023,Config Rollback,No
+OUT-009,SEG-001,2026-03-05T19:40:00Z,Major,1800,DDoS Attack,75,150,SA-001,EQ-004,Mitigation + ACL,Yes
+OUT-010,SEG-005,2026-03-06T07:00:00Z,Minor,250,Planned Maintenance Overrun,45,45,SA-006,EQ-019,Maintenance Completion,No
+OUT-011,SEG-008,2026-03-07T13:30:00Z,Major,960,HVAC Failure - Equipment Overheat,110,140,SA-010,EQ-032,Cooling Restoration,Yes
+OUT-012,SEG-002,2026-03-08T04:55:00Z,Critical,2800,Fiber Cut - Vehicle Accident,200,230,SA-003,EQ-007,Emergency Splice,Yes
+OUT-013,SEG-004,2026-03-09T10:20:00Z,Minor,420,SFP Transceiver Failure,35,50,SA-004,EQ-016,SFP Replacement,No
+OUT-014,SEG-010,2026-03-09T23:45:00Z,Major,1350,Power Surge - Lightning Strike,160,190,SA-009,EQ-038,Equipment Replacement,Yes
+OUT-015,SEG-003,2026-03-10T15:10:00Z,Minor,280,OSPF Reconvergence,20,40,SA-003,EQ-010,Route Stabilization,No
+OUT-016,SEG-012,2026-03-11T01:30:00Z,Critical,3600,Undersea Cable Damage,480,240,SA-010,EQ-048,Cable Ship Repair,Yes
+OUT-017,SEG-007,2026-03-11T18:40:00Z,Major,780,MPLS LSP Failure,65,110,SA-005,EQ-026,LSP Reroute,Yes
+OUT-018,SEG-001,2026-03-12T06:25:00Z,Minor,190,GPON OLT Port Failure,40,55,SA-001,EQ-002,Port Migration,No
+OUT-019,SEG-006,2026-03-12T21:15:00Z,Major,1200,Ring Protection Switch Failure,95,160,SA-006,EQ-024,Manual Ring Switch,Yes
+OUT-020,SEG-009,2026-03-13T12:00:00Z,Critical,2900,Ransomware Attack,360,240,SA-009,EQ-036,Incident Response,Yes
+OUT-021,SEG-005,2026-03-14T03:30:00Z,Minor,310,NTP Sync Failure,25,35,SA-006,EQ-020,NTP Source Fix,No
+OUT-022,SEG-011,2026-03-14T16:50:00Z,Major,850,Microwave Link Fade,70,100,SA-008,EQ-043,Path Diversity Switch,Yes
+OUT-023,SEG-002,2026-03-15T08:10:00Z,Minor,220,VRRP Failover Delay,15,30,SA-003,EQ-009,VRRP Tuning,No
+OUT-024,SEG-008,2026-03-15T20:35:00Z,Major,1400,Underground Cable Fault,130,170,SA-010,EQ-033,Cable Splice,Yes
+OUT-025,SEG-004,2026-03-16T11:45:00Z,Critical,3100,Multi-Segment Power Failure,270,240,SA-004,EQ-014,Multi-Site Generator,Yes
+OUT-026,SEG-003,2026-03-17T02:20:00Z,Minor,350,LACP Partner Timeout,25,40,SA-003,EQ-012,LAG Reconfiguration,No
+OUT-027,SEG-010,2026-03-17T14:30:00Z,Major,920,OTN Path Protection Failure,80,130,SA-009,EQ-039,OTN Path Restore,Yes
+OUT-028,SEG-001,2026-03-18T07:50:00Z,Minor,160,DNS Resolution Failure,20,30,SA-001,EQ-005,DNS Server Restart,No
+OUT-029,SEG-007,2026-03-18T22:10:00Z,Major,1050,SD-WAN Overlay Failure,55,120,SA-005,EQ-028,Overlay Rebuild,Yes
+OUT-030,SEG-012,2026-03-19T09:30:00Z,Critical,2600,DWDM Wavelength Failure,175,220,SA-010,EQ-047,Wavelength Reroute,Yes
+OUT-031,SEG-006,2026-03-19T17:45:00Z,Minor,290,QoS Policy Mismatch,30,45,SA-006,EQ-022,Policy Correction,No
+OUT-032,SEG-009,2026-03-20T04:15:00Z,Major,1650,Fiber Degradation,100,150,SA-009,EQ-037,Fiber Replacement,Yes
+OUT-033,SEG-005,2026-03-20T12:40:00Z,Minor,180,ARP Storm,20,35,SA-006,EQ-021,DAI Enforcement,No
+OUT-034,SEG-011,2026-03-20T21:00:00Z,Critical,3400,Ice Storm - Multiple Breaks,400,240,SA-008,EQ-044,Multi-Crew Deploy,Yes
+OUT-035,SEG-002,2026-03-21T06:30:00Z,Major,1100,BGP Session Reset,50,100,SA-003,EQ-006,Session Restore,Yes
+OUT-036,SEG-008,2026-03-21T15:20:00Z,Minor,240,SSL VPN Overload,35,50,SA-010,EQ-031,VPN Scale-Out,No
+OUT-037,SEG-004,2026-03-21T23:45:00Z,Major,1300,Ethernet Ring Failure,85,140,SA-004,EQ-017,Ring Heal,Yes
+OUT-038,SEG-001,2026-03-22T08:05:00Z,Minor,200,DHCP Pool Exhaustion,25,35,SA-001,EQ-001,Pool Expansion,No
+OUT-039,SEG-003,2026-03-22T16:30:00Z,Critical,2200,Core Router Crash,145,210,SA-003,EQ-013,Router Recovery,Yes
+OUT-040,SEG-010,2026-03-22T22:50:00Z,Major,980,Submarine Cable Degradation,120,180,SA-009,EQ-040,Path Reroute,Yes

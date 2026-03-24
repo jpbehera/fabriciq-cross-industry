@@ -1,0 +1,21 @@
+doc_type_id,name,category,regulatory_body,required_fields,avg_completion_time_min
+DOC-001,Customer Identification Program (CIP),KYC/AML,FinCEN,12,25
+DOC-002,Customer Due Diligence (CDD),KYC/AML,FinCEN,18,35
+DOC-003,Enhanced Due Diligence (EDD),KYC/AML,FinCEN,25,60
+DOC-004,Suspicious Activity Report (SAR),KYC/AML,FinCEN,15,90
+DOC-005,Suitability Questionnaire,Client-Facing,FINRA,10,20
+DOC-006,Account Opening Form,Client-Facing,FINRA,22,30
+DOC-007,Loan Application Package,Lending,OCC,30,45
+DOC-008,Income Verification,Lending,OCC,8,15
+DOC-009,Appraisal Documentation,Lending,OCC,5,20
+DOC-010,Trade Confirmation,Trading,SEC,6,5
+DOC-011,Best Execution Review,Trading,SEC,8,15
+DOC-012,Concentration Limit Report,Trading,FINRA,10,20
+DOC-013,Annual Compliance Review,Internal,Internal,20,120
+DOC-014,Branch Audit Checklist,Internal,Internal,15,45
+DOC-015,Privacy Notice Update,Client-Facing,CFPB,4,10
+DOC-016,Wire Transfer Authorization,Operations,FinCEN,6,10
+DOC-017,Beneficiary Designation,Client-Facing,State,5,15
+DOC-018,Margin Agreement,Trading,FINRA,12,25
+DOC-019,Currency Transaction Report (CTR),KYC/AML,FinCEN,10,30
+DOC-020,Trust Account Documentation,Client-Facing,State,15,40

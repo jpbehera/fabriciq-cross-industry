@@ -1,0 +1,31 @@
+attorney_id,name,role,practice_group,bar_admission,years_experience,billing_rate,hire_date
+ATT-001,Sarah Chen,Partner,PG-001,NY,7,932,2019-12-01
+ATT-002,Michael Torres,Partner,PG-002,CA,30,834,1994-03-01
+ATT-003,Emily Richardson,Senior Associate,PG-003,IL,18,477,2006-05-01
+ATT-004,David Kumar,Associate,PG-004,TX,28,463,1996-10-01
+ATT-005,Jessica Park,Associate,PG-005,FL,8,339,2017-03-01
+ATT-006,Robert Zhang,Partner,PG-006,DC,19,971,2007-10-01
+ATT-007,Amanda Foster,Senior Associate,PG-007,MA,12,575,2014-02-01
+ATT-008,James Wilson,Associate,PG-008,PA,13,378,2013-01-01
+ATT-009,Maria Gonzalez,Partner,PG-001,NY,9,990,2017-02-01
+ATT-010,Thomas Lee,Associate,PG-002,CA,25,424,2001-09-01
+ATT-011,Rebecca Moore,Senior Associate,PG-003,IL,26,482,2000-11-01
+ATT-012,Christopher Davis,Associate,PG-004,TX,17,440,2009-05-01
+ATT-013,Lauren Harris,Paralegal,PG-001,NY,11,308,2015-09-01
+ATT-014,Andrew Kim,Associate,PG-002,CA,26,486,1998-04-01
+ATT-015,Catherine Wright,Partner,PG-003,DC,24,859,2001-11-01
+ATT-016,Daniel Thompson,Senior Associate,PG-004,NY,22,545,2003-09-01
+ATT-017,Rachel Green,Associate,PG-005,FL,16,330,2010-04-01
+ATT-018,Mark Sullivan,Paralegal,PG-006,IL,4,286,2022-10-01
+ATT-019,Aisha Johnson,Associate,PG-001,TX,19,358,2005-04-01
+ATT-020,Nathan Brown,Associate,PG-002,CA,2,318,2022-11-01
+ATT-021,Victoria Patel,Partner,PG-003,NY,3,817,2023-01-01
+ATT-022,Brian O Donnell,Associate,PG-004,MA,29,384,1997-09-01
+ATT-023,Samantha Cruz,Paralegal,PG-005,PA,6,271,2018-08-01
+ATT-024,Patrick Reilly,Partner,PG-006,DC,8,976,2018-12-01
+ATT-025,Angela Nguyen,Associate,PG-001,TX,30,446,1994-08-01
+ATT-026,Jonathan Blake,Of Counsel,PG-002,NY,9,800,2016-07-01
+ATT-027,Karen Yamamoto,Senior Associate,PG-003,CA,8,474,2018-11-01
+ATT-028,Steven Rodriguez,Associate,PG-004,IL,15,390,2010-07-01
+ATT-029,Diana Martinez,Paralegal,PG-001,FL,10,213,2014-11-01
+ATT-030,Philip Grant,Partner,PG-002,NY,22,750,2004-07-01

@@ -1,0 +1,26 @@
+client_id,name,industry,relationship_start,billing_arrangement,annual_revenue,matter_count
+CLI-001,Apex Financial Group,Financial Services,2020-01-01,hourly,608307,2
+CLI-002,TechVenture Holdings,Technology,2018-01-01,hourly,947793,5
+CLI-003,Metro Health Systems,Healthcare,2022-01-01,blended,737967,4
+CLI-004,GreenField Energy,Energy,2017-01-01,fixed_fee,1318303,4
+CLI-005,BlueStar Manufacturing,Manufacturing,2018-01-01,hourly,466187,4
+CLI-006,Pacific Realty Trust,Real Estate,2023-01-01,hourly,560658,1
+CLI-007,NovaCorp Biotech,Biotech,2023-01-01,hourly,211898,1
+CLI-008,Titan Logistics,Logistics,2018-01-01,blended,847559,4
+CLI-009,Meridian Insurance,Insurance,2022-01-01,hourly,2168963,2
+CLI-010,Atlas Aerospace,Aerospace,2021-01-01,hourly,395934,2
+CLI-011,Harbor Capital Partners,Private Equity,2021-01-01,hourly,159040,4
+CLI-012,Pinnacle Retail Group,Retail,2019-01-01,fixed_fee,2058443,3
+CLI-013,Quantum Computing Inc,Technology,2021-01-01,hourly,2481061,4
+CLI-014,Westfield Medical Devices,Medical Devices,2017-01-01,blended,946489,3
+CLI-015,Continental Auto Group,Automotive,2018-01-01,hourly,395296,5
+CLI-016,Summit Pharma,Pharmaceutical,2023-01-01,hourly,405674,3
+CLI-017,Lakeshore Properties,Real Estate,2015-01-01,fixed_fee,360312,5
+CLI-018,CyberShield Security,Cybersecurity,2022-01-01,hourly,2259107,5
+CLI-019,Premier Foods,Food & Beverage,2017-01-01,blended,388570,5
+CLI-020,NorthStar Airlines,Aviation,2016-01-01,hourly,929406,1
+CLI-021,DataStream Analytics,Technology,2024-01-01,hourly,435048,2
+CLI-022,Cascade Construction,Construction,2021-01-01,hourly,652840,5
+CLI-023,EcoVolt Solar,Renewable Energy,2018-01-01,hourly,316688,5
+CLI-024,Ironclad Mining,Mining,2016-01-01,fixed_fee,1908356,5
+CLI-025,GlobalComm Telecom,Telecom,2024-01-01,hourly,2342709,3

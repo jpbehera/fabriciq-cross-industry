@@ -1,0 +1,19 @@
+ticket_type_id,name,category,priority_levels,avg_resolution_min,sla_target_hours,documentation_template,requires_rca
+TT-001,Fiber Cut,Incident,P1 P2 P3,180,4,Outage Report + RCA,Yes
+TT-002,Equipment Failure,Incident,P1 P2 P3,120,4,Hardware Replacement Form,Yes
+TT-003,Power Outage,Incident,P1 P2,240,2,Power Incident Report,Yes
+TT-004,Software Bug,Incident,P2 P3 P4,360,8,Software Incident Report,Yes
+TT-005,Configuration Error,Incident,P2 P3 P4,90,8,Change Error Report,No
+TT-006,Capacity Exhaustion,Incident,P2 P3,480,12,Capacity Report,No
+TT-007,Security Breach,Incident,P1 P2,60,1,Security Incident Report,Yes
+TT-008,Customer Complaint - Speed,Service Request,P3 P4,240,24,Speed Test Report,No
+TT-009,Customer Complaint - Outage,Service Request,P2 P3,120,8,Outage Verification Form,No
+TT-010,New Circuit Provisioning,Service Request,P3 P4,2880,72,Provisioning Checklist,No
+TT-011,Circuit Upgrade,Change,P3 P4,1440,48,Change Request Form,No
+TT-012,Firmware Upgrade,Change,P2 P3,720,24,Firmware Change Record,No
+TT-013,Planned Maintenance,Maintenance,P3 P4,480,N/A,Maintenance Window Form,No
+TT-014,Preventive Maintenance,Maintenance,P4,240,N/A,PM Checklist,No
+TT-015,Emergency Maintenance,Maintenance,P1 P2,120,4,Emergency Change Form,Yes
+TT-016,Root Cause Analysis,Problem,P2 P3,4320,168,RCA Template,Yes
+TT-017,Recurring Issue Investigation,Problem,P3 P4,2880,336,Problem Investigation Form,Yes
+TT-018,Vendor Escalation,Incident,P1 P2 P3,720,24,Vendor Escalation Form,No

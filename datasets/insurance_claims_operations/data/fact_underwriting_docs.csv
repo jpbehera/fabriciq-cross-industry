@@ -1,0 +1,41 @@
+doc_id,underwriter_id,policy_id,date,doc_type,risk_assessment_time_min,form_count,approval_status
+UWD-0001,ADJ-022,POL-024,2025-12-27,Renewal Review,25,11,declined
+UWD-0002,ADJ-004,POL-002,2025-10-09,Loss Run Analysis,71,4,approved
+UWD-0003,ADJ-016,POL-008,2025-10-06,Submission Review,21,4,pending
+UWD-0004,ADJ-022,POL-047,2025-11-20,Submission Review,18,8,referred
+UWD-0005,ADJ-010,POL-023,2025-10-28,Loss Run Analysis,50,6,approved
+UWD-0006,ADJ-010,POL-003,2025-12-18,Endorsement Form,46,12,approved
+UWD-0007,ADJ-022,POL-036,2025-12-01,Risk Assessment,26,6,approved
+UWD-0008,ADJ-022,POL-013,2025-12-22,Endorsement Form,46,12,pending
+UWD-0009,ADJ-028,POL-002,2025-11-18,Renewal Review,60,9,declined
+UWD-0010,ADJ-022,POL-023,2025-12-12,Endorsement Form,56,8,approved
+UWD-0011,ADJ-004,POL-021,2025-12-16,Loss Run Analysis,18,6,approved
+UWD-0012,ADJ-022,POL-034,2025-11-15,Endorsement Form,44,4,approved
+UWD-0013,ADJ-010,POL-018,2025-12-08,Renewal Review,22,5,declined
+UWD-0014,ADJ-022,POL-023,2025-10-23,Loss Run Analysis,45,11,approved
+UWD-0015,ADJ-016,POL-038,2025-10-04,Renewal Review,60,11,declined
+UWD-0016,ADJ-028,POL-013,2025-12-03,Endorsement Form,54,4,approved
+UWD-0017,ADJ-004,POL-004,2025-10-30,Endorsement Form,43,2,declined
+UWD-0018,ADJ-004,POL-022,2025-12-18,Loss Run Analysis,31,7,referred
+UWD-0019,ADJ-016,POL-004,2025-10-03,Loss Run Analysis,90,4,referred
+UWD-0020,ADJ-028,POL-024,2025-10-10,Pricing Documentation,65,11,approved
+UWD-0021,ADJ-016,POL-021,2025-10-18,Loss Run Analysis,70,12,pending
+UWD-0022,ADJ-016,POL-012,2025-12-30,Endorsement Form,60,5,referred
+UWD-0023,ADJ-010,POL-025,2025-11-09,Renewal Review,52,4,approved
+UWD-0024,ADJ-004,POL-045,2025-12-13,Submission Review,87,2,approved
+UWD-0025,ADJ-016,POL-040,2025-10-29,Renewal Review,87,3,pending
+UWD-0026,ADJ-010,POL-022,2025-10-10,Loss Run Analysis,59,7,approved
+UWD-0027,ADJ-004,POL-046,2025-12-25,Renewal Review,57,9,approved
+UWD-0028,ADJ-010,POL-016,2025-12-28,Risk Assessment,59,6,referred
+UWD-0029,ADJ-004,POL-004,2025-11-19,Submission Review,68,4,pending
+UWD-0030,ADJ-022,POL-025,2025-11-14,Endorsement Form,63,3,referred
+UWD-0031,ADJ-028,POL-042,2025-12-27,Loss Run Analysis,35,9,approved
+UWD-0032,ADJ-004,POL-019,2025-10-03,Pricing Documentation,48,3,approved
+UWD-0033,ADJ-010,POL-025,2025-10-21,Renewal Review,24,10,pending
+UWD-0034,ADJ-004,POL-022,2025-12-16,Endorsement Form,76,2,approved
+UWD-0035,ADJ-010,POL-039,2025-11-25,Loss Run Analysis,21,3,approved
+UWD-0036,ADJ-010,POL-027,2025-12-29,Endorsement Form,84,6,referred
+UWD-0037,ADJ-016,POL-016,2025-10-13,Risk Assessment,65,11,declined
+UWD-0038,ADJ-022,POL-010,2025-10-07,Pricing Documentation,15,8,approved
+UWD-0039,ADJ-028,POL-031,2025-10-26,Risk Assessment,18,5,approved
+UWD-0040,ADJ-016,POL-006,2025-11-30,Risk Assessment,54,8,approved

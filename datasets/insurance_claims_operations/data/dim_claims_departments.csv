@@ -1,0 +1,6 @@
+dept_id,name,region,claim_types_handled,headcount,avg_caseload
+DEPT-001,Auto Claims,Northeast,"auto,auto_liability",40,32
+DEPT-002,Property Claims,Southeast,"homeowner,renter,commercial_property",35,28
+DEPT-003,Workers Compensation,Midwest,workers_comp,25,22
+DEPT-004,Commercial Lines,West,"commercial_general,professional_liability",30,26
+DEPT-005,Specialty & CAT,Southwest,"catastrophe,specialty,marine",20,35

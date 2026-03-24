@@ -1,0 +1,41 @@
+change_order_id,project_id,supervisor_id,timestamp,description,cost_impact,schedule_impact_days,doc_time_min
+CO-001,PRJ-001,SUP-001,2026-02-24T14:30:00,Additional structural reinforcement at level 24 for heavier curtainwall system,185000,5,95
+CO-002,PRJ-001,SUP-001,2026-02-28T10:15:22,Modified elevator machine room ventilation to accommodate larger units,42000,3,68
+CO-003,PRJ-001,SUP-001,2026-03-04T09:00:30,Upgraded lobby marble specification from domestic to imported Calacatta,128000,0,72
+CO-004,PRJ-001,SUP-002,2026-03-07T11:30:00,Additional fire alarm notification devices per updated code interpretation,35000,2,55
+CO-005,PRJ-001,SUP-001,2026-03-10T08:45:15,Mechanical penthouse structural steel modifications for larger cooling towers,92000,4,88
+CO-006,PRJ-002,SUP-003,2026-02-25T09:30:00,Enhanced radiation shielding for imaging suite per revised equipment specs,215000,7,110
+CO-007,PRJ-002,SUP-003,2026-03-02T14:00:22,Added redundant medical gas manifold system for OR suite expansion,165000,5,95
+CO-008,PRJ-002,SUP-004,2026-03-06T10:30:15,Parking structure additional post-tension reinforcement at level 3,78000,3,72
+CO-009,PRJ-002,SUP-003,2026-03-10T09:15:00,MRI room RF shielding upgraded to higher gauss rating,148000,4,85
+CO-010,PRJ-002,SUP-004,2026-03-13T08:00:30,Helipad structural upgrade for heavier medical transport helicopter,95000,6,78
+CO-011,PRJ-003,SUP-005,2026-02-26T11:00:00,Raised floor upgrade from 18-inch to 24-inch plenum for future flexibility,62000,2,58
+CO-012,PRJ-003,SUP-005,2026-03-04T09:30:22,Additional rooftop solar capacity per updated sustainability targets,88000,0,65
+CO-013,PRJ-003,SUP-006,2026-03-09T14:15:30,Enhanced parking garage waterproofing at expansion joints,45000,2,52
+CO-014,PRJ-004,SUP-008,2026-02-27T10:00:00,Pool depth modification per owner design review revision,55000,4,68
+CO-015,PRJ-004,SUP-009,2026-03-05T08:45:15,Upgraded unit kitchen appliance package for premium floors,38000,0,45
+CO-016,PRJ-004,SUP-008,2026-03-10T11:30:22,Amenity deck waterproofing system upgrade to hot-applied membrane,72000,3,62
+CO-017,PRJ-005,SUP-010,2026-02-26T09:00:00,Modified platform edge door system from pneumatic to electric actuators,320000,8,105
+CO-018,PRJ-005,SUP-011,2026-03-03T14:30:30,Additional escalator unit at main entrance per accessibility review,185000,10,92
+CO-019,PRJ-005,SUP-010,2026-03-07T08:15:00,Signal system upgrade to CBTC-compatible conduit infrastructure,145000,5,85
+CO-020,PRJ-005,SUP-011,2026-03-11T10:45:15,Enhanced passenger information display system with real-time data,68000,2,55
+CO-021,PRJ-006,SUP-012,2026-02-28T09:30:22,Additional dock levelers for revised shipping volume projections,48000,2,45
+CO-022,PRJ-006,SUP-013,2026-03-06T11:00:00,Upgraded fire sprinkler system for high-pile storage reclassification,55000,3,58
+CO-023,PRJ-007,SUP-015,2026-03-03T08:45:30,Enhanced science lab fume hood exhaust with energy recovery,42000,2,52
+CO-024,PRJ-007,SUP-016,2026-03-07T10:15:00,Smart board system upgrade from 75-inch to 86-inch across all classrooms,28000,0,38
+CO-025,PRJ-008,SUP-017,2026-02-28T14:00:15,Spa steam room upgraded to commercial-grade equipment,65000,3,58
+CO-026,PRJ-008,SUP-018,2026-03-04T09:30:22,Restaurant kitchen Type I hood extension for added cooking stations,48000,2,52
+CO-027,PRJ-008,SUP-017,2026-03-09T11:00:00,Conference center operable partition upgrade to higher STC rating,35000,0,42
+CO-028,PRJ-008,SUP-018,2026-03-12T08:15:30,Grand staircase marble tread upgraded to bookmatched pattern,82000,4,68
+CO-029,PRJ-009,SUP-019,2026-02-25T10:00:00,Increased cooling capacity for data hall 2 from 8MW to 10MW,425000,8,125
+CO-030,PRJ-009,SUP-019,2026-03-02T14:30:15,Additional generator for N+2 redundancy configuration,380000,10,118
+CO-031,PRJ-009,SUP-019,2026-03-06T09:00:22,Enhanced security fencing with anti-climb and intrusion detection,95000,3,72
+CO-032,PRJ-009,SUP-020,2026-03-09T11:30:00,BMS upgrade to Tier 3 monitoring with predictive analytics,155000,5,88
+CO-033,PRJ-009,SUP-019,2026-03-11T08:30:30,Hot aisle containment system upgraded to modular design,68000,2,55
+CO-034,PRJ-010,SUP-021,2026-03-05T09:00:00,Upgraded inverters from string to central type per utility requirement,42000,3,48
+CO-035,PRJ-010,SUP-022,2026-03-11T10:15:15,Enhanced SCADA system with weather-predictive optimization module,28000,0,35
+CO-036,PRJ-011,SUP-023,2026-02-28T11:00:22,Additional structural reinforcement at new elevator shaft per historic review,65000,5,72
+CO-037,PRJ-011,SUP-024,2026-03-06T08:30:00,Fire escape restoration scope expanded to include decorative ironwork,38000,4,58
+CO-038,PRJ-011,SUP-023,2026-03-13T09:00:30,Tin ceiling restoration area expanded to include adjacent corridor,22000,2,45
+CO-039,PRJ-012,SUP-025,2026-03-03T10:00:00,Memory care unit wander guard system upgraded to GPS-enabled,45000,2,52
+CO-040,PRJ-012,SUP-025,2026-03-10T14:30:15,Emergency generator upgrade from 150kW to 200kW for life safety loads,38000,3,48

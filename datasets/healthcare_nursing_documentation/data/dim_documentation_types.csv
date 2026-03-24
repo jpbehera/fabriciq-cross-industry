@@ -1,0 +1,23 @@
+doc_type_id,name,category,subcategory,avg_time_minutes,is_required,frequency_per_shift,is_duplicative,duplicative_reason,ehr_module
+DOC-001,Head-to-Toe Assessment,Assessment,Initial Assessment,22,Yes,1 per patient,No,,Flowsheets
+DOC-002,Focused Reassessment,Assessment,Ongoing Assessment,10,Yes,2-3 per patient,Partial,Overlaps with initial assessment fields,Flowsheets
+DOC-003,Vital Signs Entry,Flowsheet,Vital Signs,4,Yes,4-6 per patient,Yes,Same fields re-entered every time,Flowsheets
+DOC-004,Pain Assessment,Flowsheet,Pain Management,3,Yes,4-6 per patient,Yes,Repeated with every vital sign set,Flowsheets
+DOC-005,Medication Administration (MAR),Medication,Administration,4,Yes,5-8 per patient,No,,MAR
+DOC-006,Medication Reconciliation,Medication,Reconciliation,15,Yes,1 per admission/discharge,Partial,Repeated at admission and discharge,MAR
+DOC-007,SOAP Progress Note,Narrative,Progress Note,12,Yes,1-2 per patient,Yes,Restates assessment and flowsheet data,Notes
+DOC-008,Care Plan Update,Care Plan,Planning,8,Yes,1 per patient per shift,Partial,Goals often copy-forwarded unchanged,Care Planning
+DOC-009,Intake and Output (I&O),Flowsheet,Fluid Balance,3,Yes,Every 2-4 hours per patient,Yes,Repetitive manual tallying,Flowsheets
+DOC-010,Fall Risk Assessment (Morse),Assessment,Safety,5,Yes,1 per shift per patient,Partial,Many fields overlap with general assessment,Flowsheets
+DOC-011,Skin Risk Assessment (Braden),Assessment,Safety,5,Yes,1 per shift per patient,Partial,Overlaps with skin assessment in head-to-toe,Flowsheets
+DOC-012,SBAR Handoff Report,Communication,Handoff,4,Yes,1 per patient at shift change,Yes,Re-summarizes chart information already documented,Handoff
+DOC-013,Patient Education Documentation,Education,Teaching,7,Yes,1-2 per patient,No,,Education
+DOC-014,Order Acknowledgment,Orders,Verification,3,Yes,Variable (2-5 per patient),No,,Orders
+DOC-015,IV Site Assessment,Assessment,Line Management,3,Yes,Every 4 hours per IV,Partial,Similar to line assessment in head-to-toe,Flowsheets
+DOC-016,Wound Assessment,Assessment,Wound Care,12,Conditional,Per wound per shift,No,,Flowsheets
+DOC-017,Discharge Instructions,Discharge,Planning,25,Conditional,1 per discharge,Partial,Re-documents known medications and diagnoses,Discharge
+DOC-018,Admission Assessment,Assessment,Admission,35,Conditional,1 per admission,No,,Admission
+DOC-019,Incident Report,Safety,Event Reporting,20,Conditional,Per incident,No,,Safety
+DOC-020,Procedure Note,Procedure,Documentation,10,Conditional,Per procedure,No,,Notes
+DOC-021,Restraint Assessment,Assessment,Safety,8,Conditional,Every 2 hours if restrained,Yes,High-frequency repeated documentation,Flowsheets
+DOC-022,Blood Glucose Log,Flowsheet,Diabetes Management,4,Conditional,Per blood sugar check,Partial,Also documented in MAR and flowsheet,Flowsheets

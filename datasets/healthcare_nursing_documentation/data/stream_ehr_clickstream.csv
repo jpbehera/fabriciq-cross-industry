@@ -1,0 +1,136 @@
+click_id,nurse_id,shift_id,timestamp,event_type,target_element,screen_name,ehr_module,action_context,duration_ms,idle_seconds_before,error_code,session_id
+CLK-0001,NRS-001,SHF-001,2026-02-23T06:50:05.120,Login,LoginButton,LoginScreen,Authentication,Shift Start,850,0,,SESS-NRS001-0223D
+CLK-0002,NRS-001,SHF-001,2026-02-23T06:50:12.340,MouseClick,PatientListTab,Dashboard,PatientList,Navigation,120,0,,SESS-NRS001-0223D
+CLK-0003,NRS-001,SHF-001,2026-02-23T06:50:15.560,MouseClick,PatientRow_PAT-001,PatientList,PatientList,Select Patient,95,0,,SESS-NRS001-0223D
+CLK-0004,NRS-001,SHF-001,2026-02-23T06:50:16.800,PageLoad,ChartOverview,PatientChart,ChartReview,Auto,1250,0,,SESS-NRS001-0223D
+CLK-0005,NRS-001,SHF-001,2026-02-23T06:50:22.100,ScrollEvent,VitalsPanel,PatientChart,ChartReview,Scroll Down,200,0,,SESS-NRS001-0223D
+CLK-0006,NRS-001,SHF-001,2026-02-23T06:50:25.450,MouseClick,VitalsTab,PatientChart,Vitals,Navigation,110,0,,SESS-NRS001-0223D
+CLK-0007,NRS-001,SHF-001,2026-02-23T06:50:30.800,MouseClick,LatestVitalsRow,VitalsHistory,Vitals,Review Data,85,0,,SESS-NRS001-0223D
+CLK-0008,NRS-001,SHF-001,2026-02-23T06:50:45.200,MouseClick,MedicationsTab,PatientChart,Medications,Navigation,105,0,,SESS-NRS001-0223D
+CLK-0009,NRS-001,SHF-001,2026-02-23T06:50:52.600,ScrollEvent,MedList,MedicationList,Medications,Scroll Down,180,0,,SESS-NRS001-0223D
+CLK-0010,NRS-001,SHF-001,2026-02-23T06:51:05.100,MouseClick,BackToDashboard,PatientChart,Navigation,Navigation,90,0,,SESS-NRS001-0223D
+CLK-0011,NRS-001,SHF-001,2026-02-23T06:51:08.500,MouseClick,PatientRow_PAT-002,PatientList,PatientList,Select Patient,95,0,,SESS-NRS001-0223D
+CLK-0012,NRS-001,SHF-001,2026-02-23T06:51:09.900,PageLoad,ChartOverview,PatientChart,ChartReview,Auto,1400,0,,SESS-NRS001-0223D
+CLK-0013,NRS-001,SHF-001,2026-02-23T06:51:18.200,ScrollEvent,NotesPanel,PatientChart,ChartReview,Scroll Down,220,0,,SESS-NRS001-0223D
+CLK-0014,NRS-001,SHF-001,2026-02-23T06:51:25.800,MouseClick,AssessmentsTab,PatientChart,Assessments,Navigation,100,0,,SESS-NRS001-0223D
+CLK-0015,NRS-001,SHF-001,2026-02-23T06:51:35.500,IdleStart,AssessmentForm,Assessments,Assessments,Stepped Away,0,0,,SESS-NRS001-0223D
+CLK-0016,NRS-001,SHF-001,2026-02-23T06:55:10.200,IdleEnd,AssessmentForm,Assessments,Assessments,Returned,0,215,,SESS-NRS001-0223D
+CLK-0017,NRS-001,SHF-001,2026-02-23T07:30:00.500,MouseClick,NoteTemplateBtn,DocumentationScreen,Documentation,Start Note,130,0,,SESS-NRS001-0223D
+CLK-0018,NRS-001,SHF-001,2026-02-23T07:30:05.200,MouseClick,NursingAssessment,TemplateList,Documentation,Select Template,95,0,,SESS-NRS001-0223D
+CLK-0019,NRS-001,SHF-001,2026-02-23T07:30:06.500,PageLoad,NoteEditor,DocumentationScreen,Documentation,Auto,1800,0,,SESS-NRS001-0223D
+CLK-0020,NRS-001,SHF-001,2026-02-23T07:30:12.100,Keystroke,SubjectiveField,NoteEditor,Documentation,Typing,45,0,,SESS-NRS001-0223D
+CLK-0021,NRS-001,SHF-001,2026-02-23T07:30:12.150,Keystroke,SubjectiveField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS001-0223D
+CLK-0022,NRS-001,SHF-001,2026-02-23T07:30:12.210,Keystroke,SubjectiveField,NoteEditor,Documentation,Typing,40,0,,SESS-NRS001-0223D
+CLK-0023,NRS-001,SHF-001,2026-02-23T07:30:15.800,MouseClick,SmartPhrase_Dot,NoteEditor,Documentation,Insert SmartPhrase,110,0,,SESS-NRS001-0223D
+CLK-0024,NRS-001,SHF-001,2026-02-23T07:30:16.500,MouseClick,SP_NursingAssessment,SmartPhraseList,Documentation,Select Phrase,80,0,,SESS-NRS001-0223D
+CLK-0025,NRS-001,SHF-001,2026-02-23T07:30:18.000,AutoPopulate,AssessmentFields,NoteEditor,Documentation,SmartPhrase Fill,350,0,,SESS-NRS001-0223D
+CLK-0026,NRS-001,SHF-001,2026-02-23T07:30:25.500,Keystroke,ObjectiveField,NoteEditor,Documentation,Typing,38,0,,SESS-NRS001-0223D
+CLK-0027,NRS-001,SHF-001,2026-02-23T07:30:25.550,Keystroke,ObjectiveField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS001-0223D
+CLK-0028,NRS-001,SHF-001,2026-02-23T07:30:45.200,AlertPopup,DrugInteraction,AlertDialog,CDS,System Alert,0,0,CDS-1001,SESS-NRS001-0223D
+CLK-0029,NRS-001,SHF-001,2026-02-23T07:30:48.800,MouseClick,DismissAlert,AlertDialog,CDS,Dismiss Alert,90,0,,SESS-NRS001-0223D
+CLK-0030,NRS-001,SHF-001,2026-02-23T07:30:50.100,Keystroke,ObjectiveField,NoteEditor,Documentation,Typing,40,0,,SESS-NRS001-0223D
+CLK-0031,NRS-001,SHF-001,2026-02-23T07:31:15.300,IdleStart,ObjectiveField,NoteEditor,Documentation,Interrupted,0,0,,SESS-NRS001-0223D
+CLK-0032,NRS-001,SHF-001,2026-02-23T07:34:22.100,IdleEnd,ObjectiveField,NoteEditor,Documentation,Returned,0,187,,SESS-NRS001-0223D
+CLK-0033,NRS-001,SHF-001,2026-02-23T07:34:25.500,Keystroke,ObjectiveField,NoteEditor,Documentation,Typing,44,0,,SESS-NRS001-0223D
+CLK-0034,NRS-001,SHF-001,2026-02-23T07:35:10.200,MouseClick,PlanField,NoteEditor,Documentation,Click Field,75,0,,SESS-NRS001-0223D
+CLK-0035,NRS-001,SHF-001,2026-02-23T07:35:12.600,Keystroke,PlanField,NoteEditor,Documentation,Typing,38,0,,SESS-NRS001-0223D
+CLK-0036,NRS-001,SHF-001,2026-02-23T07:35:45.800,MouseClick,SaveDraft,NoteEditor,Documentation,Save,120,0,,SESS-NRS001-0223D
+CLK-0037,NRS-001,SHF-001,2026-02-23T07:35:47.200,SystemEvent,SaveConfirm,NoteEditor,Documentation,Auto,200,0,,SESS-NRS001-0223D
+CLK-0038,NRS-001,SHF-001,2026-02-23T07:36:00.100,MouseClick,OrdersTab,PatientChart,Orders,Navigation,100,0,,SESS-NRS001-0223D
+CLK-0039,NRS-001,SHF-001,2026-02-23T07:36:05.300,MouseClick,MedOrderRow,OrdersList,Orders,View Order,85,0,,SESS-NRS001-0223D
+CLK-0040,NRS-001,SHF-001,2026-02-23T07:36:10.500,ErrorPopup,TimeoutError,OrderDetail,Orders,System Error,0,0,ERR-5003,SESS-NRS001-0223D
+CLK-0041,NRS-001,SHF-001,2026-02-23T07:36:15.200,MouseClick,RetryButton,ErrorDialog,Orders,Retry,95,0,,SESS-NRS001-0223D
+CLK-0042,NRS-001,SHF-001,2026-02-23T07:36:18.500,PageLoad,OrderDetail,OrderDetail,Orders,Auto,2200,0,,SESS-NRS001-0223D
+CLK-0043,NRS-001,SHF-001,2026-02-23T08:00:30.200,MouseClick,MARTab,PatientChart,MAR,Navigation,110,0,,SESS-NRS001-0223D
+CLK-0044,NRS-001,SHF-001,2026-02-23T08:00:35.500,MouseClick,MedRow_Metoprolol,MARScreen,MAR,Select Med,90,0,,SESS-NRS001-0223D
+CLK-0045,NRS-001,SHF-001,2026-02-23T08:00:40.800,MouseClick,AdministerBtn,MedAdmin,MAR,Start Admin,100,0,,SESS-NRS001-0223D
+CLK-0046,NRS-001,SHF-001,2026-02-23T08:01:05.300,BarcodeScan,PatientWristband,MedAdmin,MAR,Scan Patient,450,0,,SESS-NRS001-0223D
+CLK-0047,NRS-001,SHF-001,2026-02-23T08:01:12.600,BarcodeScan,MedBarcode,MedAdmin,MAR,Scan Med,380,0,,SESS-NRS001-0223D
+CLK-0048,NRS-001,SHF-001,2026-02-23T08:01:18.200,MouseClick,ConfirmAdmin,MedAdmin,MAR,Confirm,95,0,,SESS-NRS001-0223D
+CLK-0049,NRS-001,SHF-001,2026-02-23T08:01:20.500,SystemEvent,AdminRecorded,MedAdmin,MAR,Auto,150,0,,SESS-NRS001-0223D
+CLK-0050,NRS-001,SHF-001,2026-02-23T09:00:05.100,MouseClick,NoteTemplateBtn,DocumentationScreen,Documentation,Start Note,130,0,,SESS-NRS001-0223D
+CLK-0051,NRS-001,SHF-001,2026-02-23T09:00:08.200,MouseClick,VitalsFlowsheet,TemplateList,Documentation,Select Template,90,0,,SESS-NRS001-0223D
+CLK-0052,NRS-001,SHF-001,2026-02-23T09:00:09.800,PageLoad,FlowsheetEditor,FlowsheetScreen,Documentation,Auto,1600,0,,SESS-NRS001-0223D
+CLK-0053,NRS-001,SHF-001,2026-02-23T09:00:18.500,Keystroke,BPField,FlowsheetEditor,Documentation,Typing,50,0,,SESS-NRS001-0223D
+CLK-0054,NRS-001,SHF-001,2026-02-23T09:00:22.200,Keystroke,HRField,FlowsheetEditor,Documentation,Typing,48,0,,SESS-NRS001-0223D
+CLK-0055,NRS-001,SHF-001,2026-02-23T09:00:25.800,Keystroke,TempField,FlowsheetEditor,Documentation,Typing,45,0,,SESS-NRS001-0223D
+CLK-0056,NRS-001,SHF-001,2026-02-23T09:00:30.100,Keystroke,RespField,FlowsheetEditor,Documentation,Typing,42,0,,SESS-NRS001-0223D
+CLK-0057,NRS-001,SHF-001,2026-02-23T09:00:35.500,Keystroke,SPO2Field,FlowsheetEditor,Documentation,Typing,40,0,,SESS-NRS001-0223D
+CLK-0058,NRS-001,SHF-001,2026-02-23T09:00:40.200,MouseClick,SaveFlowsheet,FlowsheetEditor,Documentation,Save,120,0,,SESS-NRS001-0223D
+CLK-0059,NRS-001,SHF-001,2026-02-23T09:00:42.000,SystemEvent,FlowsheetSaved,FlowsheetEditor,Documentation,Auto,180,0,,SESS-NRS001-0223D
+CLK-0060,NRS-002,SHF-002,2026-02-23T07:00:02.500,Login,LoginButton,LoginScreen,Authentication,Shift Start,920,0,,SESS-NRS002-0223D
+CLK-0061,NRS-002,SHF-002,2026-02-23T07:00:10.100,MouseClick,PatientListTab,Dashboard,PatientList,Navigation,115,0,,SESS-NRS002-0223D
+CLK-0062,NRS-002,SHF-002,2026-02-23T07:00:13.800,MouseClick,PatientRow_PAT-006,PatientList,PatientList,Select Patient,100,0,,SESS-NRS002-0223D
+CLK-0063,NRS-002,SHF-002,2026-02-23T07:00:15.600,PageLoad,ChartOverview,PatientChart,ChartReview,Auto,1350,0,,SESS-NRS002-0223D
+CLK-0064,NRS-002,SHF-002,2026-02-23T07:00:22.400,ScrollEvent,LabResults,PatientChart,Labs,Scroll Down,190,0,,SESS-NRS002-0223D
+CLK-0065,NRS-002,SHF-002,2026-02-23T07:00:28.100,MouseClick,LabDetailRow,LabResults,Labs,View Result,80,0,,SESS-NRS002-0223D
+CLK-0066,NRS-002,SHF-002,2026-02-23T07:01:00.500,AlertPopup,CriticalLab,AlertDialog,CDS,System Alert,0,0,CDS-2001,SESS-NRS002-0223D
+CLK-0067,NRS-002,SHF-002,2026-02-23T07:01:05.200,MouseClick,AcknowledgeAlert,AlertDialog,CDS,Acknowledge,95,0,,SESS-NRS002-0223D
+CLK-0068,NRS-002,SHF-002,2026-02-23T07:01:10.800,MouseClick,NoteTemplateBtn,DocumentationScreen,Documentation,Start Note,125,0,,SESS-NRS002-0223D
+CLK-0069,NRS-002,SHF-002,2026-02-23T07:01:14.200,MouseClick,ProgressNote,TemplateList,Documentation,Select Template,90,0,,SESS-NRS002-0223D
+CLK-0070,NRS-002,SHF-002,2026-02-23T07:01:15.800,PageLoad,NoteEditor,DocumentationScreen,Documentation,Auto,1650,0,,SESS-NRS002-0223D
+CLK-0071,NRS-002,SHF-002,2026-02-23T07:01:22.500,Keystroke,SubjectiveField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS002-0223D
+CLK-0072,NRS-002,SHF-002,2026-02-23T07:02:00.300,IdleStart,SubjectiveField,NoteEditor,Documentation,Interrupted,0,0,,SESS-NRS002-0223D
+CLK-0073,NRS-002,SHF-002,2026-02-23T07:05:30.100,IdleEnd,SubjectiveField,NoteEditor,Documentation,Returned,0,210,,SESS-NRS002-0223D
+CLK-0074,NRS-002,SHF-002,2026-02-23T07:05:33.500,Keystroke,SubjectiveField,NoteEditor,Documentation,Typing,40,0,,SESS-NRS002-0223D
+CLK-0075,NRS-002,SHF-002,2026-02-23T07:06:15.200,MouseClick,CopyForward,NoteEditor,Documentation,Copy Previous,105,0,,SESS-NRS002-0223D
+CLK-0076,NRS-002,SHF-002,2026-02-23T07:06:18.800,AutoPopulate,AssessmentFields,NoteEditor,Documentation,Auto Copy,280,0,,SESS-NRS002-0223D
+CLK-0077,NRS-002,SHF-002,2026-02-23T07:06:30.100,Keystroke,ObjectiveField,NoteEditor,Documentation,Typing,44,0,,SESS-NRS002-0223D
+CLK-0078,NRS-002,SHF-002,2026-02-23T07:07:00.500,MouseClick,SignNote,NoteEditor,Documentation,Sign,130,0,,SESS-NRS002-0223D
+CLK-0079,NRS-002,SHF-002,2026-02-23T07:07:02.200,SystemEvent,NoteSigned,NoteEditor,Documentation,Auto,200,0,,SESS-NRS002-0223D
+CLK-0080,NRS-009,SHF-004,2026-02-23T06:45:03.800,Login,LoginButton,LoginScreen,Authentication,Shift Start,780,0,,SESS-NRS009-0223D
+CLK-0081,NRS-009,SHF-004,2026-02-23T06:45:08.200,MouseClick,ICUDashboard,Dashboard,ICUMonitor,Navigation,100,0,,SESS-NRS009-0223D
+CLK-0082,NRS-009,SHF-004,2026-02-23T06:45:12.500,MouseClick,PatientRow_PAT-010,PatientList,PatientList,Select Patient,95,0,,SESS-NRS009-0223D
+CLK-0083,NRS-009,SHF-004,2026-02-23T06:45:14.200,PageLoad,ICUFlowsheet,ICUChart,ICUMonitor,Auto,1900,0,,SESS-NRS009-0223D
+CLK-0084,NRS-009,SHF-004,2026-02-23T06:45:22.800,MouseClick,VentSettingsTab,ICUChart,Ventilator,Navigation,110,0,,SESS-NRS009-0223D
+CLK-0085,NRS-009,SHF-004,2026-02-23T06:45:30.100,Keystroke,TidalVolField,VentSettings,Ventilator,Typing,50,0,,SESS-NRS009-0223D
+CLK-0086,NRS-009,SHF-004,2026-02-23T06:45:35.500,Keystroke,FiO2Field,VentSettings,Ventilator,Typing,48,0,,SESS-NRS009-0223D
+CLK-0087,NRS-009,SHF-004,2026-02-23T06:45:40.200,Keystroke,PEEPField,VentSettings,Ventilator,Typing,45,0,,SESS-NRS009-0223D
+CLK-0088,NRS-009,SHF-004,2026-02-23T06:46:00.500,MouseClick,SaveVentSettings,VentSettings,Ventilator,Save,120,0,,SESS-NRS009-0223D
+CLK-0089,NRS-009,SHF-004,2026-02-23T06:46:02.100,SystemEvent,VentSaved,VentSettings,Ventilator,Auto,180,0,,SESS-NRS009-0223D
+CLK-0090,NRS-009,SHF-004,2026-02-23T07:00:05.200,MouseClick,NoteTemplateBtn,DocumentationScreen,Documentation,Start Note,135,0,,SESS-NRS009-0223D
+CLK-0091,NRS-009,SHF-004,2026-02-23T07:00:08.800,MouseClick,ICUAssessment,TemplateList,Documentation,Select Template,85,0,,SESS-NRS009-0223D
+CLK-0092,NRS-009,SHF-004,2026-02-23T07:00:10.500,PageLoad,NoteEditor,DocumentationScreen,Documentation,Auto,2100,0,,SESS-NRS009-0223D
+CLK-0093,NRS-009,SHF-004,2026-02-23T07:00:18.200,Keystroke,NeuroAssessField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS009-0223D
+CLK-0094,NRS-009,SHF-004,2026-02-23T07:00:25.500,Keystroke,CardioAssessField,NoteEditor,Documentation,Typing,44,0,,SESS-NRS009-0223D
+CLK-0095,NRS-009,SHF-004,2026-02-23T07:00:32.100,Keystroke,RespAssessField,NoteEditor,Documentation,Typing,40,0,,SESS-NRS009-0223D
+CLK-0096,NRS-009,SHF-004,2026-02-23T07:00:40.500,AlertPopup,SepsisScreen,AlertDialog,CDS,System Alert,0,0,CDS-3001,SESS-NRS009-0223D
+CLK-0097,NRS-009,SHF-004,2026-02-23T07:00:45.200,MouseClick,AcknowledgeAlert,AlertDialog,CDS,Acknowledge,100,0,,SESS-NRS009-0223D
+CLK-0098,NRS-009,SHF-004,2026-02-23T07:00:50.800,Keystroke,RespAssessField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS009-0223D
+CLK-0099,NRS-009,SHF-004,2026-02-23T07:01:30.200,IdleStart,NoteEditor,NoteEditor,Documentation,Interrupted,0,0,,SESS-NRS009-0223D
+CLK-0100,NRS-009,SHF-004,2026-02-23T07:03:45.500,IdleEnd,NoteEditor,NoteEditor,Documentation,Returned,0,135,,SESS-NRS009-0223D
+CLK-0101,NRS-009,SHF-004,2026-02-23T07:15:00.100,MouseClick,IOTab,ICUChart,IntakeOutput,Navigation,105,0,,SESS-NRS009-0223D
+CLK-0102,NRS-009,SHF-004,2026-02-23T07:15:05.500,Keystroke,FluidIntakeField,IOFlowsheet,IntakeOutput,Typing,50,0,,SESS-NRS009-0223D
+CLK-0103,NRS-009,SHF-004,2026-02-23T07:15:10.200,Keystroke,UrineOutputField,IOFlowsheet,IntakeOutput,Typing,48,0,,SESS-NRS009-0223D
+CLK-0104,NRS-009,SHF-004,2026-02-23T07:15:15.800,MouseClick,SaveIO,IOFlowsheet,IntakeOutput,Save,115,0,,SESS-NRS009-0223D
+CLK-0105,NRS-009,SHF-004,2026-02-23T07:15:17.200,SystemEvent,IOSaved,IOFlowsheet,IntakeOutput,Auto,160,0,,SESS-NRS009-0223D
+CLK-0106,NRS-015,SHF-005,2026-02-23T06:55:02.100,Login,LoginButton,LoginScreen,Authentication,Shift Start,880,0,,SESS-NRS015-0223D
+CLK-0107,NRS-015,SHF-005,2026-02-23T06:55:08.500,MouseClick,EDTrackingBoard,Dashboard,EDTracker,Navigation,115,0,,SESS-NRS015-0223D
+CLK-0108,NRS-015,SHF-005,2026-02-23T06:55:12.200,MouseClick,PatientRow_PAT-021,EDTracker,PatientList,Select Patient,90,0,,SESS-NRS015-0223D
+CLK-0109,NRS-015,SHF-005,2026-02-23T06:55:14.000,PageLoad,EDChart,PatientChart,EDModule,Auto,1450,0,,SESS-NRS015-0223D
+CLK-0110,NRS-015,SHF-005,2026-02-23T06:55:20.500,MouseClick,TriageAssessBtn,EDChart,Triage,Start Triage,100,0,,SESS-NRS015-0223D
+CLK-0111,NRS-015,SHF-005,2026-02-23T06:55:22.200,PageLoad,TriageForm,TriageScreen,Triage,Auto,1200,0,,SESS-NRS015-0223D
+CLK-0112,NRS-015,SHF-005,2026-02-23T06:55:30.800,Keystroke,ChiefComplaint,TriageForm,Triage,Typing,45,0,,SESS-NRS015-0223D
+CLK-0113,NRS-015,SHF-005,2026-02-23T06:55:38.200,MouseClick,AcuityDropdown,TriageForm,Triage,Select Acuity,80,0,,SESS-NRS015-0223D
+CLK-0114,NRS-015,SHF-005,2026-02-23T06:55:40.500,MouseClick,AcuityLevel3,TriageForm,Triage,Set Acuity,75,0,,SESS-NRS015-0223D
+CLK-0115,NRS-015,SHF-005,2026-02-23T06:55:48.100,Keystroke,BPField,TriageVitals,Triage,Typing,50,0,,SESS-NRS015-0223D
+CLK-0116,NRS-015,SHF-005,2026-02-23T06:55:52.500,Keystroke,HRField,TriageVitals,Triage,Typing,48,0,,SESS-NRS015-0223D
+CLK-0117,NRS-015,SHF-005,2026-02-23T06:55:58.200,Keystroke,TempField,TriageVitals,Triage,Typing,42,0,,SESS-NRS015-0223D
+CLK-0118,NRS-015,SHF-005,2026-02-23T06:56:05.800,AlertPopup,AllergyWarning,AlertDialog,CDS,System Alert,0,0,CDS-4001,SESS-NRS015-0223D
+CLK-0119,NRS-015,SHF-005,2026-02-23T06:56:10.200,MouseClick,AcknowledgeAlert,AlertDialog,CDS,Acknowledge,90,0,,SESS-NRS015-0223D
+CLK-0120,NRS-015,SHF-005,2026-02-23T06:56:15.500,Keystroke,AllergiesField,TriageForm,Triage,Typing,44,0,,SESS-NRS015-0223D
+CLK-0121,NRS-015,SHF-005,2026-02-23T06:56:30.200,MouseClick,SaveTriage,TriageForm,Triage,Save,120,0,,SESS-NRS015-0223D
+CLK-0122,NRS-015,SHF-005,2026-02-23T06:56:32.000,SystemEvent,TriageSaved,TriageForm,Triage,Auto,200,0,,SESS-NRS015-0223D
+CLK-0123,NRS-015,SHF-005,2026-02-23T07:30:05.100,MouseClick,NoteTemplateBtn,DocumentationScreen,Documentation,Start Note,130,0,,SESS-NRS015-0223D
+CLK-0124,NRS-015,SHF-005,2026-02-23T07:30:08.500,MouseClick,EDNursingNote,TemplateList,Documentation,Select Template,85,0,,SESS-NRS015-0223D
+CLK-0125,NRS-015,SHF-005,2026-02-23T07:30:10.200,PageLoad,NoteEditor,DocumentationScreen,Documentation,Auto,1550,0,,SESS-NRS015-0223D
+CLK-0126,NRS-015,SHF-005,2026-02-23T07:30:18.500,Keystroke,NursingAssessField,NoteEditor,Documentation,Typing,42,0,,SESS-NRS015-0223D
+CLK-0127,NRS-015,SHF-005,2026-02-23T07:30:25.200,IdleStart,NursingAssessField,NoteEditor,Documentation,Interrupted,0,0,,SESS-NRS015-0223D
+CLK-0128,NRS-015,SHF-005,2026-02-23T07:32:50.800,IdleEnd,NursingAssessField,NoteEditor,Documentation,Returned,0,146,,SESS-NRS015-0223D
+CLK-0129,NRS-015,SHF-005,2026-02-23T07:32:55.200,Keystroke,NursingAssessField,NoteEditor,Documentation,Typing,40,0,,SESS-NRS015-0223D
+CLK-0130,NRS-015,SHF-005,2026-02-23T07:33:30.500,MouseClick,SignNote,NoteEditor,Documentation,Sign,125,0,,SESS-NRS015-0223D
+CLK-0131,NRS-015,SHF-005,2026-02-23T07:33:32.200,SystemEvent,NoteSigned,NoteEditor,Documentation,Auto,190,0,,SESS-NRS015-0223D
+CLK-0132,NRS-015,SHF-005,2026-02-23T08:00:05.100,MouseClick,EDTrackingBoard,Dashboard,EDTracker,Navigation,110,0,,SESS-NRS015-0223D
+CLK-0133,NRS-015,SHF-005,2026-02-23T08:00:10.500,SystemEvent,NewPatientAlert,EDTracker,EDModule,Auto,0,0,,SESS-NRS015-0223D
+CLK-0134,NRS-015,SHF-005,2026-02-23T08:00:15.200,MouseClick,AcceptPatient,EDTracker,EDModule,Accept Assignment,95,0,,SESS-NRS015-0223D
+CLK-0135,NRS-015,SHF-005,2026-02-23T08:00:18.500,MouseClick,TriageAssessBtn,EDChart,Triage,Start Triage,100,0,,SESS-NRS015-0223D

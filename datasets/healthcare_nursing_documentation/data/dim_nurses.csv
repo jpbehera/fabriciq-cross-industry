@@ -1,0 +1,21 @@
+nurse_id,first_name,last_name,unit_id,role,credential,years_experience,hire_date,shift_preference,fte_status,certification,specialty,email
+NRS-001,Sarah,Mitchell,UNIT-001,Registered Nurse,RN BSN,8,2018-03-15,Day,Full-Time,Med-Surg Certified (CMSRN),Medical-Surgical,s.mitchell@hospital.org
+NRS-002,James,Rodriguez,UNIT-001,Registered Nurse,RN BSN,3,2023-01-10,Day,Full-Time,,Medical-Surgical,j.rodriguez@hospital.org
+NRS-003,Emily,Chen,UNIT-001,Registered Nurse,RN MSN,12,2014-06-20,Day,Full-Time,Med-Surg Certified (CMSRN),Medical-Surgical,e.chen@hospital.org
+NRS-004,Michael,Thompson,UNIT-001,Registered Nurse,RN BSN,2,2024-02-01,Day,Full-Time,,Medical-Surgical,m.thompson@hospital.org
+NRS-005,Aisha,Patel,UNIT-001,Registered Nurse,RN BSN,6,2020-05-12,Night,Full-Time,Med-Surg Certified (CMSRN),Medical-Surgical,a.patel@hospital.org
+NRS-006,David,Kim,UNIT-001,Registered Nurse,RN ADN,1,2025-01-15,Night,Full-Time,,Medical-Surgical,d.kim@hospital.org
+NRS-007,Rachel,Okonkwo,UNIT-001,Charge Nurse,RN BSN,10,2016-08-01,Day,Full-Time,Med-Surg Certified (CMSRN),Medical-Surgical,r.okonkwo@hospital.org
+NRS-008,Kevin,Walsh,UNIT-001,Registered Nurse,RN BSN,4,2022-03-20,Night,Full-Time,,Medical-Surgical,k.walsh@hospital.org
+NRS-009,Lisa,Nakamura,UNIT-002,Registered Nurse,RN BSN,7,2019-04-10,Day,Full-Time,Critical Care (CCRN),Intensive Care,l.nakamura@hospital.org
+NRS-010,Robert,Garcia,UNIT-002,Registered Nurse,RN MSN,15,2011-01-05,Day,Full-Time,Critical Care (CCRN),Intensive Care,r.garcia@hospital.org
+NRS-011,Jennifer,Adebayo,UNIT-002,Charge Nurse,RN MSN,11,2015-07-22,Day,Full-Time,Critical Care (CCRN),Intensive Care,j.adebayo@hospital.org
+NRS-012,Thomas,Brown,UNIT-002,Registered Nurse,RN BSN,4,2022-06-15,Night,Full-Time,Critical Care (CCRN),Intensive Care,t.brown@hospital.org
+NRS-013,Maria,Santos,UNIT-002,Registered Nurse,RN BSN,5,2021-02-01,Night,Full-Time,,Intensive Care,m.santos@hospital.org
+NRS-014,Andrew,Foster,UNIT-002,Registered Nurse,RN BSN,2,2024-05-10,Night,Full-Time,,Intensive Care,a.foster@hospital.org
+NRS-015,Samantha,Liu,UNIT-003,Registered Nurse,RN BSN,9,2017-09-01,Day,Full-Time,Emergency (CEN),Emergency Medicine,s.liu@hospital.org
+NRS-016,Brandon,Osei,UNIT-003,Charge Nurse,RN MSN,13,2013-03-15,Day,Full-Time,Emergency (CEN),Emergency Medicine,b.osei@hospital.org
+NRS-017,Nicole,Petrov,UNIT-003,Registered Nurse,RN BSN,3,2023-04-20,Day,Full-Time,,Emergency Medicine,n.petrov@hospital.org
+NRS-018,Daniel,Murphy,UNIT-003,Registered Nurse,RN BSN,6,2020-11-01,Night,Full-Time,Emergency (CEN),Emergency Medicine,d.murphy@hospital.org
+NRS-019,Amanda,Johansson,UNIT-003,Registered Nurse,RN ADN,2,2024-08-15,Night,Full-Time,,Emergency Medicine,a.johansson@hospital.org
+NRS-020,Christopher,Rivera,UNIT-003,Registered Nurse,RN BSN,5,2021-06-10,Night,Full-Time,,Emergency Medicine,c.rivera@hospital.org

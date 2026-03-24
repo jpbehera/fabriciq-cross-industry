@@ -1,0 +1,13 @@
+court_id,name,jurisdiction,type,filing_requirements,efiling_system
+CRT-001,SDNY,Federal,District,ECF_PACER,PACER/CM-ECF
+CRT-002,EDNY,Federal,District,ECF_PACER,PACER/CM-ECF
+CRT-003,NDCA,Federal,District,ECF_PACER,PACER/CM-ECF
+CRT-004,NDIL,Federal,District,ECF_PACER,PACER/CM-ECF
+CRT-005,Second Circuit,Federal,Appellate,ECF_PACER,PACER/CM-ECF
+CRT-006,Ninth Circuit,Federal,Appellate,ECF_PACER,PACER/CM-ECF
+CRT-007,NY Supreme Court,New York,State,NYSCEF,NYSCEF
+CRT-008,CA Superior Court,California,State,TrueFiling,TrueFiling
+CRT-009,IL Circuit Court,Illinois,State,Odyssey,Odyssey
+CRT-010,TX District Court,Texas,State,eFileTexas,eFileTexas
+CRT-011,Bankruptcy Court SDNY,Federal,Bankruptcy,ECF_PACER,PACER/CM-ECF
+CRT-012,ITC,Federal,Administrative,EDIS,EDIS

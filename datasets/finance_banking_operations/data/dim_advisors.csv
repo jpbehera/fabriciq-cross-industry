@@ -1,0 +1,26 @@
+advisor_id,name,role,branch_id,license_type,hire_date,AUM_millions,certifications
+ADV-001,Sarah Chen,Financial Advisor,BRN-001,Series 7,2014-07-01,62.1,NMLS Licensed
+ADV-002,Michael Thompson,Senior Financial Advisor,BRN-002,Series 7 + 66,2017-01-02,38.8,NMLS Licensed
+ADV-003,Jennifer Walsh,Loan Officer,BRN-003,Series 7 + 63,2024-03-25,50.5,CAIA
+ADV-004,James O'Brien,Compliance Analyst,BRN-004,NMLS,2012-09-01,56.4,CFA
+ADV-005,Priya Sharma,Wealth Manager,BRN-005,CFA + Series 7,2012-08-05,54.8,CFA|CAIA|CLU
+ADV-006,Robert Williams,Financial Advisor,BRN-001,Series 7,2018-03-28,119.2,CFA
+ADV-007,Christine Lee,Senior Financial Advisor,BRN-002,Series 7 + 66,2019-08-19,154.2,CFA|NMLS Licensed
+ADV-008,Marcus Johnson,Loan Officer,BRN-003,Series 7 + 63,2019-07-20,76.3,CFP
+ADV-009,Raj Patel,Compliance Analyst,BRN-004,NMLS,2020-01-19,236.5,CAIA|ChFC
+ADV-010,Amanda Foster,Wealth Manager,BRN-005,CFA + Series 7,2022-04-21,99.5,CFP|CLU|NMLS Licensed
+ADV-011,Kevin Murphy,Financial Advisor,BRN-001,Series 7,2020-02-10,114.3,CFA|CFP|CAIA
+ADV-012,Nicole Davis,Senior Financial Advisor,BRN-002,Series 7 + 66,2018-06-28,142.0,CFA
+ADV-013,Brian Anderson,Loan Officer,BRN-003,Series 7 + 63,2020-07-10,47.0,CLU|ChFC
+ADV-014,Stephanie Garcia,Compliance Analyst,BRN-004,NMLS,2019-12-20,61.0,NMLS Licensed
+ADV-015,Marcus Green,Wealth Manager,BRN-005,CFA + Series 7,2013-08-07,47.1,NMLS Licensed|CFA|CAIA
+ADV-016,Daniel Kim,Financial Advisor,BRN-001,Series 7,2020-07-05,54.6,NMLS Licensed|CAIA
+ADV-017,Laura Martinez,Senior Financial Advisor,BRN-002,Series 7 + 66,2019-04-10,135.9,CFA
+ADV-018,Christopher Brown,Loan Officer,BRN-003,Series 7 + 63,2019-01-28,53.5,ChFC|CFP
+ADV-019,Michelle Taylor,Compliance Analyst,BRN-004,NMLS,2019-01-21,92.4,NMLS Licensed
+ADV-020,Anthony Robinson,Wealth Manager,BRN-005,CFA + Series 7,2022-04-16,43.9,ChFC
+ADV-021,Emily White,Financial Advisor,BRN-001,Series 7,2024-02-02,82.8,NMLS Licensed|CAIA
+ADV-022,Jonathan Harris,Senior Financial Advisor,BRN-002,Series 7 + 66,2020-12-15,93.8,CFA|NMLS Licensed
+ADV-023,Diana Clark,Loan Officer,BRN-003,Series 7 + 63,2014-01-14,45.6,CFP
+ADV-024,Steven Lewis,Compliance Analyst,BRN-004,NMLS,2015-08-03,76.9,CLU|CAIA|CFP
+ADV-025,Patricia Hall,Wealth Manager,BRN-005,CFA + Series 7,2022-07-01,116.8,ChFC|CAIA|CFP

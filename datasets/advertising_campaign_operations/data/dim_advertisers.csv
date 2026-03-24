@@ -1,0 +1,31 @@
+advertiser_id,name,industry,annual_spend,campaigns_ytd,tenure_years,agency_name,contact
+ADV-001,AutoNation Inc,Automotive,1850000,3,8,Publicis Media,jgarcia@autonation.example
+ADV-002,Wendy's International,QSR,1200000,2,6,VMLY&R,tsmith@wendys.example
+ADV-003,TechCorp Global,Technology,1400000,2,4,Wieden+Kennedy,klee@techcorp.example
+ADV-004,Target Corporation,Retail,1650000,3,10,Haworth Marketing,mwilson@target.example
+ADV-005,UnitedHealthcare,Healthcare,980000,1,3,Publicis Health,adavis@uhc.example
+ADV-006,Chase Bank,Financial Services,1300000,2,7,Droga5,rpatel@chase.example
+ADV-007,Universal Pictures,Entertainment,1100000,2,5,MediaCom,jbrown@universal.example
+ADV-008,Luxury Living Realty,Real Estate,820000,1,2,Local Agency Direct,swhite@luxliving.example
+ADV-009,Verizon Wireless,Telecom,1500000,1,9,McCann Worldgroup,dkim@verizon.example
+ADV-010,Marriott International,Travel,750000,1,4,Publicis Sapient,lmartin@marriott.example
+ADV-011,PepsiCo Frito-Lay,CPG,900000,1,6,Omnicom Media,cjones@pepsico.example
+ADV-012,State Farm Insurance,Insurance,680000,1,5,DDB Worldwide,hthomas@statefarm.example
+ADV-013,Delta Air Lines,Airline,720000,1,3,Wieden+Kennedy,bclark@delta.example
+ADV-014,Anheuser-Busch InBev,Beverage,1050000,2,7,FCB Global,nroberts@abinbev.example
+ADV-015,Pfizer Consumer Health,Pharmaceutical,1800000,1,4,Publicis Health,ewilliams@pfizer.example
+ADV-016,State University System,Education,380000,1,2,In-House,jcooper@stateuniv.example
+ADV-017,Panera Bread,Fast Casual,650000,1,3,Anomaly,kmiller@panera.example
+ADV-018,Planet Fitness,Fitness,440000,1,2,Barkley,twalker@planetfitness.example
+ADV-019,Home Depot,Home Improvement,580000,1,5,The Richards Group,mhall@homedepot.example
+ADV-020,Lyft Inc,Ride Share,920000,1,3,Wieden+Kennedy,sallen@lyft.example
+ADV-021,Whole Foods Market,Organic Grocery,450000,1,2,In-House,jyoung@wholefoods.example
+ADV-022,DraftKings,Sports Betting,1100000,1,2,VaynerMedia,dwright@draftkings.example
+ADV-023,ChargePoint,EV Charging,520000,1,1,Samba TV,klopez@chargepoint.example
+ADV-024,Spotify,Streaming Music,630000,1,3,Publicis Sapient,ahill@spotify.example
+ADV-025,Curaleaf Holdings,Cannabis,350000,1,1,Grasslands Agency,rgreen@curaleaf.example
+ADV-026,Chewy Inc,Pet Care,480000,1,2,BARK Agency,lscott@chewy.example
+ADV-027,SunPower Corp,Solar Energy,540000,1,1,BBDO,btaylor@sunpower.example
+ADV-028,Cartier International,Luxury Goods,750000,1,4,Publicis Luxe,ganderson@cartier.example
+ADV-029,DoorDash Inc,Food Delivery,680000,1,2,GSD&M,pjackson@doordash.example
+ADV-030,Hudson Group,Airport Retail,420000,1,3,In-House,mthompson@hudsongroup.example

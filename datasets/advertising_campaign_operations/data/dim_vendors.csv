@@ -1,0 +1,16 @@
+vendor_id,name,type,region,specialization,avg_turnaround_days,quality_rating
+VND-001,National Printing Solutions,print,National,Large Format Vinyl,5,4.5
+VND-002,Metro Sign & Graphics,print,Northeast,Billboard Vinyl & Poster,4,4.2
+VND-003,Midwest Outdoor Graphics,print,Midwest,Bulletin & Poster Printing,5,4.3
+VND-004,SunBelt Print Co,print,South,Weather-Resistant Vinyl,6,4.0
+VND-005,Pacific Sign Works,print,West,Premium Billboard Print,4,4.7
+VND-006,Digital Display Systems Inc,digital,National,LED Panel Installation,3,4.6
+VND-007,TransitMedia Corp,transit,National,Bus & Rail Wraps,7,4.1
+VND-008,StreetLevel Displays,street_furniture,National,Kiosk & Shelter Graphics,4,4.4
+VND-009,ProPhoto OOH,photography,National,OOH Campaign Photography,2,4.8
+VND-010,Southeast Install Crew,installation,Southeast,Posting & Removal,2,4.3
+VND-011,Heartland Install Services,installation,Midwest,Posting & Removal,2,4.1
+VND-012,Coastal Install Group,installation,Northeast,Posting & Removal,2,4.5
+VND-013,Lone Star Install Co,installation,South,Posting & Removal,3,3.9
+VND-014,West Coast Posting,installation,West,Posting & Removal,2,4.4
+VND-015,AllMedia Wrap Solutions,transit,Southeast,Vehicle & Transit Wraps,8,4.2

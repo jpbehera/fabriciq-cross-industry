@@ -1,0 +1,46 @@
+shift_id,nurse_id,unit_id,shift_date,shift_type,scheduled_start,scheduled_end,actual_start,actual_end,total_hours_worked,overtime_minutes,patients_assigned,break_taken,after_shift_charting_minutes,missed_meals,notes
+SHF-001,NRS-001,UNIT-001,2026-02-23,Day,07:00,19:00,06:50,19:45,12.9,45,5,Yes,35,0,Moderate shift. 1 discharge.
+SHF-002,NRS-002,UNIT-001,2026-02-23,Day,07:00,19:00,06:55,20:10,13.3,70,6,No,55,1,Heavy patient load. New admission at 15:00.
+SHF-003,NRS-003,UNIT-001,2026-02-23,Day,07:00,19:00,06:45,19:20,12.6,20,5,Yes,15,0,Experienced nurse. Efficient charting.
+SHF-004,NRS-007,UNIT-001,2026-02-23,Day,07:00,19:00,06:40,19:30,12.8,30,4,Yes,20,0,Charge nurse. Administrative duties.
+SHF-005,NRS-005,UNIT-001,2026-02-23,Night,19:00,07:00,18:50,07:35,12.8,35,5,Yes,25,0,Stable night. 1 fall incident.
+SHF-006,NRS-006,UNIT-001,2026-02-23,Night,19:00,07:00,18:55,08:00,13.1,60,6,No,50,1,New grad. Slow with charting.
+SHF-007,NRS-008,UNIT-001,2026-02-23,Night,19:00,07:00,18:50,07:25,12.6,25,5,Yes,20,0,Normal night shift.
+SHF-008,NRS-009,UNIT-002,2026-02-23,Day,07:00,19:00,06:45,19:55,13.2,55,2,Yes,40,0,ICU. Complex patients. Continuous monitoring documentation.
+SHF-009,NRS-010,UNIT-002,2026-02-23,Day,07:00,19:00,06:50,19:30,12.7,30,2,Yes,20,0,Senior ICU nurse. Efficient workflow.
+SHF-010,NRS-011,UNIT-002,2026-02-23,Day,07:00,19:00,06:40,19:40,13.0,40,2,Yes,25,0,Charge nurse. Split between admin and patient care.
+SHF-011,NRS-012,UNIT-002,2026-02-23,Night,19:00,07:00,18:50,07:45,12.9,45,2,No,35,1,Code blue at 02:00. Heavy documentation post-event.
+SHF-012,NRS-013,UNIT-002,2026-02-23,Night,19:00,07:00,18:55,07:30,12.6,30,2,Yes,25,0,Stable ICU night.
+SHF-013,NRS-015,UNIT-003,2026-02-23,Day,07:00,19:00,06:50,20:00,13.2,60,8,No,40,2,ED busy day. 3 trauma alerts.
+SHF-014,NRS-016,UNIT-003,2026-02-23,Day,07:00,19:00,06:45,19:35,12.8,35,6,Yes,20,0,ED charge. Managed flow well.
+SHF-015,NRS-017,UNIT-003,2026-02-23,Day,07:00,19:00,06:55,20:15,13.3,75,9,No,60,2,ED overwhelmed. Excessive documentation backlog.
+SHF-016,NRS-018,UNIT-003,2026-02-23,Night,19:00,07:00,18:50,07:20,12.5,20,5,Yes,15,0,Quiet ED night.
+SHF-017,NRS-019,UNIT-003,2026-02-23,Night,19:00,07:00,18:55,07:50,12.9,50,7,No,40,1,Multiple admits overnight. Documentation backed up.
+SHF-018,NRS-001,UNIT-001,2026-02-24,Day,07:00,19:00,06:50,20:00,13.2,60,6,No,45,1,Heavier load today. 2 new admissions.
+SHF-019,NRS-002,UNIT-001,2026-02-24,Day,07:00,19:00,06:55,19:50,12.9,50,5,Yes,35,0,Better than yesterday but still behind on charting.
+SHF-020,NRS-003,UNIT-001,2026-02-24,Day,07:00,19:00,06:48,19:15,12.5,15,5,Yes,10,0,Smooth day. All charting complete on time.
+SHF-021,NRS-004,UNIT-001,2026-02-24,Day,07:00,19:00,06:52,20:20,13.5,80,6,No,65,2,Struggled with complex discharge documentation.
+SHF-022,NRS-005,UNIT-001,2026-02-24,Night,19:00,07:00,18:50,07:40,12.8,40,5,Yes,30,0,Patient deterioration required extra charting.
+SHF-023,NRS-006,UNIT-001,2026-02-24,Night,19:00,07:00,18:55,08:15,13.3,75,6,No,60,1,Still struggling with EHR navigation.
+SHF-024,NRS-009,UNIT-002,2026-02-24,Day,07:00,19:00,06:45,20:05,13.3,65,2,No,45,1,New admission - intubated patient. Extensive documentation.
+SHF-025,NRS-010,UNIT-002,2026-02-24,Day,07:00,19:00,06:50,19:25,12.6,25,2,Yes,15,0,Routine ICU day for experienced nurse.
+SHF-026,NRS-012,UNIT-002,2026-02-24,Night,19:00,07:00,18:50,07:30,12.7,30,2,Yes,20,0,Standard ICU night.
+SHF-027,NRS-014,UNIT-002,2026-02-24,Night,19:00,07:00,18:55,08:00,13.1,60,2,No,50,1,Junior nurse. Double-checking all entries.
+SHF-028,NRS-015,UNIT-003,2026-02-24,Day,07:00,19:00,06:50,19:40,12.8,40,7,Yes,25,0,Moderate ED day.
+SHF-029,NRS-016,UNIT-003,2026-02-24,Day,07:00,19:00,06:45,19:30,12.8,30,6,Yes,20,0,ED charge. Good documentation compliance.
+SHF-030,NRS-018,UNIT-003,2026-02-24,Night,19:00,07:00,18:50,07:35,12.8,35,6,No,30,1,Busy ED night. MVA cases.
+SHF-031,NRS-020,UNIT-003,2026-02-24,Night,19:00,07:00,18:55,07:20,12.4,20,5,Yes,15,0,Manageable ED night.
+SHF-032,NRS-001,UNIT-001,2026-02-25,Day,07:00,19:00,06:48,19:30,12.7,30,5,Yes,20,0,Average day. Caught up on charting.
+SHF-033,NRS-002,UNIT-001,2026-02-25,Day,07:00,19:00,06:55,20:05,13.2,65,6,No,50,1,Continues to struggle with documentation volume.
+SHF-034,NRS-003,UNIT-001,2026-02-25,Day,07:00,19:00,06:45,19:10,12.4,10,4,Yes,5,0,Light patient load. Mentoring new nurse.
+SHF-035,NRS-007,UNIT-001,2026-02-25,Day,07:00,19:00,06:40,19:25,12.8,25,4,Yes,15,0,Charge duties. Helped new nurses with charting.
+SHF-036,NRS-005,UNIT-001,2026-02-25,Night,19:00,07:00,18:50,07:30,12.7,30,5,Yes,20,0,Normal night.
+SHF-037,NRS-008,UNIT-001,2026-02-25,Night,19:00,07:00,18:50,07:45,12.9,45,6,No,35,1,High census overnight.
+SHF-038,NRS-009,UNIT-002,2026-02-25,Day,07:00,19:00,06:50,19:50,13.0,50,2,Yes,35,0,Continuous drip titrations. Hourly documentation.
+SHF-039,NRS-011,UNIT-002,2026-02-25,Day,07:00,19:00,06:40,19:35,12.9,35,2,Yes,20,0,Charge nurse. Coordinated with multiple services.
+SHF-040,NRS-013,UNIT-002,2026-02-25,Night,19:00,07:00,18:55,07:35,12.7,35,2,Yes,25,0,Post-op patient. Frequent neuro checks and charting.
+SHF-041,NRS-014,UNIT-002,2026-02-25,Night,19:00,07:00,18:55,08:10,13.3,70,2,No,55,1,Struggling with ICU documentation complexity.
+SHF-042,NRS-015,UNIT-003,2026-02-25,Day,07:00,19:00,06:50,19:45,12.9,45,8,No,30,1,Busy ED. Multiple documentation deadlines.
+SHF-043,NRS-017,UNIT-003,2026-02-25,Day,07:00,19:00,06:55,20:05,13.2,65,8,No,50,2,Overwhelmed. Asked for help with charting.
+SHF-044,NRS-018,UNIT-003,2026-02-25,Night,19:00,07:00,18:50,07:25,12.6,25,5,Yes,15,0,Quiet ED night.
+SHF-045,NRS-019,UNIT-003,2026-02-25,Night,19:00,07:00,18:55,07:55,13.0,55,7,No,45,1,Back-to-back admits. Documentation lag.

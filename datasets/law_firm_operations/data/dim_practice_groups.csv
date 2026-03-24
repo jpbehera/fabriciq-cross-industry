@@ -1,0 +1,9 @@
+practice_group_id,name,office,attorney_count,revenue_target,specializations
+PG-001,Litigation,New York,8,12000000,commercial|securities|IP|employment
+PG-002,Corporate/M&A,New York,6,15000000,mergers|acquisitions|private_equity|venture_capital
+PG-003,Intellectual Property,San Francisco,4,6000000,patents|trademarks|trade_secrets|licensing
+PG-004,Real Estate,Chicago,4,5000000,acquisitions|leasing|zoning|construction
+PG-005,Employment & Labor,Washington DC,3,4000000,discrimination|wage_hour|NLRA|class_action
+PG-006,Tax,New York,2,3500000,corporate|individual|international|state_local
+PG-007,Bankruptcy,New York,2,3000000,chapter_11|restructuring|creditor_rights
+PG-008,Regulatory/Compliance,Washington DC,3,4500000,FDA|SEC|environmental|export_controls

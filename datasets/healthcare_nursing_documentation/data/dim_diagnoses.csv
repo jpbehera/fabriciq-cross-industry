@@ -1,0 +1,16 @@
+diagnosis_id,icd10_code,name,category,typical_los_days,typical_acuity,avg_daily_med_count,avg_daily_doc_events,common_unit
+DX-001,I50.9,Heart Failure (Unspecified),Cardiovascular,5,3,8,28,UNIT-001
+DX-002,I10,Essential Hypertension,Cardiovascular,3,2,5,18,UNIT-001
+DX-003,J18.9,Pneumonia (Unspecified),Respiratory,4,3,7,25,UNIT-001
+DX-004,J44.1,COPD with Acute Exacerbation,Respiratory,5,3,6,24,UNIT-001
+DX-005,I26.99,Pulmonary Embolism,Cardiovascular,4,4,8,30,UNIT-002
+DX-006,S72.001A,Hip Fracture (Femoral Neck),Orthopedic,6,3,6,22,UNIT-001
+DX-007,K92.1,GI Bleeding,Gastrointestinal,4,3,7,26,UNIT-001
+DX-008,K25.4,Gastric Ulcer with Hemorrhage,Gastrointestinal,5,4,8,28,UNIT-002
+DX-009,N39.0,Urinary Tract Infection,Infectious,3,2,4,16,UNIT-001
+DX-010,E11.65,Type 2 Diabetes with Hyperglycemia,Endocrine,3,2,6,22,UNIT-001
+DX-011,I63.9,Cerebral Infarction (Stroke),Neurological,7,4,9,35,UNIT-002
+DX-012,M54.5,Low Back Pain,Musculoskeletal,2,2,4,14,UNIT-001
+DX-013,J96.01,Acute Respiratory Failure,Respiratory,8,5,10,40,UNIT-002
+DX-014,S06.0X0A,Concussion / Head Injury,Neurological,2,5,5,32,UNIT-003
+DX-015,I21.9,Acute Myocardial Infarction,Cardiovascular,5,4,10,36,UNIT-002

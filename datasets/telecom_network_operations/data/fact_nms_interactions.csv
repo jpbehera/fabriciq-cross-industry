@@ -1,0 +1,501 @@
+interaction_id,engineer_id,timestamp,system,action,alarm_id,duration_ms,correlation_group,notes
+NMS-0001,ENG-001,2026-03-01T06:12:34.123Z,SolarWinds,acknowledge_alarm,ALM-4821,1200,CG-0001,Fiber alarm on SEG-001 node 3
+NMS-0002,ENG-001,2026-03-01T06:12:48.456Z,SolarWinds,view_topology,ALM-4821,3400,CG-0001,Checking affected path for fiber cut
+NMS-0003,ENG-001,2026-03-01T06:14:02.789Z,NetCool,correlate_events,ALM-4821,8500,CG-0001,Cross-referencing with downstream alarms
+NMS-0004,ENG-001,2026-03-01T06:16:15.234Z,SolarWinds,create_ticket,,4200,CG-0001,Generated TKT-0001 for fiber alarm
+NMS-0005,ENG-001,2026-03-01T06:18:30.567Z,ServiceNow,update_ticket,,2800,CG-0001,Added topology diagram and alarm details
+NMS-0006,ENG-002,2026-03-01T07:02:11.890Z,SolarWinds,acknowledge_alarm,ALM-4822,900,CG-0002,BGP session down on core router
+NMS-0007,ENG-002,2026-03-01T07:02:45.123Z,SolarWinds,view_dashboard,,2100,CG-0002,Checking BGP peer status across segment
+NMS-0008,ENG-002,2026-03-01T07:04:18.456Z,NetCool,correlate_events,ALM-4822,6200,CG-0002,Multiple BGP peers affected on SEG-002
+NMS-0009,ENG-002,2026-03-01T07:06:55.789Z,Cisco Prime,run_diagnostic,,12400,CG-0002,Running show ip bgp summary on PE routers
+NMS-0010,ENG-002,2026-03-01T07:10:32.012Z,ServiceNow,create_ticket,,3500,CG-0002,P1 ticket for multi-peer BGP flap
+NMS-0011,ENG-003,2026-03-01T08:15:22.345Z,SolarWinds,acknowledge_alarm,ALM-4823,800,CG-0003,DWDM wavelength degradation alarm
+NMS-0012,ENG-003,2026-03-01T08:16:05.678Z,Ciena MCP,view_performance,,4800,CG-0003,Checking optical power levels on DWDM path
+NMS-0013,ENG-003,2026-03-01T08:18:40.901Z,Ciena MCP,run_diagnostic,,9200,CG-0003,OTDR trace on affected wavelength
+NMS-0014,ENG-003,2026-03-01T08:21:12.234Z,SolarWinds,update_alarm,ALM-4823,1500,CG-0003,Added optical readings to alarm notes
+NMS-0015,ENG-003,2026-03-01T08:23:45.567Z,ServiceNow,create_ticket,,3200,CG-0003,Ticket for wavelength degradation investigation
+NMS-0016,ENG-004,2026-03-01T09:30:18.890Z,Splunk,search_logs,,15600,CG-0004,Searching for anomalous traffic patterns
+NMS-0017,ENG-004,2026-03-01T09:34:22.123Z,SolarWinds,acknowledge_alarm,ALM-4824,1100,CG-0004,DDoS signature detected on edge router
+NMS-0018,ENG-004,2026-03-01T09:35:40.456Z,Fortinet,update_policy,,8900,CG-0004,Deploying rate-limiting ACL on ingress
+NMS-0019,ENG-004,2026-03-01T09:38:15.789Z,Splunk,search_logs,,12300,CG-0004,Confirming mitigation effectiveness
+NMS-0020,ENG-004,2026-03-01T09:42:08.012Z,ServiceNow,create_ticket,,4100,CG-0004,Security incident ticket with forensic data
+NMS-0021,ENG-005,2026-03-01T10:05:33.345Z,SolarWinds,view_dashboard,,2400,,Routine morning dashboard review
+NMS-0022,ENG-005,2026-03-01T10:08:12.678Z,SolarWinds,acknowledge_alarm,ALM-4825,900,CG-0005,Power supply warning on access switch
+NMS-0023,ENG-005,2026-03-01T10:09:28.901Z,SolarWinds,view_device_detail,,3600,CG-0005,Checking hardware status and redundancy
+NMS-0024,ENG-005,2026-03-01T10:12:45.234Z,ServiceNow,create_ticket,,2800,CG-0005,Hardware replacement ticket for switch PSU
+NMS-0025,ENG-006,2026-03-01T11:20:15.567Z,MRTG,view_utilization,,4200,CG-0006,Reviewing trunk utilization trends
+NMS-0026,ENG-006,2026-03-01T11:23:40.890Z,SolarWinds,acknowledge_alarm,ALM-4826,1000,CG-0006,Interface utilization threshold exceeded
+NMS-0027,ENG-006,2026-03-01T11:25:18.123Z,Cisco Prime,run_diagnostic,,8700,CG-0006,Traffic analysis on congested interface
+NMS-0028,ENG-006,2026-03-01T11:28:55.456Z,MRTG,export_report,,6100,CG-0006,Generating capacity report for planning
+NMS-0029,ENG-006,2026-03-01T11:32:20.789Z,ServiceNow,create_ticket,,3400,CG-0006,Capacity augmentation request ticket
+NMS-0030,ENG-011,2026-03-01T12:45:08.012Z,SolarWinds,acknowledge_alarm,ALM-4827,1100,CG-0007,MPLS LSP failure on core segment
+NMS-0031,ENG-011,2026-03-01T12:46:32.345Z,Cisco Prime,view_topology,,5200,CG-0007,Checking MPLS tunnel path and backup
+NMS-0032,ENG-011,2026-03-01T12:49:15.678Z,Cisco Prime,run_diagnostic,,11800,CG-0007,Traceroute and MPLS ping on affected LSP
+NMS-0033,ENG-011,2026-03-01T12:53:40.901Z,SolarWinds,update_alarm,ALM-4827,1400,CG-0007,LSP rerouted to backup path successfully
+NMS-0034,ENG-011,2026-03-01T12:55:22.234Z,ServiceNow,update_ticket,,2900,CG-0007,Auto-resolved with MPLS FRR documented
+NMS-0035,ENG-012,2026-03-01T13:18:45.567Z,SolarWinds,view_dashboard,,2600,,Afternoon shift dashboard check
+NMS-0036,ENG-012,2026-03-01T13:22:10.890Z,NetCool,acknowledge_alarm,ALM-4828,950,CG-0008,Environmental alarm - HVAC failure at CO
+NMS-0037,ENG-012,2026-03-01T13:23:28.123Z,SolarWinds,view_device_detail,,3800,CG-0008,Checking equipment temperature readings
+NMS-0038,ENG-012,2026-03-01T13:26:55.456Z,ServiceNow,create_ticket,,3600,CG-0008,P2 environmental ticket dispatching facilities
+NMS-0039,ENG-013,2026-03-01T14:08:22.789Z,SolarWinds,acknowledge_alarm,ALM-4829,1000,CG-0009,Ethernet CRC errors on 100G trunk
+NMS-0040,ENG-013,2026-03-01T14:09:48.012Z,Ciena MCP,view_performance,,5600,CG-0009,Checking optical power and BER on trunk
+NMS-0041,ENG-013,2026-03-01T14:13:15.345Z,Ciena MCP,run_diagnostic,,14200,CG-0009,Loopback and BERT test on affected path
+NMS-0042,ENG-013,2026-03-01T14:18:40.678Z,SolarWinds,update_alarm,ALM-4829,1300,CG-0009,Dirty connector suspected based on readings
+NMS-0043,ENG-013,2026-03-01T14:20:55.901Z,ServiceNow,create_ticket,,3100,CG-0009,Dispatch ticket for fiber cleaning
+NMS-0044,ENG-014,2026-03-01T15:30:18.234Z,SolarWinds,view_dashboard,,2200,,Pre-maintenance window dashboard review
+NMS-0045,ENG-014,2026-03-01T15:33:42.567Z,SolarWinds,suppress_alarm,ALM-4830,1600,CG-0010,Suppressing alarms for planned maintenance
+NMS-0046,ENG-014,2026-03-01T15:36:05.890Z,Cisco Prime,run_diagnostic,,9800,CG-0010,Pre-maintenance health check on target node
+NMS-0047,ENG-014,2026-03-01T15:40:28.123Z,ServiceNow,update_ticket,,4500,CG-0010,Updating change ticket with pre-check results
+NMS-0048,ENG-016,2026-03-01T16:12:55.456Z,SolarWinds,acknowledge_alarm,ALM-4831,850,CG-0011,VoIP quality degradation alarm
+NMS-0049,ENG-016,2026-03-01T16:14:20.789Z,SolarWinds,view_performance,,4100,CG-0011,Checking QoS metrics and jitter values
+NMS-0050,ENG-016,2026-03-01T16:17:45.012Z,Cisco Prime,run_diagnostic,,10500,CG-0011,IP SLA probe and voice quality analysis
+NMS-0051,ENG-016,2026-03-01T16:21:08.345Z,ServiceNow,create_ticket,,3300,CG-0011,Ticket for QoS policy adjustment
+NMS-0052,ENG-017,2026-03-01T17:05:32.678Z,SolarWinds,acknowledge_alarm,ALM-4832,1050,CG-0012,Memory utilization warning on PE router
+NMS-0053,ENG-017,2026-03-01T17:07:15.901Z,Cisco Prime,view_device_detail,,4400,CG-0012,Checking process memory and BGP table size
+NMS-0054,ENG-017,2026-03-01T17:10:48.234Z,Cisco Prime,run_diagnostic,,8100,CG-0012,Show memory and show process on router
+NMS-0055,ENG-017,2026-03-01T17:14:22.567Z,ServiceNow,create_ticket,,2700,CG-0012,Monitoring ticket for memory trend analysis
+NMS-0056,ENG-001,2026-03-01T18:30:15.890Z,NetCool,acknowledge_alarm,ALM-4833,1150,CG-0013,Fiber cut alarm on backup path SEG-001
+NMS-0057,ENG-001,2026-03-01T18:31:42.123Z,SolarWinds,view_topology,,3900,CG-0013,Assessing impact of backup path loss
+NMS-0058,ENG-001,2026-03-01T18:34:28.456Z,Ciena MCP,run_diagnostic,,7600,CG-0013,OTDR locating break point on backup fiber
+NMS-0059,ENG-001,2026-03-01T18:38:05.789Z,ServiceNow,create_ticket,,4800,CG-0013,P2 ticket for backup fiber restoration
+NMS-0060,ENG-001,2026-03-01T18:41:30.012Z,ServiceNow,update_ticket,,3200,CG-0013,Added GPS coordinates for repair crew dispatch
+NMS-0061,ENG-002,2026-03-01T19:15:22.345Z,SolarWinds,acknowledge_alarm,ALM-4834,980,CG-0014,ISIS adjacency flap on distribution switch
+NMS-0062,ENG-002,2026-03-01T19:16:45.678Z,Cisco Prime,run_diagnostic,,11200,CG-0014,Checking ISIS neighbors and interface errors
+NMS-0063,ENG-002,2026-03-01T19:20:18.901Z,Splunk,search_logs,,8900,CG-0014,Correlating syslog for root cause
+NMS-0064,ENG-002,2026-03-01T19:24:05.234Z,ServiceNow,create_ticket,,3700,CG-0014,Ticket for ISIS instability investigation
+NMS-0065,ENG-003,2026-03-01T20:02:48.567Z,SolarWinds,view_dashboard,,2300,,Evening shift handoff dashboard review
+NMS-0066,ENG-003,2026-03-01T20:05:22.890Z,SolarWinds,acknowledge_alarm,ALM-4835,1080,CG-0015,SNMP trap - fan failure on aggregation SW
+NMS-0067,ENG-003,2026-03-01T20:06:55.123Z,SolarWinds,view_device_detail,,3200,CG-0015,Checking hardware health and fan redundancy
+NMS-0068,ENG-003,2026-03-01T20:09:30.456Z,ServiceNow,create_ticket,,2500,CG-0015,Hardware ticket for fan replacement
+NMS-0069,ENG-004,2026-03-01T21:18:12.789Z,Splunk,search_logs,,18200,CG-0016,Threat hunting - unusual SSH brute force
+NMS-0070,ENG-004,2026-03-01T21:24:35.012Z,Fortinet,update_policy,,7800,CG-0016,Blocking offending IP ranges at edge
+NMS-0071,ENG-004,2026-03-01T21:28:10.345Z,Splunk,search_logs,,9600,CG-0016,Verifying block effectiveness
+NMS-0072,ENG-004,2026-03-01T21:32:45.678Z,ServiceNow,create_ticket,,5200,CG-0016,Security incident with IOCs documented
+NMS-0073,ENG-005,2026-03-02T06:08:15.901Z,SolarWinds,view_dashboard,,2500,,Morning shift start dashboard check
+NMS-0074,ENG-005,2026-03-02T06:12:40.234Z,SolarWinds,acknowledge_alarm,ALM-4836,1020,CG-0017,OSPF neighbor down on access layer
+NMS-0075,ENG-005,2026-03-02T06:14:18.567Z,Cisco Prime,run_diagnostic,,9400,CG-0017,Show ip ospf neighbor and interface status
+NMS-0076,ENG-005,2026-03-02T06:18:55.890Z,ServiceNow,create_ticket,,3100,CG-0017,Ticket for OSPF adjacency restoration
+NMS-0077,ENG-006,2026-03-02T07:22:32.123Z,MRTG,view_utilization,,3800,CG-0018,Morning utilization review for capacity
+NMS-0078,ENG-006,2026-03-02T07:25:55.456Z,SolarWinds,acknowledge_alarm,ALM-4837,950,CG-0018,Port channel member link failure
+NMS-0079,ENG-006,2026-03-02T07:27:30.789Z,Cisco Prime,view_device_detail,,4600,CG-0018,Checking LAG member status and load balance
+NMS-0080,ENG-006,2026-03-02T07:31:08.012Z,ServiceNow,create_ticket,,3000,CG-0018,Ticket for LAG member link restoration
+NMS-0081,ENG-011,2026-03-02T08:45:22.345Z,SolarWinds,acknowledge_alarm,ALM-4838,1200,CG-0019,QoS queue drops on interco trunk
+NMS-0082,ENG-011,2026-03-02T08:47:05.678Z,Cisco Prime,run_diagnostic,,10800,CG-0019,Show policy-map and queue statistics
+NMS-0083,ENG-011,2026-03-02T08:51:40.901Z,SolarWinds,update_alarm,ALM-4838,1500,CG-0019,Transient congestion resolved after traffic shift
+NMS-0084,ENG-011,2026-03-02T08:54:15.234Z,ServiceNow,update_ticket,,2600,CG-0019,Documented as transient with traffic analysis
+NMS-0085,ENG-012,2026-03-02T09:30:48.567Z,SolarWinds,view_dashboard,,2100,,Mid-morning health check
+NMS-0086,ENG-012,2026-03-02T09:33:22.890Z,NetCool,acknowledge_alarm,ALM-4839,880,CG-0020,Power alarm at remote cabinet site
+NMS-0087,ENG-012,2026-03-02T09:34:55.123Z,SolarWinds,view_device_detail,,3400,CG-0020,Checking UPS status and battery levels
+NMS-0088,ENG-012,2026-03-02T09:38:18.456Z,ServiceNow,create_ticket,,3800,CG-0020,Dispatch ticket for generator check at site
+NMS-0089,ENG-013,2026-03-02T10:15:42.789Z,SolarWinds,acknowledge_alarm,ALM-4840,1080,CG-0021,Multicast stream failure on CDN segment
+NMS-0090,ENG-013,2026-03-02T10:17:28.012Z,Cisco Prime,run_diagnostic,,13500,CG-0021,Show ip mroute and PIM neighbor check
+NMS-0091,ENG-013,2026-03-02T10:22:55.345Z,Ciena MCP,view_performance,,5100,CG-0021,Checking underlying transport path health
+NMS-0092,ENG-013,2026-03-02T10:26:30.678Z,ServiceNow,create_ticket,,4200,CG-0021,Multicast restoration ticket with trace data
+NMS-0093,ENG-014,2026-03-02T11:40:15.901Z,SolarWinds,acknowledge_alarm,ALM-4841,920,CG-0022,NTP sync failure across access nodes
+NMS-0094,ENG-014,2026-03-02T11:41:48.234Z,Cisco Prime,run_diagnostic,,7800,CG-0022,Show ntp associations on affected devices
+NMS-0095,ENG-014,2026-03-02T11:45:22.567Z,SolarWinds,update_alarm,ALM-4841,1200,CG-0022,Stratum 1 source unreachable - failover to S2
+NMS-0096,ENG-014,2026-03-02T11:48:05.890Z,ServiceNow,create_ticket,,3400,CG-0022,Ticket for NTP stratum 1 source restoration
+NMS-0097,ENG-016,2026-03-02T12:55:38.123Z,SolarWinds,acknowledge_alarm,ALM-4842,1050,CG-0023,STP topology change on campus distribution
+NMS-0098,ENG-016,2026-03-02T12:57:15.456Z,Cisco Prime,view_topology,,4900,CG-0023,Checking spanning tree root and path changes
+NMS-0099,ENG-016,2026-03-02T13:01:42.789Z,Cisco Prime,run_diagnostic,,11600,CG-0023,Show spanning-tree detail on affected VLANs
+NMS-0100,ENG-016,2026-03-02T13:05:18.012Z,ServiceNow,create_ticket,,3500,CG-0023,Investigation ticket for unexpected STP change
+NMS-0101,ENG-017,2026-03-02T14:20:45.345Z,SolarWinds,acknowledge_alarm,ALM-4843,980,CG-0024,DNS resolution failure for monitoring probes
+NMS-0102,ENG-017,2026-03-02T14:22:20.678Z,Cisco Prime,run_diagnostic,,6800,CG-0024,Testing DNS resolution from multiple nodes
+NMS-0103,ENG-017,2026-03-02T14:26:05.901Z,SolarWinds,update_alarm,ALM-4843,1100,CG-0024,DNS server recovered after cache rebuild
+NMS-0104,ENG-017,2026-03-02T14:28:38.234Z,ServiceNow,update_ticket,,2400,CG-0024,Documented DNS hiccup with resolution time
+NMS-0105,ENG-001,2026-03-02T15:42:12.567Z,SolarWinds,acknowledge_alarm,ALM-4844,1150,CG-0025,Fiber degradation on primary ring span 5-7
+NMS-0106,ENG-001,2026-03-02T15:44:05.890Z,Ciena MCP,view_performance,,5800,CG-0025,Optical power trending below threshold
+NMS-0107,ENG-001,2026-03-02T15:48:32.123Z,Ciena MCP,run_diagnostic,,12100,CG-0025,OTDR measurements showing loss increase
+NMS-0108,ENG-001,2026-03-02T15:53:18.456Z,ServiceNow,create_ticket,,4600,CG-0025,Proactive fiber maintenance ticket with OTDR
+NMS-0109,ENG-002,2026-03-02T16:35:45.789Z,Splunk,search_logs,,14800,CG-0026,Anomaly detection flagged unusual SNMP poll
+NMS-0110,ENG-002,2026-03-02T16:40:22.012Z,SolarWinds,view_device_detail,,3700,CG-0026,Investigating SNMP community string mismatch
+NMS-0111,ENG-002,2026-03-02T16:44:55.345Z,SolarWinds,update_config,,5200,CG-0026,Correcting SNMP v3 user credentials on device
+NMS-0112,ENG-002,2026-03-02T16:48:30.678Z,ServiceNow,create_ticket,,2800,CG-0026,Config change ticket for SNMP remediation
+NMS-0113,ENG-003,2026-03-02T17:55:18.901Z,SolarWinds,acknowledge_alarm,ALM-4845,1000,CG-0027,Chassis alarm on modular core router
+NMS-0114,ENG-003,2026-03-02T17:57:02.234Z,Cisco Prime,view_device_detail,,4200,CG-0027,Checking linecard status and hardware errors
+NMS-0115,ENG-003,2026-03-02T18:01:35.567Z,Cisco Prime,run_diagnostic,,9500,CG-0027,Diagnostic on failing linecard in slot 5
+NMS-0116,ENG-003,2026-03-02T18:05:48.890Z,ServiceNow,create_ticket,,4000,CG-0027,RMA ticket for linecard with vendor TAC case
+NMS-0117,ENG-004,2026-03-02T19:12:22.123Z,Splunk,search_logs,,16400,CG-0028,Investigating potential data exfiltration pattern
+NMS-0118,ENG-004,2026-03-02T19:18:55.456Z,Fortinet,view_logs,,8200,CG-0028,Firewall flow analysis for flagged traffic
+NMS-0119,ENG-004,2026-03-02T19:24:30.789Z,Fortinet,update_policy,,6500,CG-0028,Implementing temporary block on suspect flows
+NMS-0120,ENG-004,2026-03-02T19:29:05.012Z,ServiceNow,create_ticket,,6800,CG-0028,P1 security incident with full forensic trail
+NMS-0121,ENG-005,2026-03-02T20:35:18.345Z,SolarWinds,view_dashboard,,2200,,Evening mini health check
+NMS-0122,ENG-005,2026-03-02T20:38:45.678Z,SolarWinds,acknowledge_alarm,ALM-4846,1020,CG-0029,SFP module warning on 10G uplink
+NMS-0123,ENG-005,2026-03-02T20:40:30.901Z,SolarWinds,view_device_detail,,3500,CG-0029,Checking SFP DOM readings and spare status
+NMS-0124,ENG-005,2026-03-02T20:43:55.234Z,ServiceNow,create_ticket,,2600,CG-0029,Proactive SFP replacement ticket
+NMS-0125,ENG-006,2026-03-03T06:05:08.567Z,SolarWinds,view_dashboard,,2400,,Morning shift start composite view
+NMS-0126,ENG-006,2026-03-03T06:08:35.890Z,MRTG,view_utilization,,3600,CG-0030,Overnight utilization review for anomalies
+NMS-0127,ENG-006,2026-03-03T06:12:18.123Z,SolarWinds,acknowledge_alarm,ALM-4847,1100,CG-0030,Trunk utilization exceeded 85% overnight
+NMS-0128,ENG-006,2026-03-03T06:15:42.456Z,MRTG,export_report,,5800,CG-0030,Generating traffic report for capacity team
+NMS-0129,ENG-006,2026-03-03T06:19:05.789Z,ServiceNow,create_ticket,,3200,CG-0030,Capacity planning escalation ticket
+NMS-0130,ENG-011,2026-03-03T07:28:32.012Z,SolarWinds,acknowledge_alarm,ALM-4848,980,CG-0031,VRRP failover event on distribution pair
+NMS-0131,ENG-011,2026-03-03T07:30:15.345Z,Cisco Prime,view_topology,,4400,CG-0031,Checking VRRP state and priority on both nodes
+NMS-0132,ENG-011,2026-03-03T07:33:48.678Z,Cisco Prime,run_diagnostic,,8200,CG-0031,Show vrrp and standby on affected pair
+NMS-0133,ENG-011,2026-03-03T07:37:22.901Z,ServiceNow,create_ticket,,3000,CG-0031,Ticket to investigate VRRP preemption cause
+NMS-0134,ENG-012,2026-03-03T08:42:15.234Z,SolarWinds,acknowledge_alarm,ALM-4849,870,CG-0032,AAA server timeout on auth requests
+NMS-0135,ENG-012,2026-03-03T08:43:48.567Z,Cisco Prime,run_diagnostic,,7600,CG-0032,Testing RADIUS reachability and latency
+NMS-0136,ENG-012,2026-03-03T08:47:22.890Z,SolarWinds,update_alarm,ALM-4849,1300,CG-0032,Secondary AAA server handling load
+NMS-0137,ENG-012,2026-03-03T08:49:55.123Z,ServiceNow,create_ticket,,2900,CG-0032,Ticket for primary AAA server recovery
+NMS-0138,ENG-013,2026-03-03T09:55:40.456Z,Ciena MCP,view_performance,,5400,CG-0033,Routine optical network health review
+NMS-0139,ENG-013,2026-03-03T09:59:15.789Z,SolarWinds,acknowledge_alarm,ALM-4850,1050,CG-0033,Chromatic dispersion warning on long-haul
+NMS-0140,ENG-013,2026-03-03T10:02:48.012Z,Ciena MCP,run_diagnostic,,11500,CG-0033,DCM effectiveness and signal quality check
+NMS-0141,ENG-013,2026-03-03T10:07:22.345Z,ServiceNow,create_ticket,,3800,CG-0033,Optical network maintenance ticket
+NMS-0142,ENG-014,2026-03-03T11:15:55.678Z,SolarWinds,acknowledge_alarm,ALM-4851,920,CG-0034,HSRP state mismatch on gateway pair
+NMS-0143,ENG-014,2026-03-03T11:17:30.901Z,Cisco Prime,run_diagnostic,,8800,CG-0034,Show standby brief on both gateway nodes
+NMS-0144,ENG-014,2026-03-03T11:21:05.234Z,SolarWinds,update_alarm,ALM-4851,1200,CG-0034,HSRP recovered after clearing ARP table
+NMS-0145,ENG-014,2026-03-03T11:23:38.567Z,ServiceNow,update_ticket,,2500,CG-0034,Documented HSRP recovery steps
+NMS-0146,ENG-016,2026-03-03T12:30:12.890Z,SolarWinds,view_dashboard,,2300,,Noon shift dashboard assessment
+NMS-0147,ENG-016,2026-03-03T12:33:45.123Z,SolarWinds,acknowledge_alarm,ALM-4852,1000,CG-0035,Multicast IGMP snooping table overflow
+NMS-0148,ENG-016,2026-03-03T12:35:28.456Z,Cisco Prime,run_diagnostic,,9200,CG-0035,Show ip igmp snooping and group count
+NMS-0149,ENG-016,2026-03-03T12:39:55.789Z,ServiceNow,create_ticket,,3400,CG-0035,Ticket for IGMP table tuning
+NMS-0150,ENG-017,2026-03-03T13:48:22.012Z,SolarWinds,acknowledge_alarm,ALM-4853,1120,CG-0036,ARP storm detected on VLAN 200
+NMS-0151,ENG-017,2026-03-03T13:50:05.345Z,Cisco Prime,run_diagnostic,,10200,CG-0036,DAI and ARP inspection on affected segment
+NMS-0152,ENG-017,2026-03-03T13:54:38.678Z,Fortinet,view_logs,,6400,CG-0036,Checking NAC logs for rogue device
+NMS-0153,ENG-017,2026-03-03T13:58:15.901Z,ServiceNow,create_ticket,,4200,CG-0036,Security and network ticket for ARP storm
+NMS-0154,ENG-001,2026-03-03T15:05:42.234Z,SolarWinds,acknowledge_alarm,ALM-4854,980,CG-0037,LLDP neighbor change on core interconnect
+NMS-0155,ENG-001,2026-03-03T15:07:18.567Z,SolarWinds,view_topology,,3800,CG-0037,Verifying expected vs actual LLDP neighbors
+NMS-0156,ENG-001,2026-03-03T15:10:55.890Z,ServiceNow,create_ticket,,2400,CG-0037,Investigation ticket for unexpected neighbor
+NMS-0157,ENG-002,2026-03-03T16:22:08.123Z,SolarWinds,acknowledge_alarm,ALM-4855,1080,CG-0038,DHCP pool exhaustion on access segment
+NMS-0158,ENG-002,2026-03-03T16:24:42.456Z,Cisco Prime,run_diagnostic,,7400,CG-0038,Show ip dhcp pool and binding stats
+NMS-0159,ENG-002,2026-03-03T16:28:15.789Z,Cisco Prime,update_config,,5600,CG-0038,Expanding DHCP scope with /22 assignment
+NMS-0160,ENG-002,2026-03-03T16:31:48.012Z,ServiceNow,create_ticket,,3200,CG-0038,Change ticket for DHCP scope expansion
+NMS-0161,ENG-003,2026-03-03T17:40:22.345Z,SolarWinds,acknowledge_alarm,ALM-4856,1150,CG-0039,DWDM amplifier degradation on span 3
+NMS-0162,ENG-003,2026-03-03T17:42:55.678Z,Ciena MCP,view_performance,,6200,CG-0039,Checking EDFA gain and noise figure
+NMS-0163,ENG-003,2026-03-03T17:47:30.901Z,Ciena MCP,run_diagnostic,,13800,CG-0039,Full optical path analysis span by span
+NMS-0164,ENG-003,2026-03-03T17:52:48.234Z,ServiceNow,create_ticket,,5000,CG-0039,P2 ticket for EDFA replacement planning
+NMS-0165,ENG-004,2026-03-03T18:55:15.567Z,Splunk,search_logs,,17600,CG-0040,Investigating port scan from internal host
+NMS-0166,ENG-004,2026-03-03T19:01:42.890Z,Fortinet,view_logs,,9100,CG-0040,Cross-referencing with firewall deny logs
+NMS-0167,ENG-004,2026-03-03T19:06:18.123Z,Fortinet,update_policy,,7200,CG-0040,Quarantining compromised internal host
+NMS-0168,ENG-004,2026-03-03T19:10:55.456Z,ServiceNow,create_ticket,,6200,CG-0040,Malware incident ticket with containment steps
+NMS-0169,ENG-005,2026-03-03T20:18:32.789Z,SolarWinds,acknowledge_alarm,ALM-4857,920,CG-0041,Stack ring failure on access switch stack
+NMS-0170,ENG-005,2026-03-03T20:20:15.012Z,Cisco Prime,view_device_detail,,4100,CG-0041,Checking stack member status and ring health
+NMS-0171,ENG-005,2026-03-03T20:23:48.345Z,Cisco Prime,run_diagnostic,,8600,CG-0041,Show switch stack-ring and member diagnostics
+NMS-0172,ENG-005,2026-03-03T20:27:22.678Z,ServiceNow,create_ticket,,3600,CG-0041,Ticket for stack ring cable replacement
+NMS-0173,ENG-006,2026-03-04T06:10:05.901Z,SolarWinds,view_dashboard,,2500,,Morning shift dashboard review
+NMS-0174,ENG-006,2026-03-04T06:13:38.234Z,MRTG,view_utilization,,3900,CG-0042,Checking weekend traffic patterns
+NMS-0175,ENG-006,2026-03-04T06:17:15.567Z,SolarWinds,acknowledge_alarm,ALM-4858,1100,CG-0042,CDN cache hit ratio below threshold
+NMS-0176,ENG-006,2026-03-04T06:20:48.890Z,ServiceNow,create_ticket,,2800,CG-0042,Ticket for CDN cache optimization review
+NMS-0177,ENG-011,2026-03-04T07:35:22.123Z,SolarWinds,acknowledge_alarm,ALM-4859,1050,CG-0043,MPLS TE tunnel path computation failure
+NMS-0178,ENG-011,2026-03-04T07:37:55.456Z,Cisco Prime,view_topology,,5600,CG-0043,Checking CSPF computation and constraints
+NMS-0179,ENG-011,2026-03-04T07:42:28.789Z,Cisco Prime,run_diagnostic,,12200,CG-0043,Show mpls traffic-eng tunnels and RSVP
+NMS-0180,ENG-011,2026-03-04T07:47:05.012Z,ServiceNow,create_ticket,,4100,CG-0043,TE tunnel reroute ticket with path analysis
+NMS-0181,ENG-012,2026-03-04T08:52:38.345Z,SolarWinds,acknowledge_alarm,ALM-4860,880,CG-0044,Temperature warning in outdoor cabinet
+NMS-0182,ENG-012,2026-03-04T08:54:12.678Z,SolarWinds,view_device_detail,,3300,CG-0044,Checking ambient temp and TCA history
+NMS-0183,ENG-012,2026-03-04T08:57:45.901Z,ServiceNow,create_ticket,,2700,CG-0044,Dispatch for cabinet cooling inspection
+NMS-0184,ENG-013,2026-03-04T10:08:18.234Z,Ciena MCP,view_performance,,5200,CG-0045,Pre-maintenance optical path assessment
+NMS-0185,ENG-013,2026-03-04T10:12:42.567Z,SolarWinds,suppress_alarm,ALM-4861,1400,CG-0045,Suppressing for planned ROADM maintenance
+NMS-0186,ENG-013,2026-03-04T10:15:18.890Z,ServiceNow,update_ticket,,3600,CG-0045,Pre-maintenance checks documented in change
+NMS-0187,ENG-014,2026-03-04T11:22:55.123Z,SolarWinds,acknowledge_alarm,ALM-4862,1020,CG-0046,TACACS+ authentication delay spike
+NMS-0188,ENG-014,2026-03-04T11:24:38.456Z,Cisco Prime,run_diagnostic,,7200,CG-0046,Testing TACACS+ connectivity and latency
+NMS-0189,ENG-014,2026-03-04T11:28:12.789Z,SolarWinds,update_alarm,ALM-4862,1100,CG-0046,Latency normalized after server restart
+NMS-0190,ENG-014,2026-03-04T11:30:45.012Z,ServiceNow,update_ticket,,2200,CG-0046,Resolved by TACACS+ server ops team
+NMS-0191,ENG-016,2026-03-04T12:40:18.345Z,SolarWinds,acknowledge_alarm,ALM-4863,950,CG-0047,MAC address table full on access switch
+NMS-0192,ENG-016,2026-03-04T12:42:05.678Z,Cisco Prime,run_diagnostic,,8400,CG-0047,Show mac address-table count per VLAN
+NMS-0193,ENG-016,2026-03-04T12:46:38.901Z,Cisco Prime,update_config,,5800,CG-0047,Implementing port security and MAC limits
+NMS-0194,ENG-016,2026-03-04T12:50:15.234Z,ServiceNow,create_ticket,,3600,CG-0047,Config change ticket for MAC table remediation
+NMS-0195,ENG-017,2026-03-04T13:55:42.567Z,SolarWinds,acknowledge_alarm,ALM-4864,1080,CG-0048,SNMP polling timeout on remote site devices
+NMS-0196,ENG-017,2026-03-04T13:57:28.890Z,Cisco Prime,run_diagnostic,,6800,CG-0048,Ping and SNMP walk test to remote devices
+NMS-0197,ENG-017,2026-03-04T14:01:05.123Z,SolarWinds,update_alarm,ALM-4864,1200,CG-0048,WAN link congestion causing SNMP timeouts
+NMS-0198,ENG-017,2026-03-04T14:03:38.456Z,ServiceNow,create_ticket,,2800,CG-0048,WAN congestion impacting monitoring visibility
+NMS-0199,ENG-001,2026-03-04T15:15:12.789Z,SolarWinds,view_dashboard,,2300,,Afternoon shift transition review
+NMS-0200,ENG-001,2026-03-04T15:18:45.012Z,SolarWinds,acknowledge_alarm,ALM-4865,1150,CG-0049,Redundant power feed failure at CO
+NMS-0201,ENG-001,2026-03-04T15:20:28.345Z,SolarWinds,view_device_detail,,3600,CG-0049,Checking power feed A/B status at all racks
+NMS-0202,ENG-001,2026-03-04T15:24:02.678Z,ServiceNow,create_ticket,,4200,CG-0049,P2 power redundancy loss ticket with dispatch
+NMS-0203,ENG-002,2026-03-04T16:30:35.901Z,NetCool,acknowledge_alarm,ALM-4866,1020,CG-0050,Ethernet OAM loopback failure on MEF circuit
+NMS-0204,ENG-002,2026-03-04T16:32:18.234Z,Ciena MCP,run_diagnostic,,9800,CG-0050,CFM and Y.1731 testing on affected EVC
+NMS-0205,ENG-002,2026-03-04T16:36:55.567Z,ServiceNow,create_ticket,,3800,CG-0050,Enterprise SLA circuit degradation ticket
+NMS-0206,ENG-003,2026-03-04T17:45:22.890Z,SolarWinds,acknowledge_alarm,ALM-4867,950,CG-0051,BFD session down on PE-CE link
+NMS-0207,ENG-003,2026-03-04T17:47:08.123Z,Cisco Prime,run_diagnostic,,8100,CG-0051,BFD and BGP session status on PE router
+NMS-0208,ENG-003,2026-03-04T17:51:42.456Z,ServiceNow,create_ticket,,3200,CG-0051,Customer circuit degradation with BFD data
+NMS-0209,ENG-004,2026-03-04T18:58:15.789Z,Splunk,search_logs,,15200,CG-0052,Correlation of syslog anomalies across edges
+NMS-0210,ENG-004,2026-03-04T19:03:48.012Z,Fortinet,view_logs,,7800,CG-0052,Checking for coordinated attack pattern
+NMS-0211,ENG-004,2026-03-04T19:08:22.345Z,ServiceNow,create_ticket,,5400,CG-0052,Threat assessment ticket with correlation data
+NMS-0212,ENG-005,2026-03-04T20:15:55.678Z,SolarWinds,acknowledge_alarm,ALM-4868,1080,CG-0053,PoE budget exceeded on access switch
+NMS-0213,ENG-005,2026-03-04T20:17:38.901Z,Cisco Prime,view_device_detail,,3800,CG-0053,Checking PoE allocation vs capacity per port
+NMS-0214,ENG-005,2026-03-04T20:21:12.234Z,ServiceNow,create_ticket,,2800,CG-0053,PoE infrastructure upgrade request ticket
+NMS-0215,ENG-006,2026-03-05T06:08:42.567Z,SolarWinds,view_dashboard,,2600,,Morning dashboard composite check
+NMS-0216,ENG-006,2026-03-05T06:12:18.890Z,MRTG,view_utilization,,4100,CG-0054,Weekday morning utilization trending
+NMS-0217,ENG-006,2026-03-05T06:16:55.123Z,SolarWinds,acknowledge_alarm,ALM-4869,1000,CG-0054,WAN link approaching capacity limit
+NMS-0218,ENG-006,2026-03-05T06:20:28.456Z,ServiceNow,create_ticket,,3000,CG-0054,Proactive WAN augmentation ticket
+NMS-0219,ENG-011,2026-03-05T07:32:05.789Z,SolarWinds,acknowledge_alarm,ALM-4870,1120,CG-0055,EVPN route convergence delay on fabric
+NMS-0220,ENG-011,2026-03-05T07:34:38.012Z,Cisco Prime,run_diagnostic,,11400,CG-0055,Show bgp l2vpn evpn and route tables
+NMS-0221,ENG-011,2026-03-05T07:39:15.345Z,ServiceNow,create_ticket,,4000,CG-0055,EVPN convergence investigation ticket
+NMS-0222,ENG-012,2026-03-05T08:48:42.678Z,NetCool,acknowledge_alarm,ALM-4871,900,CG-0056,Syslog storm from misconfigured device
+NMS-0223,ENG-012,2026-03-05T08:50:25.901Z,Splunk,search_logs,,8400,CG-0056,Identifying source and rate of syslog flood
+NMS-0224,ENG-012,2026-03-05T08:54:58.234Z,Cisco Prime,update_config,,5200,CG-0056,Rate-limiting syslog on offending device
+NMS-0225,ENG-012,2026-03-05T08:58:32.567Z,ServiceNow,create_ticket,,2600,CG-0056,Config remediation ticket for syslog fix
+NMS-0226,ENG-013,2026-03-05T10:05:18.890Z,SolarWinds,acknowledge_alarm,ALM-4872,1000,CG-0057,OTN ODU path protection switch
+NMS-0227,ENG-013,2026-03-05T10:07:55.123Z,Ciena MCP,view_performance,,6000,CG-0057,Checking working and protect path status
+NMS-0228,ENG-013,2026-03-05T10:12:28.456Z,Ciena MCP,run_diagnostic,,12800,CG-0057,Full OTN cross-connect and path validation
+NMS-0229,ENG-013,2026-03-05T10:17:05.789Z,ServiceNow,create_ticket,,4400,CG-0057,Ticket for OTN path restoration
+NMS-0230,ENG-014,2026-03-05T11:25:38.012Z,SolarWinds,acknowledge_alarm,ALM-4873,1060,CG-0058,SNMP trap - UPS battery test failure
+NMS-0231,ENG-014,2026-03-05T11:27:22.345Z,SolarWinds,view_device_detail,,3400,CG-0058,Checking UPS status and battery health
+NMS-0232,ENG-014,2026-03-05T11:30:55.678Z,ServiceNow,create_ticket,,3000,CG-0058,UPS battery replacement dispatch ticket
+NMS-0233,ENG-016,2026-03-05T12:38:22.901Z,SolarWinds,acknowledge_alarm,ALM-4874,980,CG-0059,LLDP-MED voice VLAN misconfiguration
+NMS-0234,ENG-016,2026-03-05T12:40:08.234Z,Cisco Prime,run_diagnostic,,7600,CG-0059,Show lldp neighbors detail on voice ports
+NMS-0235,ENG-016,2026-03-05T12:44:42.567Z,Cisco Prime,update_config,,5400,CG-0059,Correcting LLDP-MED policy on voice VLANs
+NMS-0236,ENG-016,2026-03-05T12:48:18.890Z,ServiceNow,create_ticket,,3200,CG-0059,Voice VLAN config change ticket
+NMS-0237,ENG-017,2026-03-05T13:52:45.123Z,SolarWinds,acknowledge_alarm,ALM-4875,1100,CG-0060,Routing loop detected via traceroute probe
+NMS-0238,ENG-017,2026-03-05T13:54:28.456Z,Cisco Prime,run_diagnostic,,9800,CG-0060,Traceroute and show ip route on loop path
+NMS-0239,ENG-017,2026-03-05T13:59:02.789Z,Cisco Prime,update_config,,6200,CG-0060,Correcting static route causing loop
+NMS-0240,ENG-017,2026-03-05T14:03:35.012Z,ServiceNow,create_ticket,,3800,CG-0060,Route remediation with change documentation
+NMS-0241,ENG-001,2026-03-05T15:12:18.345Z,SolarWinds,acknowledge_alarm,ALM-4876,1150,CG-0061,GPON OLT upstream laser degradation
+NMS-0242,ENG-001,2026-03-05T15:14:55.678Z,SolarWinds,view_device_detail,,4200,CG-0061,Checking OLT port rx power levels
+NMS-0243,ENG-001,2026-03-05T15:18:28.901Z,ServiceNow,create_ticket,,3400,CG-0061,GPON maintenance ticket with optics data
+NMS-0244,ENG-002,2026-03-05T16:25:05.234Z,NetCool,acknowledge_alarm,ALM-4877,1020,CG-0062,Ethernet ring protection switch event
+NMS-0245,ENG-002,2026-03-05T16:27:38.567Z,Cisco Prime,view_topology,,5000,CG-0062,Checking ERPS ring state on all nodes
+NMS-0246,ENG-002,2026-03-05T16:31:12.890Z,Cisco Prime,run_diagnostic,,10400,CG-0062,Show erps and ring status commands
+NMS-0247,ENG-002,2026-03-05T16:35:48.123Z,ServiceNow,create_ticket,,3600,CG-0062,Ring protection event investigation ticket
+NMS-0248,ENG-003,2026-03-05T17:42:22.456Z,SolarWinds,acknowledge_alarm,ALM-4878,980,CG-0063,Interface error rate exceeding baseline
+NMS-0249,ENG-003,2026-03-05T17:44:08.789Z,Cisco Prime,run_diagnostic,,8200,CG-0063,Show interface counters and error stats
+NMS-0250,ENG-003,2026-03-05T17:48:42.012Z,ServiceNow,create_ticket,,2800,CG-0063,Interface investigation ticket with counters
+NMS-0251,ENG-004,2026-03-05T18:55:18.345Z,Splunk,search_logs,,14400,CG-0064,Analyzing failed login patterns across devices
+NMS-0252,ENG-004,2026-03-05T19:00:55.678Z,Fortinet,view_logs,,7200,CG-0064,Correlating with VPN and remote access logs
+NMS-0253,ENG-004,2026-03-05T19:05:28.901Z,ServiceNow,create_ticket,,4800,CG-0064,Access security review ticket
+NMS-0254,ENG-005,2026-03-05T20:12:42.234Z,SolarWinds,acknowledge_alarm,ALM-4879,1080,CG-0065,Wireless controller AP disassociation
+NMS-0255,ENG-005,2026-03-05T20:14:28.567Z,Cisco Prime,view_device_detail,,3600,CG-0065,Checking WLC and AP join status
+NMS-0256,ENG-005,2026-03-05T20:18:05.890Z,ServiceNow,create_ticket,,2600,CG-0065,AP connectivity investigation ticket
+NMS-0257,ENG-006,2026-03-06T06:05:32.123Z,SolarWinds,view_dashboard,,2400,,Morning composite health check
+NMS-0258,ENG-006,2026-03-06T06:09:08.456Z,MRTG,view_utilization,,3800,CG-0066,Pre-business-hours utilization check
+NMS-0259,ENG-006,2026-03-06T06:12:42.789Z,SolarWinds,acknowledge_alarm,ALM-4880,1000,CG-0066,Peak hour traffic threshold pre-warning
+NMS-0260,ENG-006,2026-03-06T06:16:18.012Z,ServiceNow,create_ticket,,2600,CG-0066,Proactive capacity alert ticket
+NMS-0261,ENG-011,2026-03-06T07:28:55.345Z,SolarWinds,acknowledge_alarm,ALM-4881,1120,CG-0067,SD-WAN overlay tunnel degradation
+NMS-0262,ENG-011,2026-03-06T07:31:28.678Z,Cisco Prime,run_diagnostic,,10800,CG-0067,SD-WAN tunnel stats and path quality
+NMS-0263,ENG-011,2026-03-06T07:36:05.901Z,ServiceNow,create_ticket,,3400,CG-0067,SD-WAN performance investigation ticket
+NMS-0264,ENG-012,2026-03-06T08:45:32.234Z,SolarWinds,acknowledge_alarm,ALM-4882,920,CG-0068,NetFlow collector storage nearing capacity
+NMS-0265,ENG-012,2026-03-06T08:47:18.567Z,SolarWinds,view_device_detail,,3200,CG-0068,Checking NetFlow collector disk and retention
+NMS-0266,ENG-012,2026-03-06T08:50:55.890Z,ServiceNow,create_ticket,,2400,CG-0068,Storage expansion request for NetFlow
+NMS-0267,ENG-013,2026-03-06T10:02:18.123Z,Ciena MCP,view_performance,,5600,CG-0069,Routine DWDM performance trending
+NMS-0268,ENG-013,2026-03-06T10:06:55.456Z,SolarWinds,acknowledge_alarm,ALM-4883,1000,CG-0069,Raman amplifier pump laser degradation
+NMS-0269,ENG-013,2026-03-06T10:10:28.789Z,Ciena MCP,run_diagnostic,,13200,CG-0069,Raman pump power and gain measurements
+NMS-0270,ENG-013,2026-03-06T10:15:05.012Z,ServiceNow,create_ticket,,4600,CG-0069,Raman amplifier replacement ticket
+NMS-0271,ENG-014,2026-03-06T11:22:38.345Z,SolarWinds,acknowledge_alarm,ALM-4884,1060,CG-0070,SSL VPN concentrator CPU spike
+NMS-0272,ENG-014,2026-03-06T11:24:22.678Z,Cisco Prime,run_diagnostic,,7800,CG-0070,Show crypto session and CPU utilization
+NMS-0273,ENG-014,2026-03-06T11:28:58.901Z,ServiceNow,create_ticket,,3000,CG-0070,VPN concentrator performance ticket
+NMS-0274,ENG-016,2026-03-06T12:35:12.234Z,SolarWinds,acknowledge_alarm,ALM-4885,980,CG-0071,802.1X supplicant failure on campus port
+NMS-0275,ENG-016,2026-03-06T12:37:48.567Z,Cisco Prime,run_diagnostic,,8600,CG-0071,Show authentication sessions on switch
+NMS-0276,ENG-016,2026-03-06T12:42:22.890Z,ServiceNow,create_ticket,,2800,CG-0071,NAC troubleshooting ticket
+NMS-0277,ENG-017,2026-03-06T13:48:55.123Z,SolarWinds,acknowledge_alarm,ALM-4886,1100,CG-0072,BGP route leak from customer PE
+NMS-0278,ENG-017,2026-03-06T13:51:28.456Z,Cisco Prime,run_diagnostic,,10200,CG-0072,Show ip bgp and route-map on PE-CE session
+NMS-0279,ENG-017,2026-03-06T13:56:02.789Z,Cisco Prime,update_config,,6400,CG-0072,Applying route-map fix to prevent leak
+NMS-0280,ENG-017,2026-03-06T14:00:38.012Z,ServiceNow,create_ticket,,4200,CG-0072,BGP route leak remediation change ticket
+NMS-0281,ENG-001,2026-03-06T15:08:15.345Z,SolarWinds,view_dashboard,,2200,,Afternoon transition dashboard scan
+NMS-0282,ENG-001,2026-03-06T15:11:48.678Z,SolarWinds,acknowledge_alarm,ALM-4887,1080,CG-0073,SONET AIS alarm on legacy SDH ring
+NMS-0283,ENG-001,2026-03-06T15:14:22.901Z,SolarWinds,view_device_detail,,4000,CG-0073,Checking ADM status and ring protection
+NMS-0284,ENG-001,2026-03-06T15:18:58.234Z,ServiceNow,create_ticket,,3600,CG-0073,Legacy SDH ring alarm investigation
+NMS-0285,ENG-002,2026-03-06T16:25:32.567Z,SolarWinds,acknowledge_alarm,ALM-4888,1020,CG-0074,IPv6 ND cache exhaustion on gateway
+NMS-0286,ENG-002,2026-03-06T16:27:18.890Z,Cisco Prime,run_diagnostic,,8800,CG-0074,Show ipv6 neighbors and cache stats
+NMS-0287,ENG-002,2026-03-06T16:31:55.123Z,Cisco Prime,update_config,,5600,CG-0074,Tuning ND cache limits and timers
+NMS-0288,ENG-002,2026-03-06T16:35:28.456Z,ServiceNow,create_ticket,,3200,CG-0074,IPv6 ND remediation change ticket
+NMS-0289,ENG-003,2026-03-06T17:42:05.789Z,SolarWinds,acknowledge_alarm,ALM-4889,1150,CG-0075,Fiber polarization mode dispersion alarm
+NMS-0290,ENG-003,2026-03-06T17:44:42.012Z,Ciena MCP,run_diagnostic,,11800,CG-0075,PMD measurement and fiber health analysis
+NMS-0291,ENG-003,2026-03-06T17:49:18.345Z,ServiceNow,create_ticket,,4000,CG-0075,Fiber path remediation ticket with PMD data
+NMS-0292,ENG-004,2026-03-06T18:55:42.678Z,Splunk,search_logs,,16800,CG-0076,Weekly threat intelligence report generation
+NMS-0293,ENG-004,2026-03-06T19:02:18.901Z,Fortinet,view_logs,,8400,CG-0076,Aggregating firewall block stats for report
+NMS-0294,ENG-004,2026-03-06T19:07:55.234Z,ServiceNow,update_ticket,,5600,CG-0076,Uploading weekly threat report to incident mgmt
+NMS-0295,ENG-005,2026-03-06T20:15:08.567Z,SolarWinds,acknowledge_alarm,ALM-4890,1000,CG-0077,PoE midspan device failure on floor 3
+NMS-0296,ENG-005,2026-03-06T20:17:42.890Z,SolarWinds,view_device_detail,,3400,CG-0077,Checking affected ports and device inventory
+NMS-0297,ENG-005,2026-03-06T20:21:18.123Z,ServiceNow,create_ticket,,2600,CG-0077,PoE midspan replacement dispatch ticket
+NMS-0298,ENG-011,2026-03-07T06:12:42.456Z,SolarWinds,view_dashboard,,2500,,Weekend morning check
+NMS-0299,ENG-011,2026-03-07T06:16:18.789Z,SolarWinds,acknowledge_alarm,ALM-4891,1050,CG-0078,OSPF SPF computation spike
+NMS-0300,ENG-011,2026-03-07T06:19:55.012Z,Cisco Prime,run_diagnostic,,9200,CG-0078,Show ip ospf spf-data and topology changes
+NMS-0301,ENG-011,2026-03-07T06:24:28.345Z,ServiceNow,create_ticket,,3200,CG-0078,OSPF stability investigation ticket
+NMS-0302,ENG-012,2026-03-07T07:32:55.678Z,SolarWinds,acknowledge_alarm,ALM-4892,920,CG-0079,NTP stratum drift beyond threshold
+NMS-0303,ENG-012,2026-03-07T07:34:38.901Z,Cisco Prime,run_diagnostic,,6400,CG-0079,Show ntp status on affected devices
+NMS-0304,ENG-012,2026-03-07T07:38:12.234Z,ServiceNow,create_ticket,,2400,CG-0079,NTP synchronization remediation ticket
+NMS-0305,ENG-013,2026-03-07T08:45:38.567Z,Ciena MCP,view_performance,,5400,CG-0080,Weekend optical network spot check
+NMS-0306,ENG-013,2026-03-07T08:50:12.890Z,SolarWinds,acknowledge_alarm,ALM-4893,1000,CG-0080,WSS port power imbalance on ROADM
+NMS-0307,ENG-013,2026-03-07T08:53:48.123Z,Ciena MCP,run_diagnostic,,12400,CG-0080,WSS calibration and port power check
+NMS-0308,ENG-013,2026-03-07T08:58:22.456Z,ServiceNow,create_ticket,,4000,CG-0080,ROADM WSS maintenance ticket
+NMS-0309,ENG-014,2026-03-07T10:05:55.789Z,SolarWinds,acknowledge_alarm,ALM-4894,1080,CG-0081,RADIUS accounting timeout
+NMS-0310,ENG-014,2026-03-07T10:08:28.012Z,Cisco Prime,run_diagnostic,,7400,CG-0081,RADIUS accounting and server connectivity
+NMS-0311,ENG-014,2026-03-07T10:12:05.345Z,ServiceNow,create_ticket,,2800,CG-0081,AAA accounting server ticket
+NMS-0312,ENG-016,2026-03-07T11:18:38.678Z,SolarWinds,acknowledge_alarm,ALM-4895,950,CG-0082,MACsec session failure on uplink
+NMS-0313,ENG-016,2026-03-07T11:20:22.901Z,Cisco Prime,run_diagnostic,,9600,CG-0082,Show macsec status on affected interfaces
+NMS-0314,ENG-016,2026-03-07T11:25:58.234Z,ServiceNow,create_ticket,,3400,CG-0082,MACsec re-keying investigation ticket
+NMS-0315,ENG-017,2026-03-07T12:32:12.567Z,SolarWinds,acknowledge_alarm,ALM-4896,1100,CG-0083,PIM RP failure on multicast domain
+NMS-0316,ENG-017,2026-03-07T12:34:48.890Z,Cisco Prime,run_diagnostic,,10600,CG-0083,Show ip pim rp-hash and BSR status
+NMS-0317,ENG-017,2026-03-07T12:39:22.123Z,ServiceNow,create_ticket,,3600,CG-0083,Multicast RP failover investigation ticket
+NMS-0318,ENG-001,2026-03-07T13:45:55.456Z,SolarWinds,acknowledge_alarm,ALM-4897,1020,CG-0084,Dark fiber rental path loss increase
+NMS-0319,ENG-001,2026-03-07T13:48:28.789Z,Ciena MCP,view_performance,,5200,CG-0084,Checking dark fiber span loss values
+NMS-0320,ENG-001,2026-03-07T13:52:05.012Z,ServiceNow,create_ticket,,3800,CG-0084,Vendor ticket for dark fiber maintenance
+NMS-0321,ENG-002,2026-03-07T14:58:32.345Z,SolarWinds,acknowledge_alarm,ALM-4898,1060,CG-0085,VPLS MAC withdrawal event on PE
+NMS-0322,ENG-002,2026-03-07T15:01:08.678Z,Cisco Prime,run_diagnostic,,9400,CG-0085,Show l2vpn vpls and MAC table on PEs
+NMS-0323,ENG-002,2026-03-07T15:05:42.901Z,ServiceNow,create_ticket,,3400,CG-0085,VPLS service restoration ticket
+NMS-0324,ENG-003,2026-03-07T16:12:18.234Z,SolarWinds,acknowledge_alarm,ALM-4899,980,CG-0086,SFP+ DOM rx power low on trunk
+NMS-0325,ENG-003,2026-03-07T16:14:55.567Z,SolarWinds,view_device_detail,,3600,CG-0086,Checking SFP DOM readings and spare inv
+NMS-0326,ENG-003,2026-03-07T16:18:28.890Z,ServiceNow,create_ticket,,2600,CG-0086,SFP replacement ticket with DOM data
+NMS-0327,ENG-004,2026-03-07T17:25:42.123Z,Splunk,search_logs,,15600,CG-0087,End-of-week security log digest
+NMS-0328,ENG-004,2026-03-07T17:32:18.456Z,Fortinet,view_logs,,8800,CG-0087,Compiling firewall summary for SOC report
+NMS-0329,ENG-004,2026-03-07T17:37:55.789Z,ServiceNow,update_ticket,,5200,CG-0087,Weekly SOC digest uploaded to platform
+NMS-0330,ENG-005,2026-03-07T18:42:22.012Z,SolarWinds,acknowledge_alarm,ALM-4900,1100,CG-0088,Power PDU branch circuit overload
+NMS-0331,ENG-005,2026-03-07T18:44:58.345Z,SolarWinds,view_device_detail,,3800,CG-0088,Checking PDU per-outlet power readings
+NMS-0332,ENG-005,2026-03-07T18:48:32.678Z,ServiceNow,create_ticket,,3200,CG-0088,PDU load rebalancing dispatch ticket
+NMS-0333,ENG-006,2026-03-07T19:55:05.901Z,MRTG,view_utilization,,4000,CG-0089,Weekly utilization trend export
+NMS-0334,ENG-006,2026-03-07T19:59:42.234Z,MRTG,export_report,,6400,CG-0089,Generating weekly capacity report bundle
+NMS-0335,ENG-006,2026-03-07T20:04:18.567Z,ServiceNow,update_ticket,,4200,CG-0089,Weekly capacity report attached to planning
+NMS-0336,ENG-011,2026-03-08T06:08:55.890Z,SolarWinds,view_dashboard,,2300,,Sunday morning minimal health check
+NMS-0337,ENG-011,2026-03-08T06:12:28.123Z,SolarWinds,acknowledge_alarm,ALM-4901,1000,CG-0090,MPLS LDP session flap on core PE
+NMS-0338,ENG-011,2026-03-08T06:15:05.456Z,Cisco Prime,run_diagnostic,,9800,CG-0090,Show mpls ldp neighbor and discovery
+NMS-0339,ENG-011,2026-03-08T06:19:38.789Z,ServiceNow,create_ticket,,3200,CG-0090,LDP session instability investigation
+NMS-0340,ENG-012,2026-03-08T07:28:12.012Z,SolarWinds,acknowledge_alarm,ALM-4902,920,CG-0091,Config backup failure on multiple devices
+NMS-0341,ENG-012,2026-03-08T07:30:48.345Z,Cisco Prime,run_diagnostic,,6800,CG-0091,Testing SCP/TFTP connectivity to backup srv
+NMS-0342,ENG-012,2026-03-08T07:34:22.678Z,ServiceNow,create_ticket,,2400,CG-0091,Config backup infrastructure ticket
+NMS-0343,ENG-013,2026-03-08T08:42:55.901Z,SolarWinds,acknowledge_alarm,ALM-4903,1050,CG-0092,Wavelength channel spacing alarm
+NMS-0344,ENG-013,2026-03-08T08:45:28.234Z,Ciena MCP,run_diagnostic,,11200,CG-0092,Channel plan verification and grid check
+NMS-0345,ENG-013,2026-03-08T08:50:05.567Z,ServiceNow,create_ticket,,3800,CG-0092,DWDM channel plan remediation ticket
+NMS-0346,ENG-014,2026-03-08T09:58:32.890Z,SolarWinds,acknowledge_alarm,ALM-4904,1020,CG-0093,IKEv2 tunnel rekey failure on VPN
+NMS-0347,ENG-014,2026-03-08T10:01:08.123Z,Cisco Prime,run_diagnostic,,8400,CG-0093,Show crypto ikev2 sa and stats
+NMS-0348,ENG-014,2026-03-08T10:05:42.456Z,ServiceNow,create_ticket,,3000,CG-0093,VPN tunnel restoration ticket
+NMS-0349,ENG-016,2026-03-08T11:12:18.789Z,SolarWinds,acknowledge_alarm,ALM-4905,960,CG-0094,Wireless rogue AP detection alert
+NMS-0350,ENG-016,2026-03-08T11:14:55.012Z,Cisco Prime,run_diagnostic,,9200,CG-0094,WLC rogue AP containment analysis
+NMS-0351,ENG-016,2026-03-08T11:19:28.345Z,ServiceNow,create_ticket,,3400,CG-0094,Rogue AP security investigation ticket
+NMS-0352,ENG-017,2026-03-08T12:25:55.678Z,SolarWinds,acknowledge_alarm,ALM-4906,1080,CG-0095,eBGP session reset with upstream ISP
+NMS-0353,ENG-017,2026-03-08T12:28:28.901Z,Cisco Prime,run_diagnostic,,10400,CG-0095,Show bgp neighbors and prefix counts
+NMS-0354,ENG-017,2026-03-08T12:33:05.234Z,ServiceNow,create_ticket,,3800,CG-0095,ISP peering session investigation ticket
+NMS-0355,ENG-001,2026-03-08T13:38:32.567Z,SolarWinds,acknowledge_alarm,ALM-4907,1120,CG-0096,GPON splitter ratio mismatch alarm
+NMS-0356,ENG-001,2026-03-08T13:41:08.890Z,SolarWinds,view_device_detail,,4000,CG-0096,Checking OLT port configuration and ONT count
+NMS-0357,ENG-001,2026-03-08T13:44:42.123Z,ServiceNow,create_ticket,,3200,CG-0096,GPON splitter investigation ticket
+NMS-0358,ENG-002,2026-03-08T14:52:18.456Z,SolarWinds,acknowledge_alarm,ALM-4908,1000,CG-0097,LLDP topology mismatch after change
+NMS-0359,ENG-002,2026-03-08T14:54:55.789Z,Cisco Prime,view_topology,,4600,CG-0097,Verifying physical vs logical topology
+NMS-0360,ENG-002,2026-03-08T14:58:28.012Z,ServiceNow,create_ticket,,2800,CG-0097,Topology documentation update ticket
+NMS-0361,ENG-003,2026-03-08T16:05:55.345Z,SolarWinds,acknowledge_alarm,ALM-4909,1080,CG-0098,100G coherent receiver BER alarm
+NMS-0362,ENG-003,2026-03-08T16:08:28.678Z,Ciena MCP,view_performance,,5800,CG-0098,Pre-FEC and post-FEC BER trending
+NMS-0363,ENG-003,2026-03-08T16:13:05.901Z,Ciena MCP,run_diagnostic,,13600,CG-0098,Full coherent receiver diagnostic
+NMS-0364,ENG-003,2026-03-08T16:17:42.234Z,ServiceNow,create_ticket,,4400,CG-0098,Coherent optics replacement ticket
+NMS-0365,ENG-004,2026-03-08T17:22:18.567Z,Splunk,search_logs,,12800,CG-0099,Sunday threat hunting session
+NMS-0366,ENG-004,2026-03-08T17:28:55.890Z,Fortinet,view_logs,,7600,CG-0099,Weekend attack attempt analysis
+NMS-0367,ENG-004,2026-03-08T17:33:28.123Z,ServiceNow,update_ticket,,4800,CG-0099,Threat hunting findings documented
+NMS-0368,ENG-005,2026-03-08T18:38:55.456Z,SolarWinds,view_dashboard,,2200,,Evening pre-handoff check
+NMS-0369,ENG-005,2026-03-08T18:42:28.789Z,SolarWinds,acknowledge_alarm,ALM-4910,1000,CG-0100,Network time domain reflectometer alert
+NMS-0370,ENG-005,2026-03-08T18:45:05.012Z,ServiceNow,create_ticket,,2600,CG-0100,Copper line maintenance ticket
+NMS-0371,ENG-006,2026-03-09T06:05:42.345Z,SolarWinds,view_dashboard,,2400,,New week Monday morning check
+NMS-0372,ENG-006,2026-03-09T06:09:18.678Z,MRTG,view_utilization,,3800,,Weekend utilization summary review
+NMS-0373,ENG-011,2026-03-09T07:15:55.901Z,SolarWinds,acknowledge_alarm,ALM-4911,1100,CG-0101,Segment routing BSID conflict
+NMS-0374,ENG-011,2026-03-09T07:18:28.234Z,Cisco Prime,run_diagnostic,,10200,CG-0101,Show segment-routing and BSID allocation
+NMS-0375,ENG-011,2026-03-09T07:23:05.567Z,ServiceNow,create_ticket,,3600,CG-0101,SR BSID conflict resolution ticket
+NMS-0376,ENG-012,2026-03-09T08:28:32.890Z,SolarWinds,acknowledge_alarm,ALM-4912,950,CG-0102,Syslog collector disk space warning
+NMS-0377,ENG-012,2026-03-09T08:30:18.123Z,SolarWinds,view_device_detail,,3200,CG-0102,Checking collector storage and retention
+NMS-0378,ENG-012,2026-03-09T08:33:55.456Z,ServiceNow,create_ticket,,2400,CG-0102,Log collector storage expansion ticket
+NMS-0379,ENG-013,2026-03-09T09:42:22.789Z,SolarWinds,acknowledge_alarm,ALM-4913,1020,CG-0103,OTN FEC correction rate increase
+NMS-0380,ENG-013,2026-03-09T09:44:58.012Z,Ciena MCP,view_performance,,5600,CG-0103,FEC correction bit rate and margin check
+NMS-0381,ENG-013,2026-03-09T09:49:32.345Z,ServiceNow,create_ticket,,3400,CG-0103,Proactive optical maintenance ticket
+NMS-0382,ENG-014,2026-03-09T10:55:05.678Z,SolarWinds,acknowledge_alarm,ALM-4914,1080,CG-0104,DHCP snooping trust violation
+NMS-0383,ENG-014,2026-03-09T10:57:38.901Z,Cisco Prime,run_diagnostic,,7800,CG-0104,Show ip dhcp snooping binding and trust
+NMS-0384,ENG-014,2026-03-09T11:01:15.234Z,ServiceNow,create_ticket,,2800,CG-0104,DHCP security investigation ticket
+NMS-0385,ENG-016,2026-03-09T12:08:42.567Z,SolarWinds,acknowledge_alarm,ALM-4915,960,CG-0105,Wireless channel utilization high
+NMS-0386,ENG-016,2026-03-09T12:10:28.890Z,Cisco Prime,run_diagnostic,,8400,CG-0105,WLC RRM and channel assignment analysis
+NMS-0387,ENG-016,2026-03-09T12:14:55.123Z,ServiceNow,create_ticket,,2600,CG-0105,Wireless optimization ticket
+NMS-0388,ENG-017,2026-03-09T13:22:18.456Z,SolarWinds,acknowledge_alarm,ALM-4916,1100,CG-0106,BGP community propagation issue
+NMS-0389,ENG-017,2026-03-09T13:24:55.789Z,Cisco Prime,run_diagnostic,,9600,CG-0106,Show bgp community and route-map
+NMS-0390,ENG-017,2026-03-09T13:29:28.012Z,ServiceNow,create_ticket,,3400,CG-0106,BGP community remediation change ticket
+NMS-0391,ENG-001,2026-03-09T14:35:55.345Z,SolarWinds,acknowledge_alarm,ALM-4917,1050,CG-0107,Metro Ethernet ring latency spike
+NMS-0392,ENG-001,2026-03-09T14:38:28.678Z,Ciena MCP,view_performance,,5000,CG-0107,Checking MEF service latency and jitter
+NMS-0393,ENG-001,2026-03-09T14:42:05.901Z,ServiceNow,create_ticket,,3200,CG-0107,MEF latency investigation ticket
+NMS-0394,ENG-002,2026-03-09T15:48:32.234Z,SolarWinds,acknowledge_alarm,ALM-4918,1000,CG-0108,LACP partner timeout on LAG member
+NMS-0395,ENG-002,2026-03-09T15:51:08.567Z,Cisco Prime,run_diagnostic,,8200,CG-0108,Show lacp counters and partner info
+NMS-0396,ENG-002,2026-03-09T15:55:42.890Z,ServiceNow,create_ticket,,3000,CG-0108,LAG member link investigation ticket
+NMS-0397,ENG-003,2026-03-09T17:02:18.123Z,SolarWinds,acknowledge_alarm,ALM-4919,1080,CG-0109,OC-48 SONET B2 error threshold
+NMS-0398,ENG-003,2026-03-09T17:04:55.456Z,SolarWinds,view_device_detail,,4200,CG-0109,Checking SONET PM counters and alarms
+NMS-0399,ENG-003,2026-03-09T17:08:28.789Z,ServiceNow,create_ticket,,3400,CG-0109,Legacy SONET maintenance ticket
+NMS-0400,ENG-004,2026-03-09T18:15:55.012Z,Splunk,search_logs,,14200,CG-0110,Monday evening security sweep
+NMS-0401,ENG-004,2026-03-09T18:22:32.345Z,Fortinet,update_policy,,8600,CG-0110,Updating IPS signatures from vendor feed
+NMS-0402,ENG-004,2026-03-09T18:27:08.678Z,ServiceNow,update_ticket,,4400,CG-0110,IPS signature update documented
+NMS-0403,ENG-005,2026-03-09T19:32:35.901Z,SolarWinds,acknowledge_alarm,ALM-4920,1020,CG-0111,Building management system comm failure
+NMS-0404,ENG-005,2026-03-09T19:34:18.234Z,SolarWinds,view_device_detail,,3600,CG-0111,Checking BMS gateway connectivity
+NMS-0405,ENG-005,2026-03-09T19:37:55.567Z,ServiceNow,create_ticket,,2800,CG-0111,Facilities communication ticket
+NMS-0406,ENG-011,2026-03-10T06:10:22.890Z,SolarWinds,view_dashboard,,2600,,Tuesday morning dashboard scan
+NMS-0407,ENG-011,2026-03-10T06:14:55.123Z,SolarWinds,acknowledge_alarm,ALM-4921,1100,CG-0112,MPLS P2MP tree computation failure
+NMS-0408,ENG-011,2026-03-10T06:18:28.456Z,Cisco Prime,run_diagnostic,,11000,CG-0112,Show mpls mldp database and P2MP tree
+NMS-0409,ENG-011,2026-03-10T06:23:05.789Z,ServiceNow,create_ticket,,3800,CG-0112,P2MP tree restoration ticket
+NMS-0410,ENG-012,2026-03-10T07:28:38.012Z,NetCool,acknowledge_alarm,ALM-4922,920,CG-0113,Environmental humidity alarm at CO
+NMS-0411,ENG-012,2026-03-10T07:30:22.345Z,SolarWinds,view_device_detail,,3400,CG-0113,Checking environmental sensors at facility
+NMS-0412,ENG-012,2026-03-10T07:33:55.678Z,ServiceNow,create_ticket,,2600,CG-0113,Facilities HVAC maintenance ticket
+NMS-0413,ENG-013,2026-03-10T08:42:22.901Z,Ciena MCP,view_performance,,5800,CG-0114,Weekly optical performance review
+NMS-0414,ENG-013,2026-03-10T08:47:55.234Z,SolarWinds,acknowledge_alarm,ALM-4923,1050,CG-0114,OTN ODU TCM alarm on protected path
+NMS-0415,ENG-013,2026-03-10T08:51:28.567Z,Ciena MCP,run_diagnostic,,12600,CG-0114,TCM layer analysis and path verification
+NMS-0416,ENG-013,2026-03-10T08:56:05.890Z,ServiceNow,create_ticket,,4200,CG-0114,OTN monitoring layer maintenance ticket
+NMS-0417,ENG-014,2026-03-10T10:02:38.123Z,SolarWinds,acknowledge_alarm,ALM-4924,1020,CG-0115,Remote access concentrator session limit
+NMS-0418,ENG-014,2026-03-10T10:05:12.456Z,Cisco Prime,run_diagnostic,,7400,CG-0115,Show crypto session count and limits
+NMS-0419,ENG-014,2026-03-10T10:08:48.789Z,ServiceNow,create_ticket,,2800,CG-0115,VPN capacity expansion request ticket
+NMS-0420,ENG-016,2026-03-10T11:15:22.012Z,SolarWinds,acknowledge_alarm,ALM-4925,980,CG-0116,MPLS VPN route target conflict
+NMS-0421,ENG-016,2026-03-10T11:17:55.345Z,Cisco Prime,run_diagnostic,,9200,CG-0116,Show bgp vpnv4 unicast and RT assignment
+NMS-0422,ENG-016,2026-03-10T11:22:28.678Z,ServiceNow,create_ticket,,3400,CG-0116,VPN route target remediation ticket
+NMS-0423,ENG-017,2026-03-10T12:28:55.901Z,SolarWinds,acknowledge_alarm,ALM-4926,1100,CG-0117,PBR next-hop unreachable
+NMS-0424,ENG-017,2026-03-10T12:31:28.234Z,Cisco Prime,run_diagnostic,,8800,CG-0117,Show route-map and PBR stats
+NMS-0425,ENG-017,2026-03-10T12:35:05.567Z,ServiceNow,create_ticket,,3000,CG-0117,PBR policy update change ticket
+NMS-0426,ENG-001,2026-03-10T13:42:32.890Z,SolarWinds,view_dashboard,,2200,,Afternoon status review
+NMS-0427,ENG-001,2026-03-10T13:45:58.123Z,SolarWinds,acknowledge_alarm,ALM-4927,1080,CG-0118,Submarine cable system alarm
+NMS-0428,ENG-001,2026-03-10T13:48:32.456Z,Ciena MCP,view_performance,,6200,CG-0118,Checking submarine segment performance
+NMS-0429,ENG-001,2026-03-10T13:53:08.789Z,ServiceNow,create_ticket,,5400,CG-0118,P1 submarine cable investigation ticket
+NMS-0430,ENG-002,2026-03-10T14:58:35.012Z,SolarWinds,acknowledge_alarm,ALM-4928,1020,CG-0119,VPLS pseudowire status change
+NMS-0431,ENG-002,2026-03-10T15:01:08.345Z,Cisco Prime,run_diagnostic,,9400,CG-0119,Show l2vpn atom vc and PW status
+NMS-0432,ENG-002,2026-03-10T15:05:42.678Z,ServiceNow,create_ticket,,3200,CG-0119,Pseudowire restoration ticket
+NMS-0433,ENG-003,2026-03-10T16:12:18.901Z,SolarWinds,acknowledge_alarm,ALM-4929,1050,CG-0120,CWDM channel power deviation
+NMS-0434,ENG-003,2026-03-10T16:14:55.234Z,Ciena MCP,view_performance,,5400,CG-0120,CWDM mux/demux power measurements
+NMS-0435,ENG-003,2026-03-10T16:19:28.567Z,ServiceNow,create_ticket,,3600,CG-0120,CWDM channel maintenance ticket
+NMS-0436,ENG-004,2026-03-10T17:25:55.890Z,Splunk,search_logs,,16200,CG-0121,Investigating anomalous DNS query patterns
+NMS-0437,ENG-004,2026-03-10T17:32:32.123Z,Fortinet,update_policy,,7400,CG-0121,Adding DNS filtering rules for suspects
+NMS-0438,ENG-004,2026-03-10T17:37:08.456Z,ServiceNow,create_ticket,,5000,CG-0121,DNS security investigation ticket
+NMS-0439,ENG-005,2026-03-10T18:42:35.789Z,SolarWinds,acknowledge_alarm,ALM-4930,1020,CG-0122,IPsec tunnel MTU black hole
+NMS-0440,ENG-005,2026-03-10T18:44:18.012Z,Cisco Prime,run_diagnostic,,8200,CG-0122,Testing path MTU discovery on tunnel
+NMS-0441,ENG-005,2026-03-10T18:48:55.345Z,ServiceNow,create_ticket,,2800,CG-0122,MTU remediation ticket for VPN tunnel
+NMS-0442,ENG-006,2026-03-10T19:55:22.678Z,MRTG,view_utilization,,4200,CG-0123,Evening utilization trending check
+NMS-0443,ENG-006,2026-03-10T19:59:05.901Z,SolarWinds,acknowledge_alarm,ALM-4931,1000,CG-0123,Port utilization 90% on peering link
+NMS-0444,ENG-006,2026-03-10T20:02:38.234Z,ServiceNow,create_ticket,,3200,CG-0123,Peering link augmentation request
+NMS-0445,ENG-011,2026-03-11T06:08:55.567Z,SolarWinds,view_dashboard,,2500,,Wednesday morning overall check
+NMS-0446,ENG-011,2026-03-11T06:12:28.890Z,SolarWinds,acknowledge_alarm,ALM-4932,1100,CG-0124,EVPN type-5 route import failure
+NMS-0447,ENG-011,2026-03-11T06:15:55.123Z,Cisco Prime,run_diagnostic,,10600,CG-0124,Show bgp l2vpn evpn route-type 5
+NMS-0448,ENG-011,2026-03-11T06:20:32.456Z,ServiceNow,create_ticket,,3800,CG-0124,EVPN route import fix change ticket
+NMS-0449,ENG-012,2026-03-11T07:25:58.789Z,SolarWinds,acknowledge_alarm,ALM-4933,960,CG-0125,Backup power generator test failure
+NMS-0450,ENG-012,2026-03-11T07:28:32.012Z,SolarWinds,view_device_detail,,3400,CG-0125,Checking generator status and fuel level
+NMS-0451,ENG-012,2026-03-11T07:32:08.345Z,ServiceNow,create_ticket,,3000,CG-0125,Generator maintenance dispatch ticket
+NMS-0452,ENG-013,2026-03-11T08:38:35.678Z,Ciena MCP,view_performance,,5200,CG-0126,Mid-week optical health assessment
+NMS-0453,ENG-013,2026-03-11T08:43:08.901Z,SolarWinds,acknowledge_alarm,ALM-4934,1050,CG-0126,Flex grid spectrum utilization warning
+NMS-0454,ENG-013,2026-03-11T08:46:42.234Z,Ciena MCP,run_diagnostic,,12000,CG-0126,Flex grid spectrum analysis and planning
+NMS-0455,ENG-013,2026-03-11T08:51:18.567Z,ServiceNow,create_ticket,,4000,CG-0126,Spectrum optimization planning ticket
+NMS-0456,ENG-014,2026-03-11T09:58:45.890Z,SolarWinds,acknowledge_alarm,ALM-4935,1020,CG-0127,CAM table overflow on distribution SW
+NMS-0457,ENG-014,2026-03-11T10:01:22.123Z,Cisco Prime,run_diagnostic,,8400,CG-0127,Show mac address-table count and aging
+NMS-0458,ENG-014,2026-03-11T10:05:55.456Z,ServiceNow,create_ticket,,3200,CG-0127,CAM table tuning change ticket
+NMS-0459,ENG-016,2026-03-11T11:12:22.789Z,SolarWinds,acknowledge_alarm,ALM-4936,980,CG-0128,QoS DSCP remarking mismatch
+NMS-0460,ENG-016,2026-03-11T11:14:55.012Z,Cisco Prime,run_diagnostic,,9000,CG-0128,Show policy-map interface and DSCP values
+NMS-0461,ENG-016,2026-03-11T11:19:28.345Z,ServiceNow,create_ticket,,3400,CG-0128,QoS DSCP remediation change ticket
+NMS-0462,ENG-017,2026-03-11T12:25:55.678Z,SolarWinds,acknowledge_alarm,ALM-4937,1100,CG-0129,LISP map-server registration failure
+NMS-0463,ENG-017,2026-03-11T12:28:28.901Z,Cisco Prime,run_diagnostic,,9800,CG-0129,Show lisp site and map-server status
+NMS-0464,ENG-017,2026-03-11T12:33:05.234Z,ServiceNow,create_ticket,,3600,CG-0129,LISP fabric registration fix ticket
+NMS-0465,ENG-001,2026-03-11T13:38:32.567Z,SolarWinds,acknowledge_alarm,ALM-4938,1080,CG-0130,Metro DWDM add/drop port alarm
+NMS-0466,ENG-001,2026-03-11T13:41:08.890Z,Ciena MCP,view_performance,,5600,CG-0130,Checking add/drop channel power and OSNR
+NMS-0467,ENG-001,2026-03-11T13:45:42.123Z,ServiceNow,create_ticket,,3800,CG-0130,DWDM add/drop maintenance ticket
+NMS-0468,ENG-002,2026-03-11T14:52:18.456Z,SolarWinds,acknowledge_alarm,ALM-4939,1000,CG-0131,Ethernet CFM fault indication
+NMS-0469,ENG-002,2026-03-11T14:54:55.789Z,Cisco Prime,run_diagnostic,,8600,CG-0131,Show ethernet cfm and MEP status
+NMS-0470,ENG-002,2026-03-11T14:59:28.012Z,ServiceNow,create_ticket,,3200,CG-0131,CSF fault investigation ticket
+NMS-0471,ENG-003,2026-03-11T16:05:55.345Z,SolarWinds,acknowledge_alarm,ALM-4940,1050,CG-0132,ROADM degree power imbalance
+NMS-0472,ENG-003,2026-03-11T16:08:28.678Z,Ciena MCP,run_diagnostic,,13400,CG-0132,ROADM degree power equalization check
+NMS-0473,ENG-003,2026-03-11T16:13:05.901Z,ServiceNow,create_ticket,,4200,CG-0132,ROADM maintenance ticket with data
+NMS-0474,ENG-004,2026-03-11T17:18:32.234Z,Splunk,search_logs,,15400,CG-0133,Investigating lateral movement indicators
+NMS-0475,ENG-004,2026-03-11T17:25:08.567Z,Fortinet,update_policy,,8200,CG-0133,Network segmentation enhancement
+NMS-0476,ENG-004,2026-03-11T17:29:42.890Z,ServiceNow,create_ticket,,5600,CG-0133,Security posture improvement ticket
+NMS-0477,ENG-005,2026-03-11T18:35:18.123Z,SolarWinds,acknowledge_alarm,ALM-4941,1020,CG-0134,IP phone registration failure spike
+NMS-0478,ENG-005,2026-03-11T18:37:55.456Z,Cisco Prime,run_diagnostic,,7800,CG-0134,CUCM registration and SRST status
+NMS-0479,ENG-005,2026-03-11T18:42:28.789Z,ServiceNow,create_ticket,,2800,CG-0134,Voice registration investigation ticket
+NMS-0480,ENG-006,2026-03-11T19:48:55.012Z,MRTG,view_utilization,,4000,CG-0135,Evening capacity spot check
+NMS-0481,ENG-006,2026-03-11T19:52:28.345Z,SolarWinds,acknowledge_alarm,ALM-4942,1000,CG-0135,IX peering utilization approaching limit
+NMS-0482,ENG-006,2026-03-11T19:55:05.678Z,ServiceNow,create_ticket,,2800,CG-0135,IX peering augmentation planning ticket
+NMS-0483,ENG-011,2026-03-12T06:08:22.901Z,SolarWinds,view_dashboard,,2400,,Thursday morning check
+NMS-0484,ENG-011,2026-03-12T06:11:55.234Z,SolarWinds,acknowledge_alarm,ALM-4943,1120,CG-0136,VxLAN VTEP reachability failure
+NMS-0485,ENG-011,2026-03-12T06:14:28.567Z,Cisco Prime,run_diagnostic,,10400,CG-0136,Show nve peers and VxLAN VNI status
+NMS-0486,ENG-011,2026-03-12T06:19:08.890Z,ServiceNow,create_ticket,,3600,CG-0136,VxLAN VTEP restoration ticket
+NMS-0487,ENG-012,2026-03-12T07:22:35.123Z,SolarWinds,acknowledge_alarm,ALM-4944,940,CG-0137,SNMP v3 engine ID mismatch
+NMS-0488,ENG-012,2026-03-12T07:24:18.456Z,Cisco Prime,run_diagnostic,,6800,CG-0137,Show snmp engineID on affected devices
+NMS-0489,ENG-012,2026-03-12T07:28:55.789Z,ServiceNow,create_ticket,,2400,CG-0137,SNMP v3 remediation ticket
+NMS-0490,ENG-013,2026-03-12T08:35:22.012Z,Ciena MCP,view_performance,,5600,CG-0138,Pre-maintenance optical path sweep
+NMS-0491,ENG-013,2026-03-12T08:40:55.345Z,SolarWinds,acknowledge_alarm,ALM-4945,1080,CG-0138,EDFA tilt compensation alarm
+NMS-0492,ENG-013,2026-03-12T08:44:28.678Z,Ciena MCP,run_diagnostic,,12200,CG-0138,EDFA gain flatness and tilt analysis
+NMS-0493,ENG-013,2026-03-12T08:49:05.901Z,ServiceNow,create_ticket,,4000,CG-0138,EDFA tilt adjustment maintenance ticket
+NMS-0494,ENG-014,2026-03-12T09:55:38.234Z,SolarWinds,acknowledge_alarm,ALM-4946,1020,CG-0139,Certificate expiry warning on web proxy
+NMS-0495,ENG-014,2026-03-12T09:57:22.567Z,Cisco Prime,view_device_detail,,3600,CG-0139,Checking certificate details and expiry date
+NMS-0496,ENG-014,2026-03-12T10:00:58.890Z,ServiceNow,create_ticket,,3200,CG-0139,Certificate renewal request ticket
+NMS-0497,ENG-016,2026-03-12T11:08:22.123Z,SolarWinds,acknowledge_alarm,ALM-4947,960,CG-0140,DHCP relay agent failure on L3 switch
+NMS-0498,ENG-016,2026-03-12T11:10:55.456Z,Cisco Prime,run_diagnostic,,7600,CG-0140,Show ip helper-address on VLAN interfaces
+NMS-0499,ENG-016,2026-03-12T11:14:28.789Z,ServiceNow,create_ticket,,2800,CG-0140,DHCP relay remediation change ticket
+NMS-0500,ENG-017,2026-03-12T12:22:55.012Z,SolarWinds,acknowledge_alarm,ALM-4948,1100,,Shift end routine alarm acknowledgment

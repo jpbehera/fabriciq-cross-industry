@@ -1,0 +1,301 @@
+ticket_id,engineer_id,area_id,ticket_date,ticket_type_id,priority,open_time,close_time,doc_time_min,resolution_code,escalation_count,segment_id,equipment_id,customers_affected,notes
+TKT-0001,ENG-001,SA-001,2026-02-23,TT-008,P3,2026-02-23T08:15:00,2026-02-23T12:30:00,35,Speed Issue Resolved,0,SEG-003,EQ-005,1,Customer speed complaint. Ran diagnostics - ONT firmware outdated. Pushed update remotely.
+TKT-0002,ENG-003,SA-001,2026-02-23,TT-002,P2,2026-02-23T09:00:00,2026-02-23T13:45:00,55,Hardware Replaced,1,SEG-002,EQ-003,420,Aggregation switch line card failure. Replaced module. Full service restore.
+TKT-0003,ENG-002,SA-002,2026-02-23,TT-005,P3,2026-02-23T10:30:00,2026-02-23T12:00:00,20,Config Corrected,0,SEG-003,EQ-006,8,VLAN misconfiguration on ONT port. Corrected via CLI.
+TKT-0004,ENG-004,SA-003,2026-02-23,TT-001,P1,2026-02-23T06:45:00,2026-02-23T14:30:00,75,Fiber Repaired,2,SEG-006,EQ-013,2800,Major fiber cut on SE trunk. Emergency splice team dispatched. 7h45m TTR.
+TKT-0005,ENG-011,SA-003,2026-02-23,TT-009,P2,2026-02-23T11:00:00,2026-02-23T14:00:00,30,Outage Verified,0,SEG-005,EQ-011,15,Customer reported intermittent drops. Confirmed flapping port. Replaced SFP.
+TKT-0006,ENG-005,SA-001,2026-02-23,TT-004,P2,2026-02-23T07:30:00,2026-02-24T09:00:00,65,Patch Applied,1,SEG-001,EQ-001,0,BGP memory leak in core router. Applied vendor hotfix after lab validation.
+TKT-0007,ENG-012,SA-006,2026-02-23,TT-006,P2,2026-02-23T14:00:00,2026-02-24T10:00:00,50,Capacity Augmented,0,SEG-008,EQ-018,340,Aggregation link saturation at 92%. Added LAG member to ring.
+TKT-0008,ENG-016,SA-006,2026-02-23,TT-008,P3,2026-02-23T15:30:00,2026-02-23T17:00:00,25,Speed Issue Resolved,0,SEG-009,EQ-019,1,Residential speed complaint. Splitter issue at drop. Scheduled tech visit.
+TKT-0009,ENG-007,SA-001,2026-02-24,TT-014,P4,2026-02-24T08:00:00,2026-02-24T12:00:00,40,PM Complete,0,SEG-003,EQ-005,0,Quarterly OLT preventive maintenance. Cleaned optics, verified power levels.
+TKT-0010,ENG-009,SA-007,2026-02-24,TT-001,P2,2026-02-24T05:20:00,2026-02-24T11:00:00,60,Fiber Repaired,1,SEG-009,EQ-019,950,Fiber cut by construction crew. Emergency repair dispatched. 5h40m TTR.
+TKT-0011,ENG-013,SA-009,2026-02-24,TT-002,P1,2026-02-24T03:15:00,2026-02-24T07:30:00,70,Hardware Replaced,2,SEG-010,EQ-022,5200,Core router supervisor failure. Failover to standby. Replaced module.
+TKT-0012,ENG-014,SA-009,2026-02-24,TT-012,P3,2026-02-24T22:00:00,2026-02-25T02:00:00,45,Firmware Updated,0,SEG-011,EQ-024,0,Scheduled firmware upgrade on aggregation switch. Maintenance window.
+TKT-0013,ENG-020,SA-010,2026-02-24,TT-008,P4,2026-02-24T09:45:00,2026-02-24T11:15:00,20,Speed Issue Resolved,0,SEG-012,EQ-027,1,Business customer WiFi issues. ONT reset resolved.
+TKT-0014,ENG-006,SA-004,2026-02-24,TT-003,P1,2026-02-24T16:00:00,2026-02-25T04:00:00,80,Power Restored,2,SEG-005,EQ-012,3600,Commercial power outage at hub site. Generator failure. Portable generator deployed.
+TKT-0015,ENG-008,SA-005,2026-02-24,TT-010,P3,2026-02-24T10:00:00,2026-02-27T16:00:00,90,Circuit Provisioned,0,SEG-006,EQ-014,0,New 10G circuit for enterprise customer. Survey, design, install complete.
+TKT-0016,ENG-017,SA-001,2026-02-25,TT-016,P2,2026-02-25T08:00:00,2026-02-28T17:00:00,240,RCA Complete,0,SEG-001,EQ-001,5200,Root cause analysis for Feb 24 core router failure. Full timeline & corrective actions.
+TKT-0017,ENG-003,SA-002,2026-02-25,TT-011,P3,2026-02-25T22:00:00,2026-02-26T04:00:00,55,Circuit Upgraded,0,SEG-002,EQ-004,0,Enterprise circuit upgrade 1G→10G. Scheduled maintenance window.
+TKT-0018,ENG-001,SA-001,2026-02-25,TT-009,P3,2026-02-25T11:30:00,2026-02-25T14:00:00,30,Issue Resolved,0,SEG-003,EQ-006,3,Multiple customers reporting drops. Found degraded splitter. Replaced.
+TKT-0019,ENG-018,SA-004,2026-02-25,TT-007,P1,2026-02-25T02:15:00,2026-02-25T06:00:00,85,Breach Contained,2,SEG-005,EQ-011,0,DDoS attack on enterprise customer link. Applied ACLs and contacted DDoS mitigation.
+TKT-0020,ENG-022,SA-009,2026-02-25,TT-004,P3,2026-02-25T13:00:00,2026-02-26T10:00:00,40,Workaround Applied,0,SEG-011,EQ-024,0,OSPF adjacency flapping. Applied route dampening as workaround pending vendor patch.
+TKT-0021,ENG-010,SA-008,2026-02-25,TT-001,P2,2026-02-25T07:00:00,2026-02-25T15:30:00,65,Fiber Repaired,1,SEG-009,EQ-020,1200,Aerial fiber damage from ice storm. Splicing crew dispatched.
+TKT-0022,ENG-024,SA-001,2026-02-25,TT-017,P3,2026-02-25T09:00:00,2026-03-04T17:00:00,180,Investigation Complete,0,SEG-002,EQ-003,420,Recurring aggregation switch failures. Identified thermal issue in HVAC. Remediated.
+TKT-0023,ENG-004,SA-003,2026-02-26,TT-013,P3,2026-02-26T01:00:00,2026-02-26T05:00:00,35,Maintenance Complete,0,SEG-004,EQ-009,0,Quarterly core router maintenance. IOS upgrade during maintenance window.
+TKT-0024,ENG-011,SA-005,2026-02-26,TT-008,P4,2026-02-26T10:00:00,2026-02-26T11:30:00,20,Speed Issue Resolved,0,SEG-006,EQ-014,1,Residential speed test below tier. Re-provisioned ONT profile.
+TKT-0025,ENG-019,SA-001,2026-02-26,TT-014,P4,2026-02-26T08:00:00,2026-02-26T16:00:00,50,PM Complete,0,SEG-003,EQ-007,0,5G cell site PM. Antenna alignment check, power calibration, sector test.
+TKT-0026,ENG-026,SA-006,2026-02-26,TT-002,P2,2026-02-26T04:30:00,2026-02-26T10:00:00,55,Hardware Replaced,1,SEG-008,EQ-018,680,Aggregation switch SFP failure. Replaced optic. Link restored.
+TKT-0027,ENG-005,SA-001,2026-02-26,TT-018,P2,2026-02-26T12:00:00,2026-02-28T12:00:00,70,Vendor Resolved,1,SEG-001,EQ-002,0,Juniper JTAC case opened for memory leak. Vendor provided hotfix.
+TKT-0028,ENG-029,SA-004,2026-02-26,TT-006,P2,2026-02-26T14:00:00,2026-02-27T18:00:00,60,Capacity Augmented,0,SEG-005,EQ-012,520,Metro ring at 88% utilization. Deployed additional 100G wavelength.
+TKT-0029,ENG-023,SA-008,2026-02-27,TT-001,P2,2026-02-27T09:30:00,2026-02-27T16:00:00,55,Fiber Repaired,1,SEG-009,EQ-020,780,Fiber cut in conduit. Located fault via OTDR. Splice repair completed.
+TKT-0030,ENG-015,SA-011,2026-02-27,TT-002,P3,2026-02-27T11:00:00,2026-02-27T15:00:00,40,Hardware Replaced,0,SEG-012,EQ-028,150,5G radio unit degraded. Replaced RU at cell site.
+TKT-0031,ENG-002,SA-001,2026-02-27,TT-005,P3,2026-02-27T08:30:00,2026-02-27T10:00:00,15,Config Corrected,0,SEG-003,EQ-006,4,QoS policy not applied correctly. Updated service profile.
+TKT-0032,ENG-028,SA-001,2026-02-27,TT-009,P3,2026-02-27T13:00:00,2026-02-27T15:30:00,25,Issue Resolved,0,SEG-003,EQ-005,2,Customer reporting jitter on VoIP. Identified upstream congestion. Applied traffic shaping.
+TKT-0033,ENG-006,SA-003,2026-02-27,TT-015,P1,2026-02-27T22:00:00,2026-02-28T02:00:00,45,Emergency Maintenance Complete,1,SEG-004,EQ-010,0,Emergency firmware patch for security vulnerability. Coordinated with vendor.
+TKT-0034,ENG-030,SA-010,2026-02-27,TT-012,P3,2026-02-27T23:00:00,2026-02-28T03:00:00,40,Firmware Updated,0,SEG-011,EQ-025,0,Scheduled firmware upgrade on aggregation switch. Clean upgrade.
+TKT-0035,ENG-012,SA-006,2026-02-28,TT-007,P1,2026-02-28T01:00:00,2026-02-28T05:30:00,75,Breach Contained,2,SEG-008,EQ-049,0,Ransomware attempt detected on customer VPN tunnel. Isolated and blocked. Forensics initiated.
+TKT-0036,ENG-013,SA-009,2026-02-28,TT-003,P1,2026-02-28T06:00:00,2026-02-28T14:00:00,70,Power Restored,2,SEG-010,EQ-022,4800,Utility power failure and generator ATS malfunction. Manual switchover. Battery bridge held.
+TKT-0037,ENG-016,SA-007,2026-02-28,TT-008,P4,2026-02-28T09:00:00,2026-02-28T10:30:00,20,Speed Issue Resolved,0,SEG-009,EQ-019,1,Customer speed issue. Found split fiber at drop. Replaced connector.
+TKT-0038,ENG-021,SA-004,2026-02-28,TT-014,P4,2026-02-28T08:00:00,2026-02-28T12:00:00,35,PM Complete,0,SEG-006,EQ-016,0,Quarterly cell site PM. Antenna tilt adjustment, power check, backhaul test.
+TKT-0039,ENG-009,SA-007,2026-02-28,TT-010,P3,2026-02-28T10:00:00,2026-03-03T16:00:00,85,Circuit Provisioned,0,SEG-009,EQ-019,0,New GPON service install. Drop fiber, ONT install, service activation.
+TKT-0040,ENG-017,SA-015,2026-02-28,TT-016,P2,2026-02-28T08:00:00,2026-03-05T17:00:00,220,RCA Complete,0,SEG-001,EQ-034,0,RCA for Feb 28 security incident. Full forensic analysis and remediation plan.
+TKT-0041,ENG-014,SA-010,2026-03-01,TT-011,P3,2026-03-01T22:00:00,2026-03-02T04:00:00,50,Circuit Upgraded,0,SEG-012,EQ-025,0,Enterprise bandwidth upgrade 10G→40G. Optics swap and config update.
+TKT-0042,ENG-001,SA-015,2026-03-01,TT-002,P2,2026-03-01T11:00:00,2026-03-01T16:30:00,50,Hardware Replaced,1,SEG-002,EQ-004,290,Line card failure on aggregation switch. Redundancy held. Replaced during shift.
+TKT-0043,ENG-027,SA-012,2026-03-01,TT-008,P3,2026-03-01T14:00:00,2026-03-01T16:00:00,25,Speed Issue Resolved,0,SEG-012,EQ-027,1,Business customer slow speeds. Replaced degraded ONT.
+TKT-0044,ENG-007,SA-001,2026-03-01,TT-001,P2,2026-03-01T17:30:00,2026-03-02T01:00:00,60,Fiber Repaired,1,SEG-003,EQ-006,540,Fiber break in underground conduit. Emergency dig-up and splice.
+TKT-0045,ENG-004,SA-003,2026-03-01,TT-005,P4,2026-03-01T09:00:00,2026-03-01T10:30:00,15,Config Corrected,0,SEG-005,EQ-011,5,DHCP scope exhaustion on aggregation VLAN. Expanded subnet.
+TKT-0046,ENG-025,SA-004,2026-03-02,TT-009,P3,2026-03-02T08:00:00,2026-03-02T11:00:00,30,Issue Resolved,0,SEG-006,EQ-013,12,Multiple customer complaints. Identified failing splitter in cabinet. Replaced.
+TKT-0047,ENG-018,SA-013,2026-03-02,TT-006,P2,2026-03-02T13:00:00,2026-03-03T17:00:00,55,Capacity Augmented,0,SEG-005,EQ-012,0,Backhaul capacity upgrade for new 5G cell sites. Added 100G ring member.
+TKT-0048,ENG-010,SA-008,2026-03-02,TT-014,P4,2026-03-02T08:00:00,2026-03-02T16:00:00,45,PM Complete,0,SEG-009,EQ-020,0,Quarterly OLT maintenance. Cleaned optics, verified alarms, tested failover.
+TKT-0049,ENG-022,SA-010,2026-03-02,TT-004,P2,2026-03-02T07:00:00,2026-03-03T12:00:00,60,Patch Applied,1,SEG-010,EQ-023,0,Juniper routing daemon crash. Applied emergency patch after vendor confirmation.
+TKT-0050,ENG-003,SA-001,2026-03-02,TT-002,P2,2026-03-02T15:00:00,2026-03-02T20:00:00,50,Hardware Replaced,0,SEG-002,EQ-003,180,Fan tray failure causing thermal alarm. Replaced fan tray before thermal shutdown.
+TKT-0051,ENG-024,SA-015,2026-03-02,TT-017,P3,2026-03-02T09:00:00,2026-03-09T17:00:00,200,Investigation Complete,0,SEG-001,EQ-001,0,Recurring micro-loops in NE core. Root cause: ECMP hash collision. Rebalanced paths.
+TKT-0052,ENG-005,SA-001,2026-03-03,TT-013,P3,2026-03-03T01:00:00,2026-03-03T05:00:00,30,Maintenance Complete,0,SEG-001,EQ-002,0,Quarterly core router maintenance. Line card firmware update.
+TKT-0053,ENG-020,SA-014,2026-03-03,TT-008,P4,2026-03-03T10:00:00,2026-03-03T11:30:00,20,Speed Issue Resolved,0,SEG-012,EQ-026,1,Slow speed complaint. Macro-bend in drop fiber identified and corrected.
+TKT-0054,ENG-008,SA-005,2026-03-03,TT-001,P1,2026-03-03T04:00:00,2026-03-03T12:00:00,70,Fiber Repaired,2,SEG-006,EQ-014,3200,Major trunk fiber cut. Multiple splices required. 8h TTR. Significant customer impact.
+TKT-0055,ENG-029,SA-013,2026-03-03,TT-015,P1,2026-03-03T23:00:00,2026-03-04T03:00:00,50,Emergency Maintenance Complete,1,SEG-004,EQ-009,0,Critical vulnerability patch for core router. Emergency change window.
+TKT-0056,ENG-026,SA-006,2026-03-03,TT-005,P3,2026-03-03T14:00:00,2026-03-03T15:30:00,20,Config Corrected,0,SEG-008,EQ-045,12,ACL misconfiguration blocking enterprise traffic. Corrected policy.
+TKT-0057,ENG-011,SA-003,2026-03-04,TT-009,P3,2026-03-04T09:00:00,2026-03-04T12:00:00,30,Issue Resolved,0,SEG-005,EQ-011,8,Customer intermittent drops. Found dirty fiber connector at patch panel. Cleaned.
+TKT-0058,ENG-019,SA-015,2026-03-04,TT-014,P4,2026-03-04T08:00:00,2026-03-04T16:00:00,45,PM Complete,0,SEG-003,EQ-008,0,5G cell site PM. Ran drive test, verified coverage, adjusted tilt.
+TKT-0059,ENG-023,SA-007,2026-03-04,TT-002,P2,2026-03-04T06:00:00,2026-03-04T12:00:00,55,Hardware Replaced,1,SEG-007,EQ-017,1800,Core router power supply failure. Redundant PSU held. Replaced failed unit.
+TKT-0060,ENG-015,SA-011,2026-03-04,TT-010,P3,2026-03-04T10:00:00,2026-03-07T16:00:00,80,Circuit Provisioned,0,SEG-012,EQ-029,0,New enterprise 5G fixed wireless access. Site survey, CPE install, service activation.
+TKT-0061,ENG-002,SA-001,2026-03-04,TT-008,P4,2026-03-04T14:00:00,2026-03-04T15:30:00,20,Speed Issue Resolved,0,SEG-003,EQ-005,1,Speed complaint. ONT aging - replaced with newer model.
+TKT-0062,ENG-006,SA-004,2026-03-04,TT-012,P3,2026-03-04T22:00:00,2026-03-05T02:00:00,40,Firmware Updated,0,SEG-005,EQ-012,0,Aggregation switch firmware update. Clean rollout.
+TKT-0063,ENG-030,SA-010,2026-03-05,TT-001,P2,2026-03-05T08:00:00,2026-03-05T14:30:00,60,Fiber Repaired,1,SEG-012,EQ-027,890,Aerial fiber break from fallen tree. Emergency splice repair.
+TKT-0064,ENG-012,SA-006,2026-03-05,TT-007,P2,2026-03-05T03:00:00,2026-03-05T08:00:00,65,Breach Contained,1,SEG-008,EQ-049,0,Port scan activity on core network. Identified compromised IoT device. Quarantined.
+TKT-0065,ENG-016,SA-007,2026-03-05,TT-005,P3,2026-03-05T11:00:00,2026-03-05T12:30:00,20,Config Corrected,0,SEG-009,EQ-019,6,NAT oversubscription. Expanded NAT pool and added PAT.
+TKT-0066,ENG-001,SA-001,2026-03-05,TT-018,P2,2026-03-05T09:00:00,2026-03-07T09:00:00,60,Vendor Resolved,1,SEG-003,EQ-042,0,Nokia OLT card intermittent resets. Vendor case opened. RMA'd card.
+TKT-0067,ENG-013,SA-009,2026-03-05,TT-006,P2,2026-03-05T14:00:00,2026-03-06T18:00:00,55,Capacity Augmented,0,SEG-010,EQ-033,0,DWDM system at 80% wavelength capacity. Added new 400G ZR+ line.
+TKT-0068,ENG-004,SA-003,2026-03-05,TT-009,P3,2026-03-05T10:00:00,2026-03-05T13:00:00,30,Issue Resolved,0,SEG-006,EQ-013,5,Enterprise customer VPN tunnel flapping. MTU issue. Adjusted to 1400.
+TKT-0069,ENG-021,SA-005,2026-03-06,TT-001,P2,2026-03-06T07:00:00,2026-03-06T13:30:00,55,Fiber Repaired,1,SEG-006,EQ-044,620,Underground fiber break. Locating and repair. 6h30m TTR.
+TKT-0070,ENG-028,SA-015,2026-03-06,TT-008,P4,2026-03-06T10:00:00,2026-03-06T11:30:00,20,Speed Issue Resolved,0,SEG-003,EQ-006,1,Speed complaint. Signal power low. Replaced drop cable.
+TKT-0071,ENG-014,SA-009,2026-03-06,TT-004,P3,2026-03-06T13:00:00,2026-03-07T09:00:00,45,Workaround Applied,0,SEG-011,EQ-024,0,BGP route reflector inconsistency. Applied static override pending fix.
+TKT-0072,ENG-009,SA-008,2026-03-06,TT-002,P2,2026-03-06T04:00:00,2026-03-06T10:00:00,50,Hardware Replaced,1,SEG-009,EQ-048,360,CMTS line card failure. Service degradation for DOCSIS customers. Replaced card.
+TKT-0073,ENG-017,SA-001,2026-03-06,TT-016,P2,2026-03-06T08:00:00,2026-03-10T17:00:00,210,RCA Complete,0,SEG-003,EQ-042,0,RCA for recurring OLT failures. Identified power supply instability. Corrective action plan documented.
+TKT-0074,ENG-025,SA-003,2026-03-06,TT-009,P3,2026-03-06T09:00:00,2026-03-06T12:00:00,25,Issue Resolved,0,SEG-006,EQ-016,3,Customers seeing packet loss. Identified overloaded backhaul on 5G cell site. Traffic rebalanced.
+TKT-0075,ENG-027,SA-012,2026-03-06,TT-014,P4,2026-03-06T08:00:00,2026-03-06T16:00:00,40,PM Complete,0,SEG-012,EQ-028,0,5G cell site PM. Replaced aging coax jumper, verified VSWR.
+TKT-0076,ENG-003,SA-001,2026-03-07,TT-005,P4,2026-03-07T08:00:00,2026-03-07T09:30:00,15,Config Corrected,0,SEG-002,EQ-003,2,Static route left from maintenance window. Removed stale entries.
+TKT-0077,ENG-018,SA-013,2026-03-07,TT-002,P2,2026-03-07T05:00:00,2026-03-07T11:00:00,55,Hardware Replaced,1,SEG-005,EQ-011,420,Aggregation switch power supply failure. UPS bridge held. Replaced PSU.
+TKT-0078,ENG-022,SA-010,2026-03-07,TT-011,P3,2026-03-07T22:00:00,2026-03-08T04:00:00,50,Circuit Upgraded,0,SEG-011,EQ-025,0,Enterprise customer upgrade 1G→10G. Optics swap and QoS policy update.
+TKT-0079,ENG-008,SA-005,2026-03-07,TT-013,P3,2026-03-07T01:00:00,2026-03-07T05:00:00,30,Maintenance Complete,0,SEG-004,EQ-010,0,Core router scheduled maintenance. Memory upgrade and OS patch.
+TKT-0080,ENG-010,SA-008,2026-03-07,TT-001,P2,2026-03-07T16:00:00,2026-03-07T22:00:00,55,Fiber Repaired,1,SEG-009,EQ-020,650,Fiber damage from vehicle accident at utility pole. Aerial repair.
+TKT-0081,ENG-005,SA-001,2026-03-07,TT-004,P3,2026-03-07T10:00:00,2026-03-08T10:00:00,40,Patch Applied,0,SEG-001,EQ-001,0,MPLS LDP session instability. Applied vendor-recommended timer tuning.
+TKT-0082,ENG-026,SA-006,2026-03-08,TT-001,P1,2026-03-08T02:00:00,2026-03-08T10:00:00,75,Fiber Repaired,2,SEG-007,EQ-017,4100,Major trunk fiber cut from backhoe dig. Emergency splice. 8h TTR.
+TKT-0083,ENG-024,SA-001,2026-03-08,TT-003,P1,2026-03-08T14:00:00,2026-03-09T02:00:00,80,Power Restored,2,SEG-001,EQ-039,6500,UPS failure at primary data center. Generator held. UPS bank replaced.
+TKT-0084,ENG-029,SA-013,2026-03-08,TT-012,P3,2026-03-08T22:00:00,2026-03-09T02:00:00,35,Firmware Updated,0,SEG-004,EQ-031,0,DWDM firmware upgrade. Hitless upgrade completed.
+TKT-0085,ENG-011,SA-004,2026-03-08,TT-008,P3,2026-03-08T09:00:00,2026-03-08T11:00:00,25,Speed Issue Resolved,0,SEG-006,EQ-013,1,Speed issue. High optical attenuation. Cleaned connectors.
+TKT-0086,ENG-020,SA-014,2026-03-08,TT-009,P3,2026-03-08T13:00:00,2026-03-08T16:00:00,30,Issue Resolved,0,SEG-012,EQ-026,7,Multiple customers intermittent service. Identified failing ONT port. Replaced OLT card.
+TKT-0087,ENG-007,SA-001,2026-03-08,TT-010,P3,2026-03-08T10:00:00,2026-03-12T16:00:00,90,Circuit Provisioned,0,SEG-003,EQ-005,0,New GPON service area buildout. 12 ONTs installed and activated.
+TKT-0088,ENG-019,SA-002,2026-03-09,TT-002,P2,2026-03-09T06:30:00,2026-03-09T12:00:00,50,Hardware Replaced,1,SEG-002,EQ-004,240,Line card CRC errors. Replaced module and fiber jumper.
+TKT-0089,ENG-023,SA-008,2026-03-09,TT-014,P4,2026-03-09T08:00:00,2026-03-09T16:00:00,45,PM Complete,0,SEG-008,EQ-045,0,Quarterly aggregation switch maintenance. Software housekeeping and log review.
+TKT-0090,ENG-001,SA-001,2026-03-09,TT-005,P3,2026-03-09T10:00:00,2026-03-09T11:30:00,20,Config Corrected,0,SEG-003,EQ-005,3,Multicast IGMP snooping misconfiguration. Corrected causing IPTV issues.
+TKT-0091,ENG-015,SA-011,2026-03-09,TT-001,P2,2026-03-09T12:00:00,2026-03-09T18:00:00,55,Fiber Repaired,1,SEG-012,EQ-029,480,5G backhaul fiber break. Emergency repair. Site on backup microwave during outage.
+TKT-0092,ENG-006,SA-004,2026-03-09,TT-006,P2,2026-03-09T14:00:00,2026-03-10T18:00:00,50,Capacity Augmented,0,SEG-006,EQ-015,0,CMTS upstream channels saturated. Added additional US channels and rebalanced.
+TKT-0093,ENG-030,SA-009,2026-03-09,TT-012,P3,2026-03-09T22:00:00,2026-03-10T02:00:00,40,Firmware Updated,0,SEG-010,EQ-023,0,Core router firmware update. IS-IS graceful restart verified.
+TKT-0094,ENG-013,SA-010,2026-03-10,TT-015,P1,2026-03-10T02:00:00,2026-03-10T06:00:00,55,Emergency Maintenance Complete,1,SEG-010,EQ-050,0,Critical firewall vulnerability. Emergency patch during off-peak.
+TKT-0095,ENG-002,SA-001,2026-03-10,TT-008,P4,2026-03-10T09:00:00,2026-03-10T10:30:00,18,Speed Issue Resolved,0,SEG-003,EQ-006,1,Customer wifi interference issue. Changed ONT WiFi channel and band.
+TKT-0096,ENG-012,SA-006,2026-03-10,TT-018,P2,2026-03-10T11:00:00,2026-03-12T11:00:00,65,Vendor Resolved,1,SEG-008,EQ-018,0,Cisco NCS line card intermittent drops. TAC case. Replacement card shipped.
+TKT-0097,ENG-014,SA-011,2026-03-10,TT-009,P3,2026-03-10T08:00:00,2026-03-10T11:00:00,30,Issue Resolved,0,SEG-012,EQ-028,15,5G sector degraded performance. Replaced CPRI cable from BBU to RU.
+TKT-0098,ENG-004,SA-003,2026-03-10,TT-002,P2,2026-03-10T04:00:00,2026-03-10T09:30:00,50,Hardware Replaced,1,SEG-005,EQ-011,520,Aggregation switch fan failure causing thermal throttling. Replaced fan tray.
+TKT-0099,ENG-021,SA-005,2026-03-10,TT-014,P4,2026-03-10T08:00:00,2026-03-10T16:00:00,40,PM Complete,0,SEG-006,EQ-016,0,Cell site quarterly PM. Tower climb, antenna inspection, grounding check.
+TKT-0100,ENG-017,SA-015,2026-03-10,TT-016,P2,2026-03-10T08:00:00,2026-03-14T17:00:00,190,RCA Complete,0,SEG-001,EQ-039,6500,RCA for Mar 8 UPS failure. Manufacturing defect in battery string. Vendor notified for fleet check.
+TKT-0101,ENG-016,SA-006,2026-03-10,TT-008,P4,2026-03-10T13:00:00,2026-03-10T14:30:00,20,Speed Issue Resolved,0,SEG-009,EQ-019,1,Residential speed issue. Replaced corroded connector at demarcation point.
+TKT-0102,ENG-028,SA-015,2026-03-11,TT-005,P3,2026-03-11T09:00:00,2026-03-11T10:30:00,18,Config Corrected,0,SEG-002,EQ-004,4,BGP community tag missing on customer prefix. Updated route-map.
+TKT-0103,ENG-009,SA-007,2026-03-11,TT-001,P2,2026-03-11T07:00:00,2026-03-11T14:00:00,60,Fiber Repaired,1,SEG-007,EQ-017,2100,Underground fiber break in handhole. Excavation and splice repair.
+TKT-0104,ENG-025,SA-004,2026-03-11,TT-009,P3,2026-03-11T11:00:00,2026-03-11T14:00:00,30,Issue Resolved,0,SEG-006,EQ-014,6,Customers experiencing latency. Identified full routing table on access switch. Optimized prefix-list.
+TKT-0105,ENG-022,SA-009,2026-03-11,TT-004,P3,2026-03-11T15:00:00,2026-03-12T12:00:00,45,Patch Applied,0,SEG-011,EQ-024,0,ARP table overflow on aggregation. Applied timer optimization and increased table size.
+TKT-0106,ENG-003,SA-002,2026-03-11,TT-002,P3,2026-03-11T08:00:00,2026-03-11T12:00:00,40,Hardware Replaced,0,SEG-002,EQ-041,120,Rectifier module alarm. Replaced module. Battery backup was active during repair.
+TKT-0107,ENG-018,SA-003,2026-03-11,TT-011,P3,2026-03-11T22:00:00,2026-03-12T04:00:00,45,Circuit Upgraded,0,SEG-005,EQ-012,0,Carrier Ethernet service upgrade. Added LAG members for enterprise customer.
+TKT-0108,ENG-010,SA-008,2026-03-12,TT-008,P4,2026-03-12T10:00:00,2026-03-12T11:30:00,20,Speed Issue Resolved,0,SEG-009,EQ-020,1,GPON customer speed lower than subscribed tier. Reprovisioned T-CONT bandwidth profile.
+TKT-0109,ENG-007,SA-001,2026-03-12,TT-014,P4,2026-03-12T08:00:00,2026-03-12T16:00:00,45,PM Complete,0,SEG-003,EQ-007,0,5G cell site PM. Verified MIMO performance, band steering, and handover thresholds.
+TKT-0110,ENG-024,SA-001,2026-03-12,TT-018,P2,2026-03-12T10:00:00,2026-03-14T10:00:00,65,Vendor Resolved,1,SEG-001,EQ-030,0,Ciena DWDM amplifier degradation. Vendor dispatched field service. Replaced EDFA.
+TKT-0111,ENG-027,SA-014,2026-03-12,TT-001,P3,2026-03-12T12:00:00,2026-03-12T17:00:00,40,Fiber Repaired,0,SEG-012,EQ-027,85,Drop fiber cut at customer premise. Splice repair.
+TKT-0112,ENG-005,SA-001,2026-03-12,TT-006,P2,2026-03-12T14:00:00,2026-03-13T18:00:00,50,Capacity Augmented,0,SEG-001,EQ-001,0,Core ring link approaching 85% utilization. Added 400G wavelength on DWDM.
+TKT-0113,ENG-011,SA-003,2026-03-12,TT-005,P3,2026-03-12T09:00:00,2026-03-12T10:30:00,20,Config Corrected,0,SEG-006,EQ-013,2,LLDP not enabled on customer-facing port. Enabled for proper auto-negotiation.
+TKT-0114,ENG-029,SA-013,2026-03-12,TT-013,P3,2026-03-12T01:00:00,2026-03-12T05:00:00,35,Maintenance Complete,0,SEG-004,EQ-010,0,Core router quarterly maintenance. OSPF database cleanup and memory optimization.
+TKT-0115,ENG-020,SA-012,2026-03-13,TT-009,P3,2026-03-13T08:00:00,2026-03-13T11:00:00,25,Issue Resolved,0,SEG-012,EQ-047,5,Customer jitter on video calls. CIR profile mismatch. Corrected QoS setting.
+TKT-0116,ENG-023,SA-008,2026-03-13,TT-002,P2,2026-03-13T05:30:00,2026-03-13T11:00:00,50,Hardware Replaced,1,SEG-008,EQ-018,380,Aggregation switch optic failure. Hot-swapped SFP+. No service impact due to LAG.
+TKT-0117,ENG-008,SA-005,2026-03-13,TT-012,P3,2026-03-13T22:00:00,2026-03-14T02:00:00,40,Firmware Updated,0,SEG-006,EQ-043,0,5G radio firmware update. Over-the-air push during maintenance window.
+TKT-0118,ENG-006,SA-004,2026-03-13,TT-001,P1,2026-03-13T03:00:00,2026-03-13T09:30:00,70,Fiber Repaired,2,SEG-005,EQ-012,2900,Major fiber cut on SE metro ring. Both directions affected. Emergency restoration.
+TKT-0119,ENG-026,SA-007,2026-03-13,TT-005,P3,2026-03-13T11:00:00,2026-03-13T12:30:00,18,Config Corrected,0,SEG-009,EQ-019,3,Spanning tree priority misconfiguration. Corrected bridge priority to prevent sub-optimal path.
+TKT-0120,ENG-015,SA-011,2026-03-13,TT-010,P3,2026-03-13T10:00:00,2026-03-17T16:00:00,85,Circuit Provisioned,0,SEG-012,EQ-029,0,New enterprise fixed wireless service. Site survey, CPE install, backhaul config, activation.
+TKT-0121,ENG-001,SA-001,2026-03-14,TT-002,P2,2026-03-14T08:00:00,2026-03-14T13:00:00,45,Hardware Replaced,0,SEG-003,EQ-005,180,OLT card degradation. Proactive replacement during scheduled window.
+TKT-0122,ENG-014,SA-010,2026-03-14,TT-009,P3,2026-03-14T14:00:00,2026-03-14T17:00:00,30,Issue Resolved,0,SEG-011,EQ-025,9,Customer IPTV freezing. Multicast replication issue on aggregation. Reconfigured PIM joins.
+TKT-0123,ENG-004,SA-003,2026-03-14,TT-008,P4,2026-03-14T10:00:00,2026-03-14T11:30:00,20,Speed Issue Resolved,0,SEG-006,EQ-013,1,Residential customer speed test. ONT defective - replaced.
+TKT-0124,ENG-030,SA-009,2026-03-14,TT-015,P1,2026-03-14T23:00:00,2026-03-15T03:00:00,50,Emergency Maintenance Complete,1,SEG-010,EQ-022,0,Zero-day vulnerability patch on core router. Emergency change approved.
+TKT-0125,ENG-013,SA-010,2026-03-14,TT-003,P1,2026-03-14T18:00:00,2026-03-15T06:00:00,75,Power Restored,2,SEG-010,EQ-022,5400,Extended utility power outage. Generator ran for 12h. Industrial UPS supplemented.
+TKT-0126,ENG-002,SA-001,2026-03-15,TT-005,P3,2026-03-15T08:30:00,2026-03-15T10:00:00,15,Config Corrected,0,SEG-003,EQ-006,2,MTU mismatch on trunk port causing fragmentation for jumbo frame customers.
+TKT-0127,ENG-019,SA-002,2026-03-15,TT-014,P4,2026-03-15T08:00:00,2026-03-15T16:00:00,40,PM Complete,0,SEG-003,EQ-008,0,5G cell site quarterly PM. Panel inspection and drive test.
+TKT-0128,ENG-012,SA-006,2026-03-15,TT-007,P1,2026-03-15T01:00:00,2026-03-15T06:00:00,80,Breach Contained,2,SEG-007,EQ-049,0,Advanced persistent threat detected on core network. Containment and forensic investigation. External CIRT contacted.
+TKT-0129,ENG-021,SA-005,2026-03-15,TT-008,P4,2026-03-15T10:00:00,2026-03-15T11:30:00,20,Speed Issue Resolved,0,SEG-006,EQ-014,1,Customer slow speed. Found water ingress in fiber enclosure. Dried and re-terminated.
+TKT-0130,ENG-016,SA-006,2026-03-15,TT-009,P3,2026-03-15T13:00:00,2026-03-15T16:00:00,25,Issue Resolved,0,SEG-009,EQ-019,4,GPON PON port dropping customers intermittently. Replaced OLT SFP module.
+TKT-0131,ENG-009,SA-007,2026-03-15,TT-002,P2,2026-03-15T06:00:00,2026-03-15T11:30:00,50,Hardware Replaced,1,SEG-008,EQ-045,290,Aggregation switch control plane processor failure. Replaced supervisor module.
+TKT-0132,ENG-017,SA-001,2026-03-15,TT-016,P2,2026-03-15T08:00:00,2026-03-20T17:00:00,230,RCA Complete,0,SEG-007,EQ-049,0,RCA for Mar 15 APT incident. Full forensic timeline, IOC documentation, corrective actions.
+TKT-0133,ENG-025,SA-004,2026-03-16,TT-001,P2,2026-03-16T09:00:00,2026-03-16T15:30:00,55,Fiber Repaired,1,SEG-006,EQ-044,720,Underground fiber break at splice point. Excavated and re-spliced.
+TKT-0134,ENG-022,SA-009,2026-03-16,TT-011,P3,2026-03-16T22:00:00,2026-03-17T04:00:00,50,Circuit Upgraded,0,SEG-011,EQ-024,0,Data center interconnect upgrade 40G→100G. Optics and policy update.
+TKT-0135,ENG-003,SA-001,2026-03-16,TT-013,P3,2026-03-16T01:00:00,2026-03-16T05:00:00,30,Maintenance Complete,0,SEG-002,EQ-003,0,Aggregation switch scheduled maintenance. TCAM optimization and table cleanup.
+TKT-0136,ENG-028,SA-015,2026-03-16,TT-008,P4,2026-03-16T10:00:00,2026-03-16T11:30:00,20,Speed Issue Resolved,0,SEG-003,EQ-005,1,Speed issue after thunderstorm. Found damaged drop cable. Replaced.
+TKT-0137,ENG-008,SA-003,2026-03-16,TT-002,P2,2026-03-16T04:00:00,2026-03-16T10:00:00,50,Hardware Replaced,1,SEG-005,EQ-011,460,Aggregation switch backplane issue. Replaced chassis. Smooth failover to redundant path.
+TKT-0138,ENG-010,SA-008,2026-03-16,TT-005,P3,2026-03-16T11:00:00,2026-03-16T12:30:00,18,Config Corrected,0,SEG-009,EQ-020,5,IGMP version mismatch between OLT and STB. Standardized to IGMPv3.
+TKT-0139,ENG-024,SA-001,2026-03-16,TT-017,P3,2026-03-16T09:00:00,2026-03-23T17:00:00,195,Investigation Complete,0,SEG-001,EQ-034,0,Recurring micro-bursts on core links. Identified elephant flows from streaming customer. Applied flow-based ECMP.
+TKT-0140,ENG-005,SA-001,2026-03-17,TT-004,P2,2026-03-17T07:00:00,2026-03-18T12:00:00,60,Patch Applied,1,SEG-001,EQ-002,0,IS-IS adjacency timer bug causing SPF storms. Vendor patch applied.
+TKT-0141,ENG-018,SA-013,2026-03-17,TT-006,P2,2026-03-17T14:00:00,2026-03-18T18:00:00,55,Capacity Augmented,0,SEG-005,EQ-012,0,Metro ring approaching 90% utilization from new 5G sites. Added 100G member.
+TKT-0142,ENG-011,SA-003,2026-03-17,TT-008,P3,2026-03-17T09:00:00,2026-03-17T11:00:00,25,Speed Issue Resolved,0,SEG-006,EQ-013,1,Customer speed issue. Dirty fiber at patch panel in cabinet. Cleaned and tested.
+TKT-0143,ENG-007,SA-001,2026-03-17,TT-014,P4,2026-03-17T08:00:00,2026-03-17T16:00:00,45,PM Complete,0,SEG-003,EQ-042,0,OLT quarterly PM. Optics cleaning, power level verification, alarm review.
+TKT-0144,ENG-029,SA-004,2026-03-17,TT-012,P3,2026-03-17T22:00:00,2026-03-18T02:00:00,35,Firmware Updated,0,SEG-006,EQ-015,0,CMTS firmware upgrade. All downstream channels resynced cleanly.
+TKT-0145,ENG-015,SA-011,2026-03-17,TT-009,P3,2026-03-17T12:00:00,2026-03-17T15:00:00,30,Issue Resolved,0,SEG-012,EQ-046,8,5G customer experiencing handover failures. Adjusted X2 handover parameters between cells.
+TKT-0146,ENG-020,SA-014,2026-03-18,TT-002,P2,2026-03-18T05:00:00,2026-03-18T10:00:00,45,Hardware Replaced,1,SEG-012,EQ-047,210,OLT card failure. Replaced. All ONTs re-registered successfully.
+TKT-0147,ENG-023,SA-008,2026-03-18,TT-001,P2,2026-03-18T08:00:00,2026-03-18T14:30:00,55,Fiber Repaired,1,SEG-009,EQ-020,580,Aerial fiber break from utility work. Emergency splice repair.
+TKT-0148,ENG-006,SA-003,2026-03-18,TT-015,P1,2026-03-18T23:00:00,2026-03-19T03:00:00,45,Emergency Maintenance Complete,1,SEG-004,EQ-009,0,Emergency OS patch for routing vulnerability. Pre-tested in lab.
+TKT-0149,ENG-030,SA-010,2026-03-18,TT-005,P4,2026-03-18T10:00:00,2026-03-18T11:30:00,15,Config Corrected,0,SEG-011,EQ-025,3,DSCP marking incorrect on enterprise MPLS VPN. Corrected class-map.
+TKT-0150,ENG-013,SA-009,2026-03-18,TT-006,P2,2026-03-18T14:00:00,2026-03-19T18:00:00,55,Capacity Augmented,0,SEG-010,EQ-033,0,DWDM system nearing max capacity. Activated standby flexgrid channels.
+TKT-0151,ENG-002,SA-001,2026-03-18,TT-009,P3,2026-03-18T11:00:00,2026-03-18T14:00:00,28,Issue Resolved,0,SEG-003,EQ-005,4,Multiple customer drops. Identified failing power feed to OLT shelf. Switched to backup.
+TKT-0152,ENG-027,SA-012,2026-03-18,TT-014,P4,2026-03-18T08:00:00,2026-03-18T16:00:00,40,PM Complete,0,SEG-012,EQ-029,0,5G cell site PM. Tower inspection, grounding test, interference scan.
+TKT-0153,ENG-012,SA-006,2026-03-19,TT-004,P2,2026-03-19T09:00:00,2026-03-20T10:00:00,55,Patch Applied,1,SEG-007,EQ-017,0,Core router OSPF convergence issue after link failure. Timer optimization patch applied.
+TKT-0154,ENG-016,SA-007,2026-03-19,TT-008,P4,2026-03-19T13:00:00,2026-03-19T14:30:00,20,Speed Issue Resolved,0,SEG-009,EQ-019,1,Customer streaming issues. Found crosstalk on copper segment. Rerouted to fiber.
+TKT-0155,ENG-001,SA-001,2026-03-19,TT-002,P2,2026-03-19T06:00:00,2026-03-19T11:30:00,50,Hardware Replaced,1,SEG-003,EQ-006,350,OLT power supply failure. Battery bridge held. Replaced PSU module.
+TKT-0156,ENG-014,SA-010,2026-03-19,TT-010,P3,2026-03-19T10:00:00,2026-03-22T16:00:00,85,Circuit Provisioned,0,SEG-012,EQ-025,0,New enterprise 100G wavelength service. DWDM mux/demux install and activation.
+TKT-0157,ENG-019,SA-002,2026-03-19,TT-001,P3,2026-03-19T15:00:00,2026-03-19T20:00:00,40,Fiber Repaired,0,SEG-003,EQ-008,95,Customer drop fiber cut by landscaper. Re-terminated and tested.
+TKT-0158,ENG-004,SA-003,2026-03-20,TT-013,P3,2026-03-20T01:00:00,2026-03-20T05:00:00,30,Maintenance Complete,0,SEG-005,EQ-011,0,Aggregation switch scheduled maintenance. TCAM and ACL optimization.
+TKT-0159,ENG-021,SA-005,2026-03-20,TT-002,P2,2026-03-20T04:30:00,2026-03-20T10:00:00,50,Hardware Replaced,1,SEG-006,EQ-043,320,5G radio unit complete failure. Replaced RU and recalibrated sector.
+TKT-0160,ENG-009,SA-007,2026-03-20,TT-005,P3,2026-03-20T09:00:00,2026-03-20T10:30:00,18,Config Corrected,0,SEG-007,EQ-017,2,MPLS label allocation mismatch. Corrected LDP targeted session config.
+TKT-0161,ENG-026,SA-006,2026-03-20,TT-009,P3,2026-03-20T10:30:00,2026-03-20T13:00:00,28,Issue Resolved,0,SEG-008,EQ-018,6,Enterprise customer VPN connectivity issues. BFD timers too aggressive. Tuned.
+TKT-0162,ENG-017,SA-015,2026-03-20,TT-016,P2,2026-03-20T08:00:00,2026-03-25T17:00:00,200,RCA Complete,0,SEG-001,EQ-001,0,Q1 consolidated RCA report for NE region. 5 major incidents documented.
+TKT-0163,ENG-025,SA-004,2026-03-20,TT-008,P4,2026-03-20T11:00:00,2026-03-20T12:30:00,22,Speed Issue Resolved,0,SEG-006,EQ-013,1,Customer slow download. Found partially unplugged fiber jumper at FDH. Reseated.
+TKT-0164,ENG-022,SA-009,2026-03-20,TT-012,P3,2026-03-20T22:00:00,2026-03-21T02:00:00,40,Firmware Updated,0,SEG-011,EQ-024,0,Aggregation switch firmware update for EVPN optimization.
+TKT-0165,ENG-028,SA-001,2026-03-20,TT-014,P4,2026-03-20T08:00:00,2026-03-20T16:00:00,42,PM Complete,0,SEG-003,EQ-005,0,OLT quarterly PM. Optics inspection and alarm threshold review.
+TKT-0166,ENG-003,SA-002,2026-03-21,TT-002,P3,2026-03-21T07:00:00,2026-03-21T11:00:00,35,Hardware Replaced,0,SEG-002,EQ-041,0,Rectifier alarm. Battery backup low. Replaced failing module.
+TKT-0167,ENG-008,SA-005,2026-03-21,TT-001,P2,2026-03-21T05:00:00,2026-03-21T12:00:00,60,Fiber Repaired,1,SEG-006,EQ-014,1450,Trunk fiber damage from construction activity. Multiple re-splices required.
+TKT-0168,ENG-010,SA-008,2026-03-21,TT-006,P2,2026-03-21T14:00:00,2026-03-22T18:00:00,50,Capacity Augmented,0,SEG-009,EQ-020,0,PON splitting ratio at max. Deployed additional OLT card to serve area growth.
+TKT-0169,ENG-024,SA-001,2026-03-21,TT-004,P3,2026-03-21T10:00:00,2026-03-22T10:00:00,40,Patch Applied,0,SEG-001,EQ-034,0,Firewall rule optimization causing session table overflow under DDoS. Applied filter update.
+TKT-0170,ENG-011,SA-003,2026-03-21,TT-005,P4,2026-03-21T09:00:00,2026-03-21T10:00:00,12,Config Corrected,0,SEG-006,EQ-013,1,Port security MAC limit reached. Increased allowed MACs for business customer.
+TKT-0171,ENG-029,SA-013,2026-03-21,TT-011,P3,2026-03-21T22:00:00,2026-03-22T04:00:00,45,Circuit Upgraded,0,SEG-004,EQ-009,0,Enterprise BGP transit upgrade. Added full routing table capability.
+TKT-0172,ENG-005,SA-001,2026-03-21,TT-018,P2,2026-03-21T12:00:00,2026-03-23T12:00:00,70,Vendor Resolved,1,SEG-001,EQ-030,0,Ciena DWDM optical supervision channel failure. Vendor field service dispatched.
+TKT-0173,ENG-015,SA-011,2026-03-22,TT-001,P2,2026-03-22T06:00:00,2026-03-22T12:30:00,55,Fiber Repaired,1,SEG-012,EQ-029,380,5G fiber backhaul break. Emergency splice restoration.
+TKT-0174,ENG-020,SA-014,2026-03-22,TT-008,P4,2026-03-22T10:00:00,2026-03-22T11:30:00,20,Speed Issue Resolved,0,SEG-012,EQ-027,1,Slow speed. Replaced degraded ONT.
+TKT-0175,ENG-006,SA-003,2026-03-22,TT-002,P2,2026-03-22T04:00:00,2026-03-22T09:30:00,50,Hardware Replaced,1,SEG-004,EQ-009,1800,Core router line card failure. Redundancy held. Replaced card.
+TKT-0176,ENG-018,SA-004,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,40,Firmware Updated,0,SEG-006,EQ-015,0,CMTS security firmware patch. Clean upgrade.
+TKT-0177,ENG-023,SA-008,2026-03-22,TT-009,P3,2026-03-22T09:00:00,2026-03-22T12:00:00,30,Issue Resolved,0,SEG-008,EQ-045,8,Enterprise customer packet loss. Found duplex mismatch on handoff port. Corrected.
+TKT-0178,ENG-007,SA-001,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,35,Maintenance Complete,0,SEG-003,EQ-005,0,OLT scheduled maintenance. Software update and alarm profile refresh.
+TKT-0179,ENG-002,SA-001,2026-03-22,TT-005,P4,2026-03-22T11:00:00,2026-03-22T12:00:00,12,Config Corrected,0,SEG-003,EQ-006,1,Customer VOIP registration failure. SIP ALG interfering. Disabled ALG on ONT.
+TKT-0180,ENG-030,SA-009,2026-03-22,TT-002,P2,2026-03-22T06:00:00,2026-03-22T11:00:00,45,Hardware Replaced,1,SEG-010,EQ-023,2200,Core router fan tray failure causing thermal throttling. Replaced immediately.
+TKT-0181,ENG-013,SA-010,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T18:00:00,50,Capacity Augmented,0,SEG-010,EQ-033,0,Added DWDM capacity for new streaming CDN customer. Wavelength activation.
+TKT-0182,ENG-004,SA-003,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,40,PM Complete,0,SEG-006,EQ-016,0,5G cell site quarterly PM. Drive test, coverage verification, neighbor audit.
+TKT-0183,ENG-012,SA-006,2026-03-22,TT-015,P1,2026-03-22T02:00:00,2026-03-22T06:00:00,55,Emergency Maintenance Complete,1,SEG-007,EQ-017,0,Critical BGP vulnerability patch. Emergency window approved.
+TKT-0184,ENG-027,SA-012,2026-03-22,TT-001,P3,2026-03-22T13:00:00,2026-03-22T18:00:00,40,Fiber Repaired,0,SEG-012,EQ-046,120,5G cell site fiber backhaul damage. Splice repair at handhole.
+TKT-0185,ENG-016,SA-006,2026-03-22,TT-008,P4,2026-03-22T14:00:00,2026-03-22T15:30:00,18,Speed Issue Resolved,0,SEG-009,EQ-019,1,Customer streaming buffering. Replaced aging ONT with WiFi 6E model.
+TKT-0186,ENG-001,SA-001,2026-03-22,TT-009,P3,2026-03-22T08:00:00,2026-03-22T11:00:00,25,Issue Resolved,0,SEG-003,EQ-005,3,Customers reporting DNS resolution delays. Recursive DNS overloaded. Added cache server.
+TKT-0187,ENG-014,SA-009,2026-03-22,TT-004,P3,2026-03-22T15:00:00,2026-03-23T10:00:00,42,Workaround Applied,0,SEG-011,EQ-024,0,EVPN type-2 route not propagating. Applied workaround. Vendor case opened.
+TKT-0188,ENG-009,SA-007,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,45,PM Complete,0,SEG-008,EQ-045,0,Aggregation switch quarterly PM. Optics cleaning, config backup, alarm review.
+TKT-0189,ENG-021,SA-005,2026-03-22,TT-010,P3,2026-03-22T10:00:00,2026-03-26T16:00:00,90,Circuit Provisioned,0,SEG-006,EQ-014,0,New enterprise GPON service. Drop fiber build, ONT install, service activation.
+TKT-0190,ENG-019,SA-002,2026-03-22,TT-002,P3,2026-03-22T07:00:00,2026-03-22T11:00:00,35,Hardware Replaced,0,SEG-003,EQ-008,65,5G radio unit degraded. Replaced RU. All sectors verified.
+TKT-0191,ENG-026,SA-006,2026-03-22,TT-007,P2,2026-03-22T03:00:00,2026-03-22T08:00:00,70,Breach Contained,1,SEG-008,EQ-049,0,Unauthorized access attempt on management plane. Blocked source IPs and rotated credentials.
+TKT-0192,ENG-025,SA-004,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,40,PM Complete,0,SEG-006,EQ-043,0,5G cell site PM. Full sector test and optimization.
+TKT-0193,ENG-022,SA-009,2026-03-22,TT-005,P3,2026-03-22T09:00:00,2026-03-22T10:30:00,18,Config Corrected,0,SEG-011,EQ-024,4,Storm control threshold too low on access ports. Adjusted to prevent false triggering.
+TKT-0194,ENG-028,SA-015,2026-03-22,TT-009,P3,2026-03-22T13:00:00,2026-03-22T16:00:00,30,Issue Resolved,0,SEG-002,EQ-004,7,Aggregation port flapping. Found loose fiber in patch panel. Reseated.
+TKT-0195,ENG-003,SA-001,2026-03-22,TT-018,P2,2026-03-22T10:00:00,2026-03-24T10:00:00,60,Vendor Resolved,1,SEG-002,EQ-003,0,Cisco NCS software defect. TAC case. Upgrade to latest train resolved.
+TKT-0196,ENG-017,SA-001,2026-03-22,TT-016,P2,2026-03-22T08:00:00,2026-03-27T17:00:00,220,RCA Complete,0,SEG-003,EQ-006,350,RCA for recurring NE access failures. Identified manufacturing batch defect in OLT cards.
+TKT-0197,ENG-008,SA-003,2026-03-22,TT-001,P1,2026-03-22T15:00:00,2026-03-22T22:00:00,65,Fiber Repaired,2,SEG-006,EQ-044,2400,Major fiber trunk cut from highway construction. Extended repair with multiple closures.
+TKT-0198,ENG-010,SA-008,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,38,Firmware Updated,0,SEG-009,EQ-048,0,CMTS firmware update. Improved upstream scheduling. Clean upgrade.
+TKT-0199,ENG-024,SA-001,2026-03-22,TT-003,P1,2026-03-22T20:00:00,2026-03-23T08:00:00,75,Power Restored,2,SEG-002,EQ-041,890,Hub site power event. Generator start delay. Battery bridge held. Rectifier replaced.
+TKT-0200,ENG-011,SA-003,2026-03-22,TT-008,P4,2026-03-22T14:30:00,2026-03-22T16:00:00,20,Speed Issue Resolved,0,SEG-006,EQ-013,1,Business customer slow upload. Bandwidth profile asymmetric. Corrected to symmetric.
+TKT-0201,ENG-029,SA-013,2026-03-22,TT-002,P2,2026-03-22T05:00:00,2026-03-22T10:30:00,48,Hardware Replaced,1,SEG-004,EQ-010,680,Core router optic degradation. Pre-emptive replacement before failure. Traffic rerouted during swap.
+TKT-0202,ENG-005,SA-001,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,32,Maintenance Complete,0,SEG-001,EQ-001,0,Core router quarterly maintenance. Memory housekeeping and process restart.
+TKT-0203,ENG-018,SA-013,2026-03-22,TT-011,P3,2026-03-22T22:00:00,2026-03-23T04:00:00,48,Circuit Upgraded,0,SEG-005,EQ-012,0,Enterprise customer metro Ethernet upgrade 10G→100G. Optics and QoS update.
+TKT-0204,ENG-023,SA-007,2026-03-22,TT-005,P4,2026-03-22T11:00:00,2026-03-22T12:00:00,12,Config Corrected,0,SEG-009,EQ-019,1,Customer port not forwarding. Port-security violation shutdown. Cleared and adjusted.
+TKT-0205,ENG-020,SA-012,2026-03-22,TT-001,P3,2026-03-22T16:00:00,2026-03-22T21:00:00,38,Fiber Repaired,0,SEG-012,EQ-027,110,Customer drop fiber damaged by rodent. Re-terminated in armored conduit.
+TKT-0206,ENG-007,SA-001,2026-03-22,TT-011,P3,2026-03-22T22:00:00,2026-03-23T04:00:00,48,Circuit Upgraded,0,SEG-003,EQ-006,0,OLT uplink upgrade to 25G for increased subscriber count.
+TKT-0207,ENG-015,SA-011,2026-03-22,TT-002,P2,2026-03-22T07:00:00,2026-03-22T12:00:00,45,Hardware Replaced,1,SEG-012,EQ-028,260,5G BBU failure. Replaced baseband unit. All sectors re-established.
+TKT-0208,ENG-006,SA-004,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T12:00:00,52,Capacity Augmented,0,SEG-005,EQ-012,0,Metro ring capacity at 87%. Activated pre-provisioned 100G wavelength.
+TKT-0209,ENG-030,SA-010,2026-03-22,TT-004,P2,2026-03-22T08:00:00,2026-03-23T08:00:00,55,Patch Applied,1,SEG-010,EQ-050,0,Firewall session table optimization. Applied vendor patch for connection tracking.
+TKT-0210,ENG-002,SA-001,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T12:00:00,35,PM Complete,0,SEG-003,EQ-006,0,OLT quarterly maintenance review and alarm tuning.
+TKT-0211,ENG-004,SA-005,2026-03-22,TT-009,P3,2026-03-22T10:00:00,2026-03-22T13:00:00,28,Issue Resolved,0,SEG-006,EQ-014,5,Customer intermittent connectivity. Identified faulty ONT. Replaced.
+TKT-0212,ENG-013,SA-010,2026-03-22,TT-015,P1,2026-03-22T22:00:00,2026-03-23T02:00:00,48,Emergency Maintenance Complete,1,SEG-010,EQ-022,0,Critical MPLS vulnerability. Emergency patch on all core routers.
+TKT-0213,ENG-016,SA-007,2026-03-22,TT-005,P3,2026-03-22T14:30:00,2026-03-22T16:00:00,15,Config Corrected,0,SEG-009,EQ-019,2,ARP timeout too short on GPON customers. Extended to 4h.
+TKT-0214,ENG-009,SA-008,2026-03-22,TT-001,P2,2026-03-22T09:00:00,2026-03-22T15:30:00,55,Fiber Repaired,1,SEG-009,EQ-020,780,Underground fiber damage from waterline repair. Excavation and splice.
+TKT-0215,ENG-014,SA-010,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,35,Maintenance Complete,0,SEG-012,EQ-025,0,Aggregation switch quarterly maintenance. TCAM utilization check.
+TKT-0216,ENG-019,SA-002,2026-03-22,TT-008,P4,2026-03-22T10:00:00,2026-03-22T11:30:00,18,Speed Issue Resolved,0,SEG-003,EQ-008,1,5G fixed wireless customer poor signal. Adjusted CPE antenna alignment.
+TKT-0217,ENG-012,SA-006,2026-03-22,TT-017,P3,2026-03-22T09:00:00,2026-03-29T17:00:00,185,Investigation Complete,0,SEG-008,EQ-049,0,Investigation into recurring unauthorized access attempts. Implemented zero-trust segmentation.
+TKT-0218,ENG-021,SA-005,2026-03-22,TT-001,P2,2026-03-22T06:30:00,2026-03-22T13:00:00,58,Fiber Repaired,1,SEG-006,EQ-014,920,Trunk fiber break. Emergency restoration with temporary aerial routing.
+TKT-0219,ENG-028,SA-015,2026-03-22,TT-002,P3,2026-03-22T07:00:00,2026-03-22T11:00:00,38,Hardware Replaced,0,SEG-002,EQ-004,0,Proactive replacement of aging aggregation switch SFP showing elevated BER.
+TKT-0220,ENG-025,SA-003,2026-03-22,TT-005,P4,2026-03-22T15:00:00,2026-03-22T16:00:00,12,Config Corrected,0,SEG-006,EQ-013,1,Customer IPTV multicast not working. Enabled IGMP on customer-facing VLAN.
+TKT-0221,ENG-027,SA-014,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,42,PM Complete,0,SEG-012,EQ-026,0,OLT quarterly PM. Power level verification across all PON ports.
+TKT-0222,ENG-022,SA-009,2026-03-22,TT-001,P2,2026-03-22T17:00:00,2026-03-22T23:00:00,52,Fiber Repaired,1,SEG-010,EQ-033,1600,DWDM fiber cut between sites. Emergency splice on metro dark fiber.
+TKT-0223,ENG-011,SA-003,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,38,Firmware Updated,0,SEG-005,EQ-011,0,Aggregation switch firmware update for EVPN multicast improvement.
+TKT-0224,ENG-010,SA-008,2026-03-22,TT-009,P3,2026-03-22T13:00:00,2026-03-22T16:00:00,28,Issue Resolved,0,SEG-009,EQ-048,6,DOCSIS customers reporting slow speeds during peak. Added US channels.
+TKT-0225,ENG-003,SA-001,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T12:00:00,48,Capacity Augmented,0,SEG-002,EQ-003,0,Aggregation ring nearing capacity. Added 100G QSFP28 LAG member.
+TKT-0226,ENG-017,SA-015,2026-03-22,TT-017,P3,2026-03-22T09:00:00,2026-03-29T17:00:00,210,Investigation Complete,0,SEG-001,EQ-039,6500,Long-term investigation into NE data center power reliability. Full battery fleet assessment.
+TKT-0227,ENG-008,SA-005,2026-03-22,TT-002,P2,2026-03-22T04:30:00,2026-03-22T10:00:00,50,Hardware Replaced,1,SEG-006,EQ-044,280,OLT card failure at SE remote terminal. Replaced card. ONTs re-ranged.
+TKT-0228,ENG-026,SA-006,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,30,Maintenance Complete,0,SEG-008,EQ-018,0,Aggregation switch quarterly maintenance. Log cleanup and config archive.
+TKT-0229,ENG-029,SA-004,2026-03-22,TT-001,P1,2026-03-22T19:00:00,2026-03-23T03:00:00,72,Fiber Repaired,2,SEG-005,EQ-012,3500,Major metro ring fiber cut. SEP ring protection activated. Emergency splice.
+TKT-0230,ENG-024,SA-001,2026-03-22,TT-004,P2,2026-03-22T10:00:00,2026-03-23T10:00:00,55,Patch Applied,1,SEG-001,EQ-034,0,Firewall deep inspection engine memory leak. Hotfix applied.
+TKT-0231,ENG-001,SA-001,2026-03-22,TT-005,P3,2026-03-22T16:00:00,2026-03-22T17:00:00,12,Config Corrected,0,SEG-003,EQ-005,2,Customer VLAN tag mismatch after provisioning change. Corrected service profile.
+TKT-0232,ENG-018,SA-013,2026-03-22,TT-009,P3,2026-03-22T09:00:00,2026-03-22T12:00:00,28,Issue Resolved,0,SEG-005,EQ-012,4,Enterprise customer reporting jitter. QoS class mismatch on metro ring. Corrected.
+TKT-0233,ENG-015,SA-011,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,45,PM Complete,0,SEG-012,EQ-046,0,5G cell site PM. Full sector audit and handover testing.
+TKT-0234,ENG-020,SA-014,2026-03-22,TT-005,P4,2026-03-22T14:00:00,2026-03-22T15:00:00,12,Config Corrected,0,SEG-012,EQ-026,1,OLT power-saving mode incorrectly enabled. Disabled for always-on customer.
+TKT-0235,ENG-004,SA-003,2026-03-22,TT-008,P3,2026-03-22T09:30:00,2026-03-22T11:30:00,22,Speed Issue Resolved,0,SEG-006,EQ-013,1,Customer speed test failure. Replaced degraded fiber patch cord at FDH.
+TKT-0236,ENG-007,SA-001,2026-03-22,TT-002,P3,2026-03-22T12:00:00,2026-03-22T16:00:00,35,Hardware Replaced,0,SEG-003,EQ-042,95,OLT SFP showing pre-failure warnings. Proactively replaced before customer impact.
+TKT-0237,ENG-013,SA-009,2026-03-22,TT-018,P2,2026-03-22T11:00:00,2026-03-24T11:00:00,62,Vendor Resolved,1,SEG-010,EQ-033,0,Infinera DWDM amplifier noise floor elevated. Vendor calibration visit scheduled.
+TKT-0238,ENG-006,SA-004,2026-03-22,TT-001,P2,2026-03-22T22:00:00,2026-03-23T05:00:00,58,Fiber Repaired,1,SEG-005,EQ-012,1200,Metro ring fiber break at splice enclosure. Emergency splice repair.
+TKT-0239,ENG-023,SA-007,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,38,Firmware Updated,0,SEG-007,EQ-017,0,Core router firmware update. Graceful restart verified on all adjacencies.
+TKT-0240,ENG-030,SA-010,2026-03-22,TT-005,P4,2026-03-22T09:00:00,2026-03-22T10:00:00,12,Config Corrected,0,SEG-011,EQ-025,2,MAC address table aging timer mismatch. Standardized across ring.
+TKT-0241,ENG-005,SA-001,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T14:00:00,52,Capacity Augmented,0,SEG-001,EQ-030,0,DWDM system flex-grid optimization. Reconfigured channels for better spectrum utilization.
+TKT-0242,ENG-002,SA-001,2026-03-22,TT-001,P3,2026-03-22T15:00:00,2026-03-22T19:00:00,32,Fiber Repaired,0,SEG-003,EQ-006,45,Drop fiber cut at customer demarc. Splice repair.
+TKT-0243,ENG-009,SA-007,2026-03-22,TT-009,P3,2026-03-22T10:00:00,2026-03-22T13:00:00,25,Issue Resolved,0,SEG-008,EQ-045,3,Enterprise L3VPN routing issue. Missing redistribution. Added into PE config.
+TKT-0244,ENG-019,SA-002,2026-03-22,TT-001,P3,2026-03-22T14:00:00,2026-03-22T18:00:00,35,Fiber Repaired,0,SEG-003,EQ-008,55,Aerial fiber weathering damage. Replaced 50m span.
+TKT-0245,ENG-016,SA-006,2026-03-22,TT-002,P2,2026-03-22T05:00:00,2026-03-22T10:00:00,42,Hardware Replaced,1,SEG-009,EQ-019,420,OLT card failure. Service degradation for 420 customers. Replaced card within SLA.
+TKT-0246,ENG-014,SA-011,2026-03-22,TT-008,P4,2026-03-22T11:00:00,2026-03-22T12:30:00,18,Speed Issue Resolved,0,SEG-012,EQ-029,1,5G FWA customer slow speed. Adjusted beam configuration for better signal.
+TKT-0247,ENG-026,SA-006,2026-03-22,TT-004,P3,2026-03-22T13:00:00,2026-03-23T09:00:00,42,Workaround Applied,0,SEG-008,EQ-018,0,MPLS fast-reroute not engaging on protected path. Applied static backup path.
+TKT-0248,ENG-021,SA-005,2026-03-22,TT-005,P3,2026-03-22T09:00:00,2026-03-22T10:30:00,15,Config Corrected,0,SEG-006,EQ-014,3,DHCP relay not configured on new VLAN. Added ip helper-address.
+TKT-0249,ENG-028,SA-015,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,40,PM Complete,0,SEG-002,EQ-004,0,Aggregation switch quarterly PM. Config backup, optics check, log review.
+TKT-0250,ENG-011,SA-003,2026-03-22,TT-001,P2,2026-03-22T21:00:00,2026-03-23T03:30:00,55,Fiber Repaired,1,SEG-006,EQ-013,650,Underground fiber break from sewer construction. Emergency splice repair.
+TKT-0251,ENG-022,SA-009,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T14:00:00,50,Capacity Augmented,0,SEG-011,EQ-024,0,Aggregation ring at 85%. Added pre-provisioned 100G link.
+TKT-0252,ENG-003,SA-001,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,35,Firmware Updated,0,SEG-002,EQ-003,0,Aggregation switch firmware update. TCAM optimization included.
+TKT-0253,ENG-025,SA-004,2026-03-22,TT-002,P2,2026-03-22T06:00:00,2026-03-22T11:00:00,45,Hardware Replaced,1,SEG-006,EQ-013,350,OLT power supply showing intermittent alarms. Proactive replacement.
+TKT-0254,ENG-017,SA-001,2026-03-22,TT-004,P2,2026-03-22T16:00:00,2026-03-23T16:00:00,55,Patch Applied,1,SEG-001,EQ-002,0,Juniper JunOS RPD vulnerability patch. Applied after lab validation.
+TKT-0255,ENG-008,SA-003,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,42,PM Complete,0,SEG-006,EQ-016,0,5G cell site quarterly PM. Full sector optimization and handover audit.
+TKT-0256,ENG-010,SA-008,2026-03-22,TT-005,P4,2026-03-22T10:00:00,2026-03-22T11:00:00,12,Config Corrected,0,SEG-009,EQ-048,1,DOCSIS upstream power level out of range for customer modem. Adjusted US power.
+TKT-0257,ENG-024,SA-001,2026-03-22,TT-015,P1,2026-03-22T23:00:00,2026-03-23T03:00:00,48,Emergency Maintenance Complete,1,SEG-001,EQ-036,0,F5 load balancer TLS certificate vulnerability. Emergency patch and cert rotation.
+TKT-0258,ENG-012,SA-006,2026-03-22,TT-001,P1,2026-03-22T23:30:00,2026-03-23T06:00:00,68,Fiber Repaired,2,SEG-007,EQ-032,3800,Major DWDM fiber cut between Chicago and Minneapolis. Emergency splice. 6.5h TTR.
+TKT-0259,ENG-006,SA-003,2026-03-22,TT-009,P3,2026-03-22T09:00:00,2026-03-22T12:00:00,25,Issue Resolved,0,SEG-006,EQ-016,4,5G customers reporting intermittent drops. X2 handover timeout. Adjusted parameters.
+TKT-0260,ENG-029,SA-013,2026-03-22,TT-018,P2,2026-03-22T12:00:00,2026-03-24T12:00:00,60,Vendor Resolved,1,SEG-004,EQ-009,0,Cisco core router ASIC defect. TAC confirmed. Hardware replacement scheduled.
+TKT-0261,ENG-007,SA-001,2026-03-22,TT-005,P4,2026-03-22T14:00:00,2026-03-22T15:00:00,10,Config Corrected,0,SEG-003,EQ-042,1,New ONT not registering. Serial number not in whitelist. Added.
+TKT-0262,ENG-013,SA-010,2026-03-22,TT-002,P1,2026-03-22T02:00:00,2026-03-22T08:00:00,65,Hardware Replaced,2,SEG-010,EQ-022,4200,Core router supervisor dual failure (primary + standby). Full chassis swap. 6h outage.
+TKT-0263,ENG-020,SA-014,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,40,PM Complete,0,SEG-012,EQ-047,0,OLT quarterly PM. Comprehensive alarm review and optics verification.
+TKT-0264,ENG-018,SA-013,2026-03-22,TT-001,P2,2026-03-22T07:30:00,2026-03-22T13:30:00,55,Fiber Repaired,1,SEG-005,EQ-011,480,Metro ring fiber break at splice point. Emergency repair.
+TKT-0265,ENG-001,SA-001,2026-03-22,TT-008,P3,2026-03-22T11:00:00,2026-03-22T13:00:00,22,Speed Issue Resolved,0,SEG-003,EQ-005,1,Customer WiFi dead spot. Adjusted ONT WiFi channel and TX power.
+TKT-0266,ENG-023,SA-008,2026-03-22,TT-002,P2,2026-03-22T04:00:00,2026-03-22T09:30:00,48,Hardware Replaced,1,SEG-008,EQ-045,310,Aggregation switch fan failure. Thermal alarm. Replaced fan tray. No service impact.
+TKT-0267,ENG-015,SA-011,2026-03-22,TT-005,P3,2026-03-22T10:00:00,2026-03-22T11:30:00,15,Config Corrected,0,SEG-012,EQ-028,2,5G cell site S1 interface not up after maintenance. SCTP config corrected.
+TKT-0268,ENG-030,SA-010,2026-03-22,TT-001,P2,2026-03-22T12:00:00,2026-03-22T18:00:00,52,Fiber Repaired,1,SEG-012,EQ-027,560,OLT trunk fiber cut. Emergency splice repair.
+TKT-0269,ENG-004,SA-003,2026-03-22,TT-006,P2,2026-03-22T14:00:00,2026-03-23T12:00:00,48,Capacity Augmented,0,SEG-005,EQ-012,0,Metro ring 10G link saturation. Upgraded to 100G with new optics.
+TKT-0270,ENG-005,SA-001,2026-03-22,TT-002,P2,2026-03-22T06:00:00,2026-03-22T11:00:00,48,Hardware Replaced,1,SEG-001,EQ-001,0,Core router line card pre-failure alarm. Proactive swap during maintenance window.
+TKT-0271,ENG-009,SA-007,2026-03-22,TT-008,P4,2026-03-22T09:00:00,2026-03-22T10:30:00,18,Speed Issue Resolved,0,SEG-008,EQ-045,1,Customer upload slow. Found CRC errors on port. Replaced fiber patch cord.
+TKT-0272,ENG-014,SA-009,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,30,Maintenance Complete,0,SEG-011,EQ-024,0,Aggregation scheduled maintenance. ARP optimization and TCAM cleanup.
+TKT-0273,ENG-016,SA-006,2026-03-22,TT-009,P3,2026-03-22T08:00:00,2026-03-22T11:00:00,25,Issue Resolved,0,SEG-009,EQ-019,5,Multiple residential customers intermittent drops. PON port anomaly. Reset port.
+TKT-0274,ENG-011,SA-004,2026-03-22,TT-010,P3,2026-03-22T10:00:00,2026-03-26T16:00:00,88,Circuit Provisioned,0,SEG-006,EQ-014,0,New enterprise GPON service. Full installation including drop fiber and activation.
+TKT-0275,ENG-002,SA-001,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,35,Firmware Updated,0,SEG-003,EQ-005,0,OLT firmware update. Improved GPON dynamic bandwidth allocation.
+TKT-0276,ENG-026,SA-006,2026-03-22,TT-002,P2,2026-03-22T05:30:00,2026-03-22T10:30:00,45,Hardware Replaced,1,SEG-007,EQ-017,1500,Core router optic failure. DWDM wavelength moved to protection path. Optic replaced.
+TKT-0277,ENG-027,SA-012,2026-03-22,TT-008,P4,2026-03-22T11:00:00,2026-03-22T12:30:00,18,Speed Issue Resolved,0,SEG-012,EQ-028,1,5G FWA customer slow speed. Adjusted antenna panel tilt for better SINR.
+TKT-0278,ENG-019,SA-002,2026-03-22,TT-005,P3,2026-03-22T09:00:00,2026-03-22T10:30:00,15,Config Corrected,0,SEG-003,EQ-008,2,5G cell site neighbor list incomplete. Added missing cells for seamless handover.
+TKT-0279,ENG-022,SA-009,2026-03-22,TT-003,P1,2026-03-22T18:00:00,2026-03-23T06:00:00,72,Power Restored,2,SEG-010,EQ-022,4500,Extended utility outage at W data center. Generator + UPS sustained. Close monitoring.
+TKT-0280,ENG-021,SA-005,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,35,Firmware Updated,0,SEG-006,EQ-043,0,5G radio firmware update for improved massive-MIMO beamforming.
+TKT-0281,ENG-028,SA-015,2026-03-22,TT-001,P3,2026-03-22T13:00:00,2026-03-22T17:00:00,32,Fiber Repaired,0,SEG-002,EQ-004,65,Underground fiber damage at utility crossing. Splice repair.
+TKT-0282,ENG-003,SA-002,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,42,PM Complete,0,SEG-003,EQ-008,0,5G cell site quarterly PM. Full sector audit and optimization.
+TKT-0283,ENG-008,SA-003,2026-03-22,TT-009,P3,2026-03-22T10:00:00,2026-03-22T13:00:00,28,Issue Resolved,0,SEG-005,EQ-012,4,Enterprise L2VPN bridge loop. STP configuration corrected.
+TKT-0284,ENG-010,SA-006,2026-03-22,TT-002,P3,2026-03-22T07:00:00,2026-03-22T11:00:00,38,Hardware Replaced,0,SEG-009,EQ-019,120,Proactive OLT card replacement - elevated error counters detected by monitoring.
+TKT-0285,ENG-024,SA-001,2026-03-22,TT-011,P3,2026-03-22T22:00:00,2026-03-23T04:00:00,48,Circuit Upgraded,0,SEG-001,EQ-001,0,Core link upgrade 100G→400G for peering capacity growth.
+TKT-0286,ENG-025,SA-004,2026-03-22,TT-008,P4,2026-03-22T14:00:00,2026-03-22T15:30:00,20,Speed Issue Resolved,0,SEG-006,EQ-013,1,Customer speed complaint. Provisioning error - subscribed tier not matching service.
+TKT-0287,ENG-017,SA-001,2026-03-22,TT-018,P2,2026-03-22T10:00:00,2026-03-24T10:00:00,65,Vendor Resolved,1,SEG-001,EQ-001,0,Cisco core router ASIC health degradation. TAC confirmed. Proactive RMA.
+TKT-0288,ENG-012,SA-006,2026-03-22,TT-005,P3,2026-03-22T15:00:00,2026-03-22T16:30:00,15,Config Corrected,0,SEG-008,EQ-018,3,MPLS RSVP tunnel not establishing. TE metric mismatch. Corrected at both ends.
+TKT-0289,ENG-029,SA-013,2026-03-22,TT-014,P4,2026-03-22T08:00:00,2026-03-22T16:00:00,42,PM Complete,0,SEG-004,EQ-031,0,DWDM quarterly PM. Amplifier check, wavelength verification, power level audit.
+TKT-0290,ENG-006,SA-004,2026-03-22,TT-002,P1,2026-03-22T01:00:00,2026-03-22T07:30:00,62,Hardware Replaced,2,SEG-004,EQ-009,2800,Core router line card dual failure. Traffic rerouted via backup. Cards replaced.
+TKT-0291,ENG-007,SA-001,2026-03-22,TT-009,P3,2026-03-22T10:00:00,2026-03-22T12:30:00,22,Issue Resolved,0,SEG-003,EQ-005,3,Multiple ONT deregistration events. OLT upstream laser degraded. Replaced SFP.
+TKT-0292,ENG-018,SA-004,2026-03-22,TT-011,P3,2026-03-22T22:00:00,2026-03-23T04:00:00,45,Circuit Upgraded,0,SEG-006,EQ-015,0,CMTS downstream channel bonding upgrade. Added 8 more channels per service group.
+TKT-0293,ENG-004,SA-003,2026-03-22,TT-005,P4,2026-03-22T08:00:00,2026-03-22T09:00:00,10,Config Corrected,0,SEG-006,EQ-013,1,Customer IPv6 not working. DHCPv6 prefix delegation not enabled on OLT. Fixed.
+TKT-0294,ENG-020,SA-012,2026-03-22,TT-001,P3,2026-03-22T12:00:00,2026-03-22T16:30:00,35,Fiber Repaired,0,SEG-012,EQ-046,85,5G cell site fiber damage. Splice repair at handhole.
+TKT-0295,ENG-023,SA-007,2026-03-22,TT-002,P2,2026-03-22T05:00:00,2026-03-22T10:00:00,48,Hardware Replaced,1,SEG-007,EQ-032,900,DWDM amplifier degradation. Replaced EDFA module. Wavelengths restored.
+TKT-0296,ENG-001,SA-001,2026-03-22,TT-013,P3,2026-03-22T01:00:00,2026-03-22T05:00:00,30,Maintenance Complete,0,SEG-003,EQ-006,0,OLT scheduled maintenance. DBA optimization and power budget review.
+TKT-0297,ENG-030,SA-009,2026-03-22,TT-009,P3,2026-03-22T08:00:00,2026-03-22T11:00:00,25,Issue Resolved,0,SEG-010,EQ-023,4,Core router high CPU. Identified BGP scanner process. Applied optimization.
+TKT-0298,ENG-015,SA-011,2026-03-22,TT-008,P4,2026-03-22T10:00:00,2026-03-22T11:30:00,18,Speed Issue Resolved,0,SEG-012,EQ-028,1,5G customer slow download. Replaced defective antenna cable.
+TKT-0299,ENG-005,SA-001,2026-03-22,TT-012,P3,2026-03-22T22:00:00,2026-03-23T02:00:00,38,Firmware Updated,0,SEG-001,EQ-001,0,Core router firmware update. Maintenance window. All protocols graceful.
+TKT-0300,ENG-013,SA-010,2026-03-22,TT-016,P2,2026-03-22T08:00:00,2026-03-27T17:00:00,225,RCA Complete,0,SEG-010,EQ-022,4200,RCA for Mar 22 dual supervisor failure. Vendor defect confirmed. Fleet-wide inspection ordered.

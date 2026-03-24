@@ -1,0 +1,26 @@
+ae_id,name,role,market_id,team,quota_target,hire_date,specialization,active_campaigns
+AE-001,Marcus Webb,Senior Account Executive,MKT-001,Enterprise,2800000,2018-03-15,National Brands,22
+AE-002,Rachel Kim,Account Executive,MKT-001,Enterprise,1800000,2020-06-01,Automotive,18
+AE-003,David Okafor,Senior Account Executive,MKT-002,Enterprise,2500000,2017-09-22,CPG & Retail,20
+AE-004,Emily Torres,Account Executive,MKT-002,Growth,1500000,2021-01-10,Healthcare,15
+AE-005,James Patel,Account Executive,MKT-003,Growth,1600000,2020-11-05,Financial Services,16
+AE-006,Sarah Mitchell,Senior Account Executive,MKT-003,Enterprise,2600000,2016-07-18,Tech & Telecom,21
+AE-007,Brandon Lee,Account Executive,MKT-004,Growth,1400000,2022-02-14,QSR & Dining,14
+AE-008,Olivia Chen,Senior Account Executive,MKT-004,Enterprise,2400000,2018-10-30,Entertainment,19
+AE-009,Tyler Ross,Account Executive,MKT-005,Growth,1300000,2021-08-22,Real Estate,12
+AE-010,Maria Gonzalez,Senior Account Executive,MKT-005,Enterprise,2700000,2015-04-12,Automotive,23
+AE-011,Andre Williams,Account Executive,MKT-006,Growth,1200000,2022-05-20,Retail,11
+AE-012,Jessica Park,Account Executive,MKT-006,Growth,1350000,2021-03-18,Travel & Tourism,13
+AE-013,Chris Nguyen,Sales Coordinator,MKT-001,Support,0,2023-01-15,Campaign Admin,0
+AE-014,Ashley Brown,Sales Coordinator,MKT-002,Support,0,2022-09-01,Campaign Admin,0
+AE-015,Ryan Martinez,Sales Coordinator,MKT-003,Support,0,2023-04-10,Campaign Admin,0
+AE-016,Nicole Davis,Chartist,MKT-001,Fulfillment,0,2019-06-15,Contract Charting,0
+AE-017,Kevin Thompson,Chartist,MKT-002,Fulfillment,0,2020-02-28,Contract Charting,0
+AE-018,Lisa Wang,Chartist,MKT-003,Fulfillment,0,2018-11-12,Contract Charting,0
+AE-019,Derek Johnson,Chartist,MKT-004,Fulfillment,0,2021-07-01,CCN & Digital,0
+AE-020,Amanda Scott,Production Specialist,MKT-001,Production,0,2019-04-22,Print Production,0
+AE-021,Brian Hall,Production Specialist,MKT-002,Production,0,2020-08-15,Digital Production,0
+AE-022,Stephanie Adams,POP Coordinator,MKT-001,POP,0,2021-10-01,Photography & POP,0
+AE-023,Mark Rivera,POP Coordinator,MKT-003,POP,0,2022-03-12,Photography & POP,0
+AE-024,Lauren Foster,General Manager,MKT-005,Operations,0,2014-01-20,Market Operations,0
+AE-025,Daniel Cooper,VP Sales,MKT-001,Leadership,0,2012-08-05,National Strategy,0

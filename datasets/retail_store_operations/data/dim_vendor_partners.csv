@@ -1,0 +1,13 @@
+vendor_id,name,category,delivery_frequency,documentation_requirements
+VND-001,FreshHarvest Co,Grocery,daily,PO + receiving log + temp check
+VND-002,NationalBrand Foods,Grocery,3x_weekly,PO + receiving log
+VND-003,StyleWorks Inc,Apparel,weekly,PO + quality inspection
+VND-004,TechSource Direct,Electronics,weekly,PO + serial number log
+VND-005,HomeGoods Wholesale,Home,bi-weekly,PO + damage inspection
+VND-006,CleanPro Supply,Home,bi-weekly,PO + MSDS verification
+VND-007,MegaSnacks Corp,Grocery,2x_weekly,PO + planogram reset
+VND-008,PharmaHealth Ltd,Health & Beauty,weekly,PO + regulatory compliance
+VND-009,ActiveLife Sports,Sporting Goods,bi-weekly,PO + display setup
+VND-010,GreenThumb Garden,Garden,weekly,PO + seasonal plan
+VND-011,AutoParts Express,Automotive,weekly,PO + warranty registration
+VND-012,ToyWorld Inc,Home,weekly,PO + safety certification

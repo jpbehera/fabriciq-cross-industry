@@ -1,0 +1,31 @@
+store_id,name,district_id,region,format,sq_footage,headcount,revenue_tier
+STR-001,Oakwood Plaza,DST-001,Northeast,Standard,98810,53,Tier-1
+STR-002,Riverside Center,DST-002,Southeast,Supercenter,18278,95,Tier-3
+STR-003,Pine Hill Mall,DST-003,Midwest,Neighborhood,47098,82,Tier-2
+STR-004,Lakeside Square,DST-004,West,Express,33289,51,Tier-3
+STR-005,Downtown Express,DST-005,Southwest,Flagship,103696,164,Tier-1
+STR-006,Harbor View,DST-001,Northeast,Standard,26395,176,Tier-3
+STR-007,Sunrise Market,DST-002,Southeast,Supercenter,70302,33,Tier-2
+STR-008,Valley Crossing,DST-003,Midwest,Neighborhood,18905,48,Tier-3
+STR-009,Hilltop Place,DST-004,West,Express,43657,84,Tier-2
+STR-010,Cedar Grove,DST-005,Southwest,Flagship,81237,179,Tier-1
+STR-011,Maple Commons,DST-001,Northeast,Standard,18478,168,Tier-3
+STR-012,Eagle Point,DST-002,Southeast,Supercenter,41062,164,Tier-2
+STR-013,Silver Lake,DST-003,Midwest,Neighborhood,69987,81,Tier-2
+STR-014,Grand Avenue,DST-004,West,Express,73878,175,Tier-2
+STR-015,Brookstone,DST-005,Southwest,Flagship,51463,26,Tier-2
+STR-016,Crescent Park,DST-001,Northeast,Standard,114458,65,Tier-1
+STR-017,Northgate,DST-002,Southeast,Supercenter,106506,133,Tier-1
+STR-018,Southfield,DST-003,Midwest,Neighborhood,59597,96,Tier-2
+STR-019,Prairie View,DST-004,West,Express,35379,80,Tier-3
+STR-020,Summit Ridge,DST-005,Southwest,Flagship,115072,111,Tier-1
+STR-021,Bayshore,DST-001,Northeast,Standard,28396,48,Tier-3
+STR-022,Heritage Square,DST-002,Southeast,Supercenter,64797,49,Tier-2
+STR-023,Meadowbrook,DST-003,Midwest,Neighborhood,62052,113,Tier-2
+STR-024,Willow Creek,DST-004,West,Express,94131,92,Tier-1
+STR-025,Eastside Market,DST-005,Southwest,Flagship,20695,142,Tier-3
+STR-026,Fountain Square,DST-001,Northeast,Standard,85284,56,Tier-1
+STR-027,Redwood Center,DST-002,Southeast,Supercenter,64615,45,Tier-2
+STR-028,Coastal Plaza,DST-003,Midwest,Neighborhood,87357,100,Tier-1
+STR-029,Midtown Express,DST-004,West,Express,97397,117,Tier-1
+STR-030,Mountain View,DST-005,Southwest,Flagship,90674,74,Tier-1

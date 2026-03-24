@@ -1,0 +1,201 @@
+log_id,supervisor_id,project_id,date,weather,crew_count,work_summary,doc_time_min,photos_attached,safety_incidents
+LOG-0001,SUP-001,PRJ-001,2026-02-24,Clear,142,Steel erection floors 24-25; crane operations,98,18,0
+LOG-0002,SUP-002,PRJ-001,2026-02-24,Clear,142,MEP rough-in levels 16-18; fire protection install,82,12,0
+LOG-0003,SUP-003,PRJ-002,2026-02-24,Partly Cloudy,168,Foundation waterproofing wing C; rebar placement,88,15,0
+LOG-0004,SUP-004,PRJ-002,2026-02-24,Partly Cloudy,168,Structural steel erection south wing; concrete deck pour level 4,95,22,0
+LOG-0005,SUP-005,PRJ-003,2026-02-24,Clear,98,Curtainwall installation east facade panels 40-55,72,14,0
+LOG-0006,SUP-009,PRJ-004,2026-02-24,Overcast,85,Interior framing units 301-312; plumbing rough-in,68,8,0
+LOG-0007,SUP-011,PRJ-005,2026-02-24,Rain,112,Underground utilities sector C; storm drainage,78,10,1
+LOG-0008,SUP-013,PRJ-006,2026-02-24,Clear,62,Slab-on-grade pour warehouse section 3,65,16,0
+LOG-0009,SUP-019,PRJ-009,2026-02-24,Overcast,125,Electrical rough-in data hall 2; generator pad pour,105,20,0
+LOG-0010,SUP-025,PRJ-012,2026-02-24,Partly Cloudy,78,Structural framing wing B; elevator shaft forms,75,11,0
+LOG-0011,SUP-001,PRJ-001,2026-02-25,Partly Cloudy,145,Poured level 22 deck; post-tension stressing,102,24,0
+LOG-0012,SUP-002,PRJ-001,2026-02-25,Partly Cloudy,145,Electrical conduit levels 14-16; ductwork install,85,10,0
+LOG-0013,SUP-003,PRJ-002,2026-02-25,Rain,155,Interior wall framing wing A level 3; overhead MEP,92,13,0
+LOG-0014,SUP-005,PRJ-003,2026-02-25,Clear,102,Server room raised floor installation; HVAC duct,70,9,0
+LOG-0015,SUP-008,PRJ-004,2026-02-25,Overcast,82,Exterior sheathing south elevation; window install,62,11,0
+LOG-0016,SUP-015,PRJ-007,2026-02-25,Clear,55,Gymnasium steel erection; roof deck welding,78,15,0
+LOG-0017,SUP-016,PRJ-007,2026-02-25,Clear,55,Underground plumbing rough-in; slab prep gym wing,65,8,0
+LOG-0018,SUP-019,PRJ-009,2026-02-25,Clear,128,Cooling tower foundation; chiller pad rebar,108,19,0
+LOG-0019,SUP-023,PRJ-011,2026-02-25,Rain,28,Historic facade restoration east wall; pointing,52,12,0
+LOG-0020,SUP-021,PRJ-010,2026-02-25,Clear,22,Solar panel racking installation rows 15-28,48,7,0
+LOG-0021,SUP-001,PRJ-001,2026-02-26,Clear,148,Curtainwall framework floors 18-20; steel continues,95,16,0
+LOG-0022,SUP-004,PRJ-002,2026-02-26,Clear,172,Concrete pour level 5 deck; shoring removal level 3,98,25,1
+LOG-0023,SUP-006,PRJ-003,2026-02-26,Overcast,95,Data cabling runs building B; access flooring,74,8,0
+LOG-0024,SUP-009,PRJ-004,2026-02-26,Clear,88,Roofing membrane installation building A; flashing,72,14,0
+LOG-0025,SUP-010,PRJ-005,2026-02-26,Partly Cloudy,115,Platform structural steel; rail alignment,68,10,0
+LOG-0026,SUP-012,PRJ-006,2026-02-26,Clear,65,Steel erection bay 4-6; column bolt-up,58,9,0
+LOG-0027,SUP-017,PRJ-008,2026-02-26,Clear,92,Pool excavation; retaining wall forms,55,8,0
+LOG-0028,SUP-020,PRJ-009,2026-02-26,Clear,130,UPS room build-out; battery rack install,85,13,0
+LOG-0029,SUP-024,PRJ-011,2026-02-26,Clear,30,Interior demolition level 3; abatement monitoring,58,10,0
+LOG-0030,SUP-025,PRJ-012,2026-02-26,Overcast,80,MEP rough-in wing A; fire sprinkler mains,78,11,0
+LOG-0031,SUP-001,PRJ-001,2026-02-27,Overcast,140,Steel topping out ceremony floor 28; crane swing,110,28,0
+LOG-0032,SUP-002,PRJ-001,2026-02-27,Overcast,140,Plumbing risers levels 10-14; insulation,88,9,0
+LOG-0033,SUP-003,PRJ-002,2026-02-27,Partly Cloudy,170,OR suite rough-in level 2; medical gas piping,96,17,0
+LOG-0034,SUP-005,PRJ-003,2026-02-27,Rain,90,Interior glass partitions floor 3; carpet prep,65,7,0
+LOG-0035,SUP-011,PRJ-005,2026-02-27,Wind Advisory,105,Halted crane operations; ground-level concrete work,82,6,1
+LOG-0036,SUP-013,PRJ-006,2026-02-27,Clear,68,Roof steel joists and decking; dock levelers,62,12,0
+LOG-0037,SUP-018,PRJ-008,2026-02-27,Clear,95,Structural concrete tower A; rebar inspection,72,18,0
+LOG-0038,SUP-019,PRJ-009,2026-02-27,Partly Cloudy,132,Fire suppression data halls 1-2; raised floor,112,21,0
+LOG-0039,SUP-022,PRJ-010,2026-02-27,Clear,24,Inverter pad pours; conduit trenching rows 30-45,50,6,0
+LOG-0040,SUP-001,PRJ-001,2026-02-28,Clear,150,Concrete deck pour level 24; pump truck operation,105,26,0
+LOG-0041,SUP-004,PRJ-002,2026-02-28,Overcast,165,Structural steel wing B level 6; embed plates,92,20,0
+LOG-0042,SUP-006,PRJ-003,2026-02-28,Clear,100,Lobby curtainwall; entry canopy steel,76,15,0
+LOG-0043,SUP-008,PRJ-004,2026-02-28,Rain,75,Rain delay AM; interior electrical PM only,58,4,0
+LOG-0044,SUP-010,PRJ-005,2026-02-28,Rain,98,Tunnel waterproofing; drainage systems,72,8,0
+LOG-0045,SUP-012,PRJ-006,2026-02-28,Clear,60,Concrete tilt-up panel erection bay 7-8,68,14,0
+LOG-0046,SUP-015,PRJ-007,2026-02-28,Partly Cloudy,58,Classroom framing wing B; mechanical ductwork,75,9,0
+LOG-0047,SUP-017,PRJ-008,2026-02-28,Clear,90,Spa area framing; luxury suite MEP layout,52,7,0
+LOG-0048,SUP-019,PRJ-009,2026-02-28,Clear,135,Switchgear installation; bus duct runs,108,16,0
+LOG-0049,SUP-023,PRJ-011,2026-02-28,Overcast,32,Window restoration units 8-12; lead paint abatement,55,11,0
+LOG-0050,SUP-025,PRJ-012,2026-02-28,Clear,82,Interior framing common areas; dining hall structure,80,10,0
+LOG-0051,SUP-001,PRJ-001,2026-03-02,Clear,152,Steel erection floors 26-27; tower crane adjustment,100,18,0
+LOG-0052,SUP-002,PRJ-001,2026-03-02,Clear,152,HVAC ductwork levels 18-20; shaft installations,86,11,0
+LOG-0053,SUP-003,PRJ-002,2026-03-02,Clear,175,Imaging suite lead-lined walls; radiology prep,94,16,0
+LOG-0054,SUP-004,PRJ-002,2026-03-02,Clear,175,Concrete pour level 6; rebar inspection wing C,96,24,1
+LOG-0055,SUP-005,PRJ-003,2026-03-02,Partly Cloudy,105,Raised floor installation building A; cable trays,70,8,0
+LOG-0056,SUP-009,PRJ-004,2026-03-02,Clear,90,Elevator installation prep; shaft drywall,72,10,0
+LOG-0057,SUP-011,PRJ-005,2026-03-02,Clear,118,Canopy structure; escalator pit concrete,80,12,0
+LOG-0058,SUP-013,PRJ-006,2026-03-02,Partly Cloudy,64,Loading dock concrete; drive apron forms,60,8,0
+LOG-0059,SUP-016,PRJ-007,2026-03-02,Clear,52,Auditorium seating structure; stage framing,68,9,0
+LOG-0060,SUP-018,PRJ-008,2026-03-02,Clear,98,Guest room framing floors 2-3; corridor MEP,68,8,0
+LOG-0061,SUP-019,PRJ-009,2026-03-02,Overcast,130,Generator set installation; fuel storage tank,110,22,0
+LOG-0062,SUP-020,PRJ-009,2026-03-02,Overcast,130,Cable tray installation data halls; grounding grid,88,14,0
+LOG-0063,SUP-021,PRJ-010,2026-03-02,Clear,20,Panel installation rows 29-40; string wiring,45,5,0
+LOG-0064,SUP-023,PRJ-011,2026-03-02,Clear,35,Structural reinforcement floor 2; shoring install,58,13,0
+LOG-0065,SUP-025,PRJ-012,2026-03-02,Clear,85,Plumbing rough-in resident rooms wing A,76,9,0
+LOG-0066,SUP-001,PRJ-001,2026-03-03,Partly Cloudy,148,Concrete placement level 25; PT stressing level 23,98,22,0
+LOG-0067,SUP-002,PRJ-001,2026-03-03,Partly Cloudy,148,Fire alarm conduit floors 12-16; generator room,84,10,0
+LOG-0068,SUP-003,PRJ-002,2026-03-03,Overcast,172,Clean room HVAC install; filtration systems,92,14,0
+LOG-0069,SUP-005,PRJ-003,2026-03-03,Clear,100,Parking garage waterproofing; deck coating,72,10,0
+LOG-0070,SUP-007,PRJ-001,2026-03-03,Partly Cloudy,148,Safety inspection all active floors; crane cert review,90,20,2
+LOG-0071,SUP-009,PRJ-004,2026-03-03,Clear,88,Balcony railings floors 4-6; waterproofing,70,12,0
+LOG-0072,SUP-012,PRJ-006,2026-03-03,Clear,62,Fire sprinkler installation zones 1-3,58,8,0
+LOG-0073,SUP-014,PRJ-003,2026-03-03,Clear,100,Safety walkthrough campus perimeter; fall protection audit,85,15,1
+LOG-0074,SUP-015,PRJ-007,2026-03-03,Rain,48,Rain delay; interior work only - classroom drywall,68,6,0
+LOG-0075,SUP-017,PRJ-008,2026-03-03,Clear,96,Lobby area marble installation; elevator cab finish,56,9,0
+LOG-0076,SUP-019,PRJ-009,2026-03-03,Clear,128,Redundant power feeds; ATS installation,106,18,0
+LOG-0077,SUP-022,PRJ-010,2026-03-03,Clear,22,Combiner box installation; AC wiring runs 1-12,48,5,0
+LOG-0078,SUP-024,PRJ-011,2026-03-03,Rain,26,Interior restoration trim work; historic millwork,54,10,0
+LOG-0079,SUP-025,PRJ-012,2026-03-03,Overcast,80,Elevator shaft construction; cab rough-in,82,12,0
+LOG-0080,SUP-001,PRJ-001,2026-03-04,Clear,155,Curtainwall panels floors 20-22; sealant application,96,16,0
+LOG-0081,SUP-004,PRJ-002,2026-03-04,Clear,180,Central plant equipment setting; chiller installation,100,22,0
+LOG-0082,SUP-005,PRJ-003,2026-03-04,Overcast,98,Interior painting floors 2-3; ceiling grid install,68,7,0
+LOG-0083,SUP-008,PRJ-004,2026-03-04,Clear,86,Amenity deck waterproofing; pool equipment,64,10,0
+LOG-0084,SUP-010,PRJ-005,2026-03-04,Partly Cloudy,120,Rail track installation; catenary wire support,75,11,0
+LOG-0085,SUP-011,PRJ-005,2026-03-04,Partly Cloudy,120,Platform finishes; tactile paver installation,78,9,0
+LOG-0086,SUP-013,PRJ-006,2026-03-04,Clear,58,Office area build-out; break room framing,55,6,0
+LOG-0087,SUP-016,PRJ-007,2026-03-04,Clear,56,Library shelving installation; media room wiring,62,8,0
+LOG-0088,SUP-018,PRJ-008,2026-03-04,Partly Cloudy,100,Restaurant kitchen hood install; grease duct,70,14,0
+LOG-0089,SUP-019,PRJ-009,2026-03-04,Clear,132,Hot aisle containment; CRAC unit installation,108,19,0
+LOG-0090,SUP-023,PRJ-011,2026-03-04,Clear,34,Copper roof restoration; flashing replacement,56,14,0
+LOG-0091,SUP-001,PRJ-001,2026-03-05,Rain,135,Rain delay AM; interior MEP afternoon; lobby framing,88,8,0
+LOG-0092,SUP-002,PRJ-001,2026-03-05,Rain,135,Interior drywall floors 8-10; taping compound,78,6,0
+LOG-0093,SUP-003,PRJ-002,2026-03-05,Clear,170,Patient room finishes wing A level 2; nurse station,90,12,0
+LOG-0094,SUP-004,PRJ-002,2026-03-05,Clear,170,Parking structure post-tension level 3; waterproofing,95,20,0
+LOG-0095,SUP-005,PRJ-003,2026-03-05,Partly Cloudy,102,Cafeteria kitchen equipment; walk-in cooler install,74,10,0
+LOG-0096,SUP-009,PRJ-004,2026-03-05,Clear,92,Unit finishes building A floors 5-6; countertops,66,8,0
+LOG-0097,SUP-011,PRJ-005,2026-03-05,Clear,115,Electrical switchgear; platform lighting,76,10,0
+LOG-0098,SUP-012,PRJ-006,2026-03-05,Overcast,60,Conveyor system foundation; dock bumpers install,62,9,0
+LOG-0099,SUP-015,PRJ-007,2026-03-05,Clear,58,Science lab gas piping; fume hood install,82,12,0
+LOG-0100,SUP-019,PRJ-009,2026-03-05,Overcast,126,Network cable pulls data hall 3; fiber termination,112,17,0
+LOG-0101,SUP-021,PRJ-010,2026-03-05,Clear,18,Transformer pad pour; switchgear shelter,46,6,0
+LOG-0102,SUP-025,PRJ-012,2026-03-05,Clear,84,Kitchen equipment installation; walk-in units,78,10,0
+LOG-0103,SUP-001,PRJ-001,2026-03-06,Clear,155,Steel erection floors 28-29; concrete deck prep,102,20,0
+LOG-0104,SUP-003,PRJ-002,2026-03-06,Partly Cloudy,175,Helipad structural framing; rooftop MEP,98,18,0
+LOG-0105,SUP-005,PRJ-003,2026-03-06,Clear,104,AV system installation conference center; testing,68,8,0
+LOG-0106,SUP-006,PRJ-003,2026-03-06,Clear,104,Landscape grading; entry plaza hardscape,76,12,0
+LOG-0107,SUP-008,PRJ-004,2026-03-06,Partly Cloudy,84,Garage ventilation; CO detection system install,60,7,0
+LOG-0108,SUP-010,PRJ-005,2026-03-06,Clear,118,Signal system testing; platform edge doors mock-up,72,10,0
+LOG-0109,SUP-013,PRJ-006,2026-03-06,Clear,66,Exterior metal panel installation; loading area,64,11,0
+LOG-0110,SUP-016,PRJ-007,2026-03-06,Overcast,54,Playground equipment installation; ADA path paving,66,9,0
+LOG-0111,SUP-017,PRJ-008,2026-03-06,Clear,94,Guest room finishes floor 2; tile installation,54,7,0
+LOG-0112,SUP-018,PRJ-008,2026-03-06,Clear,94,Ballroom partition system; operable wall track,72,10,0
+LOG-0113,SUP-019,PRJ-009,2026-03-06,Clear,134,Security fencing; perimeter cameras; bollards,98,15,0
+LOG-0114,SUP-020,PRJ-009,2026-03-06,Clear,134,BMS installation; building automation programming,90,8,0
+LOG-0115,SUP-022,PRJ-010,2026-03-06,Clear,24,SCADA system installation; monitoring equipment,52,5,0
+LOG-0116,SUP-024,PRJ-011,2026-03-06,Partly Cloudy,28,Fire escape restoration; new stair treads,52,11,0
+LOG-0117,SUP-025,PRJ-012,2026-03-06,Clear,82,Nurse call system wiring; emergency lighting,80,10,0
+LOG-0118,SUP-001,PRJ-001,2026-03-07,Overcast,150,Concrete pour level 26; pump truck staging,108,25,0
+LOG-0119,SUP-002,PRJ-001,2026-03-07,Overcast,150,Elevator machine room equipment; controller install,80,10,0
+LOG-0120,SUP-004,PRJ-002,2026-03-07,Rain,158,Rain delay exterior; interior ceiling grids wing B,88,8,1
+LOG-0121,SUP-005,PRJ-003,2026-03-07,Clear,98,Final painting touch-ups building A; punch walk,72,15,0
+LOG-0122,SUP-009,PRJ-004,2026-03-07,Clear,90,Landscaping common areas; irrigation system,70,10,0
+LOG-0123,SUP-011,PRJ-005,2026-03-07,Rain,100,Rain delay track work; tunnel lighting install,74,6,0
+LOG-0124,SUP-012,PRJ-006,2026-03-07,Clear,64,Warehouse lighting installation; panel connections,58,8,0
+LOG-0125,SUP-015,PRJ-007,2026-03-07,Clear,56,Cafeteria equipment; serving line installation,76,11,0
+LOG-0126,SUP-019,PRJ-009,2026-03-07,Overcast,130,Fire alarm panel programming; smoke detector test,102,12,0
+LOG-0127,SUP-023,PRJ-011,2026-03-07,Clear,32,Original hardwood floor restoration; sanding,48,8,0
+LOG-0128,SUP-001,PRJ-001,2026-03-09,Clear,158,Curtainwall completion floor 22; glass setting,96,14,0
+LOG-0129,SUP-003,PRJ-002,2026-03-09,Clear,178,Lab casework installation; chemical resistant tops,94,13,0
+LOG-0130,SUP-004,PRJ-002,2026-03-09,Clear,178,Emergency generator load testing; transfer switch,90,10,0
+LOG-0131,SUP-005,PRJ-003,2026-03-09,Partly Cloudy,95,Furniture delivery and installation floor 4,65,6,0
+LOG-0132,SUP-008,PRJ-004,2026-03-09,Clear,88,Amenity center finishes; fitness room flooring,62,8,0
+LOG-0133,SUP-010,PRJ-005,2026-03-09,Clear,122,Passenger boarding bridge; canopy glazing,78,14,0
+LOG-0134,SUP-013,PRJ-006,2026-03-09,Overcast,62,Parking striping; exterior concrete walks,56,7,0
+LOG-0135,SUP-016,PRJ-007,2026-03-09,Clear,50,Technology wiring classrooms; smart board install,64,8,0
+LOG-0136,SUP-017,PRJ-008,2026-03-09,Partly Cloudy,92,Conference center AV installation; projection,52,6,0
+LOG-0137,SUP-019,PRJ-009,2026-03-09,Clear,128,Diesel generator testing; paralleling switchgear,106,16,0
+LOG-0138,SUP-021,PRJ-010,2026-03-09,Clear,20,Fence installation perimeter; security cameras,44,4,0
+LOG-0139,SUP-025,PRJ-012,2026-03-09,Clear,86,Resident room finishes wing B; grab bar install,78,9,0
+LOG-0140,SUP-001,PRJ-001,2026-03-10,Partly Cloudy,152,Steel erection floors 29-30; final crane ops prep,100,18,0
+LOG-0141,SUP-002,PRJ-001,2026-03-10,Partly Cloudy,152,Lobby marble installation; reception desk framing,82,12,0
+LOG-0142,SUP-003,PRJ-002,2026-03-10,Overcast,172,MRI room RF shielding; equipment staging,96,18,1
+LOG-0143,SUP-005,PRJ-003,2026-03-10,Clear,102,Commissioning HVAC systems building B; TAB,74,8,0
+LOG-0144,SUP-006,PRJ-003,2026-03-10,Clear,102,Signage installation; wayfinding package building A,70,10,0
+LOG-0145,SUP-009,PRJ-004,2026-03-10,Partly Cloudy,86,Unit appliance installation floors 7-9; testing,68,8,0
+LOG-0146,SUP-011,PRJ-005,2026-03-10,Clear,116,Ticket booth finishes; escalator installation,80,12,0
+LOG-0147,SUP-012,PRJ-006,2026-03-10,Clear,56,Final punchlist walk warehouse; sealant touch-ups,66,10,0
+LOG-0148,SUP-014,PRJ-003,2026-03-10,Clear,102,Safety audit commissioning phase; confined space check,88,16,1
+LOG-0149,SUP-015,PRJ-007,2026-03-10,Clear,52,Site concrete walks; accessible parking striping,72,8,0
+LOG-0150,SUP-018,PRJ-008,2026-03-10,Clear,96,Pool tile installation; mechanical room equipment,68,12,0
+LOG-0151,SUP-019,PRJ-009,2026-03-10,Clear,135,Commissioning UPS systems; load bank testing,110,20,0
+LOG-0152,SUP-020,PRJ-009,2026-03-10,Clear,135,Environmental monitoring sensors; DCIM setup,92,10,0
+LOG-0153,SUP-023,PRJ-011,2026-03-10,Overcast,30,Tin ceiling restoration parlor; plaster repair,54,12,0
+LOG-0154,SUP-024,PRJ-011,2026-03-10,Overcast,30,Life safety system upgrade; smoke detector install,50,8,0
+LOG-0155,SUP-025,PRJ-012,2026-03-10,Partly Cloudy,84,Memory care security system; wander guard install,82,10,0
+LOG-0156,SUP-001,PRJ-001,2026-03-11,Clear,156,Mechanical penthouse equipment; cooling tower steel,104,19,0
+LOG-0157,SUP-002,PRJ-001,2026-03-11,Clear,156,Stairwell pressurization; smoke control system test,86,10,0
+LOG-0158,SUP-003,PRJ-002,2026-03-11,Partly Cloudy,170,Pharmacy clean room build-out; HEPA filtration,94,15,0
+LOG-0159,SUP-004,PRJ-002,2026-03-11,Partly Cloudy,170,Site utilities final connections; fire hydrant test,90,12,0
+LOG-0160,SUP-005,PRJ-003,2026-03-11,Clear,96,Rooftop solar panel installation; conduit runs,68,10,0
+LOG-0161,SUP-008,PRJ-004,2026-03-11,Clear,82,Common area finishes; mail room build-out,60,7,0
+LOG-0162,SUP-010,PRJ-005,2026-03-11,Overcast,120,Fire alarm testing; emergency lighting verification,76,8,0
+LOG-0163,SUP-013,PRJ-006,2026-03-11,Clear,54,Final cleaning; commissioning HVAC systems,52,6,0
+LOG-0164,SUP-015,PRJ-007,2026-03-11,Clear,48,Athletic track surfacing; field irrigation test,74,9,0
+LOG-0165,SUP-017,PRJ-008,2026-03-11,Overcast,88,Rooftop bar structure; waterproofing deck,50,7,0
+LOG-0166,SUP-019,PRJ-009,2026-03-11,Clear,130,Data hall 1 whitespace commissioning; cold aisle test,98,15,0
+LOG-0167,SUP-021,PRJ-010,2026-03-11,Clear,22,Grid interconnect testing; relay calibration,48,5,0
+LOG-0168,SUP-025,PRJ-012,2026-03-11,Clear,80,Dining services kitchen final; hood testing,76,10,0
+LOG-0169,SUP-001,PRJ-001,2026-03-12,Snow,128,Snow removal operations; interior work floors 6-8,92,6,0
+LOG-0170,SUP-003,PRJ-002,2026-03-12,Clear,176,Operating room finishes; clean room validation start,98,18,0
+LOG-0171,SUP-005,PRJ-003,2026-03-12,Clear,100,Building automation programming; DDC controls,72,8,0
+LOG-0172,SUP-009,PRJ-004,2026-03-12,Partly Cloudy,84,Punch list units building A; touch-up painting,64,10,0
+LOG-0173,SUP-011,PRJ-005,2026-03-12,Clear,114,Platform signage; PA system testing,78,9,0
+LOG-0174,SUP-012,PRJ-006,2026-03-12,Clear,52,Certificate of occupancy prep; final documentation,70,12,0
+LOG-0175,SUP-016,PRJ-007,2026-03-12,Partly Cloudy,50,Security system installation; card readers,62,7,0
+LOG-0176,SUP-018,PRJ-008,2026-03-12,Clear,94,Grand staircase installation; chandelier prep,74,16,0
+LOG-0177,SUP-019,PRJ-009,2026-03-12,Clear,126,Network switch installation; fiber patching data hall 2,104,14,0
+LOG-0178,SUP-023,PRJ-011,2026-03-12,Clear,28,Elevator modernization; cab interior finishes,50,10,0
+LOG-0179,SUP-001,PRJ-001,2026-03-13,Partly Cloudy,154,Final steel floor 30; roof steel preparation,106,22,0
+LOG-0180,SUP-002,PRJ-001,2026-03-13,Partly Cloudy,154,Interior finishes floors 5-7; flooring installation,84,8,0
+LOG-0181,SUP-004,PRJ-002,2026-03-13,Overcast,168,Helipad markings; rooftop equipment startup,92,14,0
+LOG-0182,SUP-005,PRJ-003,2026-03-13,Clear,98,Final commissioning data center area; UPS test,70,9,0
+LOG-0183,SUP-008,PRJ-004,2026-03-13,Clear,80,Amenity pool fill and testing; equipment startup,58,8,0
+LOG-0184,SUP-010,PRJ-005,2026-03-13,Clear,118,Integrated systems testing; fare collection install,74,10,0
+LOG-0185,SUP-013,PRJ-006,2026-03-13,Overcast,50,Landscaping and final grading; site lighting test,48,6,0
+LOG-0186,SUP-015,PRJ-007,2026-03-13,Clear,52,Fire alarm testing; evacuation system verification,78,10,0
+LOG-0187,SUP-017,PRJ-008,2026-03-13,Clear,92,Guest room finishing floor 3; bathroom fixtures,55,7,0
+LOG-0188,SUP-019,PRJ-009,2026-03-13,Partly Cloudy,128,Cooling system commissioning; glycol fill and test,100,16,0
+LOG-0189,SUP-020,PRJ-009,2026-03-13,Partly Cloudy,128,Security access control; biometric reader install,86,10,0
+LOG-0190,SUP-021,PRJ-010,2026-03-13,Clear,18,Final inspections; utility interconnect documentation,42,4,0
+LOG-0191,SUP-024,PRJ-011,2026-03-13,Clear,26,ADA compliance upgrades; ramp installation,48,8,0
+LOG-0192,SUP-025,PRJ-012,2026-03-13,Clear,82,Emergency generator testing; life safety systems,80,12,0
+LOG-0193,SUP-001,PRJ-001,2026-03-14,Clear,158,Roof steel erection; mechanical penthouse framing,98,16,0
+LOG-0194,SUP-003,PRJ-002,2026-03-14,Clear,172,Central sterile processing build-out; autoclave install,88,14,0
+LOG-0195,SUP-005,PRJ-003,2026-03-14,Partly Cloudy,96,Tenant improvement coordination; move-in prep,66,6,0
+LOG-0196,SUP-009,PRJ-004,2026-03-14,Clear,82,Final unit inspections building B; CO prep,62,10,0
+LOG-0197,SUP-011,PRJ-005,2026-03-14,Clear,112,Art installation; passenger information displays,76,8,0
+LOG-0198,SUP-019,PRJ-009,2026-03-14,Clear,132,Final power testing data hall 3; A+B feed verify,108,18,0
+LOG-0199,SUP-023,PRJ-011,2026-03-14,Overcast,30,Final historic preservation compliance walk,52,14,0
+LOG-0200,SUP-025,PRJ-012,2026-03-14,Partly Cloudy,78,Landscaping memory garden; accessible pathways,74,10,0

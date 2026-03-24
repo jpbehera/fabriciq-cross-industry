@@ -1,0 +1,7 @@
+network_id,name,type,platform_count,content_hours_per_week,region
+NET-001,GlobalTV,Broadcast,3,168,North America
+NET-002,GlobalStream+,Streaming,1,500,Global
+NET-003,SportsMax,Cable/Streaming,2,120,North America
+NET-004,NewsFirst,Broadcast/Streaming,2,168,North America
+NET-005,DocuWorld,Cable/Streaming,2,84,Global
+NET-006,KidsFirst,Cable/Streaming,2,112,North America

@@ -1,0 +1,11 @@
+market_id,name,region,dma_rank,population,total_units,digital_pct,avg_occupancy_rate
+MKT-001,New York,Northeast,1,20200000,14,35.7,92.5
+MKT-002,Chicago,Midwest,3,9500000,12,33.3,88.0
+MKT-003,Los Angeles,West,2,13200000,12,33.3,90.2
+MKT-004,Houston,South,7,7100000,12,25.0,82.5
+MKT-005,Atlanta,Southeast,8,6100000,10,30.0,85.8
+MKT-006,Orlando,Southeast,18,2700000,10,30.0,78.5
+MKT-007,Dallas,South,5,7900000,0,0.0,0.0
+MKT-008,Philadelphia,Northeast,4,6250000,0,0.0,0.0
+MKT-009,San Francisco,West,6,4750000,0,0.0,0.0
+MKT-010,Miami,Southeast,16,6200000,0,0.0,0.0

@@ -1,0 +1,61 @@
+unit_id,name,type,market_id,address,lat,lng,faces,illuminated,digital,size,monthly_rate
+UNIT-001,I-95 North Gateway,bulletin,MKT-001,I-95 Northbound MP 42,40.7831,-73.9712,2,true,false,14x48,18500
+UNIT-002,Times Sq Digital Tower,digital_billboard,MKT-001,1500 Broadway,40.7580,-73.9855,1,true,true,20x60,45000
+UNIT-003,FDR Drive South,bulletin,MKT-001,FDR Drive Southbound MP 8,40.7489,-73.9680,2,true,false,14x48,16000
+UNIT-004,Penn Station Transit,transit_shelter,MKT-001,33rd St & 7th Ave,40.7506,-73.9935,4,true,true,6x4,8500
+UNIT-005,Brooklyn Bridge Approach,bulletin,MKT-001,Tillary St & Adams St,40.6945,-73.9898,1,true,false,10x36,12000
+UNIT-006,Holland Tunnel Entry,poster,MKT-001,Varick St & Canal St,40.7256,-74.0072,2,true,false,12x24,9800
+UNIT-007,Lake Shore Drive North,bulletin,MKT-002,Lake Shore Dr NB MP 12,41.8991,-87.6194,2,true,false,14x48,14500
+UNIT-008,Magnificent Mile Digital,digital_billboard,MKT-002,900 N Michigan Ave,41.8992,-87.6240,1,true,true,15x50,38000
+UNIT-009,I-90/94 Kennedy Expy,bulletin,MKT-002,I-90/94 WB MP 45,41.9200,-87.7100,2,true,false,14x48,15200
+UNIT-010,CTA Blue Line Clark,transit_shelter,MKT-002,Clark & Lake Station,41.8858,-87.6311,6,true,true,6x4,7200
+UNIT-011,O'Hare Connector,poster,MKT-002,I-190 Eastbound,41.9742,-87.8367,2,true,false,12x24,8900
+UNIT-012,Wacker Drive Riverwalk,street_furniture,MKT-002,Upper Wacker Dr & LaSalle,41.8871,-87.6325,2,true,true,6x4,6500
+UNIT-013,Sunset Blvd Spectacular,bulletin,MKT-003,8500 Sunset Blvd,34.0936,-118.3777,1,true,true,20x60,42000
+UNIT-014,Hollywood & Highland,digital_billboard,MKT-003,6801 Hollywood Blvd,34.1016,-118.3388,1,true,true,15x50,35000
+UNIT-015,I-405 South Billboard,bulletin,MKT-003,I-405 SB MP 38,33.9800,-118.4000,2,true,false,14x48,16800
+UNIT-016,Santa Monica Blvd,poster,MKT-003,Santa Monica & La Brea,34.0900,-118.3440,2,true,false,12x24,9200
+UNIT-017,Metro Rail Expo Line,transit_shelter,MKT-003,Expo/Western Station,34.0184,-118.3091,4,true,true,6x4,6800
+UNIT-018,Venice Beach Boardwalk,street_furniture,MKT-003,1500 Ocean Front Walk,33.9872,-118.4730,2,true,false,6x4,5500
+UNIT-019,I-10 Katy Freeway,bulletin,MKT-004,I-10 WB MP 762,29.7800,-95.5600,2,true,false,14x48,11500
+UNIT-020,Galleria Digital Hub,digital_billboard,MKT-004,5085 Westheimer Rd,29.7388,-95.4618,1,true,true,15x50,28000
+UNIT-021,I-45 North Freeway,bulletin,MKT-004,I-45 NB MP 50,29.8400,-95.3900,2,true,false,14x48,10800
+UNIT-022,Metro Red Line Downtown,transit_shelter,MKT-004,Main St Square Station,29.7525,-95.3620,4,true,true,6x4,5200
+UNIT-023,Westheimer Road,poster,MKT-004,Westheimer & Montrose,29.7420,-95.3930,2,true,false,12x24,7100
+UNIT-024,Heights Bike Trail,street_furniture,MKT-004,White Oak Dr & Heights Blvd,29.7900,-95.3980,2,true,false,6x4,4200
+UNIT-025,I-75 North Connector,bulletin,MKT-005,I-75 NB MP 258,33.8600,-84.3600,2,true,false,14x48,12200
+UNIT-026,Peachtree Digital Center,digital_billboard,MKT-005,3500 Peachtree Rd NE,33.8487,-84.3634,1,true,true,15x50,30000
+UNIT-027,I-285 Perimeter,bulletin,MKT-005,I-285 EB MP 30,33.9100,-84.2800,2,true,false,14x48,11000
+UNIT-028,MARTA Buckhead Station,transit_shelter,MKT-005,3360 Peachtree Rd NE,33.8480,-84.3680,4,true,true,6x4,5800
+UNIT-029,Ponce City Market,street_furniture,MKT-005,675 Ponce De Leon Ave,33.7723,-84.3655,2,true,true,6x4,6200
+UNIT-030,Hartsfield Airport Rd,poster,MKT-005,Airport Blvd & I-85,33.6370,-84.4280,2,true,false,12x24,8400
+UNIT-031,I-4 Corridor West,bulletin,MKT-006,I-4 WB MP 68,28.5400,-81.4700,2,true,false,14x48,9800
+UNIT-032,International Drive Digital,digital_billboard,MKT-006,8400 International Dr,28.4387,-81.4698,1,true,true,15x50,25000
+UNIT-033,Turnpike South Entry,bulletin,MKT-006,FL Turnpike SB MP 254,28.4800,-81.4200,2,true,false,14x48,9200
+UNIT-034,Lynx Central Station,transit_shelter,MKT-006,455 N Garland Ave,28.5441,-81.3790,4,true,true,6x4,4500
+UNIT-035,Sand Lake Road,poster,MKT-006,Sand Lake & Turkey Lake Rd,28.4500,-81.4900,2,true,false,12x24,6100
+UNIT-036,Disney Springs Area,street_furniture,MKT-006,1486 Buena Vista Dr,28.3711,-81.5182,2,true,false,6x4,5200
+UNIT-037,I-95 South Corridor,bulletin,MKT-001,I-95 SB MP 35,40.7200,-74.0100,2,true,false,14x48,17200
+UNIT-038,Herald Square Digital,digital_billboard,MKT-001,1293 Broadway,40.7484,-73.9878,1,true,true,15x50,40000
+UNIT-039,Midtown Tunnel Portal,poster,MKT-001,E 36th St & 2nd Ave,40.7461,-73.9734,2,true,false,12x24,10200
+UNIT-040,Wrigley Field Area,poster,MKT-002,3600 N Clark St,41.9484,-87.6553,2,true,false,12x24,8500
+UNIT-041,Dan Ryan Expressway,bulletin,MKT-002,I-94 NB MP 55,41.8300,-87.6300,2,true,false,14x48,13800
+UNIT-042,Navy Pier Entrance,street_furniture,MKT-002,600 E Grand Ave,41.8917,-87.6063,2,true,true,6x4,7500
+UNIT-043,LAX Airport Approach,bulletin,MKT-003,Century Blvd & Sepulveda,33.9500,-118.3950,2,true,false,14x48,15500
+UNIT-044,Beverly Hills Rodeo,street_furniture,MKT-003,9700 Wilshire Blvd,34.0695,-118.4013,2,true,true,6x4,9500
+UNIT-045,I-10 East Downtown,poster,MKT-003,I-10 EB at Alameda St,34.0400,-118.2350,2,true,false,12x24,8800
+UNIT-046,Texas Medical Center,poster,MKT-004,Fannin St & Old Spanish Trail,29.7100,-95.4100,2,true,false,12x24,6500
+UNIT-047,Energy Corridor Billboard,bulletin,MKT-004,I-10 WB at Hwy 6,29.7700,-95.6300,2,true,false,14x48,10200
+UNIT-048,Midtown Houston Digital,digital_billboard,MKT-004,3300 Main St,29.7440,-95.3830,1,true,true,10x30,22000
+UNIT-049,Buckhead Triangle,poster,MKT-005,Peachtree & Piedmont,33.8500,-84.3600,2,true,false,12x24,7800
+UNIT-050,I-20 West Corridor,bulletin,MKT-005,I-20 WB MP 52,33.7400,-84.5100,2,true,false,14x48,10500
+UNIT-051,BeltLine Eastside Trail,street_furniture,MKT-005,Eastside Trail & Irwin St,33.7630,-84.3590,2,true,false,6x4,5400
+UNIT-052,Kissimmee Gateway,bulletin,MKT-006,US-192 & I-4 Junction,28.3400,-81.4100,2,true,false,14x48,8900
+UNIT-053,Universal Studios Blvd,poster,MKT-006,Universal Blvd & Carrier Dr,28.4750,-81.4620,2,true,false,12x24,7200
+UNIT-054,Colonial Drive Digital,digital_billboard,MKT-006,Colonial Dr & I-4,28.5500,-81.4000,1,true,true,10x30,18000
+UNIT-055,Grand Central Digital,digital_billboard,MKT-001,280 Park Ave,40.7527,-73.9757,1,true,true,10x30,36000
+UNIT-056,Lincoln Tunnel Approach,bulletin,MKT-001,NJ-495 EB at Helix,40.7612,-74.0202,2,true,false,14x48,15800
+UNIT-057,Bucktown Poster,poster,MKT-002,North & Damen Ave,41.9106,-87.6771,2,true,false,12x24,7800
+UNIT-058,Wilshire Grand Digital,digital_billboard,MKT-003,900 Wilshire Blvd,34.0498,-118.2602,1,true,true,15x50,32000
+UNIT-059,Midtown ATL Digital,digital_billboard,MKT-005,1100 Peachtree St NE,33.7869,-84.3838,1,true,true,10x30,24000
+UNIT-060,Lake Nona Town Center,street_furniture,MKT-006,Tavistock Lakes Blvd,28.3700,-81.2400,2,true,false,6x4,4000

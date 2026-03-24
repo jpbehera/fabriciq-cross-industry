@@ -1,0 +1,26 @@
+manager_id,name,store_id,region,hire_date,certifications,avg_weekly_floor_hours
+MGR-001,Sarah Chen,STR-001,Northeast,2022-11-25,ServSafe,27.3
+MGR-002,Michael Thompson,STR-002,Southeast,2023-09-02,ServSafe|OSHA-30,30.1
+MGR-003,Karen Weston,STR-003,Midwest,2019-04-06,CPR/First Aid|Loss Prevention Certified,15.0
+MGR-004,James O'Brien,STR-004,West,2018-12-26,Inventory Management,21.7
+MGR-005,Priya Sharma,STR-005,Southwest,2022-08-31,ServSafe|Retail Management Professional|OSHA-30,25.5
+MGR-006,Robert Williams,STR-006,Northeast,2017-09-29,CPR/First Aid,23.3
+MGR-007,Jennifer Lee,STR-007,Southeast,2022-03-06,Retail Management Professional|OSHA-30|Loss Prevention Certified,29.8
+MGR-008,Marcus Johnson,STR-008,Midwest,2023-09-14,OSHA-30,29.5
+MGR-009,David Park,STR-009,West,2024-01-11,CPR/First Aid|Loss Prevention Certified,32.4
+MGR-010,Amanda Foster,STR-010,Southwest,2021-05-12,Loss Prevention Certified|OSHA-30|CPR/First Aid,23.5
+MGR-011,Kevin Murphy,STR-011,Northeast,2022-03-18,OSHA-30|Loss Prevention Certified,20.0
+MGR-012,Nicole Davis,STR-012,Southeast,2023-05-10,Retail Management Professional|Loss Prevention Certified|CPR/First Aid,30.6
+MGR-013,Brian Anderson,STR-013,Midwest,2019-06-24,OSHA-30|Inventory Management,25.1
+MGR-014,Stephanie Garcia,STR-014,West,2016-01-08,ServSafe,20.1
+MGR-015,Rachel Torres,STR-015,Southwest,2016-10-17,CPR/First Aid|Retail Management Professional|ServSafe,23.4
+MGR-016,Daniel Kim,STR-016,Northeast,2021-09-06,Retail Management Professional|Loss Prevention Certified,31.6
+MGR-017,Laura Martinez,STR-017,Southeast,2015-02-17,Inventory Management|ServSafe|Loss Prevention Certified,28.8
+MGR-018,Christopher Brown,STR-018,Midwest,2018-10-25,Loss Prevention Certified,24.1
+MGR-019,Michelle Taylor,STR-019,West,2020-02-02,Inventory Management,30.3
+MGR-020,Anthony Robinson,STR-020,Southwest,2017-12-14,OSHA-30|Retail Management Professional|ServSafe,30.2
+MGR-021,Emily White,STR-021,Northeast,2018-05-07,Retail Management Professional|Inventory Management|OSHA-30,20.1
+MGR-022,Jonathan Harris,STR-022,Southeast,2023-07-21,Retail Management Professional,31.3
+MGR-023,Diana Clark,STR-023,Midwest,2020-12-12,Retail Management Professional,22.5
+MGR-024,Steven Lewis,STR-024,West,2015-03-21,Loss Prevention Certified,30.3
+MGR-025,Patricia Hall,STR-025,Southwest,2024-04-29,OSHA-30|ServSafe,21.4

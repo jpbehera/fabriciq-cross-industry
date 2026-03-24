@@ -1,0 +1,501 @@
+entry_id,attorney_id,matter_id,date,task_type,hours_worked,hours_billed,narrative,entry_time_min,write_down_pct
+TE-0001,ATT-028,MAT-025,2026-02-25,TSK-012,5.2,5.0,Revised brief per partner comments,20,10.2
+TE-0002,ATT-001,MAT-002,2026-01-09,TSK-019,7.7,7.1,Due diligence document review,16,0.6
+TE-0003,ATT-024,MAT-026,2026-03-14,TSK-017,1.2,1.1,Reviewed and analyzed documents,14,3.8
+TE-0004,ATT-017,MAT-039,2026-03-22,TSK-007,3.1,3.1,Research case law precedents,10,14.2
+TE-0005,ATT-011,MAT-023,2026-02-24,TSK-017,2.7,2.5,Matter file organization,21,4.9
+TE-0006,ATT-005,MAT-015,2026-03-14,TSK-013,5.5,4.7,Matter file organization,13,9.2
+TE-0007,ATT-027,MAT-011,2026-02-10,TSK-007,3.6,3.2,Discovery document coding,18,7.0
+TE-0008,ATT-017,MAT-005,2026-03-26,TSK-006,5.4,5.0,Revised brief per partner comments,17,7.7
+TE-0009,ATT-003,MAT-038,2026-02-22,TSK-008,6.5,4.9,Billing narrative preparation,22,5.5
+TE-0010,ATT-020,MAT-015,2026-02-15,TSK-019,1.8,1.5,Reviewed and analyzed documents,20,7.4
+TE-0011,ATT-029,MAT-034,2026-02-25,TSK-008,1.7,1.6,Matter file organization,13,0.0
+TE-0012,ATT-008,MAT-028,2026-01-15,TSK-015,5.4,5.3,Negotiation session with counterparty,25,8.9
+TE-0013,ATT-020,MAT-003,2026-03-27,TSK-015,7.2,6.8,Analyzed regulatory filing requirements,23,6.8
+TE-0014,ATT-025,MAT-032,2026-03-16,TSK-008,2.4,2.0,Revised brief per partner comments,10,10.7
+TE-0015,ATT-011,MAT-023,2026-01-05,TSK-008,3.2,2.6,Internal strategy memorandum,12,10.6
+TE-0016,ATT-011,MAT-003,2026-01-14,TSK-007,6.7,6.1,Reviewed and analyzed documents,20,13.6
+TE-0017,ATT-028,MAT-039,2026-01-16,TSK-012,2.6,2.6,Internal strategy memorandum,20,12.8
+TE-0018,ATT-018,MAT-011,2026-03-24,TSK-020,7.2,6.6,Internal strategy memorandum,12,0.0
+TE-0019,ATT-016,MAT-030,2026-02-13,TSK-013,5.9,5.9,Matter file organization,22,13.8
+TE-0020,ATT-001,MAT-018,2026-03-19,TSK-001,0.9,0.8,Drafted motion for summary judgment,21,2.0
+TE-0021,ATT-009,MAT-022,2026-01-11,TSK-015,2.8,2.5,Internal strategy memorandum,24,14.1
+TE-0022,ATT-009,MAT-014,2026-01-16,TSK-018,0.7,0.5,Drafted motion for summary judgment,23,12.9
+TE-0023,ATT-025,MAT-009,2026-01-08,TSK-001,5.1,4.8,Redline review and markup,15,1.9
+TE-0024,ATT-007,MAT-018,2026-02-23,TSK-012,1.6,1.3,Privilege review of document batch,11,11.7
+TE-0025,ATT-004,MAT-002,2026-03-10,TSK-013,3.4,3.2,Drafted correspondence to opposing counsel,14,1.1
+TE-0026,ATT-004,MAT-006,2026-03-28,TSK-020,6.5,5.8,Due diligence document review,9,5.2
+TE-0027,ATT-003,MAT-028,2026-02-01,TSK-016,1.1,1.0,Prepared deposition outline,29,17.7
+TE-0028,ATT-014,MAT-003,2026-03-24,TSK-009,5.0,4.5,Redline review and markup,25,11.6
+TE-0029,ATT-009,MAT-022,2026-01-28,TSK-003,2.4,1.8,Research case law precedents,26,13.4
+TE-0030,ATT-022,MAT-030,2026-01-11,TSK-016,6.9,6.0,Analyzed regulatory filing requirements,13,7.3
+TE-0031,ATT-011,MAT-017,2026-03-20,TSK-009,4.6,3.8,Internal strategy memorandum,24,14.2
+TE-0032,ATT-016,MAT-024,2026-02-23,TSK-016,3.8,3.2,Drafted correspondence to opposing counsel,8,1.4
+TE-0033,ATT-010,MAT-007,2026-03-16,TSK-017,2.9,2.7,Analyzed regulatory filing requirements,25,5.0
+TE-0034,ATT-010,MAT-007,2026-01-08,TSK-007,2.7,2.5,Discovery document coding,25,14.3
+TE-0035,ATT-007,MAT-018,2026-03-09,TSK-019,7.8,7.8,Discovery document coding,24,9.0
+TE-0036,ATT-010,MAT-025,2026-01-12,TSK-010,0.4,0.3,Drafted motion for summary judgment,25,1.9
+TE-0037,ATT-018,MAT-016,2026-01-23,TSK-016,1.1,1.1,Billing narrative preparation,5,0.0
+TE-0038,ATT-016,MAT-023,2026-01-11,TSK-002,2.2,1.8,Billing narrative preparation,23,1.7
+TE-0039,ATT-003,MAT-038,2026-01-05,TSK-019,7.6,5.5,Internal strategy memorandum,20,24.9
+TE-0040,ATT-020,MAT-015,2026-03-25,TSK-013,3.8,3.5,Internal strategy memorandum,22,4.5
+TE-0041,ATT-010,MAT-025,2026-03-20,TSK-004,7.6,6.5,Client conference re strategy,14,9.4
+TE-0042,ATT-006,MAT-036,2026-03-06,TSK-003,1.5,1.4,Privilege review of document batch,21,6.8
+TE-0043,ATT-002,MAT-015,2026-03-10,TSK-010,5.7,4.8,Analyzed regulatory filing requirements,22,1.1
+TE-0044,ATT-026,MAT-004,2026-01-14,TSK-018,2.0,1.9,Client conference re strategy,12,13.6
+TE-0045,ATT-002,MAT-015,2026-02-26,TSK-020,6.1,5.5,Privilege review of document batch,17,6.6
+TE-0046,ATT-023,MAT-009,2026-03-09,TSK-018,4.1,3.9,Internal strategy memorandum,6,0.0
+TE-0047,ATT-024,MAT-026,2026-02-20,TSK-001,1.0,0.9,Analyzed regulatory filing requirements,8,15.0
+TE-0048,ATT-019,MAT-025,2026-01-25,TSK-016,4.3,3.6,Redline review and markup,22,13.7
+TE-0049,ATT-014,MAT-015,2026-02-03,TSK-012,3.4,3.3,Revised brief per partner comments,18,10.1
+TE-0050,ATT-014,MAT-015,2026-03-10,TSK-013,6.6,5.4,Analyzed regulatory filing requirements,25,0.6
+TE-0051,ATT-011,MAT-023,2026-02-25,TSK-017,6.7,6.1,Internal strategy memorandum,8,9.9
+TE-0052,ATT-002,MAT-015,2026-02-17,TSK-020,6.1,5.1,Matter file organization,22,11.4
+TE-0053,ATT-005,MAT-033,2026-03-15,TSK-016,1.2,1.0,Reviewed and analyzed documents,15,10.6
+TE-0054,ATT-018,MAT-016,2026-01-03,TSK-004,3.9,3.8,Prepared deposition outline,6,0.0
+TE-0055,ATT-016,MAT-011,2026-03-17,TSK-009,3.5,3.0,Matter file organization,23,14.7
+TE-0056,ATT-005,MAT-033,2026-03-07,TSK-017,6.0,5.1,Internal strategy memorandum,12,13.0
+TE-0057,ATT-011,MAT-017,2026-01-27,TSK-010,5.9,5.2,Billing narrative preparation,23,13.0
+TE-0058,ATT-012,MAT-025,2026-03-18,TSK-013,3.8,3.8,Drafted correspondence to opposing counsel,18,13.0
+TE-0059,ATT-019,MAT-015,2026-02-08,TSK-002,2.7,2.6,Prepared court filing package,23,10.6
+TE-0060,ATT-022,MAT-032,2026-01-16,TSK-005,4.2,4.1,Negotiation session with counterparty,18,13.0
+TE-0061,ATT-004,MAT-006,2026-03-01,TSK-005,3.5,3.3,Analyzed regulatory filing requirements,12,1.1
+TE-0062,ATT-011,MAT-003,2026-01-21,TSK-011,6.9,6.0,Billing narrative preparation,25,5.7
+TE-0063,ATT-028,MAT-025,2026-01-20,TSK-008,5.2,4.9,Internal strategy memorandum,17,15.0
+TE-0064,ATT-004,MAT-002,2026-01-15,TSK-010,7.3,5.9,Due diligence document review,9,4.9
+TE-0065,ATT-012,MAT-006,2026-01-05,TSK-017,3.5,2.9,Prepared court filing package,13,2.5
+TE-0066,ATT-020,MAT-015,2026-03-16,TSK-005,2.1,2.0,Negotiation session with counterparty,16,6.9
+TE-0067,ATT-029,MAT-036,2026-03-22,TSK-006,0.9,0.9,Privilege review of document batch,10,0.0
+TE-0068,ATT-021,MAT-014,2026-02-23,TSK-015,6.8,6.6,Legal research on statute of limitations,14,15.0
+TE-0069,ATT-008,MAT-022,2026-02-19,TSK-019,2.6,2.5,Prepared court filing package,17,0.3
+TE-0070,ATT-009,MAT-014,2026-03-19,TSK-002,7.3,6.4,Privilege review of document batch,35,18.9
+TE-0071,ATT-025,MAT-009,2026-02-20,TSK-008,5.2,4.9,Prepared deposition outline,16,10.2
+TE-0072,ATT-021,MAT-026,2026-03-21,TSK-002,2.7,2.4,Prepared deposition outline,22,0.5
+TE-0073,ATT-003,MAT-028,2026-03-11,TSK-014,1.7,1.6,Due diligence document review,22,20.7
+TE-0074,ATT-017,MAT-039,2026-01-09,TSK-009,7.3,6.3,Revised brief per partner comments,23,14.5
+TE-0075,ATT-026,MAT-004,2026-01-15,TSK-005,6.1,5.8,Prepared court filing package,15,12.9
+TE-0076,ATT-028,MAT-039,2026-02-03,TSK-001,2.3,2.1,Analyzed regulatory filing requirements,11,6.8
+TE-0077,ATT-019,MAT-015,2026-03-27,TSK-012,1.1,1.0,Matter file organization,15,7.1
+TE-0078,ATT-011,MAT-039,2026-01-21,TSK-015,7.3,6.0,Drafted motion for summary judgment,17,9.7
+TE-0079,ATT-002,MAT-009,2026-01-16,TSK-004,2.1,1.9,Matter file organization,25,2.0
+TE-0080,ATT-014,MAT-003,2026-03-14,TSK-004,6.7,5.7,Due diligence document review,21,14.1
+TE-0081,ATT-007,MAT-018,2026-01-15,TSK-012,1.1,1.1,Due diligence document review,19,8.2
+TE-0082,ATT-002,MAT-009,2026-01-09,TSK-004,7.6,6.4,Research case law precedents,22,1.4
+TE-0083,ATT-001,MAT-002,2026-02-26,TSK-008,7.9,7.5,Discovery document coding,14,1.0
+TE-0084,ATT-019,MAT-018,2026-01-27,TSK-011,6.3,6.3,Prepared deposition outline,8,4.2
+TE-0085,ATT-018,MAT-016,2026-01-26,TSK-004,5.4,4.9,Due diligence document review,5,0.0
+TE-0086,ATT-026,MAT-004,2026-02-19,TSK-001,1.6,1.4,Legal research on statute of limitations,9,1.9
+TE-0087,ATT-024,MAT-038,2026-02-16,TSK-012,4.3,3.6,Research case law precedents,11,6.8
+TE-0088,ATT-002,MAT-007,2026-03-26,TSK-017,2.6,2.3,Prepared court filing package,8,0.9
+TE-0089,ATT-014,MAT-003,2026-03-16,TSK-015,0.9,0.7,Prepared deposition outline,10,4.8
+TE-0090,ATT-009,MAT-007,2026-03-21,TSK-018,5.8,4.5,Negotiation session with counterparty,24,29.9
+TE-0091,ATT-017,MAT-039,2026-01-14,TSK-004,6.9,5.8,Negotiation session with counterparty,25,10.8
+TE-0092,ATT-029,MAT-017,2026-02-14,TSK-015,3.4,3.2,Revised brief per partner comments,6,0.0
+TE-0093,ATT-022,MAT-026,2026-01-12,TSK-016,0.8,0.7,Due diligence document review,10,1.4
+TE-0094,ATT-026,MAT-004,2026-01-18,TSK-019,7.7,6.3,Due diligence document review,25,4.9
+TE-0095,ATT-028,MAT-039,2026-03-28,TSK-002,7.8,7.1,Discovery document coding,17,5.3
+TE-0096,ATT-005,MAT-039,2026-01-16,TSK-004,3.0,2.9,Redline review and markup,25,5.5
+TE-0097,ATT-008,MAT-022,2026-03-28,TSK-020,5.0,4.9,Analyzed regulatory filing requirements,25,0.4
+TE-0098,ATT-001,MAT-002,2026-03-09,TSK-010,7.4,7.2,Redline review and markup,19,0.1
+TE-0099,ATT-022,MAT-030,2026-01-03,TSK-001,1.0,0.9,Revised brief per partner comments,24,3.2
+TE-0100,ATT-006,MAT-013,2026-03-10,TSK-011,6.3,5.2,Research case law precedents,10,13.3
+TE-0101,ATT-002,MAT-007,2026-02-03,TSK-015,5.4,4.8,Discovery document coding,23,9.1
+TE-0102,ATT-025,MAT-032,2026-02-04,TSK-014,1.2,1.0,Drafted correspondence to opposing counsel,23,7.9
+TE-0103,ATT-013,MAT-040,2026-01-01,TSK-010,7.6,7.4,Privilege review of document batch,7,0.0
+TE-0104,ATT-011,MAT-023,2026-02-01,TSK-014,1.7,1.4,Matter file organization,20,8.0
+TE-0105,ATT-027,MAT-039,2026-02-26,TSK-003,3.4,3.0,Client conference re strategy,9,6.5
+TE-0106,ATT-028,MAT-039,2026-02-19,TSK-019,3.4,3.0,Revised brief per partner comments,21,4.3
+TE-0107,ATT-006,MAT-013,2026-03-27,TSK-012,1.0,0.9,Conflict of interest check,11,3.6
+TE-0108,ATT-003,MAT-028,2026-02-28,TSK-011,2.0,1.7,Legal research on statute of limitations,42,8.4
+TE-0109,ATT-017,MAT-039,2026-02-07,TSK-012,5.9,4.9,Discovery document coding,12,3.5
+TE-0110,ATT-006,MAT-036,2026-03-25,TSK-003,1.7,1.6,Redline review and markup,23,7.0
+TE-0111,ATT-015,MAT-007,2026-03-28,TSK-011,1.5,1.4,Analyzed regulatory filing requirements,10,7.0
+TE-0112,ATT-019,MAT-025,2026-03-12,TSK-003,2.7,2.4,Privilege review of document batch,22,0.6
+TE-0113,ATT-003,MAT-038,2026-03-20,TSK-017,3.3,3.0,Drafted motion for summary judgment,36,16.1
+TE-0114,ATT-015,MAT-015,2026-03-11,TSK-016,4.2,4.0,Revised brief per partner comments,9,6.8
+TE-0115,ATT-023,MAT-017,2026-03-17,TSK-006,0.6,0.6,Conflict of interest check,12,0.0
+TE-0116,ATT-017,MAT-039,2026-02-06,TSK-012,7.4,6.4,Research case law precedents,20,6.1
+TE-0117,ATT-002,MAT-007,2026-02-21,TSK-003,2.8,2.4,Research case law precedents,25,10.2
+TE-0118,ATT-028,MAT-025,2026-01-11,TSK-019,5.4,5.0,Prepared court filing package,19,4.7
+TE-0119,ATT-005,MAT-039,2026-01-23,TSK-010,4.6,4.3,Conflict of interest check,18,12.2
+TE-0120,ATT-003,MAT-028,2026-02-17,TSK-001,3.1,2.4,Billing narrative preparation,23,24.0
+TE-0121,ATT-007,MAT-029,2026-01-05,TSK-003,2.6,2.4,Conflict of interest check,11,7.6
+TE-0122,ATT-002,MAT-007,2026-03-11,TSK-005,4.9,4.7,Research case law precedents,12,2.4
+TE-0123,ATT-026,MAT-004,2026-02-24,TSK-002,3.5,3.2,Negotiation session with counterparty,15,14.5
+TE-0124,ATT-008,MAT-018,2026-02-08,TSK-016,7.3,7.2,Negotiation session with counterparty,14,5.5
+TE-0125,ATT-015,MAT-007,2026-02-25,TSK-017,4.4,4.2,Prepared deposition outline,13,12.3
+TE-0126,ATT-028,MAT-039,2026-03-02,TSK-016,7.0,6.6,Conflict of interest check,25,14.0
+TE-0127,ATT-028,MAT-025,2026-01-10,TSK-006,2.4,2.1,Drafted correspondence to opposing counsel,24,2.2
+TE-0128,ATT-027,MAT-028,2026-01-12,TSK-014,0.7,0.6,Client conference re strategy,24,5.6
+TE-0129,ATT-012,MAT-008,2026-02-01,TSK-004,6.8,5.6,Privilege review of document batch,18,11.9
+TE-0130,ATT-030,MAT-028,2026-01-23,TSK-016,3.8,3.1,Discovery document coding,8,13.6
+TE-0131,ATT-027,MAT-011,2026-03-18,TSK-020,4.4,3.7,Legal research on statute of limitations,11,11.6
+TE-0132,ATT-002,MAT-015,2026-03-14,TSK-020,3.8,3.4,Matter file organization,11,12.6
+TE-0133,ATT-001,MAT-002,2026-01-23,TSK-010,3.6,3.2,Client conference re strategy,19,3.6
+TE-0134,ATT-017,MAT-005,2026-03-03,TSK-018,4.2,3.7,Billing narrative preparation,24,8.3
+TE-0135,ATT-002,MAT-007,2026-02-13,TSK-009,6.1,5.3,Legal research on statute of limitations,19,11.8
+TE-0136,ATT-025,MAT-032,2026-02-24,TSK-005,0.6,0.6,Negotiation session with counterparty,25,5.1
+TE-0137,ATT-023,MAT-009,2026-01-21,TSK-005,0.8,0.7,Discovery document coding,12,0.0
+TE-0138,ATT-002,MAT-015,2026-02-02,TSK-010,4.3,3.5,Discovery document coding,25,7.1
+TE-0139,ATT-010,MAT-007,2026-01-28,TSK-011,2.4,2.1,Negotiation session with counterparty,19,6.6
+TE-0140,ATT-029,MAT-001,2026-01-11,TSK-016,5.6,5.6,Conflict of interest check,10,0.0
+TE-0141,ATT-009,MAT-014,2026-02-24,TSK-003,3.6,2.6,Client conference re strategy,17,20.0
+TE-0142,ATT-011,MAT-017,2026-02-10,TSK-020,5.8,5.0,Drafted motion for summary judgment,13,10.3
+TE-0143,ATT-024,MAT-026,2026-02-20,TSK-009,5.2,4.8,Due diligence document review,9,1.1
+TE-0144,ATT-017,MAT-039,2026-01-22,TSK-001,1.4,1.1,Due diligence document review,22,0.5
+TE-0145,ATT-012,MAT-006,2026-01-19,TSK-020,1.5,1.3,Client conference re strategy,22,14.2
+TE-0146,ATT-019,MAT-018,2026-02-17,TSK-013,2.7,2.2,Reviewed contract redlines,16,3.7
+TE-0147,ATT-016,MAT-023,2026-01-18,TSK-009,6.3,5.8,Billing narrative preparation,22,3.2
+TE-0148,ATT-007,MAT-015,2026-01-05,TSK-015,1.6,1.5,Revised brief per partner comments,22,15.0
+TE-0149,ATT-022,MAT-026,2026-01-23,TSK-018,4.5,4.2,Reviewed contract redlines,17,12.8
+TE-0150,ATT-026,MAT-008,2026-01-17,TSK-004,7.9,7.1,Due diligence document review,12,3.6
+TE-0151,ATT-018,MAT-011,2026-02-12,TSK-018,1.3,1.2,Prepared court filing package,6,0.0
+TE-0152,ATT-023,MAT-016,2026-03-16,TSK-014,6.2,5.6,Revised brief per partner comments,14,0.0
+TE-0153,ATT-021,MAT-026,2026-02-15,TSK-017,3.0,2.5,Prepared deposition outline,25,9.6
+TE-0154,ATT-014,MAT-003,2026-01-27,TSK-017,1.5,1.5,Drafted correspondence to opposing counsel,13,2.4
+TE-0155,ATT-012,MAT-036,2026-01-10,TSK-009,1.8,1.7,Research case law precedents,25,4.1
+TE-0156,ATT-018,MAT-035,2026-03-17,TSK-006,4.9,4.5,Research case law precedents,14,0.0
+TE-0157,ATT-024,MAT-026,2026-03-27,TSK-002,6.7,6.6,Redline review and markup,8,1.2
+TE-0158,ATT-009,MAT-007,2026-03-07,TSK-014,5.1,4.1,Privilege review of document batch,12,19.0
+TE-0159,ATT-021,MAT-005,2026-01-16,TSK-013,2.6,2.2,Internal strategy memorandum,10,10.3
+TE-0160,ATT-016,MAT-023,2026-02-07,TSK-020,1.4,1.4,Prepared court filing package,18,11.0
+TE-0161,ATT-005,MAT-033,2026-03-17,TSK-004,2.8,2.5,Prepared deposition outline,22,1.8
+TE-0162,ATT-004,MAT-002,2026-02-10,TSK-020,3.5,3.5,Revised brief per partner comments,13,12.2
+TE-0163,ATT-007,MAT-029,2026-03-16,TSK-015,4.1,3.4,Prepared court filing package,17,7.5
+TE-0164,ATT-017,MAT-005,2026-01-08,TSK-019,3.0,2.8,Billing narrative preparation,9,4.2
+TE-0165,ATT-010,MAT-025,2026-01-28,TSK-014,1.3,1.2,Due diligence document review,16,10.9
+TE-0166,ATT-002,MAT-009,2026-03-02,TSK-018,1.8,1.6,Negotiation session with counterparty,25,4.3
+TE-0167,ATT-025,MAT-032,2026-03-09,TSK-020,1.2,1.2,Revised brief per partner comments,11,5.9
+TE-0168,ATT-018,MAT-016,2026-01-25,TSK-007,4.9,4.7,Drafted motion for summary judgment,11,0.0
+TE-0169,ATT-002,MAT-015,2026-02-23,TSK-016,4.3,3.9,Revised brief per partner comments,12,9.1
+TE-0170,ATT-030,MAT-019,2026-02-06,TSK-020,6.0,5.4,Conflict of interest check,17,8.9
+TE-0171,ATT-018,MAT-016,2026-03-23,TSK-010,4.0,3.7,Legal research on statute of limitations,5,0.0
+TE-0172,ATT-014,MAT-015,2026-03-26,TSK-001,4.9,4.7,Redline review and markup,16,14.5
+TE-0173,ATT-019,MAT-018,2026-01-24,TSK-019,4.0,3.7,Prepared court filing package,24,9.4
+TE-0174,ATT-005,MAT-039,2026-01-08,TSK-019,7.6,6.8,Internal strategy memorandum,11,2.9
+TE-0175,ATT-005,MAT-033,2026-01-23,TSK-014,4.2,4.0,Drafted motion for summary judgment,23,13.1
+TE-0176,ATT-023,MAT-017,2026-01-17,TSK-018,2.8,2.7,Prepared court filing package,15,0.0
+TE-0177,ATT-011,MAT-039,2026-03-15,TSK-011,4.5,3.8,Drafted correspondence to opposing counsel,16,9.2
+TE-0178,ATT-009,MAT-007,2026-01-10,TSK-010,6.2,5.1,Revised brief per partner comments,34,12.6
+TE-0179,ATT-016,MAT-011,2026-03-18,TSK-009,2.5,2.5,Due diligence document review,25,5.7
+TE-0180,ATT-025,MAT-009,2026-01-10,TSK-010,7.7,6.8,Analyzed regulatory filing requirements,10,5.2
+TE-0181,ATT-024,MAT-024,2026-01-07,TSK-018,2.4,2.0,Research case law precedents,25,10.4
+TE-0182,ATT-024,MAT-028,2026-01-08,TSK-017,2.0,1.8,Billing narrative preparation,15,0.8
+TE-0183,ATT-004,MAT-002,2026-03-01,TSK-006,3.4,2.9,Privilege review of document batch,23,7.2
+TE-0184,ATT-011,MAT-017,2026-01-21,TSK-003,5.3,5.0,Drafted motion for summary judgment,15,8.0
+TE-0185,ATT-030,MAT-008,2026-01-14,TSK-002,8.0,6.7,Privilege review of document batch,20,11.8
+TE-0186,ATT-029,MAT-034,2026-02-01,TSK-019,4.9,4.5,Matter file organization,10,0.0
+TE-0187,ATT-017,MAT-005,2026-03-05,TSK-015,2.4,2.3,Analyzed regulatory filing requirements,11,5.0
+TE-0188,ATT-023,MAT-017,2026-03-01,TSK-011,6.4,6.2,Discovery document coding,14,0.0
+TE-0189,ATT-006,MAT-013,2026-02-27,TSK-017,2.8,2.3,Prepared deposition outline,20,10.0
+TE-0190,ATT-016,MAT-011,2026-01-08,TSK-009,3.3,3.3,Privilege review of document batch,22,11.3
+TE-0191,ATT-019,MAT-021,2026-02-01,TSK-012,5.6,5.0,Reviewed contract redlines,9,10.0
+TE-0192,ATT-013,MAT-037,2026-01-23,TSK-010,3.1,2.9,Prepared deposition outline,8,0.0
+TE-0193,ATT-016,MAT-024,2026-03-15,TSK-020,3.2,3.0,Discovery document coding,25,13.7
+TE-0194,ATT-025,MAT-009,2026-03-22,TSK-003,4.3,3.5,Redline review and markup,24,10.6
+TE-0195,ATT-004,MAT-002,2026-03-27,TSK-017,1.9,1.6,Conflict of interest check,25,2.2
+TE-0196,ATT-015,MAT-006,2026-01-22,TSK-019,4.1,3.3,Prepared deposition outline,24,6.7
+TE-0197,ATT-017,MAT-005,2026-03-15,TSK-002,4.6,4.0,Reviewed and analyzed documents,17,10.8
+TE-0198,ATT-024,MAT-028,2026-01-19,TSK-002,3.6,2.9,Client conference re strategy,10,8.1
+TE-0199,ATT-030,MAT-028,2026-02-02,TSK-014,1.7,1.7,Internal strategy memorandum,12,11.5
+TE-0200,ATT-012,MAT-006,2026-02-15,TSK-013,0.9,0.9,Legal research on statute of limitations,25,2.0
+TE-0201,ATT-006,MAT-013,2026-01-17,TSK-008,6.7,6.0,Matter file organization,8,14.7
+TE-0202,ATT-014,MAT-015,2026-01-27,TSK-008,3.8,3.8,Legal research on statute of limitations,12,4.1
+TE-0203,ATT-002,MAT-007,2026-03-14,TSK-001,2.2,1.8,Research case law precedents,10,1.5
+TE-0204,ATT-022,MAT-014,2026-03-08,TSK-002,3.4,3.2,Drafted motion for summary judgment,15,8.1
+TE-0205,ATT-005,MAT-039,2026-01-10,TSK-019,2.8,2.7,Conflict of interest check,18,3.6
+TE-0206,ATT-008,MAT-022,2026-02-10,TSK-002,4.6,4.1,Billing narrative preparation,13,9.4
+TE-0207,ATT-002,MAT-009,2026-03-21,TSK-013,6.4,5.6,Privilege review of document batch,18,10.4
+TE-0208,ATT-013,MAT-024,2026-03-25,TSK-016,2.2,2.0,Prepared deposition outline,8,0.0
+TE-0209,ATT-026,MAT-008,2026-03-02,TSK-014,7.8,6.8,Analyzed regulatory filing requirements,25,7.9
+TE-0210,ATT-007,MAT-038,2026-01-21,TSK-015,6.8,6.6,Drafted motion for summary judgment,10,8.0
+TE-0211,ATT-009,MAT-022,2026-03-22,TSK-020,0.6,0.5,Matter file organization,14,12.1
+TE-0212,ATT-007,MAT-018,2026-02-07,TSK-010,7.7,6.5,Legal research on statute of limitations,8,3.2
+TE-0213,ATT-024,MAT-024,2026-03-08,TSK-020,5.7,5.2,Privilege review of document batch,20,13.7
+TE-0214,ATT-013,MAT-013,2026-03-18,TSK-012,2.7,2.6,Billing narrative preparation,10,0.0
+TE-0215,ATT-015,MAT-006,2026-03-26,TSK-016,6.2,5.4,Internal strategy memorandum,18,13.7
+TE-0216,ATT-002,MAT-007,2026-01-28,TSK-005,0.4,0.4,Internal strategy memorandum,25,14.0
+TE-0217,ATT-010,MAT-025,2026-02-07,TSK-008,3.2,3.0,Revised brief per partner comments,15,7.5
+TE-0218,ATT-009,MAT-022,2026-03-24,TSK-016,3.8,2.6,Matter file organization,35,25.5
+TE-0219,ATT-016,MAT-024,2026-03-18,TSK-002,4.3,4.0,Reviewed and analyzed documents,10,14.2
+TE-0220,ATT-014,MAT-003,2026-03-27,TSK-008,0.8,0.7,Due diligence document review,12,0.1
+TE-0221,ATT-002,MAT-007,2026-03-21,TSK-020,7.3,6.6,Internal strategy memorandum,23,0.2
+TE-0222,ATT-001,MAT-002,2026-03-17,TSK-009,4.4,4.2,Internal strategy memorandum,17,0.3
+TE-0223,ATT-026,MAT-004,2026-01-04,TSK-017,1.4,1.2,Due diligence document review,14,9.3
+TE-0224,ATT-009,MAT-022,2026-02-03,TSK-013,3.8,2.7,Client conference re strategy,19,29.8
+TE-0225,ATT-021,MAT-026,2026-02-03,TSK-013,3.2,2.6,Reviewed contract redlines,23,0.8
+TE-0226,ATT-003,MAT-028,2026-02-28,TSK-011,4.7,4.3,Drafted motion for summary judgment,45,24.5
+TE-0227,ATT-008,MAT-028,2026-03-28,TSK-019,4.0,3.7,Analyzed regulatory filing requirements,9,13.9
+TE-0228,ATT-029,MAT-008,2026-03-19,TSK-002,1.7,1.5,Discovery document coding,10,0.0
+TE-0229,ATT-019,MAT-018,2026-03-25,TSK-013,7.5,6.4,Prepared court filing package,17,2.4
+TE-0230,ATT-022,MAT-026,2026-03-13,TSK-005,6.4,6.4,Drafted motion for summary judgment,10,7.5
+TE-0231,ATT-004,MAT-006,2026-01-08,TSK-011,5.0,4.3,Analyzed regulatory filing requirements,20,14.5
+TE-0232,ATT-026,MAT-008,2026-01-16,TSK-012,4.6,4.3,Prepared court filing package,20,6.5
+TE-0233,ATT-003,MAT-028,2026-01-26,TSK-003,0.9,0.8,Prepared deposition outline,22,12.6
+TE-0234,ATT-024,MAT-024,2026-02-11,TSK-004,1.0,1.0,Legal research on statute of limitations,17,6.7
+TE-0235,ATT-005,MAT-015,2026-02-06,TSK-015,4.6,3.7,Due diligence document review,24,6.1
+TE-0236,ATT-018,MAT-035,2026-03-20,TSK-011,7.0,6.5,Prepared court filing package,5,0.0
+TE-0237,ATT-025,MAT-009,2026-03-24,TSK-008,4.7,3.9,Analyzed regulatory filing requirements,13,10.3
+TE-0238,ATT-010,MAT-007,2026-01-16,TSK-003,1.6,1.4,Client conference re strategy,16,6.3
+TE-0239,ATT-012,MAT-025,2026-03-08,TSK-016,4.9,4.1,Reviewed and analyzed documents,14,6.9
+TE-0240,ATT-013,MAT-037,2026-03-27,TSK-013,6.5,6.1,Internal strategy memorandum,10,0.0
+TE-0241,ATT-027,MAT-039,2026-01-20,TSK-010,2.8,2.3,Prepared court filing package,14,7.2
+TE-0242,ATT-011,MAT-017,2026-03-24,TSK-016,7.8,6.7,Prepared court filing package,15,4.9
+TE-0243,ATT-012,MAT-035,2026-01-19,TSK-019,8.0,7.3,Negotiation session with counterparty,13,10.2
+TE-0244,ATT-023,MAT-017,2026-02-15,TSK-003,6.6,6.4,Prepared deposition outline,11,0.0
+TE-0245,ATT-021,MAT-005,2026-02-08,TSK-005,5.8,5.8,Billing narrative preparation,20,1.1
+TE-0246,ATT-019,MAT-015,2026-03-18,TSK-014,4.5,4.3,Research case law precedents,19,10.5
+TE-0247,ATT-021,MAT-026,2026-01-04,TSK-012,1.6,1.5,Prepared court filing package,9,8.4
+TE-0248,ATT-025,MAT-033,2026-02-26,TSK-004,0.4,0.4,Matter file organization,16,3.3
+TE-0249,ATT-019,MAT-021,2026-02-08,TSK-012,3.3,3.3,Billing narrative preparation,24,2.3
+TE-0250,ATT-004,MAT-006,2026-01-14,TSK-004,6.7,5.8,Discovery document coding,12,5.2
+TE-0251,ATT-017,MAT-005,2026-02-12,TSK-004,3.7,3.2,Legal research on statute of limitations,22,4.8
+TE-0252,ATT-001,MAT-018,2026-01-21,TSK-006,7.5,6.8,Revised brief per partner comments,15,7.7
+TE-0253,ATT-018,MAT-016,2026-01-15,TSK-013,5.1,4.9,Internal strategy memorandum,7,0.0
+TE-0254,ATT-013,MAT-040,2026-03-24,TSK-007,3.8,3.6,Discovery document coding,11,0.0
+TE-0255,ATT-007,MAT-038,2026-03-25,TSK-003,4.7,4.1,Negotiation session with counterparty,25,2.8
+TE-0256,ATT-004,MAT-006,2026-02-22,TSK-017,7.7,7.1,Redline review and markup,18,9.0
+TE-0257,ATT-004,MAT-006,2026-02-12,TSK-020,1.6,1.5,Prepared deposition outline,17,13.8
+TE-0258,ATT-011,MAT-023,2026-02-08,TSK-004,1.7,1.5,Prepared deposition outline,12,7.7
+TE-0259,ATT-019,MAT-015,2026-01-14,TSK-016,5.2,4.7,Prepared deposition outline,13,8.3
+TE-0260,ATT-006,MAT-013,2026-02-27,TSK-020,0.7,0.6,Discovery document coding,19,14.3
+TE-0261,ATT-027,MAT-028,2026-03-18,TSK-016,3.5,3.4,Billing narrative preparation,23,6.2
+TE-0262,ATT-006,MAT-036,2026-01-19,TSK-008,2.5,2.1,Negotiation session with counterparty,16,3.4
+TE-0263,ATT-019,MAT-015,2026-03-18,TSK-004,4.7,4.5,Due diligence document review,16,11.6
+TE-0264,ATT-018,MAT-035,2026-03-25,TSK-015,4.5,4.1,Drafted correspondence to opposing counsel,11,0.0
+TE-0265,ATT-010,MAT-025,2026-02-15,TSK-012,6.9,6.9,Drafted correspondence to opposing counsel,10,6.6
+TE-0266,ATT-007,MAT-001,2026-02-23,TSK-020,5.2,5.0,Discovery document coding,13,9.2
+TE-0267,ATT-026,MAT-004,2026-02-19,TSK-018,2.5,2.5,Privilege review of document batch,25,2.5
+TE-0268,ATT-010,MAT-007,2026-03-28,TSK-004,1.3,1.3,Prepared deposition outline,21,13.8
+TE-0269,ATT-023,MAT-017,2026-01-08,TSK-011,6.7,6.3,Prepared deposition outline,15,0.0
+TE-0270,ATT-019,MAT-036,2026-02-21,TSK-013,3.8,3.6,Due diligence document review,10,6.0
+TE-0271,ATT-015,MAT-025,2026-03-11,TSK-001,7.0,6.2,Due diligence document review,10,11.0
+TE-0272,ATT-028,MAT-025,2026-03-26,TSK-013,2.0,1.8,Revised brief per partner comments,21,12.4
+TE-0273,ATT-027,MAT-028,2026-03-11,TSK-019,1.3,1.3,Drafted motion for summary judgment,23,11.8
+TE-0274,ATT-002,MAT-015,2026-02-21,TSK-001,1.3,1.0,Internal strategy memorandum,13,6.6
+TE-0275,ATT-007,MAT-029,2026-02-21,TSK-006,7.0,6.1,Client conference re strategy,16,1.4
+TE-0276,ATT-012,MAT-008,2026-02-02,TSK-010,5.9,4.8,Legal research on statute of limitations,15,6.4
+TE-0277,ATT-001,MAT-002,2026-01-16,TSK-005,4.9,3.9,Revised brief per partner comments,24,10.2
+TE-0278,ATT-027,MAT-011,2026-02-28,TSK-005,4.0,3.8,Legal research on statute of limitations,15,5.7
+TE-0279,ATT-004,MAT-006,2026-02-12,TSK-005,3.2,3.0,Client conference re strategy,12,9.6
+TE-0280,ATT-017,MAT-039,2026-03-01,TSK-006,3.7,3.1,Internal strategy memorandum,14,9.4
+TE-0281,ATT-020,MAT-003,2026-01-28,TSK-003,7.2,6.6,Prepared court filing package,12,11.3
+TE-0282,ATT-012,MAT-006,2026-01-11,TSK-008,2.4,2.2,Research case law precedents,10,3.7
+TE-0283,ATT-010,MAT-025,2026-03-28,TSK-010,1.9,1.7,Drafted motion for summary judgment,24,2.8
+TE-0284,ATT-026,MAT-004,2026-02-16,TSK-004,2.2,2.2,Due diligence document review,10,7.9
+TE-0285,ATT-030,MAT-019,2026-02-05,TSK-019,3.5,3.3,Client conference re strategy,25,10.2
+TE-0286,ATT-001,MAT-002,2026-02-01,TSK-007,0.6,0.5,Privilege review of document batch,9,14.2
+TE-0287,ATT-021,MAT-014,2026-03-14,TSK-013,0.9,0.7,Client conference re strategy,25,8.1
+TE-0288,ATT-010,MAT-025,2026-01-17,TSK-005,4.4,4.2,Client conference re strategy,20,8.8
+TE-0289,ATT-010,MAT-007,2026-01-24,TSK-002,2.2,2.0,Drafted motion for summary judgment,21,1.7
+TE-0290,ATT-010,MAT-025,2026-01-04,TSK-005,5.7,5.0,Conflict of interest check,13,7.4
+TE-0291,ATT-026,MAT-008,2026-02-06,TSK-005,6.1,5.0,Reviewed and analyzed documents,16,11.0
+TE-0292,ATT-011,MAT-003,2026-03-09,TSK-003,2.3,2.1,Drafted motion for summary judgment,10,7.4
+TE-0293,ATT-016,MAT-024,2026-01-12,TSK-009,6.3,5.7,Drafted motion for summary judgment,11,3.4
+TE-0294,ATT-028,MAT-025,2026-01-08,TSK-016,3.1,3.1,Drafted motion for summary judgment,12,2.7
+TE-0295,ATT-018,MAT-011,2026-03-24,TSK-014,2.0,1.9,Revised brief per partner comments,8,0.0
+TE-0296,ATT-009,MAT-014,2026-02-19,TSK-004,4.2,3.6,Drafted motion for summary judgment,13,11.9
+TE-0297,ATT-013,MAT-040,2026-02-15,TSK-010,2.8,2.6,Due diligence document review,13,0.0
+TE-0298,ATT-007,MAT-038,2026-02-19,TSK-020,2.2,2.0,Discovery document coding,19,8.9
+TE-0299,ATT-024,MAT-028,2026-01-05,TSK-014,0.5,0.5,Reviewed and analyzed documents,25,5.2
+TE-0300,ATT-011,MAT-023,2026-03-25,TSK-013,6.8,6.2,Drafted correspondence to opposing counsel,17,1.6
+TE-0301,ATT-014,MAT-015,2026-01-02,TSK-009,1.0,0.9,Due diligence document review,15,13.5
+TE-0302,ATT-015,MAT-006,2026-01-19,TSK-017,1.3,1.2,Internal strategy memorandum,20,1.1
+TE-0303,ATT-022,MAT-032,2026-02-08,TSK-009,6.9,6.5,Revised brief per partner comments,20,10.5
+TE-0304,ATT-015,MAT-007,2026-01-08,TSK-007,1.3,1.1,Negotiation session with counterparty,11,2.3
+TE-0305,ATT-011,MAT-003,2026-03-04,TSK-012,7.7,6.9,Legal research on statute of limitations,14,6.8
+TE-0306,ATT-003,MAT-038,2026-03-26,TSK-010,6.7,5.1,Revised brief per partner comments,40,17.1
+TE-0307,ATT-005,MAT-015,2026-01-23,TSK-012,3.4,2.9,Reviewed contract redlines,9,10.2
+TE-0308,ATT-001,MAT-018,2026-02-28,TSK-018,6.1,5.0,Prepared deposition outline,15,1.4
+TE-0309,ATT-004,MAT-002,2026-01-02,TSK-005,1.8,1.7,Client conference re strategy,20,5.6
+TE-0310,ATT-019,MAT-021,2026-01-09,TSK-001,8.0,7.1,Prepared deposition outline,14,13.5
+TE-0311,ATT-003,MAT-028,2026-01-04,TSK-015,0.7,0.6,Billing narrative preparation,36,13.7
+TE-0312,ATT-001,MAT-018,2026-02-22,TSK-006,3.0,2.7,Prepared deposition outline,13,4.1
+TE-0313,ATT-002,MAT-007,2026-03-20,TSK-008,5.3,4.8,Drafted motion for summary judgment,23,6.2
+TE-0314,ATT-003,MAT-028,2026-01-13,TSK-014,1.8,1.5,Matter file organization,43,15.5
+TE-0315,ATT-026,MAT-004,2026-03-13,TSK-012,4.0,3.7,Revised brief per partner comments,23,5.2
+TE-0316,ATT-013,MAT-037,2026-01-06,TSK-011,4.9,4.8,Analyzed regulatory filing requirements,5,0.0
+TE-0317,ATT-002,MAT-009,2026-02-17,TSK-019,8.0,7.5,Analyzed regulatory filing requirements,13,1.5
+TE-0318,ATT-018,MAT-011,2026-01-02,TSK-019,6.8,6.4,Reviewed contract redlines,11,0.0
+TE-0319,ATT-006,MAT-036,2026-02-19,TSK-012,7.3,6.4,Redline review and markup,8,10.6
+TE-0320,ATT-019,MAT-018,2026-01-19,TSK-016,4.5,3.7,Drafted correspondence to opposing counsel,13,7.4
+TE-0321,ATT-020,MAT-015,2026-03-01,TSK-016,0.3,0.3,Reviewed contract redlines,14,12.1
+TE-0322,ATT-030,MAT-019,2026-01-02,TSK-005,4.8,4.7,Due diligence document review,12,11.6
+TE-0323,ATT-003,MAT-028,2026-03-23,TSK-013,4.8,3.5,Reviewed contract redlines,28,11.0
+TE-0324,ATT-024,MAT-024,2026-03-26,TSK-016,5.3,4.8,Research case law precedents,13,10.6
+TE-0325,ATT-026,MAT-008,2026-03-08,TSK-019,6.6,6.2,Prepared deposition outline,20,4.6
+TE-0326,ATT-006,MAT-036,2026-03-23,TSK-013,6.9,6.0,Research case law precedents,9,2.7
+TE-0327,ATT-008,MAT-018,2026-01-19,TSK-016,1.4,1.4,Reviewed contract redlines,10,3.6
+TE-0328,ATT-021,MAT-026,2026-03-27,TSK-011,3.7,3.5,Due diligence document review,16,3.1
+TE-0329,ATT-009,MAT-014,2026-01-24,TSK-002,3.3,2.3,Internal strategy memorandum,35,17.2
+TE-0330,ATT-016,MAT-023,2026-03-12,TSK-013,1.1,1.0,Drafted correspondence to opposing counsel,23,11.8
+TE-0331,ATT-006,MAT-013,2026-01-03,TSK-010,0.5,0.4,Reviewed contract redlines,16,14.3
+TE-0332,ATT-029,MAT-001,2026-03-06,TSK-003,4.5,4.2,Research case law precedents,6,0.0
+TE-0333,ATT-029,MAT-001,2026-01-23,TSK-014,7.6,7.3,Internal strategy memorandum,7,0.0
+TE-0334,ATT-006,MAT-036,2026-02-04,TSK-007,7.8,7.4,Matter file organization,21,10.5
+TE-0335,ATT-009,MAT-007,2026-02-10,TSK-008,1.0,0.9,Prepared deposition outline,24,20.6
+TE-0336,ATT-002,MAT-009,2026-02-01,TSK-003,2.6,2.1,Reviewed contract redlines,23,3.0
+TE-0337,ATT-021,MAT-005,2026-02-03,TSK-004,2.7,2.6,Analyzed regulatory filing requirements,20,7.1
+TE-0338,ATT-003,MAT-028,2026-02-06,TSK-013,3.1,2.5,Analyzed regulatory filing requirements,32,5.9
+TE-0339,ATT-008,MAT-022,2026-01-19,TSK-005,6.1,5.3,Matter file organization,11,1.3
+TE-0340,ATT-014,MAT-003,2026-01-18,TSK-013,6.6,6.2,Billing narrative preparation,21,14.5
+TE-0341,ATT-019,MAT-018,2026-02-16,TSK-003,3.3,3.2,Redline review and markup,9,7.5
+TE-0342,ATT-022,MAT-032,2026-02-04,TSK-006,7.6,7.3,Prepared deposition outline,13,14.6
+TE-0343,ATT-002,MAT-009,2026-03-03,TSK-014,1.9,1.6,Client conference re strategy,12,12.5
+TE-0344,ATT-003,MAT-028,2026-02-18,TSK-018,2.8,2.6,Reviewed and analyzed documents,26,15.4
+TE-0345,ATT-026,MAT-008,2026-02-04,TSK-005,1.4,1.3,Legal research on statute of limitations,11,13.9
+TE-0346,ATT-026,MAT-008,2026-03-28,TSK-012,7.1,6.4,Research case law precedents,16,5.7
+TE-0347,ATT-016,MAT-030,2026-02-06,TSK-013,1.4,1.4,Revised brief per partner comments,20,0.6
+TE-0348,ATT-023,MAT-017,2026-03-02,TSK-016,7.4,6.7,Privilege review of document batch,10,0.0
+TE-0349,ATT-010,MAT-007,2026-02-27,TSK-004,7.8,7.8,Negotiation session with counterparty,15,2.0
+TE-0350,ATT-025,MAT-033,2026-03-09,TSK-014,5.0,4.2,Internal strategy memorandum,10,2.8
+TE-0351,ATT-024,MAT-024,2026-03-25,TSK-012,6.6,5.4,Conflict of interest check,24,11.9
+TE-0352,ATT-013,MAT-024,2026-03-25,TSK-019,0.5,0.5,Discovery document coding,8,0.0
+TE-0353,ATT-027,MAT-011,2026-01-08,TSK-015,0.7,0.6,Negotiation session with counterparty,19,10.6
+TE-0354,ATT-017,MAT-005,2026-01-21,TSK-001,2.2,1.8,Billing narrative preparation,23,8.9
+TE-0355,ATT-019,MAT-021,2026-02-12,TSK-006,6.7,6.3,Privilege review of document batch,16,11.2
+TE-0356,ATT-001,MAT-018,2026-01-02,TSK-019,6.3,5.9,Discovery document coding,14,12.9
+TE-0357,ATT-009,MAT-007,2026-03-14,TSK-001,7.0,6.1,Reviewed contract redlines,33,8.2
+TE-0358,ATT-020,MAT-015,2026-02-08,TSK-020,6.5,6.1,Analyzed regulatory filing requirements,17,10.7
+TE-0359,ATT-014,MAT-015,2026-02-28,TSK-015,2.2,2.0,Research case law precedents,22,4.5
+TE-0360,ATT-013,MAT-040,2026-03-01,TSK-012,4.6,4.4,Privilege review of document batch,14,0.0
+TE-0361,ATT-022,MAT-014,2026-01-16,TSK-011,7.9,6.7,Privilege review of document batch,18,12.9
+TE-0362,ATT-007,MAT-029,2026-01-17,TSK-002,6.5,6.1,Reviewed and analyzed documents,20,9.9
+TE-0363,ATT-021,MAT-014,2026-02-10,TSK-014,3.4,3.4,Discovery document coding,9,8.7
+TE-0364,ATT-011,MAT-039,2026-03-22,TSK-016,7.3,7.1,Matter file organization,19,7.6
+TE-0365,ATT-006,MAT-013,2026-02-04,TSK-005,6.0,5.0,Revised brief per partner comments,25,11.4
+TE-0366,ATT-021,MAT-026,2026-02-08,TSK-008,6.0,5.9,Due diligence document review,17,6.3
+TE-0367,ATT-009,MAT-007,2026-02-10,TSK-004,3.9,3.5,Client conference re strategy,32,20.8
+TE-0368,ATT-016,MAT-024,2026-01-17,TSK-013,4.4,4.3,Prepared deposition outline,21,0.8
+TE-0369,ATT-007,MAT-038,2026-03-14,TSK-015,1.4,1.3,Reviewed contract redlines,13,11.7
+TE-0370,ATT-011,MAT-023,2026-02-01,TSK-009,1.9,1.6,Client conference re strategy,13,8.6
+TE-0371,ATT-005,MAT-039,2026-03-14,TSK-014,3.4,2.7,Discovery document coding,23,5.7
+TE-0372,ATT-024,MAT-026,2026-02-01,TSK-017,1.8,1.5,Due diligence document review,8,9.4
+TE-0373,ATT-010,MAT-025,2026-02-04,TSK-017,4.8,3.9,Privilege review of document batch,13,1.0
+TE-0374,ATT-015,MAT-007,2026-03-14,TSK-005,2.9,2.4,Prepared court filing package,23,5.4
+TE-0375,ATT-001,MAT-002,2026-03-08,TSK-005,1.9,1.6,Due diligence document review,8,8.8
+TE-0376,ATT-023,MAT-016,2026-01-26,TSK-013,7.0,6.8,Research case law precedents,9,0.0
+TE-0377,ATT-002,MAT-007,2026-03-02,TSK-004,5.3,4.4,Negotiation session with counterparty,8,0.7
+TE-0378,ATT-013,MAT-040,2026-02-18,TSK-016,5.7,5.5,Reviewed and analyzed documents,8,0.0
+TE-0379,ATT-010,MAT-007,2026-01-22,TSK-017,2.4,2.4,Conflict of interest check,12,6.3
+TE-0380,ATT-024,MAT-038,2026-01-10,TSK-004,4.1,4.0,Discovery document coding,14,11.7
+TE-0381,ATT-012,MAT-006,2026-01-10,TSK-002,4.5,4.0,Drafted correspondence to opposing counsel,14,10.3
+TE-0382,ATT-001,MAT-002,2026-01-22,TSK-004,6.7,5.5,Conflict of interest check,23,2.2
+TE-0383,ATT-003,MAT-038,2026-03-09,TSK-008,3.8,2.7,Reviewed contract redlines,27,10.3
+TE-0384,ATT-028,MAT-025,2026-02-28,TSK-012,6.5,5.4,Drafted motion for summary judgment,18,6.4
+TE-0385,ATT-001,MAT-002,2026-03-22,TSK-006,2.8,2.4,Client conference re strategy,22,14.3
+TE-0386,ATT-012,MAT-025,2026-01-06,TSK-013,3.4,3.0,Billing narrative preparation,22,4.1
+TE-0387,ATT-026,MAT-008,2026-01-21,TSK-004,1.3,1.3,Legal research on statute of limitations,9,14.7
+TE-0388,ATT-014,MAT-015,2026-03-26,TSK-015,1.7,1.6,Prepared deposition outline,20,11.7
+TE-0389,ATT-016,MAT-023,2026-02-04,TSK-015,0.7,0.6,Conflict of interest check,16,9.8
+TE-0390,ATT-025,MAT-032,2026-03-19,TSK-019,2.0,1.9,Research case law precedents,18,7.8
+TE-0391,ATT-004,MAT-006,2026-03-22,TSK-008,4.0,3.9,Research case law precedents,20,2.2
+TE-0392,ATT-002,MAT-015,2026-01-21,TSK-017,6.8,5.5,Billing narrative preparation,23,13.0
+TE-0393,ATT-011,MAT-039,2026-02-11,TSK-002,4.2,3.7,Drafted correspondence to opposing counsel,25,9.6
+TE-0394,ATT-003,MAT-028,2026-03-15,TSK-015,1.0,0.7,Billing narrative preparation,33,13.9
+TE-0395,ATT-024,MAT-038,2026-02-04,TSK-014,0.6,0.5,Research case law precedents,25,0.0
+TE-0396,ATT-020,MAT-003,2026-03-17,TSK-007,5.3,4.6,Drafted motion for summary judgment,22,14.3
+TE-0397,ATT-027,MAT-011,2026-02-28,TSK-011,4.6,4.0,Negotiation session with counterparty,23,10.7
+TE-0398,ATT-004,MAT-002,2026-03-25,TSK-008,0.3,0.3,Privilege review of document batch,19,12.4
+TE-0399,ATT-018,MAT-011,2026-03-12,TSK-004,0.7,0.7,Internal strategy memorandum,7,0.0
+TE-0400,ATT-004,MAT-006,2026-01-20,TSK-007,1.2,1.2,Discovery document coding,20,3.2
+TE-0401,ATT-023,MAT-009,2026-02-04,TSK-002,7.4,7.1,Negotiation session with counterparty,15,0.0
+TE-0402,ATT-015,MAT-015,2026-01-16,TSK-017,6.0,5.8,Billing narrative preparation,25,14.0
+TE-0403,ATT-030,MAT-008,2026-03-23,TSK-006,5.9,5.5,Research case law precedents,12,1.6
+TE-0404,ATT-029,MAT-036,2026-02-17,TSK-014,7.8,7.2,Revised brief per partner comments,8,0.0
+TE-0405,ATT-010,MAT-007,2026-01-26,TSK-005,3.5,3.3,Revised brief per partner comments,24,4.5
+TE-0406,ATT-023,MAT-016,2026-03-18,TSK-007,1.8,1.7,Due diligence document review,14,0.0
+TE-0407,ATT-030,MAT-008,2026-03-23,TSK-006,4.2,4.0,Matter file organization,18,10.7
+TE-0408,ATT-016,MAT-023,2026-03-22,TSK-018,2.5,2.3,Reviewed and analyzed documents,21,12.1
+TE-0409,ATT-013,MAT-024,2026-03-02,TSK-002,1.8,1.8,Analyzed regulatory filing requirements,7,0.0
+TE-0410,ATT-005,MAT-015,2026-02-23,TSK-007,6.1,5.4,Research case law precedents,9,5.4
+TE-0411,ATT-028,MAT-025,2026-03-24,TSK-018,3.3,3.2,Privilege review of document batch,24,11.8
+TE-0412,ATT-023,MAT-016,2026-02-02,TSK-013,3.5,3.3,Matter file organization,15,0.0
+TE-0413,ATT-002,MAT-015,2026-02-24,TSK-007,5.1,5.0,Due diligence document review,22,12.4
+TE-0414,ATT-025,MAT-032,2026-03-18,TSK-020,1.8,1.5,Client conference re strategy,14,4.4
+TE-0415,ATT-006,MAT-036,2026-03-24,TSK-004,3.2,2.7,Reviewed contract redlines,21,4.2
+TE-0416,ATT-019,MAT-036,2026-02-01,TSK-015,5.8,5.7,Research case law precedents,12,0.6
+TE-0417,ATT-002,MAT-007,2026-03-20,TSK-010,4.1,3.9,Revised brief per partner comments,25,5.4
+TE-0418,ATT-017,MAT-018,2026-03-06,TSK-003,6.4,5.8,Client conference re strategy,13,6.2
+TE-0419,ATT-012,MAT-008,2026-03-07,TSK-011,2.8,2.7,Conflict of interest check,17,3.3
+TE-0420,ATT-016,MAT-030,2026-03-04,TSK-012,3.7,3.5,Revised brief per partner comments,15,14.4
+TE-0421,ATT-013,MAT-040,2026-02-13,TSK-018,5.9,5.8,Due diligence document review,5,0.0
+TE-0422,ATT-017,MAT-039,2026-02-15,TSK-002,2.6,2.1,Legal research on statute of limitations,14,4.8
+TE-0423,ATT-006,MAT-036,2026-01-21,TSK-007,5.5,4.9,Legal research on statute of limitations,14,13.0
+TE-0424,ATT-007,MAT-001,2026-03-27,TSK-014,5.3,4.4,Negotiation session with counterparty,10,11.2
+TE-0425,ATT-023,MAT-009,2026-01-02,TSK-003,0.7,0.7,Redline review and markup,9,0.0
+TE-0426,ATT-027,MAT-011,2026-02-09,TSK-013,3.8,3.1,Legal research on statute of limitations,20,6.5
+TE-0427,ATT-018,MAT-035,2026-03-21,TSK-020,0.8,0.7,Client conference re strategy,14,0.0
+TE-0428,ATT-012,MAT-036,2026-02-04,TSK-010,5.0,4.4,Prepared court filing package,17,11.5
+TE-0429,ATT-027,MAT-039,2026-02-01,TSK-006,4.4,4.2,Matter file organization,12,11.2
+TE-0430,ATT-010,MAT-025,2026-03-10,TSK-012,7.7,7.0,Legal research on statute of limitations,8,8.3
+TE-0431,ATT-002,MAT-015,2026-03-19,TSK-013,4.4,4.2,Due diligence document review,10,4.6
+TE-0432,ATT-007,MAT-018,2026-03-21,TSK-005,1.5,1.3,Legal research on statute of limitations,15,9.3
+TE-0433,ATT-006,MAT-036,2026-03-28,TSK-015,5.3,4.3,Legal research on statute of limitations,10,4.4
+TE-0434,ATT-007,MAT-001,2026-02-16,TSK-012,1.3,1.2,Discovery document coding,15,1.5
+TE-0435,ATT-011,MAT-003,2026-02-15,TSK-020,5.4,4.7,Revised brief per partner comments,12,8.5
+TE-0436,ATT-014,MAT-003,2026-02-01,TSK-008,6.3,5.5,Revised brief per partner comments,21,4.2
+TE-0437,ATT-029,MAT-001,2026-02-15,TSK-012,6.3,6.0,Reviewed contract redlines,12,0.0
+TE-0438,ATT-021,MAT-026,2026-02-27,TSK-005,7.2,7.0,Client conference re strategy,14,3.9
+TE-0439,ATT-024,MAT-038,2026-03-01,TSK-001,6.6,5.6,Drafted motion for summary judgment,20,11.5
+TE-0440,ATT-018,MAT-016,2026-03-18,TSK-016,5.3,5.0,Drafted correspondence to opposing counsel,7,0.0
+TE-0441,ATT-029,MAT-008,2026-02-24,TSK-005,3.9,3.5,Due diligence document review,13,0.0
+TE-0442,ATT-017,MAT-018,2026-01-22,TSK-020,5.6,4.7,Redline review and markup,24,2.1
+TE-0443,ATT-019,MAT-018,2026-03-24,TSK-016,7.5,6.7,Client conference re strategy,9,3.3
+TE-0444,ATT-009,MAT-022,2026-01-08,TSK-007,4.3,3.8,Drafted motion for summary judgment,23,16.5
+TE-0445,ATT-002,MAT-007,2026-01-11,TSK-017,5.2,4.4,Matter file organization,16,12.5
+TE-0446,ATT-019,MAT-018,2026-03-13,TSK-013,3.1,2.7,Drafted correspondence to opposing counsel,10,7.7
+TE-0447,ATT-017,MAT-005,2026-02-12,TSK-016,6.4,5.3,Reviewed contract redlines,8,7.5
+TE-0448,ATT-008,MAT-028,2026-03-17,TSK-009,1.9,1.7,Legal research on statute of limitations,13,2.4
+TE-0449,ATT-022,MAT-032,2026-02-14,TSK-004,4.0,3.7,Internal strategy memorandum,23,7.2
+TE-0450,ATT-001,MAT-002,2026-01-02,TSK-019,4.9,4.0,Redline review and markup,12,9.4
+TE-0451,ATT-005,MAT-015,2026-02-06,TSK-006,4.3,3.9,Reviewed and analyzed documents,20,9.0
+TE-0452,ATT-029,MAT-036,2026-01-03,TSK-015,5.0,4.9,Reviewed contract redlines,12,0.0
+TE-0453,ATT-008,MAT-022,2026-01-20,TSK-019,6.6,6.0,Reviewed contract redlines,13,9.3
+TE-0454,ATT-024,MAT-026,2026-03-15,TSK-019,0.8,0.7,Discovery document coding,20,5.8
+TE-0455,ATT-017,MAT-039,2026-02-22,TSK-005,5.0,4.6,Drafted motion for summary judgment,13,7.1
+TE-0456,ATT-029,MAT-008,2026-01-17,TSK-003,4.0,4.0,Matter file organization,7,0.0
+TE-0457,ATT-027,MAT-011,2026-03-25,TSK-014,4.3,4.0,Internal strategy memorandum,19,13.1
+TE-0458,ATT-008,MAT-022,2026-02-26,TSK-012,4.8,4.1,Drafted correspondence to opposing counsel,11,6.4
+TE-0459,ATT-030,MAT-022,2026-03-10,TSK-018,3.4,3.2,Reviewed and analyzed documents,14,0.1
+TE-0460,ATT-019,MAT-021,2026-03-04,TSK-001,3.2,2.8,Due diligence document review,14,10.3
+TE-0461,ATT-004,MAT-002,2026-03-14,TSK-019,2.3,2.0,Analyzed regulatory filing requirements,25,6.4
+TE-0462,ATT-022,MAT-030,2026-01-25,TSK-014,4.6,4.0,Matter file organization,25,7.2
+TE-0463,ATT-016,MAT-011,2026-03-10,TSK-012,6.3,6.1,Legal research on statute of limitations,20,11.0
+TE-0464,ATT-024,MAT-028,2026-03-15,TSK-006,1.1,1.0,Matter file organization,24,6.0
+TE-0465,ATT-020,MAT-015,2026-02-06,TSK-001,6.5,6.0,Client conference re strategy,12,7.1
+TE-0466,ATT-003,MAT-028,2026-02-08,TSK-003,5.0,4.7,Research case law precedents,41,12.7
+TE-0467,ATT-021,MAT-005,2026-03-23,TSK-002,7.6,6.7,Discovery document coding,13,9.6
+TE-0468,ATT-028,MAT-039,2026-01-07,TSK-020,4.2,3.9,Due diligence document review,15,9.2
+TE-0469,ATT-008,MAT-018,2026-01-01,TSK-003,8.0,7.0,Redline review and markup,20,5.3
+TE-0470,ATT-007,MAT-001,2026-03-01,TSK-003,7.4,7.1,Redline review and markup,25,4.3
+TE-0471,ATT-012,MAT-025,2026-02-27,TSK-008,5.0,4.4,Reviewed and analyzed documents,14,6.8
+TE-0472,ATT-009,MAT-014,2026-03-14,TSK-004,4.6,4.1,Conflict of interest check,28,14.5
+TE-0473,ATT-009,MAT-007,2026-03-27,TSK-009,5.6,4.7,Revised brief per partner comments,24,20.4
+TE-0474,ATT-025,MAT-033,2026-02-22,TSK-019,6.9,5.6,Drafted correspondence to opposing counsel,23,1.7
+TE-0475,ATT-022,MAT-032,2026-02-26,TSK-014,7.7,7.2,Analyzed regulatory filing requirements,24,8.0
+TE-0476,ATT-008,MAT-022,2026-02-03,TSK-011,0.9,0.8,Redline review and markup,13,7.1
+TE-0477,ATT-009,MAT-014,2026-03-24,TSK-007,4.1,2.9,Analyzed regulatory filing requirements,18,13.2
+TE-0478,ATT-007,MAT-029,2026-01-07,TSK-020,3.0,2.4,Billing narrative preparation,11,1.8
+TE-0479,ATT-020,MAT-015,2026-03-25,TSK-002,6.8,6.1,Redline review and markup,19,9.3
+TE-0480,ATT-028,MAT-039,2026-01-16,TSK-017,2.5,2.1,Conflict of interest check,15,11.3
+TE-0481,ATT-026,MAT-008,2026-03-16,TSK-002,4.2,4.0,Negotiation session with counterparty,20,12.9
+TE-0482,ATT-004,MAT-006,2026-03-11,TSK-001,0.4,0.3,Due diligence document review,14,5.7
+TE-0483,ATT-020,MAT-003,2026-03-06,TSK-009,2.1,1.8,Reviewed contract redlines,23,14.4
+TE-0484,ATT-016,MAT-023,2026-02-07,TSK-012,3.1,2.6,Prepared deposition outline,20,4.2
+TE-0485,ATT-019,MAT-018,2026-01-27,TSK-009,6.5,5.7,Prepared deposition outline,25,6.5
+TE-0486,ATT-026,MAT-004,2026-01-16,TSK-006,3.5,3.4,Conflict of interest check,12,14.9
+TE-0487,ATT-018,MAT-011,2026-02-11,TSK-010,2.2,2.0,Legal research on statute of limitations,14,0.0
+TE-0488,ATT-023,MAT-017,2026-01-02,TSK-009,4.0,3.6,Revised brief per partner comments,15,0.0
+TE-0489,ATT-009,MAT-022,2026-03-12,TSK-018,7.5,5.6,Due diligence document review,20,15.6
+TE-0490,ATT-028,MAT-025,2026-03-19,TSK-018,1.6,1.5,Billing narrative preparation,17,5.3
+TE-0491,ATT-025,MAT-032,2026-01-15,TSK-013,5.0,4.1,Reviewed contract redlines,22,9.5
+TE-0492,ATT-021,MAT-005,2026-03-14,TSK-020,4.7,4.1,Revised brief per partner comments,10,1.2
+TE-0493,ATT-011,MAT-017,2026-02-23,TSK-020,5.3,5.1,Due diligence document review,16,13.3
+TE-0494,ATT-024,MAT-024,2026-01-14,TSK-006,6.9,6.4,Client conference re strategy,12,10.9
+TE-0495,ATT-007,MAT-029,2026-01-13,TSK-004,0.8,0.6,Prepared court filing package,23,8.2
+TE-0496,ATT-017,MAT-018,2026-02-04,TSK-020,1.5,1.3,Privilege review of document batch,20,4.6
+TE-0497,ATT-015,MAT-015,2026-03-05,TSK-006,0.5,0.4,Billing narrative preparation,19,12.9
+TE-0498,ATT-015,MAT-007,2026-02-18,TSK-005,7.8,7.2,Redline review and markup,25,2.7
+TE-0499,ATT-014,MAT-015,2026-02-12,TSK-018,2.0,1.7,Analyzed regulatory filing requirements,10,6.6
+TE-0500,ATT-005,MAT-033,2026-01-01,TSK-017,6.6,5.9,Reviewed and analyzed documents,12,5.2

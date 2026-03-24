@@ -1,0 +1,81 @@
+qc_id,asset_id,timestamp,check_type,result,error_description,severity
+QC-001,AST-001015,2026-03-19T08:00:01.112Z,video_levels,Pass,,Info
+QC-002,AST-001015,2026-03-19T08:00:02.334Z,audio_levels,Pass,,Info
+QC-003,AST-001015,2026-03-19T08:00:03.556Z,closed_captions,Pass,,Info
+QC-004,AST-001015,2026-03-19T08:00:04.778Z,frame_rate,Pass,,Info
+QC-005,AST-001015,2026-03-19T08:00:05.890Z,color_space,Pass,,Info
+QC-006,AST-001015,2026-03-19T08:00:06.223Z,audio_sync,Pass,,Info
+QC-007,AST-001015,2026-03-19T08:00:07.445Z,loudness,Warning,Peak loudness -1.2dB exceeds -2dB threshold,Medium
+QC-008,AST-001015,2026-03-19T08:00:08.667Z,black_frame,Pass,,Info
+QC-009,AST-002006,2026-03-19T08:01:01.112Z,video_levels,Pass,,Info
+QC-010,AST-002006,2026-03-19T08:01:02.334Z,audio_levels,Pass,,Info
+QC-011,AST-002006,2026-03-19T08:01:03.556Z,closed_captions,Fail,Missing captions at 00:12:34-00:13:01,High
+QC-012,AST-002006,2026-03-19T08:01:04.778Z,frame_rate,Pass,,Info
+QC-013,AST-002006,2026-03-19T08:01:05.890Z,resolution,Pass,,Info
+QC-014,AST-002006,2026-03-19T08:01:06.223Z,audio_sync,Pass,,Info
+QC-015,AST-003010,2026-03-19T08:02:01.445Z,video_levels,Pass,,Info
+QC-016,AST-003010,2026-03-19T08:02:02.667Z,audio_levels,Warning,Low audio at 00:22:15-00:22:45,Medium
+QC-017,AST-003010,2026-03-19T08:02:03.112Z,closed_captions,Pass,,Info
+QC-018,AST-003010,2026-03-19T08:02:04.334Z,color_space,Pass,,Info
+QC-019,AST-003010,2026-03-19T08:02:05.556Z,black_frame,Pass,,Info
+QC-020,AST-005007,2026-03-19T08:03:01.778Z,video_levels,Pass,,Info
+QC-021,AST-005007,2026-03-19T08:03:02.890Z,audio_levels,Pass,,Info
+QC-022,AST-005007,2026-03-19T08:03:03.223Z,vfx_render,Fail,Incomplete VFX composite at 00:35:12,Critical
+QC-023,AST-005007,2026-03-19T08:03:04.445Z,color_space,Warning,HDR to SDR conversion clipping at highlights,Medium
+QC-024,AST-005007,2026-03-19T08:03:05.667Z,frame_rate,Pass,,Info
+QC-025,AST-005007,2026-03-19T08:03:06.112Z,resolution,Pass,,Info
+QC-026,AST-005007,2026-03-19T08:03:07.334Z,closed_captions,Pass,,Info
+QC-027,AST-010003,2026-03-19T08:04:01.556Z,video_levels,Fail,Signal exceeds broadcast safe at 00:08:22,Critical
+QC-028,AST-010003,2026-03-19T08:04:02.778Z,audio_levels,Fail,Audio clipping detected at multiple points,Critical
+QC-029,AST-010003,2026-03-19T08:04:03.890Z,closed_captions,Fail,Captions out of sync by 3.2 seconds,High
+QC-030,AST-010003,2026-03-19T08:04:04.223Z,accessibility,Fail,No audio description track present,Critical
+QC-031,AST-010003,2026-03-19T08:04:05.445Z,loudness,Fail,Average loudness -18 LKFS below -24 LKFS target,High
+QC-032,AST-010003,2026-03-19T08:04:06.667Z,frame_rate,Pass,,Info
+QC-033,AST-004003,2026-03-19T08:05:01.112Z,video_levels,Pass,,Info
+QC-034,AST-004003,2026-03-19T08:05:02.334Z,audio_levels,Pass,,Info
+QC-035,AST-004003,2026-03-19T08:05:03.556Z,audio_mix,Warning,5.1 surround rear channels low,Low
+QC-036,AST-004003,2026-03-19T08:05:04.778Z,closed_captions,Pass,,Info
+QC-037,AST-004003,2026-03-19T08:05:05.890Z,frame_rate,Pass,,Info
+QC-038,AST-012004,2026-03-19T08:06:01.223Z,video_levels,Pass,,Info
+QC-039,AST-012004,2026-03-19T08:06:02.445Z,audio_levels,Pass,,Info
+QC-040,AST-012004,2026-03-19T08:06:03.667Z,resolution,Warning,Upscaled from 720p source detected,Medium
+QC-041,AST-012004,2026-03-19T08:06:04.112Z,frame_rate,Pass,,Info
+QC-042,AST-012005,2026-03-19T08:06:05.334Z,video_levels,Pass,,Info
+QC-043,AST-012005,2026-03-19T08:06:06.556Z,audio_levels,Pass,,Info
+QC-044,AST-012005,2026-03-19T08:06:07.778Z,resolution,Warning,Upscaled from 720p source detected,Medium
+QC-045,AST-009004,2026-03-19T08:07:01.890Z,video_levels,Pass,,Info
+QC-046,AST-009004,2026-03-19T08:07:02.223Z,audio_levels,Pass,,Info
+QC-047,AST-009004,2026-03-19T08:07:03.445Z,closed_captions,Pass,,Info
+QC-048,AST-009004,2026-03-19T08:07:04.667Z,color_space,Pass,,Info
+QC-049,AST-006002,2026-03-19T08:08:01.112Z,video_levels,Pass,,Info
+QC-050,AST-006002,2026-03-19T08:08:02.334Z,audio_levels,Pass,,Info
+QC-051,AST-006002,2026-03-19T08:08:03.556Z,closed_captions,Pass,,Info
+QC-052,AST-006002,2026-03-19T08:08:04.778Z,frame_rate,Pass,,Info
+QC-053,AST-008002,2026-03-19T08:09:01.890Z,video_levels,Pass,,Info
+QC-054,AST-008002,2026-03-19T08:09:02.223Z,audio_levels,Pass,,Info
+QC-055,AST-008002,2026-03-19T08:09:03.445Z,closed_captions,Pass,,Info
+QC-056,AST-008002,2026-03-19T08:09:04.667Z,accessibility,Pass,,Info
+QC-057,AST-011003,2026-03-19T08:10:01.112Z,video_levels,Warning,Near broadcast limit at 00:15:33,Low
+QC-058,AST-011003,2026-03-19T08:10:02.334Z,audio_levels,Pass,,Info
+QC-059,AST-011003,2026-03-19T08:10:03.556Z,closed_captions,Pass,,Info
+QC-060,AST-011003,2026-03-19T08:10:04.778Z,loudness,Pass,,Info
+QC-061,AST-007002,2026-03-19T08:11:01.890Z,video_levels,Pass,,Info
+QC-062,AST-007002,2026-03-19T08:11:02.223Z,audio_levels,Pass,,Info
+QC-063,AST-007002,2026-03-19T08:11:03.445Z,closed_captions,Pass,,Info
+QC-064,AST-013002,2026-03-19T08:12:01.667Z,video_levels,Pass,,Info
+QC-065,AST-013002,2026-03-19T08:12:02.112Z,audio_levels,Pass,,Info
+QC-066,AST-013002,2026-03-19T08:12:03.334Z,audio_mix,Warning,Podcast normalization slightly off,Low
+QC-067,AST-014001,2026-03-19T08:13:01.556Z,video_levels,Pass,,Info
+QC-068,AST-014001,2026-03-19T08:13:02.778Z,audio_levels,Pass,,Info
+QC-069,AST-014001,2026-03-19T08:13:03.890Z,color_space,Pass,,Info
+QC-070,AST-015001,2026-03-19T08:14:01.223Z,video_levels,Pass,,Info
+QC-071,AST-015001,2026-03-19T08:14:02.445Z,audio_levels,Pass,,Info
+QC-072,AST-015001,2026-03-19T08:14:03.667Z,closed_captions,Warning,Captions timing slightly off at end credits,Low
+QC-073,AST-005008,2026-03-19T08:15:01.112Z,video_levels,Pass,,Info
+QC-074,AST-005008,2026-03-19T08:15:02.334Z,vfx_render,Pass,,Info
+QC-075,AST-005008,2026-03-19T08:15:03.556Z,color_space,Pass,,Info
+QC-076,AST-005008,2026-03-19T08:15:04.778Z,audio_levels,Pass,,Info
+QC-077,AST-002007,2026-03-19T08:16:01.890Z,video_levels,Pass,,Info
+QC-078,AST-002007,2026-03-19T08:16:02.223Z,audio_levels,Pass,,Info
+QC-079,AST-002007,2026-03-19T08:16:03.445Z,closed_captions,Pass,,Info
+QC-080,AST-002007,2026-03-19T08:16:04.667Z,frame_rate,Pass,,Info

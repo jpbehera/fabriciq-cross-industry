@@ -1,0 +1,21 @@
+audit_id,nurse_id,patient_id,encounter_id,unit_id,audit_date,auditor,documentation_completeness_pct,timeliness_score,accuracy_score,legibility_score,assessment_complete,vitals_on_time,mar_complete,care_plan_current,handoff_documented,progress_note_quality,overall_quality_grade,deficiencies_noted,corrective_action_needed
+AUD-001,NRS-001,PAT-001,ENC-001,UNIT-001,2026-02-24,Quality Dept,95,88,92,95,Yes,Yes,Yes,Yes,Yes,Good,B+,Minor: 1 vital set documented 15 min late,No
+AUD-002,NRS-002,PAT-003,ENC-003,UNIT-001,2026-02-24,Quality Dept,82,68,85,88,Yes,No,Yes,Partial,Yes,Adequate,C+,"Vitals delayed 45 min; care plan not fully updated; progress note repetitive",Yes - training
+AUD-003,NRS-003,PAT-007,ENC-007,UNIT-001,2026-02-24,Quality Dept,98,95,96,98,Yes,Yes,Yes,Yes,Yes,Excellent,A,None,No
+AUD-004,NRS-004,PAT-013,ENC-013,UNIT-001,2026-02-25,Quality Dept,78,62,80,85,Yes,No,Partial,No,Yes,Below Standard,C-,"Discharge documentation incomplete; medication reconciliation gaps; assessments missing elements",Yes - mentoring
+AUD-005,NRS-005,PAT-016,ENC-016,UNIT-001,2026-02-24,Quality Dept,92,85,90,92,Yes,Yes,Yes,Yes,Yes,Good,B,Minor: I&O totals not calculated at end of shift,No
+AUD-006,NRS-006,PAT-027,ENC-027,UNIT-001,2026-02-24,Quality Dept,72,55,75,82,Partial,No,Partial,No,Partial,Poor,D+,"Multiple late entries; incomplete assessment; wrong patient data in one field (corrected); care plan not initiated",Yes - remediation plan
+AUD-007,NRS-007,PAT-020,ENC-020,UNIT-001,2026-02-24,Quality Dept,94,90,93,95,Yes,Yes,Yes,Yes,Yes,Good,B+,Minor: Charge note administrative section incomplete,No
+AUD-008,NRS-008,PAT-028,ENC-028,UNIT-001,2026-02-25,Quality Dept,88,78,88,90,Yes,Partial,Yes,Yes,Yes,Adequate,B-,2 vital signs sets slightly delayed. Good overall.,No
+AUD-009,NRS-009,PAT-005,ENC-005,UNIT-002,2026-02-24,Quality Dept,96,82,95,96,Yes,Yes,Yes,Yes,Yes,Excellent,A-,Minor: hourly neuro checks documented q2h instead of q1h for 1 period,No
+AUD-010,NRS-010,PAT-002,ENC-002,UNIT-002,2026-02-24,Quality Dept,98,96,98,98,Yes,Yes,Yes,Yes,Yes,Excellent,A+,None - exemplary documentation,No
+AUD-011,NRS-011,PAT-008,ENC-008,UNIT-002,2026-02-24,Quality Dept,95,88,94,96,Yes,Yes,Yes,Yes,Yes,Good,A-,Minor: interdisciplinary note not co-signed,No
+AUD-012,NRS-012,PAT-022,ENC-022,UNIT-002,2026-02-24,Quality Dept,85,72,88,90,Yes,No,Yes,Partial,Yes,Adequate,B-,"Code documentation complete but some entries back-timed; care plan needs update post-code",Yes - coaching
+AUD-013,NRS-013,PAT-029,ENC-029,UNIT-002,2026-02-25,Quality Dept,90,84,92,94,Yes,Yes,Yes,Yes,Yes,Good,B,Good for first ICU patient of this acuity,No
+AUD-014,NRS-014,PAT-021,ENC-021,UNIT-002,2026-02-25,Quality Dept,76,60,82,86,Partial,No,Partial,No,Yes,Below Standard,C,"Incomplete neuro assessments; med times inconsistent; care plan not individualized - appears copy-pasted",Yes - mentoring
+AUD-015,NRS-015,PAT-018,ENC-018,UNIT-003,2026-02-24,Quality Dept,93,86,92,94,Yes,Yes,Yes,Yes,Yes,Good,B+,Good ED documentation under high volume,No
+AUD-016,NRS-016,PAT-025,ENC-025,UNIT-003,2026-02-24,Quality Dept,96,92,95,96,Yes,Yes,Yes,Yes,Yes,Excellent,A,Charge nurse maintains excellent documentation standards,No
+AUD-017,NRS-017,PAT-026,ENC-026,UNIT-003,2026-02-25,Quality Dept,74,52,78,84,Partial,No,Partial,No,Partial,Poor,D+,"Significant documentation delays; assessment gaps; handoff documentation incomplete",Yes - remediation plan
+AUD-018,NRS-018,PAT-025,ENC-025,UNIT-003,2026-02-24,Quality Dept,91,88,90,92,Yes,Yes,Yes,Yes,Yes,Good,B,Solid night shift documentation,No
+AUD-019,NRS-019,PAT-026,ENC-026,UNIT-003,2026-02-25,Quality Dept,80,64,82,86,Yes,No,Yes,Partial,Partial,Adequate,C+,"Late documentation from high volume; handoff incomplete for 2 patients",Yes - coaching
+AUD-020,NRS-020,PAT-026,ENC-026,UNIT-003,2026-02-25,Quality Dept,88,80,88,90,Yes,Partial,Yes,Yes,Yes,Adequate,B-,Some delayed entries but complete overall,No

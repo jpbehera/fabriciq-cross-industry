@@ -1,0 +1,81 @@
+escalation_id,ticket_id,from_tier,to_tier,timestamp,reason,doc_time_min,open_items,engineer_from,engineer_to
+ESC-001,TKT-0001,Tier1,Tier2,2026-02-23T07:30:00Z,Fiber cut requires field dispatch and splicing crew,15,Site access coordination; splice crew ETA,ENG-005,ENG-001
+ESC-002,TKT-0003,Tier1,Tier2,2026-02-23T10:15:00Z,BGP issue beyond NOC Analyst skillset,12,Peer router config review needed,ENG-022,ENG-002
+ESC-003,TKT-0005,Tier2,Tier3,2026-02-23T14:45:00Z,DWDM issue requires optical engineering expertise,20,OTDR scheduling; vendor TAC engagement,ENG-002,ENG-003
+ESC-004,TKT-0008,Tier1,Tier2,2026-02-24T08:20:00Z,Security incident requires senior analyst investigation,18,Forensic data collection; IOC analysis,ENG-022,ENG-004
+ESC-005,TKT-0008,Tier2,Tier3,2026-02-24T12:30:00Z,DDoS attack escalation to security lead,25,Upstream coordination; scrubbing center activation,ENG-004,ENG-018
+ESC-006,TKT-0012,Tier1,Tier2,2026-02-24T16:10:00Z,Equipment failure requires hardware replacement planning,10,Spare inventory check; dispatch scheduling,ENG-014,ENG-005
+ESC-007,TKT-0015,Tier1,Tier2,2026-02-25T06:45:00Z,Capacity issue needs planning engineer assessment,12,Traffic analysis report; augmentation options,ENG-022,ENG-006
+ESC-008,TKT-0018,Tier2,Tier3,2026-02-25T11:30:00Z,MPLS core issue affecting multiple segments,22,Multi-segment impact assessment; change window request,ENG-011,ENG-002
+ESC-009,TKT-0022,Tier1,Tier2,2026-02-25T15:20:00Z,Environmental alarm needs facility dispatch,8,Building access request; HVAC vendor contact,ENG-014,ENG-012
+ESC-010,TKT-0025,Tier1,Tier2,2026-02-26T07:00:00Z,Customer SLA breach requires senior handling,15,SLA report generation; customer notification draft,ENG-022,ENG-016
+ESC-011,TKT-0025,Tier2,Tier3,2026-02-26T10:45:00Z,Multiple SLA breaches need management review,20,Executive summary; remediation plan; customer meeting,ENG-016,ENG-018
+ESC-012,TKT-0030,Tier1,Tier2,2026-02-26T14:30:00Z,Core router issue requires CCIE-level troubleshooting,14,Crash dump analysis; TAC case opening,ENG-005,ENG-017
+ESC-013,TKT-0035,Tier2,Tier3,2026-02-27T08:15:00Z,Recurring fiber issue needs permanent engineering solution,25,Route redesign evaluation; cost analysis,ENG-001,ENG-003
+ESC-014,TKT-0040,Tier1,Tier2,2026-02-27T13:00:00Z,Multi-site power event beyond NOC scope,16,Generator status across sites; load shedding plan,ENG-014,ENG-012
+ESC-015,TKT-0040,Tier2,Tier3,2026-02-27T16:30:00Z,Extended power outage needs senior engineering,22,Utility coordination; temporary power planning,ENG-012,ENG-001
+ESC-016,TKT-0045,Tier1,Tier2,2026-02-28T07:45:00Z,VoIP quality affecting enterprise customers,12,QoS data collection; customer impact analysis,ENG-022,ENG-016
+ESC-017,TKT-0050,Tier1,Tier2,2026-02-28T11:20:00Z,Firmware vulnerability requires security assessment,18,CVE analysis; affected device inventory,ENG-005,ENG-004
+ESC-018,TKT-0050,Tier2,Tier3,2026-02-28T15:00:00Z,Critical vulnerability needs emergency patch window,28,Patch validation; change advisory board emergency,ENG-004,ENG-018
+ESC-019,TKT-0055,Tier1,Tier2,2026-03-01T06:30:00Z,Underground cable fault needs field investigation,10,Utility locate request; excavation permit,ENG-014,ENG-001
+ESC-020,TKT-0060,Tier2,Tier3,2026-03-01T10:15:00Z,DWDM wavelength failure on critical enterprise circuit,20,Customer notification; alternate path provisioning,ENG-003,ENG-013
+ESC-021,TKT-0065,Tier1,Tier2,2026-03-01T14:45:00Z,Microwave link fade beyond standard troubleshooting,14,Path analysis; antenna alignment check scheduling,ENG-022,ENG-012
+ESC-022,TKT-0070,Tier1,Tier2,2026-03-02T07:00:00Z,Customer escalation requesting management attention,16,Escalation history; SLA performance summary,ENG-005,ENG-016
+ESC-023,TKT-0070,Tier2,Tier3,2026-03-02T11:30:00Z,VP-level customer complaint about repeated issues,30,Executive incident report; service improvement plan,ENG-016,ENG-018
+ESC-024,TKT-0075,Tier1,Tier2,2026-03-02T14:20:00Z,GPON issue affecting residential neighborhood,10,Customer notification batch; estimated restore time,ENG-014,ENG-001
+ESC-025,TKT-0080,Tier2,Tier3,2026-03-03T08:00:00Z,Submarine cable alarm needs specialized team,22,Cable ship availability; alternate routing capacity,ENG-013,ENG-003
+ESC-026,TKT-0085,Tier1,Tier2,2026-03-03T11:45:00Z,SD-WAN overlay failure affecting branch offices,14,Branch site inventory; overlay topology map,ENG-022,ENG-011
+ESC-027,TKT-0090,Tier1,Tier2,2026-03-03T15:30:00Z,Data center interconnect latency issue,12,Latency measurement report; path analysis,ENG-005,ENG-011
+ESC-028,TKT-0095,Tier2,Tier3,2026-03-04T07:15:00Z,Persistent security alerts need threat hunting,25,IOC correlation; threat intelligence review,ENG-004,ENG-018
+ESC-029,TKT-0100,Tier1,Tier2,2026-03-04T10:00:00Z,Enterprise circuit degradation SLA at risk,15,SLA countdown tracker; customer liaison,ENG-022,ENG-006
+ESC-030,TKT-0100,Tier2,Tier3,2026-03-04T14:30:00Z,Multi-day circuit issue needs permanent fix,22,Fiber route analysis; capital project request,ENG-006,ENG-003
+ESC-031,TKT-0105,Tier1,Tier2,2026-03-05T06:45:00Z,Core network convergence issue,12,IGP adjacency map; convergence timeline,ENG-014,ENG-017
+ESC-032,TKT-0110,Tier1,Tier2,2026-03-05T10:30:00Z,EVPN fabric issue in data center,16,VxLAN VNI status; fabric topology review,ENG-005,ENG-011
+ESC-033,TKT-0115,Tier2,Tier3,2026-03-05T14:15:00Z,Optical network degradation trend needs analysis,20,OSNR trending data; fiber plant assessment,ENG-013,ENG-003
+ESC-034,TKT-0120,Tier1,Tier2,2026-03-06T07:00:00Z,Wireless controller AP mass disassociation,14,WLC config backup; AP inventory affected,ENG-022,ENG-005
+ESC-035,TKT-0125,Tier1,Tier2,2026-03-06T10:45:00Z,BGP route leak from customer affecting other customers,18,Affected prefix list; customer notification,ENG-005,ENG-017
+ESC-036,TKT-0125,Tier2,Tier3,2026-03-06T14:30:00Z,BGP leak requires route policy redesign,24,Policy redesign document; deployment plan,ENG-017,ENG-002
+ESC-037,TKT-0130,Tier1,Tier2,2026-03-07T06:30:00Z,IPv6 deployment issue beyond NOC expertise,12,IPv6 addressing plan; transition technology review,ENG-014,ENG-002
+ESC-038,TKT-0135,Tier1,Tier2,2026-03-07T10:15:00Z,Multicast service failure affecting media customer,16,PIM topology; RP status; customer service spec,ENG-022,ENG-017
+ESC-039,TKT-0140,Tier2,Tier3,2026-03-07T14:00:00Z,Recurring MPLS issue needs architecture review,26,MPLS topology audit; TE design document,ENG-011,ENG-002
+ESC-040,TKT-0145,Tier1,Tier2,2026-03-08T07:45:00Z,Metro Ethernet ring issue affecting enterprise,14,Ring status; customer impact matrix,ENG-005,ENG-006
+ESC-041,TKT-0150,Tier1,Tier2,2026-03-08T11:30:00Z,AAA infrastructure failure affecting login,10,AAA server status; failover config review,ENG-014,ENG-012
+ESC-042,TKT-0155,Tier2,Tier3,2026-03-08T15:15:00Z,Persistent optical issues need vendor engagement,22,Vendor TAC data; RMA processing,ENG-003,ENG-013
+ESC-043,TKT-0160,Tier1,Tier2,2026-03-09T06:30:00Z,Certificate expiry causing service disruption,12,Certificate inventory; renewal timeline,ENG-022,ENG-014
+ESC-044,TKT-0165,Tier1,Tier2,2026-03-09T10:00:00Z,NAC failure blocking legitimate users,14,NAC policy review; exception list update,ENG-005,ENG-016
+ESC-045,TKT-0170,Tier2,Tier3,2026-03-09T13:45:00Z,Complex QoS issue across multiple service classes,20,QoS topology map; traffic class analysis,ENG-016,ENG-002
+ESC-046,TKT-0175,Tier1,Tier2,2026-03-10T07:00:00Z,LISP fabric registration failure affecting campus,14,LISP topology; map-server status,ENG-014,ENG-017
+ESC-047,TKT-0180,Tier1,Tier2,2026-03-10T10:45:00Z,Power infrastructure alarm at remote site,10,Site power topology; generator fuel status,ENG-022,ENG-012
+ESC-048,TKT-0180,Tier2,Tier3,2026-03-10T14:30:00Z,Multi-site power vulnerability assessment needed,24,Power audit report; UPS replacement plan,ENG-012,ENG-001
+ESC-049,TKT-0185,Tier1,Tier2,2026-03-11T06:15:00Z,ISP peering session instability,12,Peering metrics; prefix count analysis,ENG-005,ENG-017
+ESC-050,TKT-0190,Tier2,Tier3,2026-03-11T10:00:00Z,Ransomware containment needs IR team,28,Containment checklist; backup verification; legal notification,ENG-004,ENG-018
+ESC-051,TKT-0195,Tier1,Tier2,2026-03-11T13:45:00Z,GPON splitter issue affecting multiple customers,10,Customer list; splitter location; replacement parts,ENG-014,ENG-001
+ESC-052,TKT-0200,Tier1,Tier2,2026-03-12T07:30:00Z,Segment routing conflict in core network,16,SR SRGB allocation; node SID mapping,ENG-022,ENG-011
+ESC-053,TKT-0205,Tier2,Tier3,2026-03-12T11:15:00Z,Complex optical network issue crossing multiple spans,22,End-to-end optical budget; span loss data,ENG-013,ENG-003
+ESC-054,TKT-0210,Tier1,Tier2,2026-03-12T15:00:00Z,Wireless rogue AP security concern,14,Rogue AP location data; RF scan results,ENG-005,ENG-016
+ESC-055,TKT-0215,Tier1,Tier2,2026-03-13T06:45:00Z,Customer requesting expedited RCA delivery,12,RCA timeline; investigation status,ENG-022,ENG-016
+ESC-056,TKT-0215,Tier2,Tier3,2026-03-13T10:30:00Z,Customer threatening contract termination,30,Contract review; loss analysis; retention offer,ENG-016,ENG-018
+ESC-057,TKT-0220,Tier1,Tier2,2026-03-13T14:15:00Z,VxLAN VTEP issue in new DC deployment,16,DC fabric topology; VTEP mapping,ENG-014,ENG-011
+ESC-058,TKT-0225,Tier1,Tier2,2026-03-14T07:00:00Z,SNMP monitoring gap affecting visibility,10,Affected device list; SNMP config audit,ENG-005,ENG-012
+ESC-059,TKT-0230,Tier2,Tier3,2026-03-14T10:45:00Z,Submarine cable system performance degradation,22,Cable system specs; repair ship scheduling,ENG-013,ENG-003
+ESC-060,TKT-0235,Tier1,Tier2,2026-03-14T14:30:00Z,Multi-protocol label issue on edge devices,14,Protocol convergence data; configuration review,ENG-022,ENG-017
+ESC-061,TKT-0240,Tier1,Tier2,2026-03-15T06:30:00Z,Campus network storm control failure,12,Storm control config; affected VLAN list,ENG-014,ENG-016
+ESC-062,TKT-0245,Tier2,Tier3,2026-03-15T10:15:00Z,Persistent capacity issues on major trunk,20,Capacity planning data; augmentation budget,ENG-006,ENG-002
+ESC-063,TKT-0250,Tier1,Tier2,2026-03-15T14:00:00Z,MACsec failure on high-security link,16,MACsec key exchange logs; cipher config,ENG-005,ENG-016
+ESC-064,TKT-0255,Tier1,Tier2,2026-03-16T07:45:00Z,PIM RP failover not working correctly,14,PIM BSR/RP status; multicast topology,ENG-022,ENG-017
+ESC-065,TKT-0260,Tier2,Tier3,2026-03-16T11:30:00Z,Critical enterprise customer fiber reroute planning,24,Route engineering study; permit requirements,ENG-001,ENG-003
+ESC-066,TKT-0265,Tier1,Tier2,2026-03-16T15:15:00Z,DHCP snooping blocking legitimate traffic,10,DHCP snooping binding table; trust config,ENG-014,ENG-016
+ESC-067,TKT-0270,Tier1,Tier2,2026-03-17T06:30:00Z,Flex grid spectrum contention on long-haul,16,Spectrum utilization map; channel plan,ENG-005,ENG-013
+ESC-068,TKT-0270,Tier2,Tier3,2026-03-17T10:15:00Z,Spectrum re-planning needed for new wavelengths,22,Spectral engineering study; cost estimate,ENG-013,ENG-003
+ESC-069,TKT-0275,Tier1,Tier2,2026-03-17T14:00:00Z,CAM table overflow causing intermittent drops,12,MAC address analysis; VLAN pruning plan,ENG-022,ENG-014
+ESC-070,TKT-0280,Tier1,Tier2,2026-03-18T07:45:00Z,QoS DSCP remarking affecting premium services,14,DSCP marking map; policy verification data,ENG-005,ENG-016
+ESC-071,TKT-0285,Tier2,Tier3,2026-03-18T11:30:00Z,LISP fabric scaling issue in growing campus,20,LISP map-server capacity; site scaling plan,ENG-017,ENG-002
+ESC-072,TKT-0290,Tier1,Tier2,2026-03-18T15:15:00Z,Metro DWDM add/drop port alarm on customer circuit,16,Customer SLA status; optical path data,ENG-014,ENG-001
+ESC-073,TKT-0290,Tier2,Tier3,2026-03-19T07:00:00Z,DWDM issue requires optical plant assessment,22,Fiber plant report; optical budget analysis,ENG-001,ENG-013
+ESC-074,TKT-0295,Tier1,Tier2,2026-03-19T10:45:00Z,Ethernet CFM fault on enterprise EVC,12,CFM MEP/MIP status; service topology,ENG-022,ENG-002
+ESC-075,TKT-0295,Tier2,Tier3,2026-03-19T14:30:00Z,Persistent ETH service issue needs vendor support,20,Vendor TAC data; equipment diagnostics,ENG-002,ENG-003
+ESC-076,TKT-0298,Tier1,Tier2,2026-03-20T07:30:00Z,ROADM degree power imbalance affecting channels,16,ROADM status; power equalization data,ENG-005,ENG-013
+ESC-077,TKT-0298,Tier2,Tier3,2026-03-20T11:15:00Z,ROADM calibration failure needs vendor field eng,24,Vendor engagement; calibration procedure,ENG-013,ENG-003
+ESC-078,TKT-0300,Tier1,Tier2,2026-03-20T15:00:00Z,Lateral movement detection needs IR escalation,18,IOC data; network segmentation status,ENG-005,ENG-004
+ESC-079,TKT-0300,Tier2,Tier3,2026-03-21T07:00:00Z,Active threat requires full incident response,30,IR playbook activation; containment plan; evidence preservation,ENG-004,ENG-018
+ESC-080,TKT-0300,Tier3,Management,2026-03-21T12:00:00Z,Major security incident requiring exec notification,35,Exec briefing; legal review; regulatory notification; PR statement,ENG-018,ENG-018

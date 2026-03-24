@@ -1,0 +1,21 @@
+well_id,name,basin,field,operator,spud_date,status,depth_ft,production_bpd
+WELL-001,PERM-100,Permian,Permian Field A,Operator Alpha,2023-08-22,producing,18074,2751
+WELL-002,EAGL-101,Eagle Ford,Eagle Ford Field B,Operator Beta,2023-01-04,producing,19355,2119
+WELL-003,BAKK-102,Bakken,Bakken Field C,Operator Gamma,2023-04-15,drilling,13123,0
+WELL-004,DJ B-103,DJ Basin,DJ Basin Field A,Operator Alpha,2023-08-09,drilling,16078,0
+WELL-005,MARC-104,Marcellus,Marcellus Field B,Operator Beta,2023-11-22,P&A,12540,0
+WELL-006,GULF-105,Gulf of Mexico,Gulf of Mexico Field C,Operator Gamma,2023-02-04,completing,5235,0
+WELL-007,ANAD-106,Anadarko,Anadarko Field A,Operator Alpha,2023-10-27,drilling,12501,0
+WELL-008,POWD-107,Powder River,Powder River Field B,Operator Beta,2023-10-29,drilling,15827,0
+WELL-009,PERM-108,Permian,Permian Field C,Operator Gamma,2023-10-27,P&A,12798,0
+WELL-010,EAGL-109,Eagle Ford,Eagle Ford Field A,Operator Alpha,2023-07-13,shut-in,12020,0
+WELL-011,BAKK-110,Bakken,Bakken Field B,Operator Beta,2023-03-01,completing,20488,0
+WELL-012,DJ B-111,DJ Basin,DJ Basin Field C,Operator Gamma,2023-07-31,shut-in,18338,0
+WELL-013,MARC-112,Marcellus,Marcellus Field A,Operator Alpha,2023-08-27,drilling,8176,0
+WELL-014,GULF-113,Gulf of Mexico,Gulf of Mexico Field B,Operator Beta,2023-04-26,producing,18879,1683
+WELL-015,ANAD-114,Anadarko,Anadarko Field C,Operator Gamma,2023-04-07,drilling,8224,0
+WELL-016,POWD-115,Powder River,Powder River Field A,Operator Alpha,2023-11-01,shut-in,16118,0
+WELL-017,PERM-116,Permian,Permian Field B,Operator Beta,2023-10-08,completing,11278,0
+WELL-018,EAGL-117,Eagle Ford,Eagle Ford Field C,Operator Gamma,2023-08-27,P&A,19700,0
+WELL-019,BAKK-118,Bakken,Bakken Field A,Operator Alpha,2023-09-22,shut-in,11012,0
+WELL-020,DJ B-119,DJ Basin,DJ Basin Field B,Operator Beta,2023-07-13,shut-in,13185,0

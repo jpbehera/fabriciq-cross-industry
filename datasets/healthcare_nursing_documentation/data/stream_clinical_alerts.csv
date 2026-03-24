@@ -1,0 +1,39 @@
+alert_id,nurse_id,patient_id,unit_id,timestamp,alert_source,alert_type,alert_category,severity,description,suppressed,was_actionable,action_taken,response_time_seconds,interrupted_task,documentation_delay_seconds,related_order_id,fatigue_score
+ALT-001,NRS-001,PAT-001,UNIT-001,2026-02-23T07:15:20,EHR-CDS,DrugInteraction,Medication Safety,Warning,Metoprolol-Diltiazem: Additive bradycardic effect,No,Yes,Acknowledged,8,Documentation,45,,2
+ALT-002,NRS-001,PAT-001,UNIT-001,2026-02-23T07:30:45,EHR-CDS,DrugInteraction,Medication Safety,Warning,Lisinopril-Potassium: Risk of hyperkalemia,No,No,Dismissed,3,Documentation,12,,3
+ALT-003,NRS-001,PAT-002,UNIT-001,2026-02-23T08:05:30,EHR-CDS,CriticalLab,Lab Results,Critical,Potassium 6.2 mEq/L - Critical High,No,Yes,Escalated,5,Chart Review,180,ORD-4401,1
+ALT-004,NRS-001,PAT-002,UNIT-001,2026-02-23T08:45:15,EHR-CDS,FallRisk,Patient Safety,Warning,Morse Fall Scale Score: 65 - High Risk,No,Yes,Acknowledged,12,Vitals Entry,60,,2
+ALT-005,NRS-001,PAT-003,UNIT-001,2026-02-23T09:10:00,EHR-CDS,DuplicateOrder,Order Safety,Info,Duplicate acetaminophen order within 4 hours,No,Yes,Acknowledged,6,Documentation,30,ORD-4402,3
+ALT-006,NRS-001,PAT-003,UNIT-001,2026-02-23T09:30:45,EHR-CDS,DrugInteraction,Medication Safety,Warning,Warfarin-Aspirin: Increased bleeding risk,No,No,Dismissed,2,Documentation,8,,4
+ALT-007,NRS-001,PAT-004,UNIT-001,2026-02-23T10:00:20,EHR-CDS,AllergyWarning,Medication Safety,Critical,Patient allergic to Sulfa - Sulfamethoxazole ordered,No,Yes,Overridden,15,Medication Admin,120,ORD-4403,1
+ALT-008,NRS-002,PAT-005,UNIT-001,2026-02-23T07:20:30,EHR-CDS,DrugInteraction,Medication Safety,Warning,Metformin-Contrast Dye: Risk of lactic acidosis,No,Yes,Acknowledged,10,Documentation,55,,2
+ALT-009,NRS-002,PAT-005,UNIT-001,2026-02-23T07:50:15,EHR-CDS,CriticalLab,Lab Results,Critical,Blood Glucose 42 mg/dL - Critical Low,No,Yes,Escalated,4,Chart Review,240,ORD-4404,1
+ALT-010,NRS-002,PAT-006,UNIT-001,2026-02-23T08:15:00,EHR-CDS,DrugInteraction,Medication Safety,Info,Omeprazole-Clopidogrel: Reduced clopidogrel efficacy,Yes,No,Auto-Suppressed,0,None,0,,5
+ALT-011,NRS-002,PAT-006,UNIT-001,2026-02-23T08:30:45,EHR-CDS,FallRisk,Patient Safety,Warning,Morse Fall Scale Score: 55 - Moderate Risk,No,Yes,Acknowledged,8,Documentation,35,,3
+ALT-012,NRS-002,PAT-007,UNIT-001,2026-02-23T09:00:20,EHR-CDS,DrugInteraction,Medication Safety,Warning,Amiodarone-Simvastatin: Risk of rhabdomyolysis,No,No,Dismissed,3,Documentation,10,,4
+ALT-013,NRS-002,PAT-008,UNIT-001,2026-02-23T09:45:30,EHR-CDS,DuplicateOrder,Order Safety,Info,Duplicate laxative order - active order exists,Yes,No,Auto-Suppressed,0,None,0,,5
+ALT-014,NRS-003,PAT-007,UNIT-001,2026-02-23T08:55:15,EHR-CDS,SepsisScreen,Sepsis,Critical,SIRS criteria met: Temp 38.5 HR 105 WBC 14.2,No,Yes,Escalated,6,Assessment,300,ORD-4405,1
+ALT-015,NRS-009,PAT-010,UNIT-002,2026-02-23T07:00:40,EHR-CDS,SepsisScreen,Sepsis,Critical,qSOFA Score 2: Altered mentation + SBP < 100,No,Yes,Escalated,4,ICU Assessment,90,,1
+ALT-016,NRS-009,PAT-010,UNIT-002,2026-02-23T07:30:15,EHR-CDS,CriticalLab,Lab Results,Critical,Lactate 4.8 mmol/L - Critical High,No,Yes,Escalated,3,Documentation,150,ORD-4406,1
+ALT-017,NRS-009,PAT-010,UNIT-002,2026-02-23T08:00:30,EHR-CDS,DrugInteraction,Medication Safety,Warning,Vasopressin-Norepinephrine: Monitor for ischemia,No,Yes,Acknowledged,5,IV Management,25,,2
+ALT-018,NRS-009,PAT-010,UNIT-002,2026-02-23T08:45:20,EHR-CDS,VentilatorBundle,Care Bundle,Info,VAP bundle compliance check due,No,Yes,Acknowledged,15,Documentation,45,,3
+ALT-019,NRS-009,PAT-010,UNIT-002,2026-02-23T09:15:00,EHR-CDS,CriticalLab,Lab Results,Critical,ABG pH 7.25 - Critical Low,No,Yes,Escalated,3,Vent Settings,120,ORD-4407,1
+ALT-020,NRS-009,PAT-010,UNIT-002,2026-02-23T09:50:30,EHR-CDS,DrugInteraction,Medication Safety,Warning,Propofol-Fentanyl: Additive respiratory depression,No,Yes,Acknowledged,6,Documentation,30,,2
+ALT-021,NRS-010,PAT-011,UNIT-002,2026-02-23T07:20:15,EHR-CDS,DrugInteraction,Medication Safety,Warning,Heparin-Enoxaparin: Duplicate anticoagulation,No,Yes,Acknowledged,5,ICU Assessment,40,,2
+ALT-022,NRS-010,PAT-011,UNIT-002,2026-02-23T08:10:45,EHR-CDS,CriticalLab,Lab Results,Critical,Troponin 2.8 ng/mL - Critical High,No,Yes,Escalated,4,Documentation,200,ORD-4408,1
+ALT-023,NRS-010,PAT-012,UNIT-002,2026-02-23T08:40:30,EHR-CDS,DrugInteraction,Medication Safety,Info,Pantoprazole-Tacrolimus: Monitor tacrolimus levels,Yes,No,Auto-Suppressed,0,None,0,,5
+ALT-024,NRS-010,PAT-012,UNIT-002,2026-02-23T09:30:15,EHR-CDS,SepsisScreen,Sepsis,Critical,NEWS2 Score 8: RR 28 HR 112 Temp 39.1,No,Yes,Escalated,5,IO Charting,180,ORD-4409,1
+ALT-025,NRS-011,PAT-013,UNIT-002,2026-02-23T08:30:00,EHR-CDS,InfusionAlert,Medication Safety,Warning,Norepinephrine rate exceeds protocol maximum,No,Yes,Acknowledged,8,Documentation,50,,2
+ALT-026,NRS-011,PAT-013,UNIT-002,2026-02-23T09:00:45,EHR-CDS,DrugInteraction,Medication Safety,Info,Midazolam-Fluconazole: Increased midazolam exposure,No,No,Dismissed,3,Documentation,12,,4
+ALT-027,NRS-015,PAT-021,UNIT-003,2026-02-23T06:56:05,EHR-CDS,AllergyWarning,Medication Safety,Critical,Patient allergic to Penicillin - Amoxicillin ordered,No,Yes,Overridden,18,Triage,90,ORD-4410,1
+ALT-028,NRS-015,PAT-021,UNIT-003,2026-02-23T07:20:30,EHR-CDS,CriticalLab,Lab Results,Critical,WBC 22.5 K/uL - Critical High,No,Yes,Escalated,5,Documentation,210,ORD-4411,1
+ALT-029,NRS-015,PAT-022,UNIT-003,2026-02-23T07:45:15,EHR-CDS,DrugInteraction,Medication Safety,Warning,Morphine-Benzodiazepine: Respiratory depression risk,No,Yes,Acknowledged,7,ED Documentation,35,,2
+ALT-030,NRS-015,PAT-022,UNIT-003,2026-02-23T08:50:20,EHR-CDS,CriticalLab,Lab Results,Critical,Troponin 5.1 ng/mL - Critical High,No,Yes,Escalated,3,Documentation,300,ORD-4412,1
+ALT-031,NRS-016,PAT-023,UNIT-003,2026-02-23T07:40:00,EHR-CDS,TraumaAlert,Patient Safety,Critical,Trauma activation - Level 1,No,Yes,Acknowledged,2,Triage,600,,1
+ALT-032,NRS-016,PAT-023,UNIT-003,2026-02-23T08:15:30,EHR-CDS,CriticalLab,Lab Results,Critical,Hemoglobin 6.8 g/dL - Critical Low,No,Yes,Escalated,4,Documentation,240,ORD-4413,1
+ALT-033,NRS-016,PAT-024,UNIT-003,2026-02-23T08:45:00,EHR-CDS,DrugInteraction,Medication Safety,Warning,Ketorolac-Aspirin: Increased GI bleeding risk,No,No,Dismissed,3,Documentation,10,,4
+ALT-034,NRS-017,PAT-025,UNIT-003,2026-02-23T08:30:15,EHR-CDS,FallRisk,Patient Safety,Warning,Morse Fall Scale Score: 70 - High Risk,No,Yes,Acknowledged,10,ED Documentation,55,,2
+ALT-035,NRS-017,PAT-025,UNIT-003,2026-02-23T09:15:45,EHR-CDS,SepsisScreen,Sepsis,Critical,qSOFA Score 2: RR > 22 and SBP < 100,No,Yes,Escalated,5,Documentation,180,ORD-4414,1
+ALT-036,NRS-017,PAT-026,UNIT-003,2026-02-23T09:40:00,EHR-CDS,DrugInteraction,Medication Safety,Info,Metoclopramide-Ondansetron: QT prolongation risk,No,No,Dismissed,2,Documentation,8,,4
+ALT-037,NRS-018,PAT-027,UNIT-003,2026-02-23T09:55:30,EHR-CDS,CriticalLab,Lab Results,Critical,INR 5.2 - Critical High,No,Yes,Escalated,4,Documentation,270,ORD-4415,1
+ALT-038,NRS-018,PAT-027,UNIT-003,2026-02-23T10:10:15,EHR-CDS,DrugInteraction,Medication Safety,Warning,Warfarin-Ciprofloxacin: Risk of over-anticoagulation,No,Yes,Acknowledged,6,Documentation,40,,2

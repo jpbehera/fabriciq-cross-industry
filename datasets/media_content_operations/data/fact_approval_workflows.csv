@@ -1,0 +1,81 @@
+approval_id,show_id,producer_id,timestamp,approval_type,status,approver,cycle_time_hours
+APR-001,SHW-001,PRD-001,2026-03-01T10:00:00.445Z,creative,Approved,Sarah Mitchell - Director,4.5
+APR-002,SHW-001,PRD-001,2026-03-01T14:30:00.112Z,network,Approved,NET-001 Standards,18.2
+APR-003,SHW-005,PRD-015,2026-03-01T11:15:00.778Z,creative,Approved,Marcus Webb - Director,6.0
+APR-004,SHW-005,PRD-015,2026-03-01T16:00:00.334Z,legal,Pending,Legal Review Board,0.0
+APR-005,SHW-002,PRD-002,2026-03-01T12:00:00.667Z,creative,Approved,Pat Williams - Director,3.2
+APR-006,SHW-003,PRD-003,2026-03-02T09:30:00.223Z,creative,Approved,Field Crew Lead,5.8
+APR-007,SHW-003,PRD-003,2026-03-02T15:00:00.890Z,standards_practices,Revision Required,Standards & Practices,0.0
+APR-008,SHW-009,PRD-006,2026-03-02T10:45:00.445Z,legal,Approved,Legal Review Board,24.5
+APR-009,SHW-009,PRD-006,2026-03-02T14:00:00.112Z,standards_practices,Approved,NET-003 Standards,8.0
+APR-010,SHW-012,PRD-013,2026-03-02T11:30:00.778Z,creative,Approved,Digital Content Lead,1.5
+APR-011,SHW-001,PRD-001,2026-03-03T09:00:00.334Z,client,Approved,GlobalTV Programming,36.0
+APR-012,SHW-005,PRD-015,2026-03-03T10:30:00.667Z,legal,Approved,Legal Review Board,42.0
+APR-013,SHW-005,PRD-015,2026-03-03T14:00:00.223Z,network,Pending,NET-002 Standards,0.0
+APR-014,SHW-010,PRD-022,2026-03-03T11:45:00.890Z,standards_practices,Revision Required,FCC Compliance Officer,0.0
+APR-015,SHW-011,PRD-004,2026-03-04T08:30:00.445Z,creative,Approved,Sports Director,2.0
+APR-016,SHW-001,PRD-001,2026-03-04T10:00:00.112Z,creative,Approved,Sarah Mitchell - Director,5.2
+APR-017,SHW-001,PRD-001,2026-03-04T14:30:00.778Z,standards_practices,Approved,NET-001 Standards,12.0
+APR-018,SHW-005,PRD-015,2026-03-04T09:15:00.334Z,network,Approved,NET-002 Standards,42.5
+APR-019,SHW-002,PRD-002,2026-03-04T11:00:00.667Z,creative,Approved,Pat Williams - Director,3.0
+APR-020,SHW-004,PRD-009,2026-03-04T12:30:00.223Z,legal,Approved,Legal Review Board,28.0
+APR-021,SHW-006,PRD-005,2026-03-05T09:00:00.890Z,creative,Approved,Documentary Review Panel,8.5
+APR-022,SHW-008,PRD-016,2026-03-05T10:30:00.445Z,creative,Approved,Lifestyle Content Lead,4.0
+APR-023,SHW-008,PRD-016,2026-03-05T14:00:00.112Z,network,Approved,NET-001 Standards,15.0
+APR-024,SHW-009,PRD-006,2026-03-05T11:15:00.778Z,client,Pending,NET-003 Programming,0.0
+APR-025,SHW-012,PRD-013,2026-03-05T12:00:00.334Z,creative,Approved,Digital Content Lead,1.2
+APR-026,SHW-001,PRD-001,2026-03-06T09:30:00.667Z,creative,Approved,James Chen - Director,4.8
+APR-027,SHW-005,PRD-015,2026-03-06T10:00:00.223Z,creative,Approved,Marcus Webb - Director,6.5
+APR-028,SHW-005,PRD-015,2026-03-06T15:00:00.890Z,legal,Pending,Legal Review Board,0.0
+APR-029,SHW-003,PRD-003,2026-03-06T11:30:00.445Z,standards_practices,Approved,Standards & Practices,72.0
+APR-030,SHW-003,PRD-003,2026-03-06T14:00:00.112Z,client,Revision Required,NET-001 Programming,0.0
+APR-031,SHW-007,PRD-005,2026-03-07T09:00:00.778Z,creative,Approved,Nature Documentary Board,10.0
+APR-032,SHW-009,PRD-006,2026-03-07T10:30:00.334Z,client,Approved,NET-003 Programming,44.0
+APR-033,SHW-013,PRD-020,2026-03-07T11:00:00.667Z,creative,Approved,Podcast Review Panel,2.5
+APR-034,SHW-011,PRD-004,2026-03-07T12:30:00.223Z,standards_practices,Approved,Sports Standards,6.0
+APR-035,SHW-014,PRD-017,2026-03-07T13:00:00.890Z,creative,Approved,Animation Director,3.5
+APR-036,SHW-001,PRD-001,2026-03-08T09:00:00.445Z,creative,Approved,Sarah Mitchell - Director,5.0
+APR-037,SHW-001,PRD-001,2026-03-08T14:30:00.112Z,network,Approved,NET-001 Standards,16.5
+APR-038,SHW-005,PRD-015,2026-03-08T10:00:00.778Z,legal,Approved,Legal Review Board,66.0
+APR-039,SHW-005,PRD-023,2026-03-08T11:30:00.334Z,creative,Approved,VFX Supervisor,8.0
+APR-040,SHW-010,PRD-022,2026-03-08T12:00:00.667Z,standards_practices,Approved,FCC Compliance Officer,120.0
+APR-041,SHW-002,PRD-002,2026-03-09T09:30:00.223Z,creative,Approved,Pat Williams - Director,2.8
+APR-042,SHW-009,PRD-006,2026-03-09T10:00:00.890Z,creative,Approved,Director Review,4.5
+APR-043,SHW-012,PRD-013,2026-03-09T11:00:00.445Z,creative,Approved,Digital Content Lead,1.0
+APR-044,SHW-001,PRD-001,2026-03-10T09:00:00.112Z,creative,Approved,Sarah Mitchell - Director,5.5
+APR-045,SHW-001,PRD-001,2026-03-10T14:00:00.778Z,standards_practices,Approved,NET-001 Standards,14.0
+APR-046,SHW-005,PRD-015,2026-03-10T10:30:00.334Z,creative,Approved,Ava DuVernay - Director,7.0
+APR-047,SHW-005,PRD-015,2026-03-10T15:00:00.667Z,network,Pending,NET-002 Standards,0.0
+APR-048,SHW-002,PRD-002,2026-03-10T11:00:00.223Z,network,Approved,NET-001 Standards,22.0
+APR-049,SHW-003,PRD-003,2026-03-10T12:00:00.890Z,client,Approved,NET-001 Programming,140.0
+APR-050,SHW-004,PRD-009,2026-03-10T13:30:00.445Z,creative,Approved,Director Review,5.0
+APR-051,SHW-006,PRD-005,2026-03-11T09:00:00.112Z,creative,Approved,Documentary Review Panel,9.5
+APR-052,SHW-006,PRD-005,2026-03-11T14:00:00.778Z,client,Approved,NET-005 Programming,120.0
+APR-053,SHW-008,PRD-016,2026-03-11T10:30:00.334Z,creative,Approved,Lifestyle Content Lead,3.5
+APR-054,SHW-009,PRD-006,2026-03-11T11:00:00.667Z,legal,Approved,Legal Review Board,26.0
+APR-055,SHW-014,PRD-017,2026-03-11T12:00:00.223Z,network,Approved,NET-002 Standards,12.0
+APR-056,SHW-001,PRD-001,2026-03-12T09:30:00.890Z,creative,Approved,Sarah Mitchell - Director,4.0
+APR-057,SHW-001,PRD-001,2026-03-12T13:00:00.445Z,client,Approved,GlobalTV Programming,48.0
+APR-058,SHW-005,PRD-015,2026-03-12T10:00:00.112Z,network,Approved,NET-002 Standards,66.0
+APR-059,SHW-010,PRD-022,2026-03-12T11:30:00.778Z,standards_practices,Approved,FCC Compliance Officer,8.0
+APR-060,SHW-012,PRD-013,2026-03-12T12:00:00.334Z,creative,Approved,Digital Content Lead,1.5
+APR-061,SHW-001,PRD-001,2026-03-13T09:00:00.667Z,creative,Approved,Sarah Mitchell - Director,5.8
+APR-062,SHW-001,PRD-001,2026-03-13T14:30:00.223Z,network,Approved,NET-001 Standards,18.0
+APR-063,SHW-005,PRD-015,2026-03-13T10:30:00.890Z,creative,Approved,Marcus Webb - Director,7.5
+APR-064,SHW-005,PRD-015,2026-03-13T15:00:00.445Z,legal,Pending,Legal Review Board,0.0
+APR-065,SHW-003,PRD-003,2026-03-13T11:00:00.112Z,creative,Approved,Field Crew Lead,5.5
+APR-066,SHW-004,PRD-024,2026-03-13T12:30:00.778Z,legal,Approved,Legal Review Board,30.0
+APR-067,SHW-007,PRD-005,2026-03-14T09:00:00.334Z,creative,Approved,Nature Documentary Board,11.0
+APR-068,SHW-007,PRD-005,2026-03-14T14:00:00.667Z,client,Pending,NET-005 Programming,0.0
+APR-069,SHW-013,PRD-020,2026-03-14T10:30:00.223Z,creative,Approved,Podcast Review Panel,2.0
+APR-070,SHW-011,PRD-004,2026-03-14T11:00:00.890Z,creative,Approved,Sports Director,2.5
+APR-071,SHW-001,PRD-001,2026-03-15T09:00:00.445Z,creative,Approved,Sarah Mitchell - Director,5.2
+APR-072,SHW-005,PRD-015,2026-03-15T10:30:00.112Z,creative,Approved,Marcus Webb - Director,8.0
+APR-073,SHW-005,PRD-023,2026-03-15T14:00:00.778Z,creative,Approved,VFX Supervisor,9.5
+APR-074,SHW-002,PRD-002,2026-03-15T11:30:00.334Z,creative,Approved,Pat Williams - Director,3.5
+APR-075,SHW-008,PRD-016,2026-03-16T09:00:00.667Z,creative,Approved,Lifestyle Content Lead,4.2
+APR-076,SHW-009,PRD-006,2026-03-16T10:30:00.223Z,creative,Approved,Director Review,4.0
+APR-077,SHW-001,PRD-001,2026-03-17T09:00:00.890Z,creative,Approved,Sarah Mitchell - Director,4.5
+APR-078,SHW-005,PRD-015,2026-03-18T10:00:00.445Z,creative,Approved,Marcus Webb - Director,6.0
+APR-079,SHW-001,PRD-001,2026-03-19T09:30:00.112Z,client,Approved,GlobalTV Programming,42.0
+APR-080,SHW-005,PRD-015,2026-03-19T14:00:00.778Z,network,Approved,NET-002 Standards,70.0

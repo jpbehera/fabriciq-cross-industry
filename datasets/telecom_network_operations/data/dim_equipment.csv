@@ -1,0 +1,51 @@
+equipment_id,name,vendor,model,site_id,site_type,region,install_date,firmware_version,criticality,status
+EQ-001,Core Router NE-1,Cisco,ASR 9922,SITE-NE-01,Central Office,Northeast,2022-03-15,7.9.2,Critical,Active
+EQ-002,Core Router NE-2,Juniper,MX960,SITE-NE-01,Central Office,Northeast,2022-03-15,22.4R3,Critical,Active
+EQ-003,Aggregation Switch NE-1,Cisco,NCS 5504,SITE-NE-02,Hub Site,Northeast,2023-01-20,7.8.1,High,Active
+EQ-004,Aggregation Switch NE-2,Cisco,NCS 5504,SITE-NE-03,Hub Site,Northeast,2023-01-25,7.8.1,High,Active
+EQ-005,OLT NE-1,Nokia,ISAM 7360,SITE-NE-04,Remote Terminal,Northeast,2023-06-10,R6.2.1,Medium,Active
+EQ-006,OLT NE-2,Nokia,ISAM 7360,SITE-NE-05,Remote Terminal,Northeast,2023-06-15,R6.2.1,Medium,Active
+EQ-007,5G gNodeB NE-1,Ericsson,6648,SITE-NE-06,Cell Tower,Northeast,2024-02-01,24A,High,Active
+EQ-008,5G gNodeB NE-2,Ericsson,6648,SITE-NE-07,Cell Tower,Northeast,2024-02-10,24A,High,Active
+EQ-009,Core Router SE-1,Cisco,ASR 9922,SITE-SE-01,Central Office,Southeast,2021-09-10,7.9.2,Critical,Active
+EQ-010,Core Router SE-2,Juniper,MX960,SITE-SE-01,Central Office,Southeast,2021-09-10,22.4R3,Critical,Active
+EQ-011,Aggregation Switch SE-1,Cisco,NCS 5504,SITE-SE-02,Hub Site,Southeast,2022-05-18,7.8.1,High,Active
+EQ-012,Aggregation Switch SE-2,Arista,7280R3,SITE-SE-03,Hub Site,Southeast,2022-06-01,4.31.1F,High,Active
+EQ-013,OLT SE-1,Calix,E9-2,SITE-SE-04,Remote Terminal,Southeast,2023-08-20,23.3,Medium,Active
+EQ-014,OLT SE-2,Calix,E9-2,SITE-SE-05,Remote Terminal,Southeast,2023-09-01,23.3,Medium,Active
+EQ-015,CMTS SE-1,Casa Systems,C100G,SITE-SE-06,Headend,Southeast,2022-11-15,8.2.4,High,Active
+EQ-016,5G gNodeB SE-1,Nokia,AirScale MBBP,SITE-SE-07,Cell Tower,Southeast,2024-05-20,24A,High,Active
+EQ-017,Core Router MW-1,Juniper,MX960,SITE-MW-01,Central Office,Midwest,2022-08-05,22.4R3,Critical,Active
+EQ-018,Aggregation Switch MW-1,Cisco,NCS 5504,SITE-MW-02,Hub Site,Midwest,2023-03-12,7.8.1,High,Active
+EQ-019,OLT MW-1,Nokia,ISAM 7360,SITE-MW-03,Remote Terminal,Midwest,2023-10-01,R6.2.1,Medium,Active
+EQ-020,OLT MW-2,Calix,E9-2,SITE-MW-04,Remote Terminal,Midwest,2023-10-15,23.3,Medium,Active
+EQ-021,5G gNodeB MW-1,Samsung,MT6402,SITE-MW-05,Cell Tower,Midwest,2024-07-01,24B,High,Active
+EQ-022,Core Router W-1,Cisco,ASR 9922,SITE-W-01,Central Office,West,2021-06-20,7.9.2,Critical,Active
+EQ-023,Core Router W-2,Juniper,MX10008,SITE-W-01,Central Office,West,2021-06-20,23.2R1,Critical,Active
+EQ-024,Aggregation Switch W-1,Arista,7280R3,SITE-W-02,Hub Site,West,2022-02-14,4.31.1F,High,Active
+EQ-025,Aggregation Switch W-2,Cisco,NCS 5504,SITE-W-03,Hub Site,West,2022-03-01,7.8.1,High,Active
+EQ-026,OLT W-1,Nokia,ISAM 7360,SITE-W-04,Remote Terminal,West,2023-04-10,R6.2.1,Medium,Active
+EQ-027,OLT W-2,Calix,E9-2,SITE-W-05,Remote Terminal,West,2023-04-20,23.3,Medium,Active
+EQ-028,5G gNodeB W-1,Ericsson,6648,SITE-W-06,Cell Tower,West,2024-01-15,24A,High,Active
+EQ-029,5G gNodeB W-2,Samsung,MT6402,SITE-W-07,Cell Tower,West,2024-03-22,24B,High,Active
+EQ-030,DWDM NE-1,Ciena,6500,SITE-NE-01,Central Office,Northeast,2021-01-10,11.2,Critical,Active
+EQ-031,DWDM SE-1,Ciena,6500,SITE-SE-01,Central Office,Southeast,2021-01-15,11.2,Critical,Active
+EQ-032,DWDM MW-1,Ciena,6500,SITE-MW-01,Central Office,Midwest,2021-02-01,11.2,Critical,Active
+EQ-033,DWDM W-1,Infinera,GX G42,SITE-W-01,Central Office,West,2021-02-10,6.1.3,Critical,Active
+EQ-034,Firewall NE-1,Palo Alto,PA-5260,SITE-NE-01,Central Office,Northeast,2022-07-10,11.1.2,Critical,Active
+EQ-035,Firewall SE-1,Fortinet,FG-3600E,SITE-SE-01,Central Office,Southeast,2022-07-15,7.4.2,Critical,Active
+EQ-036,Load Balancer NE-1,F5,BIG-IP i10800,SITE-NE-01,Central Office,Northeast,2022-09-01,17.1.1,High,Active
+EQ-037,DNS Server NE-1,Infoblox,NIOS 4030,SITE-NE-01,Central Office,Northeast,2023-02-15,9.0.3,High,Active
+EQ-038,DCIM Controller NE-1,Schneider,EcoStruxure IT,SITE-NE-01,Central Office,Northeast,2023-05-01,3.5.2,Medium,Active
+EQ-039,UPS NE-1,Eaton,9PXM,SITE-NE-01,Central Office,Northeast,2022-01-20,4.2.1,High,Active
+EQ-040,Generator NE-1,Caterpillar,C18,SITE-NE-01,Central Office,Northeast,2020-06-15,N/A,High,Active
+EQ-041,Rectifier NE-2,Eltek,Flatpack2,SITE-NE-02,Hub Site,Northeast,2021-11-05,2.8.3,Medium,Active
+EQ-042,OLT NE-3,Nokia,ISAM 7360,SITE-NE-08,Remote Terminal,Northeast,2024-01-10,R6.2.1,Medium,Active
+EQ-043,5G gNodeB SE-2,Ericsson,6648,SITE-SE-08,Cell Tower,Southeast,2024-08-15,24A,High,Active
+EQ-044,OLT SE-3,Calix,E9-2,SITE-SE-09,Remote Terminal,Southeast,2024-06-20,23.3,Medium,Active
+EQ-045,Aggregation Switch MW-2,Arista,7280R3,SITE-MW-06,Hub Site,Midwest,2023-11-01,4.31.1F,High,Active
+EQ-046,5G gNodeB W-3,Nokia,AirScale MBBP,SITE-W-08,Cell Tower,West,2024-09-01,24B,High,Active
+EQ-047,OLT W-3,Nokia,ISAM 7360,SITE-W-09,Remote Terminal,West,2024-04-15,R6.2.1,Medium,Active
+EQ-048,CMTS MW-1,Casa Systems,C100G,SITE-MW-07,Headend,Midwest,2023-01-10,8.2.4,High,Active
+EQ-049,Firewall MW-1,Palo Alto,PA-5260,SITE-MW-01,Central Office,Midwest,2022-08-20,11.1.2,Critical,Active
+EQ-050,Firewall W-1,Fortinet,FG-3600E,SITE-W-01,Central Office,West,2022-09-10,7.4.2,Critical,Active

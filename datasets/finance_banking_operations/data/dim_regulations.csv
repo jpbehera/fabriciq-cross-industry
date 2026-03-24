@@ -1,0 +1,13 @@
+regulation_id,name,body,effective_date,documentation_requirements
+REG-001,Bank Secrecy Act (BSA),FinCEN,1970-10-26,"CTR, SAR, CIP filings"
+REG-002,USA PATRIOT Act,FinCEN,2001-10-26,"Enhanced CDD/EDD, beneficial ownership"
+REG-003,FINRA Rule 2111 (Suitability),FINRA,2012-07-09,Suitability questionnaires
+REG-004,Reg BI (Best Interest),SEC,2020-06-30,"Best interest disclosures, Form CRS"
+REG-005,TRID (TILA-RESPA),CFPB,2015-10-03,"Loan estimates, closing disclosures"
+REG-006,CRA (Community Reinvestment),OCC,1977-10-12,"Lending data collection, reporting"
+REG-007,SEC Rule 17a-4 (Books & Records),SEC,1997-05-20,"Trade records, communications archive"
+REG-008,Dodd-Frank Wall Street Reform,Multiple,2010-07-21,"Stress testing, resolution plans"
+REG-009,GLBA (Privacy),FTC,1999-11-12,"Privacy notices, data security program"
+REG-010,OFAC Sanctions,OFAC,1950-12-17,"SDN list screening, blocking reports"
+REG-011,Reg E (Electronic Funds),CFPB,1978-03-28,"Error resolution, unauthorized transfer"
+REG-012,Fair Lending (ECOA/HMDA),CFPB,1974-10-28,"Demographic data, denial tracking"

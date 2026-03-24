@@ -1,0 +1,26 @@
+producer_id,name,role,department,shows_assigned,hire_date,specialization,email,location,seniority_level,weekly_hours,certification
+PRD-001,Lena Marquez,Senior Producer,Scripted,3,2016-03-15,Drama Series,lena.marquez@globalstudios.com,Los Angeles,Senior,50,PMP
+PRD-002,Derek Chan,Producer,Scripted,2,2019-07-22,Comedy Series,derek.chan@globalstudios.com,Los Angeles,Mid,45,None
+PRD-003,Amara Okonkwo,Executive Producer,Unscripted,4,2012-11-01,Reality/Competition,amara.okonkwo@globalstudios.com,New York,Executive,55,PMP
+PRD-004,Ryan Kowalski,Associate Producer,Scripted,2,2021-05-10,Limited Series,ryan.kowalski@globalstudios.com,Los Angeles,Junior,42,None
+PRD-005,Sofia Reyes,Producer,News & Sports,2,2018-01-08,Live Events,sofia.reyes@globalstudios.com,New York,Mid,48,None
+PRD-006,James Thornton,Senior Producer,Unscripted,3,2015-09-20,Documentary,james.thornton@globalstudios.com,Atlanta,Senior,50,PMP
+PRD-007,Priya Mehta,Editor,Post-Production,3,2017-06-12,Drama Editing,priya.mehta@globalstudios.com,Los Angeles,Senior,45,AVID Certified
+PRD-008,Marcus Williams,Editor,Post-Production,2,2020-02-28,Comedy Editing,marcus.williams@globalstudios.com,Los Angeles,Mid,44,AVID Certified
+PRD-009,Yuki Tanaka,Editor,Post-Production,2,2019-11-15,Unscripted Editing,yuki.tanaka@globalstudios.com,New York,Mid,46,DaVinci Certified
+PRD-010,Claire Dubois,Rights Manager,Legal & Rights,5,2014-04-03,Music Rights,claire.dubois@globalstudios.com,New York,Senior,42,JD
+PRD-011,Tomás Herrera,Rights Manager,Legal & Rights,4,2016-08-17,Talent Rights,tomas.herrera@globalstudios.com,Los Angeles,Senior,43,JD
+PRD-012,Nina Petrov,Rights Manager,Legal & Rights,6,2013-02-25,Stock Footage,nina.petrov@globalstudios.com,New York,Senior,44,JD
+PRD-013,Oliver Grant,Producer,Digital,3,2020-09-01,Short-form Content,oliver.grant@globalstudios.com,Los Angeles,Mid,45,None
+PRD-014,Zara Ahmed,Associate Producer,Digital,2,2022-03-14,Social Media Content,zara.ahmed@globalstudios.com,New York,Junior,42,None
+PRD-015,Ethan Brooks,Senior Producer,Scripted,2,2014-12-01,Sci-Fi/Fantasy,ethan.brooks@globalstudios.com,Vancouver,Senior,52,PMP
+PRD-016,Maya Jackson,Producer,Unscripted,2,2019-04-22,Lifestyle/Travel,maya.jackson@globalstudios.com,Atlanta,Mid,46,None
+PRD-017,Carlos Rivera,Producer,News & Sports,1,2018-10-05,Sports Production,carlos.rivera@globalstudios.com,New York,Mid,48,None
+PRD-018,Hannah Lee,Associate Producer,Scripted,1,2023-01-09,Pilot Development,hannah.lee@globalstudios.com,Los Angeles,Junior,40,None
+PRD-019,David Osei,Editor,Post-Production,3,2016-05-20,Sound Design,david.osei@globalstudios.com,Los Angeles,Senior,44,Pro Tools Certified
+PRD-020,Isabella Rossi,Producer,Digital,2,2021-07-11,Podcast Production,isabella.rossi@globalstudios.com,New York,Mid,43,None
+PRD-021,Nathan Park,QC Supervisor,Quality Control,6,2015-03-30,Technical QC,nathan.park@globalstudios.com,Los Angeles,Senior,45,SMPTE Certified
+PRD-022,Aisha Khan,Compliance Officer,Legal & Rights,8,2014-09-12,Regulatory Compliance,aisha.khan@globalstudios.com,New York,Senior,42,JD
+PRD-023,Lucas Fischer,Editor,Post-Production,2,2022-06-18,VFX Compositing,lucas.fischer@globalstudios.com,Vancouver,Junior,44,Nuke Certified
+PRD-024,Grace Adeyemi,Producer,Unscripted,2,2020-01-27,True Crime,grace.adeyemi@globalstudios.com,Atlanta,Mid,47,None
+PRD-025,Sam Chen,Metadata Specialist,Digital,10,2019-08-05,Taxonomy & Tagging,sam.chen@globalstudios.com,Los Angeles,Mid,40,Dublin Core Certified
