@@ -10,6 +10,11 @@ Setup:
     3. Copy the connection string and Event Hub name
     4. Create a .env file (see .env.example) or export the variables
 
+    RECOMMENDED (Zero Trust): Use Azure Key Vault instead of .env files:
+        pip install azure-keyvault-secrets azure-identity
+        export AZURE_KEYVAULT_URL=https://<your-vault>.vault.azure.net/
+        Store secrets as: event-hub-connection-string, event-hub-name
+
 Usage:
     pip install -r requirements.txt
     python stream_simulator.py
@@ -166,6 +171,20 @@ def main():
 
     connection_string = os.environ.get("EVENT_HUB_CONNECTION_STRING", "")
     event_hub_name = os.environ.get("EVENT_HUB_NAME", "")
+
+    # ZT: Attempt to load secrets from Azure Key Vault if configured
+    keyvault_url = os.environ.get("AZURE_KEYVAULT_URL", "")
+    if keyvault_url and not connection_string:
+        try:
+            from azure.identity import DefaultAzureCredential
+            from azure.keyvault.secrets import SecretClient
+            print("🔐 ZT: Loading credentials from Azure Key Vault...")
+            kv_client = SecretClient(vault_url=keyvault_url, credential=DefaultAzureCredential())
+            connection_string = kv_client.get_secret("event-hub-connection-string").value
+            event_hub_name = kv_client.get_secret("event-hub-name").value
+            print("✅ ZT: Credentials loaded from Key Vault")
+        except Exception as e:
+            print(f"⚠ ZT: Key Vault load failed ({e}), falling back to environment variables")
 
     if not connection_string or not event_hub_name:
         print("╔══════════════════════════════════════════════════════════════╗")

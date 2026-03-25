@@ -9,13 +9,17 @@ Usage:
 """
 
 import json
+import os
 import uuid
 
-# ─── Configuration ───────────────────────────────────────────────────────────
-CLUSTER_URI = "https://<YOUR_EVENTHOUSE>.z<N>.kusto.fabric.microsoft.com"
-DATABASE_NAME = "medical_data_rt_store"
-DATABASE_ID = "<YOUR_DATABASE_ID>"
-WORKSPACE_ID = "<YOUR_WORKSPACE_ID>"
+# ─── Configuration (Zero Trust: prefer env vars over hard-coded values) ──────
+CLUSTER_URI = os.environ.get(
+    "EVENTHOUSE_CLUSTER_URI",
+    "https://<YOUR_EVENTHOUSE>.z<N>.kusto.fabric.microsoft.com",
+)
+DATABASE_NAME = os.environ.get("EVENTHOUSE_DATABASE_NAME", "medical_data_rt_store")
+DATABASE_ID = os.environ.get("EVENTHOUSE_DATABASE_ID", "<YOUR_DATABASE_ID>")
+WORKSPACE_ID = os.environ.get("FABRIC_WORKSPACE_ID", "<YOUR_WORKSPACE_ID>")
 OUTPUT_FILE = "Healthcare_Nursing_Dashboard.json"
 
 # ─── Helpers ─────────────────────────────────────────────────────────────────

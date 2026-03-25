@@ -11,6 +11,7 @@ Usage:
 
 import base64
 import json
+import os
 import sys
 import time
 
@@ -32,6 +33,9 @@ DASHBOARD_JSON_FILE = "Healthcare_Nursing_Dashboard.json"
 DASHBOARD_NAME = "Healthcare Nursing Operations"
 TARGET_DB = "medical_data_rt_store"   # find workspace containing this DB
 
+# ZT: Accept explicit workspace ID to avoid enumerating all workspaces (least privilege)
+TARGET_WORKSPACE_ID = os.environ.get("FABRIC_WORKSPACE_ID", "")  # Set to skip workspace enumeration
+
 # ─── Auth ────────────────────────────────────────────────────────────────────
 print("🔐 Authenticating via browser...")
 credential = InteractiveBrowserCredential()
@@ -40,23 +44,29 @@ headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json
 print("✅ Authenticated\n")
 
 # ─── Find workspace ─────────────────────────────────────────────────────────
-print("🔍 Finding workspace containing database:", TARGET_DB)
-resp = requests.get(f"{FABRIC_API}/workspaces", headers=headers)
-resp.raise_for_status()
-workspaces = resp.json().get("value", [])
-
+# ZT: Use explicit workspace ID if provided (avoids enumerating all workspaces)
 workspace_id = None
-for ws in workspaces:
-    ws_id = ws["id"]
-    items_resp = requests.get(f"{FABRIC_API}/workspaces/{ws_id}/items?type=KQLDatabase", headers=headers)
-    if items_resp.status_code == 200:
-        for item in items_resp.json().get("value", []):
-            if item["displayName"] == TARGET_DB:
-                workspace_id = ws_id
-                print(f"   Found in workspace: {ws['displayName']} ({ws_id})")
-                break
-    if workspace_id:
-        break
+if TARGET_WORKSPACE_ID:
+    workspace_id = TARGET_WORKSPACE_ID
+    print(f"🔒 ZT: Using explicitly configured workspace: {workspace_id}")
+else:
+    print("🔍 Finding workspace containing database:", TARGET_DB)
+    print("   💡 ZT: Set FABRIC_WORKSPACE_ID env var to skip workspace enumeration (least privilege)")
+    resp = requests.get(f"{FABRIC_API}/workspaces", headers=headers)
+    resp.raise_for_status()
+    workspaces = resp.json().get("value", [])
+
+    for ws in workspaces:
+        ws_id = ws["id"]
+        items_resp = requests.get(f"{FABRIC_API}/workspaces/{ws_id}/items?type=KQLDatabase", headers=headers)
+        if items_resp.status_code == 200:
+            for item in items_resp.json().get("value", []):
+                if item["displayName"] == TARGET_DB:
+                    workspace_id = ws_id
+                    print(f"   Found in workspace: {ws['displayName']} ({ws_id})")
+                    break
+        if workspace_id:
+            break
 
 if not workspace_id:
     print("❌ Could not find a workspace containing database:", TARGET_DB)
