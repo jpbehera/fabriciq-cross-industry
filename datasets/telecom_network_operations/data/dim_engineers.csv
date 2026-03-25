@@ -1,31 +1,31 @@
 engineer_id,first_name,last_name,role,tier,certifications,region,hire_date,on_call_schedule,specialty,email,years_experience
-ENG-001,Carlos,Rivera,NOC Operator,Tier 1,CCNA,Northeast,2022-05-10,Week A,Network Monitoring,c.rivera@telco.com,4
-ENG-002,Sarah,Kim,NOC Operator,Tier 1,CCNA,Northeast,2023-01-15,Week B,Network Monitoring,s.kim@telco.com,3
-ENG-003,James,Okonkwo,Network Engineer,Tier 2,CCNP JNCIA,Northeast,2019-08-22,Week A,Routing & Switching,j.okonkwo@telco.com,7
-ENG-004,Priya,Sharma,Network Engineer,Tier 2,CCNP,Southeast,2020-03-14,Week B,Wireless,p.sharma@telco.com,6
-ENG-005,Michael,Chen,Senior Network Engineer,Tier 3,CCIE JNCIP,Northeast,2015-06-01,Week A,Core Network,m.chen@telco.com,11
-ENG-006,Angela,Santos,Senior Network Engineer,Tier 3,CCIE,Southeast,2016-11-20,Week B,Transport & DWDM,a.santos@telco.com,10
-ENG-007,David,Nakamura,Field Technician,Tier 1,CompTIA Network+,Northeast,2021-09-05,Week A,Cable & Fiber,d.nakamura@telco.com,5
-ENG-008,Emily,Johnson,Field Technician,Tier 1,CompTIA Network+,Southeast,2022-07-18,Week B,Cable & Fiber,e.johnson@telco.com,4
-ENG-009,Raj,Patel,Field Technician,Tier 2,CCNA Fiber Optic,Midwest,2020-01-10,Week A,Fiber Splicing,r.patel@telco.com,6
-ENG-010,Lisa,Moreno,Field Technician,Tier 2,CCNA,Midwest,2019-04-25,Week B,Tower & Antenna,l.moreno@telco.com,7
-ENG-011,Brandon,Williams,NOC Operator,Tier 1,CCNA,Southeast,2023-06-12,Week A,Alarm Management,b.williams@telco.com,3
-ENG-012,Fatima,Al-Hassan,Network Engineer,Tier 2,CCNP PCNSE,Midwest,2018-02-28,Week B,Security & Firewall,f.alhassan@telco.com,8
-ENG-013,Thomas,Garcia,Senior Network Engineer,Tier 3,CCIE RHCE,West,2014-10-15,Week A,Data Center,t.garcia@telco.com,12
-ENG-014,Aiko,Yamamoto,Network Engineer,Tier 2,CCNP,West,2021-03-01,Week B,IP/MPLS,a.yamamoto@telco.com,5
-ENG-015,Robert,Brown,Field Technician,Tier 1,CompTIA Network+,West,2022-11-20,Week A,Last Mile,r.brown@telco.com,4
-ENG-016,Nina,Petrovic,NOC Operator,Tier 1,CCNA,Midwest,2023-09-01,Week B,Network Monitoring,n.petrovic@telco.com,3
-ENG-017,Kevin,O'Brien,Senior Network Engineer,Tier 3,CCIE JNCIP,Northeast,2013-07-05,Week A,Architecture,k.obrien@telco.com,13
-ENG-018,Maria,Lopez,Network Engineer,Tier 2,CCNP,Southeast,2020-08-15,Week B,Voice & Unified Comms,m.lopez@telco.com,6
-ENG-019,Derek,Washington,Field Technician,Tier 2,CCNA,Northeast,2019-12-01,Week A,Tower Maintenance,d.washington@telco.com,7
-ENG-020,Sonia,Gupta,NOC Operator,Tier 1,CCNA,West,2024-01-08,Week B,Alarm Management,s.gupta@telco.com,2
-ENG-021,Patrick,Murphy,Field Technician,Tier 1,CompTIA Network+,Southeast,2023-04-15,Week A,Cable & Fiber,p.murphy@telco.com,3
-ENG-022,Yuki,Tanaka,Network Engineer,Tier 2,CCNP JNCIA,West,2018-09-10,Week B,Cloud Networking,y.tanaka@telco.com,8
-ENG-023,Andre,Jackson,Field Technician,Tier 2,CCNA Fiber Optic,Midwest,2020-06-22,Week A,Fiber Splicing,a.jackson@telco.com,6
-ENG-024,Elena,Volkov,Senior Network Engineer,Tier 3,CCIE,Northeast,2015-01-18,Week B,Network Automation,e.volkov@telco.com,11
-ENG-025,Marcus,Lee,NOC Operator,Tier 1,CCNA,Southeast,2024-03-01,Week A,Network Monitoring,m.lee@telco.com,2
-ENG-026,Hannah,Foster,Network Engineer,Tier 2,CCNP,Midwest,2021-07-14,Week B,Data Center,h.foster@telco.com,5
-ENG-027,Omar,Hassan,Field Technician,Tier 1,CompTIA Network+,West,2022-02-20,Week A,Last Mile,o.hassan@telco.com,4
-ENG-028,Jessica,Martinez,NOC Operator,Tier 1,CCNA,Northeast,2023-08-05,Week B,Alarm Management,j.martinez@telco.com,3
-ENG-029,Ryan,Taylor,Senior Network Engineer,Tier 3,CCIE RHCE,Southeast,2014-04-10,Week A,Architecture,r.taylor@telco.com,12
-ENG-030,Amara,Diallo,Network Engineer,Tier 2,CCNP PCNSE,West,2019-11-28,Week B,Security & Firewall,a.diallo@telco.com,7
+ENG-001,Carlos,Rivera,NOC Operator,Tier 1,CCNA,Northeast,2022-05-10,Week A,Network Monitoring,c.rivera@telco.example,4
+ENG-002,Sarah,Kim,NOC Operator,Tier 1,CCNA,Northeast,2023-01-15,Week B,Network Monitoring,s.kim@telco.example,3
+ENG-003,James,Okonkwo,Network Engineer,Tier 2,CCNP JNCIA,Northeast,2019-08-22,Week A,Routing & Switching,j.okonkwo@telco.example,7
+ENG-004,Priya,Sharma,Network Engineer,Tier 2,CCNP,Southeast,2020-03-14,Week B,Wireless,p.sharma@telco.example,6
+ENG-005,Michael,Chen,Senior Network Engineer,Tier 3,CCIE JNCIP,Northeast,2015-06-01,Week A,Core Network,m.chen@telco.example,11
+ENG-006,Angela,Santos,Senior Network Engineer,Tier 3,CCIE,Southeast,2016-11-20,Week B,Transport & DWDM,a.santos@telco.example,10
+ENG-007,David,Nakamura,Field Technician,Tier 1,CompTIA Network+,Northeast,2021-09-05,Week A,Cable & Fiber,d.nakamura@telco.example,5
+ENG-008,Emily,Johnson,Field Technician,Tier 1,CompTIA Network+,Southeast,2022-07-18,Week B,Cable & Fiber,e.johnson@telco.example,4
+ENG-009,Raj,Patel,Field Technician,Tier 2,CCNA Fiber Optic,Midwest,2020-01-10,Week A,Fiber Splicing,r.patel@telco.example,6
+ENG-010,Lisa,Moreno,Field Technician,Tier 2,CCNA,Midwest,2019-04-25,Week B,Tower & Antenna,l.moreno@telco.example,7
+ENG-011,Brandon,Williams,NOC Operator,Tier 1,CCNA,Southeast,2023-06-12,Week A,Alarm Management,b.williams@telco.example,3
+ENG-012,Fatima,Al-Hassan,Network Engineer,Tier 2,CCNP PCNSE,Midwest,2018-02-28,Week B,Security & Firewall,f.alhassan@telco.example,8
+ENG-013,Thomas,Garcia,Senior Network Engineer,Tier 3,CCIE RHCE,West,2014-10-15,Week A,Data Center,t.garcia@telco.example,12
+ENG-014,Aiko,Yamamoto,Network Engineer,Tier 2,CCNP,West,2021-03-01,Week B,IP/MPLS,a.yamamoto@telco.example,5
+ENG-015,Robert,Brown,Field Technician,Tier 1,CompTIA Network+,West,2022-11-20,Week A,Last Mile,r.brown@telco.example,4
+ENG-016,Nina,Petrovic,NOC Operator,Tier 1,CCNA,Midwest,2023-09-01,Week B,Network Monitoring,n.petrovic@telco.example,3
+ENG-017,Kevin,O'Brien,Senior Network Engineer,Tier 3,CCIE JNCIP,Northeast,2013-07-05,Week A,Architecture,k.obrien@telco.example,13
+ENG-018,Maria,Lopez,Network Engineer,Tier 2,CCNP,Southeast,2020-08-15,Week B,Voice & Unified Comms,m.lopez@telco.example,6
+ENG-019,Derek,Washington,Field Technician,Tier 2,CCNA,Northeast,2019-12-01,Week A,Tower Maintenance,d.washington@telco.example,7
+ENG-020,Sonia,Gupta,NOC Operator,Tier 1,CCNA,West,2024-01-08,Week B,Alarm Management,s.gupta@telco.example,2
+ENG-021,Patrick,Murphy,Field Technician,Tier 1,CompTIA Network+,Southeast,2023-04-15,Week A,Cable & Fiber,p.murphy@telco.example,3
+ENG-022,Yuki,Tanaka,Network Engineer,Tier 2,CCNP JNCIA,West,2018-09-10,Week B,Cloud Networking,y.tanaka@telco.example,8
+ENG-023,Andre,Jackson,Field Technician,Tier 2,CCNA Fiber Optic,Midwest,2020-06-22,Week A,Fiber Splicing,a.jackson@telco.example,6
+ENG-024,Elena,Volkov,Senior Network Engineer,Tier 3,CCIE,Northeast,2015-01-18,Week B,Network Automation,e.volkov@telco.example,11
+ENG-025,Marcus,Lee,NOC Operator,Tier 1,CCNA,Southeast,2024-03-01,Week A,Network Monitoring,m.lee@telco.example,2
+ENG-026,Hannah,Foster,Network Engineer,Tier 2,CCNP,Midwest,2021-07-14,Week B,Data Center,h.foster@telco.example,5
+ENG-027,Omar,Hassan,Field Technician,Tier 1,CompTIA Network+,West,2022-02-20,Week A,Last Mile,o.hassan@telco.example,4
+ENG-028,Jessica,Martinez,NOC Operator,Tier 1,CCNA,Northeast,2023-08-05,Week B,Alarm Management,j.martinez@telco.example,3
+ENG-029,Ryan,Taylor,Senior Network Engineer,Tier 3,CCIE RHCE,Southeast,2014-04-10,Week A,Architecture,r.taylor@telco.example,12
+ENG-030,Amara,Diallo,Network Engineer,Tier 2,CCNP PCNSE,West,2019-11-28,Week B,Security & Firewall,a.diallo@telco.example,7

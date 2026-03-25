@@ -1,0 +1,69 @@
+name: Security Scan
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  gitleaks:
+    name: Secret Scanning (Gitleaks)
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  notebook-output-check:
+    name: Notebook Output Check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install nbstripout
+      - name: Check notebooks have no outputs
+        run: |
+          DIRTY=0
+          for nb in $(find . -name '*.ipynb' -not -path './.ipynb_checkpoints/*'); do
+            if ! nbstripout --is-stripped "$nb" 2>/dev/null; then
+              echo "::error file=$nb::Notebook has cell outputs that may leak secrets or data previews. Run 'nbstripout' before committing."
+              DIRTY=1
+            fi
+          done
+          if [ "$DIRTY" -eq 1 ]; then
+            echo ""
+            echo "Fix: pip install nbstripout && nbstripout --install (sets up a git filter)"
+            exit 1
+          fi
+
+  pip-audit:
+    name: Dependency Vulnerability Scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install and audit dependencies
+        run: |
+          pip install pip-audit
+          # Scan any requirements files found in the repo
+          for req in $(find . -name 'requirements.txt' -not -path './.venv/*' -not -path './venv/*'); do
+            echo "Auditing $req"
+            pip-audit -r "$req" --strict || true
+          done
+          # If no requirements.txt found, scan installed packages
+          if [ -z "$(find . -name 'requirements.txt' -not -path './.venv/*')" ]; then
+            echo "No requirements.txt found — skipping dependency audit."
+          fi

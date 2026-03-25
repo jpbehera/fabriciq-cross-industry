@@ -18,3 +18,17 @@ Thumbs.db
 
 # Environment
 .env
+.env.local
+.env.*.local
+
+# Build artifacts
+build/
+dist/
+*.egg
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.csv.bak

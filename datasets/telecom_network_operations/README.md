@@ -1,5 +1,9 @@
 # Telecom Network Operations — Sample Dataset
 
+> **Disclaimer:** All data in this directory is **entirely fictional and synthetic**. Names, email addresses, phone numbers, and company references do not represent real individuals or organizations. Phone numbers use the `555-0xxx` reserved range. Email addresses use `.example` domains per [RFC 2606](https://www.rfc-editor.org/rfc/rfc2606). Any resemblance to real persons or entities is coincidental.
+
+
+
 ## Overview
 
 This dataset supports the **Telecom Network Operations Documentation Burden** demo for

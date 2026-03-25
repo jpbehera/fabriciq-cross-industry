@@ -1,5 +1,9 @@
 # Healthcare Nursing Documentation Burden — Demo Dataset
 
+> **Disclaimer:** All data in this directory is **entirely fictional and synthetic**. Names, email addresses, phone numbers, and company references do not represent real individuals or organizations. Phone numbers use the `555-0xxx` reserved range. Email addresses use `.example` domains per [RFC 2606](https://www.rfc-editor.org/rfc/rfc2606). Any resemblance to real persons or entities is coincidental.
+
+
+
 ## Problem Statement
 
 > Nurses complete patient care but face hours of duplicative documentation, feeling more like data clerks than caregivers. Documentation burden strongly correlates with clinician burnout in studies, directly harming patient care quality and satisfaction. Industry surveys reveal widespread unproductive charting practices tied to nurse well-being and retention risks.

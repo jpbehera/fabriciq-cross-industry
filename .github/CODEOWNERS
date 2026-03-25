@@ -1,0 +1,6 @@
+# Protect security-sensitive files — require maintainer review
+cross_industry_notebooks/ZT_Security_Utils.ipynb  @jpbehera
+SECURITY_README.md                                @jpbehera
+SECURITY.md                                       @jpbehera
+.github/                                          @jpbehera
+.gitignore                                        @jpbehera

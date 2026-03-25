@@ -1,31 +1,31 @@
 holder_id,name,type,territory,content_count,avg_clearance_days,contact_email,preferred_method,contract_status,response_reliability
-RH-001,Universal Music Publishing,Music,Global,1200,14,licensing@ump.com,Portal,Active,High
-RH-002,Sony Music Sync,Music,Global,800,21,sync@sonymusic.com,Email,Active,High
-RH-003,Warner Chappell Music,Music,Global,950,18,clearance@wchappell.com,Portal,Active,Medium
-RH-004,BMI Rights Desk,Music,North America,600,7,rights@bmi.com,Portal,Active,High
-RH-005,ASCAP Licensing,Music,North America,550,7,licensing@ascap.com,Portal,Active,High
-RH-006,Getty Images,Stock Footage,Global,45000,3,enterprise@gettyimages.com,Portal,Active,High
-RH-007,Shutterstock Editorial,Stock Footage,Global,32000,2,editorial@shutterstock.com,API,Active,High
-RH-008,Pond5 Media,Stock Footage,Global,18000,4,licensing@pond5.com,Portal,Active,Medium
-RH-009,AP Content Services,News/Archive,Global,5000,5,content@ap.org,Portal,Active,High
-RH-010,Reuters Media,News/Archive,Global,4500,5,media.licensing@reuters.com,Email,Active,High
-RH-011,SAG-AFTRA Residuals,Talent,North America,3000,30,residuals@sagaftra.org,Mail,Active,Medium
-RH-012,WGA Rights,Talent,North America,2000,25,rights@wga.org,Email,Active,Medium
-RH-013,DGA Clearance,Talent,Global,1500,20,clearance@dga.org,Email,Active,Medium
-RH-014,Brand Licensing Agency,Brand,North America,200,35,clearance@bla.com,Email,Active,Low
-RH-015,Celebrity Estates Trust,Talent,Global,80,45,legal@cet.com,Mail,Active,Low
-RH-016,BBC Studios Licensing,Archive,Global,12000,10,licensing@bbcstudios.com,Portal,Active,High
-RH-017,ITV Content Sales,Archive,UK/Europe,6000,12,content@itv.com,Email,Active,Medium
-RH-018,NHK Media,Archive,Asia-Pacific,4000,15,international@nhk.jp,Email,Active,Medium
-RH-019,Fremantle Rights,Format,Global,300,28,rights@fremantle.com,Email,Active,Medium
-RH-020,Endemol Shine IP,Format,Global,250,30,ip@endemolshine.com,Email,Active,Medium
-RH-021,PRS for Music,Music,UK/Europe,700,10,licensing@prsformusic.com,Portal,Active,High
-RH-022,JASRAC,Music,Asia-Pacific,500,14,international@jasrac.or.jp,Email,Active,Medium
-RH-023,Artlist Sync,Music,Global,15000,1,enterprise@artlist.io,API,Active,High
-RH-024,Epidemic Sound,Music,Global,40000,1,licensing@epidemicsound.com,API,Active,High
-RH-025,National Geographic Archive,Archive,Global,8000,8,archive@natgeo.com,Portal,Active,High
-RH-026,Discovery Content,Archive,Global,10000,10,content@discovery.com,Email,Active,Medium
-RH-027,Sports Rights Alliance,Sports,Global,2000,20,rights@sra.com,Email,Active,Low
-RH-028,Olympic Broadcasting,Sports,Global,500,40,broadcast@olympics.com,Mail,Active,Low
-RH-029,Independent Film Archive,Archive,North America,3000,7,archive@ifa.org,Portal,Active,High
-RH-030,Creative Commons Collective,Stock,Global,100000,0,info@cc.org,API,Active,High
+RH-001,Universal Music Publishing,Music,Global,1200,14,licensing@ump.example,Portal,Active,High
+RH-002,Sony Music Sync,Music,Global,800,21,sync@sonymusic.example,Email,Active,High
+RH-003,Warner Chappell Music,Music,Global,950,18,clearance@wchappell.example,Portal,Active,Medium
+RH-004,BMI Rights Desk,Music,North America,600,7,rights@bmi.example,Portal,Active,High
+RH-005,ASCAP Licensing,Music,North America,550,7,licensing@ascap.example,Portal,Active,High
+RH-006,Getty Images,Stock Footage,Global,45000,3,enterprise@gettyimages.example,Portal,Active,High
+RH-007,Shutterstock Editorial,Stock Footage,Global,32000,2,editorial@shutterstock.example,API,Active,High
+RH-008,Pond5 Media,Stock Footage,Global,18000,4,licensing@pond5.example,Portal,Active,Medium
+RH-009,AP Content Services,News/Archive,Global,5000,5,content@ap.example,Portal,Active,High
+RH-010,Reuters Media,News/Archive,Global,4500,5,media.licensing@reuters.example,Email,Active,High
+RH-011,SAG-AFTRA Residuals,Talent,North America,3000,30,residuals@sagaftra.example,Mail,Active,Medium
+RH-012,WGA Rights,Talent,North America,2000,25,rights@wga.example,Email,Active,Medium
+RH-013,DGA Clearance,Talent,Global,1500,20,clearance@dga.example,Email,Active,Medium
+RH-014,Brand Licensing Agency,Brand,North America,200,35,clearance@bla.example,Email,Active,Low
+RH-015,Celebrity Estates Trust,Talent,Global,80,45,legal@cet.example,Mail,Active,Low
+RH-016,BBC Studios Licensing,Archive,Global,12000,10,licensing@bbcstudios.example,Portal,Active,High
+RH-017,ITV Content Sales,Archive,UK/Europe,6000,12,content@itv.example,Email,Active,Medium
+RH-018,NHK Media,Archive,Asia-Pacific,4000,15,international@nhk.example,Email,Active,Medium
+RH-019,Fremantle Rights,Format,Global,300,28,rights@fremantle.example,Email,Active,Medium
+RH-020,Endemol Shine IP,Format,Global,250,30,ip@endemolshine.example,Email,Active,Medium
+RH-021,PRS for Music,Music,UK/Europe,700,10,licensing@prsformusic.example,Portal,Active,High
+RH-022,JASRAC,Music,Asia-Pacific,500,14,international@jasrac.or.example,Email,Active,Medium
+RH-023,Artlist Sync,Music,Global,15000,1,enterprise@artlist.example,API,Active,High
+RH-024,Epidemic Sound,Music,Global,40000,1,licensing@epidemicsound.example,API,Active,High
+RH-025,National Geographic Archive,Archive,Global,8000,8,archive@natgeo.example,Portal,Active,High
+RH-026,Discovery Content,Archive,Global,10000,10,content@discovery.example,Email,Active,Medium
+RH-027,Sports Rights Alliance,Sports,Global,2000,20,rights@sra.example,Email,Active,Low
+RH-028,Olympic Broadcasting,Sports,Global,500,40,broadcast@olympics.example,Mail,Active,Low
+RH-029,Independent Film Archive,Archive,North America,3000,7,archive@ifa.example,Portal,Active,High
+RH-030,Creative Commons Collective,Stock,Global,100000,0,info@cc.example,API,Active,High
