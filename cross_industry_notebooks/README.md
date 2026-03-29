@@ -255,8 +255,8 @@ cross_industry_notebooks/
 ├── ZT_Security_Utils.ipynb          # 🔒 Zero Trust security (auto-loaded)
 │
 ├── *_Agent_Instructions.ipynb       # Industry-specific agent prompts (10)
+├── *_DASHBOARD_VISUALS.md           # Dashboard visual specs per industry
 │
-├── DASHBOARD_VISUALS_README.md      # Detailed visual specs for dashboards
 └── README.md                        # ← You are here
 ```
 
