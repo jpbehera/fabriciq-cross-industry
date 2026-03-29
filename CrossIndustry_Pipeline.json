@@ -1,0 +1,223 @@
+{
+  "name": "CrossIndustry_Deployment_Pipeline",
+  "properties": {
+    "description": "End-to-end deployment pipeline for the Cross-Industry Accelerator. Runs notebooks 00-07 in sequence with logging and error handling.",
+    "activities": [
+      {
+        "name": "00_Industry_Config",
+        "description": "Set industry and auto-discover tables",
+        "type": "SynapseNotebook",
+        "dependsOn": [],
+        "policy": {
+          "timeout": "0.00:15:00",
+          "retry": 2,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "00_Industry_Config",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true,
+          "conf": {
+            "spark.dynamicAllocation.enabled": false,
+            "spark.dynamicAllocation.minExecutors": 2,
+            "spark.dynamicAllocation.maxExecutors": 4
+          }
+        }
+      },
+      {
+        "name": "01_Data_Ingestion",
+        "description": "Profile schemas and validate data quality",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "00_Industry_Config",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:20:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "01_Data_Ingestion",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      },
+      {
+        "name": "02_Load_Lakehouse",
+        "description": "Load dim/fact to Lakehouse Delta, events to Eventhouse",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "01_Data_Ingestion",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:30:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "02_Load_Lakehouse",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true,
+          "conf": {
+            "spark.dynamicAllocation.enabled": true,
+            "spark.dynamicAllocation.minExecutors": 2,
+            "spark.dynamicAllocation.maxExecutors": 8
+          }
+        }
+      },
+      {
+        "name": "03_Load_Warehouse",
+        "description": "Load all tables to Warehouse with auto DDL",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "01_Data_Ingestion",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:30:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "03_Load_Warehouse",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      },
+      {
+        "name": "04_Create_Semantic_Model",
+        "description": "Create Power BI semantic model with measures and relationships",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "02_Load_Lakehouse",
+            "dependencyConditions": ["Succeeded"]
+          },
+          {
+            "activity": "03_Load_Warehouse",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:20:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "04_Create_Semantic_Model",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      },
+      {
+        "name": "05_Create_Ontology",
+        "description": "Create Fabric IQ ontology with data bindings",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "02_Load_Lakehouse",
+            "dependencyConditions": ["Succeeded"]
+          },
+          {
+            "activity": "04_Create_Semantic_Model",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:25:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "05_Create_Ontology",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      },
+      {
+        "name": "06_Create_Data_Agent",
+        "description": "Deploy QA and Ops agents with industry prompts",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "05_Create_Ontology",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:20:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "06_Create_Data_Agent",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      },
+      {
+        "name": "07_Create_Dashboards",
+        "description": "Create KQL real-time dashboard and Power BI report",
+        "type": "SynapseNotebook",
+        "dependsOn": [
+          {
+            "activity": "02_Load_Lakehouse",
+            "dependencyConditions": ["Succeeded"]
+          },
+          {
+            "activity": "04_Create_Semantic_Model",
+            "dependencyConditions": ["Succeeded"]
+          }
+        ],
+        "policy": {
+          "timeout": "0.00:25:00",
+          "retry": 1,
+          "retryIntervalInSeconds": 30
+        },
+        "typeProperties": {
+          "notebook": {
+            "referenceName": "07_Create_Dashboards",
+            "type": "NotebookReference"
+          },
+          "parameters": {},
+          "snapshot": true
+        }
+      }
+    ],
+    "annotations": [
+      "cross-industry-accelerator",
+      "automated-deployment",
+      "fabric-iq"
+    ],
+    "lastPublishTime": "2026-03-29T00:00:00Z"
+  }
+}

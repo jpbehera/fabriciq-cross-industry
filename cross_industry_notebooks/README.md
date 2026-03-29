@@ -1,16 +1,17 @@
 # Cross-Industry Accelerator — Notebook Pipeline
 
-> **8 notebooks. Any industry. Full Fabric IQ deployment. One click.**
+> **8 notebooks. Any industry. Orchestrated by Fabric Data Pipeline.**
 
 Change one `INDUSTRY` variable and the entire pipeline adapts — data ingestion, Lakehouse/Warehouse loading, semantic model, ontology, AI agents, and dashboards.
 
-### Fastest Path: Pipeline Orchestrator
+### Fastest Path: Fabric Data Pipeline
 
-Open **`Pipeline_Orchestrator.ipynb`**, set your `INDUSTRY`, and **Run All**. It executes all 8 notebooks in sequence with:
-- Full error handling (stop or skip on failure)
-- Centralized audit log (every record, artifact, and error tracked)
-- Post-run telemetry (record counts, artifact verification)
-- Lakehouse persistence (Delta tables for compliance: `pipeline_runs`, `pipeline_events`, `pipeline_artifacts`, `pipeline_errors`)
+Import **`CrossIndustry_Pipeline.json`** (from repo root) into your Fabric workspace to create a Data Pipeline that:
+- Runs all 8 notebooks in sequence with proper dependencies
+- Provides built-in retry, timeout, and error handling
+- Logs every record, artifact, and error via `Pipeline_Logger`
+- Persists audit trail to Lakehouse Delta tables: `dbo.pipeline_runs`, `dbo.pipeline_events`, `dbo.pipeline_artifacts`, `dbo.pipeline_errors`
+- Enables centralized monitoring via Fabric Monitoring hub
 
 ---
 
@@ -251,12 +252,11 @@ Creates two dashboard types:
 ```
 cross_industry_notebooks/
 │
-├── Pipeline_Orchestrator.ipynb      # 🚀 ONE-CLICK: runs full pipeline with logging
 ├── Pipeline_Logger.ipynb            # 📋 Centralized audit & telemetry engine
 │
-├── 00_Industry_Config.ipynb         # Universal auto-discovery config
-├── 01_Data_Ingestion.ipynb          # Schema profiling & quality checks
-├── 02_Load_Lakehouse.ipynb          # Lakehouse + Eventhouse loading
+├── 00_Industry_Config.ipynb         # Universal auto-discovery config ✅ INSTRUMENTED
+├── 01_Data_Ingestion.ipynb          # Schema profiling & quality checks ✅ INSTRUMENTED
+├── 02_Load_Lakehouse.ipynb          # Lakehouse + Eventhouse loading ✅ INSTRUMENTED
 ├── 03_Load_Warehouse.ipynb          # Warehouse loading with auto DDL
 ├── 04_Create_Semantic_Model.ipynb   # Power BI semantic model
 ├── 05_Create_Ontology.ipynb         # Fabric IQ ontology
@@ -270,6 +270,8 @@ cross_industry_notebooks/
 │
 └── README.md                        # ← You are here
 ```
+
+> **Note:** Notebooks 00-02 are fully instrumented with `Pipeline_Logger` calls. Notebooks 03-07 need instrumentation — see [INSTRUMENTATION_GUIDE.md](INSTRUMENTATION_GUIDE.md) for the pattern.
 
 ---
 
