@@ -50,18 +50,18 @@ flowchart LR
 
 ### Step 1 — Pick Your Industry
 
-| Industry | Config Notebook | Tables | Dataset Folder |
-|----------|----------------|--------|----------------|
-| 🏥 Healthcare | `Healthcare_Config.ipynb` | 25 | `healthcare_nursing_documentation/` |
-| 🏗️ Construction | `Construction_Config.ipynb` | 23 | `construction_site_operations/` |
-| 💰 Finance | `Finance_Config.ipynb` | 23 | `finance_banking_operations/` |
-| 🛒 Retail | `Retail_Config.ipynb` | 23 | `retail_store_operations/` |
-| 📡 Telecom | `Telecom_Config.ipynb` | 23 | `telecom_network_operations/` |
-| 🛡️ Insurance | `Insurance_Config.ipynb` | 23 | `insurance_claims_operations/` |
-| ⚖️ Law Firms | `LawFirms_Config.ipynb` | 23 | `law_firm_operations/` |
-| 📺 Media | `Media_Config.ipynb` | 23 | `media_content_operations/` |
-| 🛢️ Oil & Gas | `OilAndGas_Config.ipynb` | 23 | `oil_gas_field_operations/` |
-| 📢 Advertising | `Advertising_Config.ipynb` | 23 | `advertising_campaign_operations/` |
+| Industry Key | Industry | Tables | Dataset Folder |
+|-------------|----------|--------|----------------|
+| `healthcare` | 🏥 Healthcare (Nursing) | 25 | `healthcare_nursing_documentation/` |
+| `construction` | 🏗️ Construction | 23 | `construction_site_operations/` |
+| `finance` | 💰 Finance (Banking) | 23 | `finance_banking_operations/` |
+| `retail` | 🛒 Retail | 23 | `retail_store_operations/` |
+| `telecom` | 📡 Telecom | 23 | `telecom_network_operations/` |
+| `insurance` | 🛡️ Insurance | 23 | `insurance_claims_operations/` |
+| `law_firms` | ⚖️ Law Firms | 23 | `law_firm_operations/` |
+| `media` | 📺 Media | 23 | `media_content_operations/` |
+| `oil_and_gas` | 🛢️ Oil & Gas | 23 | `oil_gas_field_operations/` |
+| `advertising` | 📢 Advertising | 23 | `advertising_campaign_operations/` |
 
 ### Step 2 — Upload Data
 
@@ -69,9 +69,11 @@ Upload the CSV files from `datasets/<your_industry>/data/` to your Lakehouse und
 
 ### Step 3 — Configure
 
-Open your industry config notebook (e.g., `Retail_Config.ipynb`) and fill in your workspace values:
+Open `00_Industry_Config.ipynb` and set your industry key and workspace values:
 
 ```python
+INDUSTRY = "retail"  # Change to your industry key from Step 1
+
 EVENTHOUSE_CLUSTER_URI = "https://<name>.<region>.kusto.fabric.microsoft.com"
 EVENTHOUSE_DATABASE    = "<your_kql_database_name>"
 ```
@@ -118,9 +120,8 @@ flowchart TD
 fabriciq-cross-industry/
 │
 ├── cross_industry_notebooks/       ← 🚀 START HERE
-│   ├── 00_Industry_Config.ipynb    # Set industry + auto-discover tables
+│   ├── 00_Industry_Config.ipynb    # Set industry key + auto-discover tables
 │   ├── 01–07_*.ipynb               # Core pipeline (run in order)
-│   ├── *_Config.ipynb              # Pre-filled configs per industry
 │   ├── *_Agent_Instructions.ipynb  # Industry-specific agent prompts
 │   └── ZT_Security_Utils.ipynb     # Zero Trust security (auto-loaded)
 │

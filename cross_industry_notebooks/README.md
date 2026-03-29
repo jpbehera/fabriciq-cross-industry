@@ -39,20 +39,20 @@ Files/
 
 ## Pick Your Industry
 
-| Industry | Config Notebook | Tables | Dataset Folder |
-|----------|----------------|--------|----------------|
-| 🏥 Healthcare | `Healthcare_Config.ipynb` | 25 | `healthcare_nursing_documentation/` |
-| 🏗️ Construction | `Construction_Config.ipynb` | 23 | `construction_site_operations/` |
-| 💰 Finance | `Finance_Config.ipynb` | 23 | `finance_banking_operations/` |
-| 🛒 Retail | `Retail_Config.ipynb` | 23 | `retail_store_operations/` |
-| 📡 Telecom | `Telecom_Config.ipynb` | 23 | `telecom_network_operations/` |
-| 🛡️ Insurance | `Insurance_Config.ipynb` | 23 | `insurance_claims_operations/` |
-| ⚖️ Law Firms | `LawFirms_Config.ipynb` | 23 | `law_firm_operations/` |
-| 📺 Media | `Media_Config.ipynb` | 23 | `media_content_operations/` |
-| 🛢️ Oil & Gas | `OilAndGas_Config.ipynb` | 23 | `oil_gas_field_operations/` |
-| 📢 Advertising | `Advertising_Config.ipynb` | 23 | `advertising_campaign_operations/` |
+| Industry Key | Industry | Tables | Dataset Folder |
+|-------------|----------|--------|----------------|
+| `healthcare` | 🏥 Healthcare (Nursing) | 25 | `healthcare_nursing_documentation/` |
+| `construction` | 🏗️ Construction | 23 | `construction_site_operations/` |
+| `finance` | 💰 Finance (Banking) | 23 | `finance_banking_operations/` |
+| `retail` | 🛒 Retail | 23 | `retail_store_operations/` |
+| `telecom` | 📡 Telecom | 23 | `telecom_network_operations/` |
+| `insurance` | 🛡️ Insurance | 23 | `insurance_claims_operations/` |
+| `law_firms` | ⚖️ Law Firms | 23 | `law_firm_operations/` |
+| `media` | 📺 Media | 23 | `media_content_operations/` |
+| `oil_and_gas` | 🛢️ Oil & Gas | 23 | `oil_gas_field_operations/` |
+| `advertising` | 📢 Advertising | 23 | `advertising_campaign_operations/` |
 
-> **Tip:** Each config notebook is pre-filled with table names, KQL mappings, and expected row counts. Use it **instead of** `00_Industry_Config.ipynb` for a faster start.
+> **Usage:** Set the industry key in `00_Industry_Config.ipynb` and the pipeline auto-discovers all tables in your dataset folder.
 
 ---
 
@@ -99,10 +99,10 @@ flowchart TD
 
 ### Step 0 — Configure Your Industry
 
-**Open:** `00_Industry_Config.ipynb` (or use a pre-filled config like `Retail_Config.ipynb`)
+**Open:** `00_Industry_Config.ipynb`
 
 ```python
-INDUSTRY = "healthcare"  # ← Change this to your target industry key
+INDUSTRY = "retail"  # ← Change this to your industry key from the table above
 ```
 
 **You must also set these** (found in Eventhouse → Overview):
@@ -118,8 +118,6 @@ EVENTHOUSE_DATABASE    = "<your_kql_database_name>"
 | Auto-names all Fabric artifacts | `LAKEHOUSE_NAME`, `WAREHOUSE_NAME`, `ONTOLOGY_NAME`, etc. |
 | Scans CSV folder | Classifies files as `dim_*`, `fact_*` (batch/event), `stream_*` |
 | Shows discovery summary | Table counts, row counts, load targets |
-
-> **Using a pre-filled config?** It already contains hardcoded table names and row counts — no auto-discovery needed.
 
 ---
 
@@ -256,8 +254,7 @@ cross_industry_notebooks/
 │
 ├── ZT_Security_Utils.ipynb          # 🔒 Zero Trust security (auto-loaded)
 │
-├── *_Config.ipynb                   # Pre-filled industry configs (10)
-├── *_Agent_Instructions.ipynb       # Agent prompts per industry (10)
+├── *_Agent_Instructions.ipynb       # Industry-specific agent prompts (10)
 │
 ├── DASHBOARD_VISUALS_README.md      # Detailed visual specs for dashboards
 └── README.md                        # ← You are here
