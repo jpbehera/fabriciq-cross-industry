@@ -82,105 +82,209 @@ Every page follows the same 4-tile layout:
 
 ### Page 1 — OMS Interactions
 
-Tracks system interactions by account executives in the Order Management System.
+**📋 Purpose:** Tracks system interactions by account executives in the Order Management System to identify bottlenecks and training needs.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `oms_interactions \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By module | Count by `module` — which OMS modules are used most |
-| Line Chart | Avg Duration (ms) Trend | `avg(duration_ms) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `interaction_id, ae_id, timestamp, system, module, action, duration_ms, campaign_id` |
+**💡 Why It Matters:** High response times indicate system performance issues or workflow inefficiencies. Understanding which modules consume the most time helps prioritize system improvements and identify AEs who may need additional training.
+
+**👀 What to Look For:**
+- **Spikes in event volume** → System load issues or campaign deadlines
+- **Duration_ms trending up** → Performance degradation or complex workflows
+- **Module concentration** → Certain modules dominating usage (potential workflow bottlenecks)
+- **Action patterns** → Repetitive actions that could be automated
+
+**🎯 Actionable Insights:**
+- If `module` = "contract_entry" has high duration → Simplify contract forms
+- If certain `action` types appear frequently → Candidates for automation
+- If duration varies by AE → Training opportunity for slower users
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `oms_interactions \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Peaks during business hours (9AM-5PM) are normal. After-hours spikes may indicate mounting workload or deadline pressure. Compare weekday vs weekend patterns. |
+| Pie Chart | By module | Count by `module` — which OMS modules are used most | **Interpretation:** Top 3 modules should align with primary workflow. If "reports" or "search" dominate, users may be struggling to find data. Balance across modules = healthy workflow. | 
+| Line Chart | Avg Duration (ms) Trend | `avg(duration_ms) by bin(timestamp, 1h)` | **Interpretation:** Baseline should be <2000ms. Sustained increases indicate system degradation. Sudden jumps correlate with release deployments. Monitor for 3+ consecutive hours above baseline. |
+| Table | Latest Events | Top 20 rows: `interaction_id, ae_id, timestamp, system, module, action, duration_ms, campaign_id` | **Interpretation:** Scan for outliers (duration_ms >10000). Identify AEs with repeated slow actions. Check if complex campaigns correlate with higher duration. |
 
 **Key columns:** `duration_ms` (system response time), `module` (OMS module), `action` (user action), `system` (source system)
 
 ### Page 2 — Contract Changes
 
-Monitors campaign contract change notices (CCNs) flowing through the system.
+**📋 Purpose:** Monitors campaign contract change notices (CCNs) flowing through the system to track scope creep and revenue impact.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `contract_changes \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By change_type | Count by `change_type` — types of contract modifications |
-| Line Chart | Avg Units Affected Trend | `avg(units_affected) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `ccn_id, campaign_id, ae_id, timestamp, change_type, units_affected, revenue_impact, doc_time_min, approval_status` |
+**💡 Why It Matters:** CCNs are a leading indicator of campaign complexity and documentation burden. High CCN volumes correlate with AE burnout and advertiser dissatisfaction. Each CCN requires documentation averaging 15-45 minutes.
+
+**👀 What to Look For:**
+- **High change_type concentration** → Systematic issues (e.g., too many "unit_swap" = inventory problems)
+- **Revenue_impact negative trends** → Budget reductions or campaign cancellations
+- **doc_time_min increasing** → Process inefficiency or complexity creep
+- **approval_status = pending >48hrs** → Bottlenecks in approval chain
+
+**🎯 Actionable Insights:**
+- If `change_type` = "unit_swap" >30% → Investigate inventory forecasting accuracy
+- If `revenue_impact` consistently negative → Review pricing strategy and contract terms
+- If `doc_time_min` >30min average → Simplify forms or provide templates
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `contract_changes \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Baseline CCN rate is ~5-10/day. Spikes often follow campaign launches (Week 1) or midpoint reviews (Week 4-6). End-of-quarter spikes signal budget adjustments. |
+| Pie Chart | By change_type | Count by `change_type` — types of contract modifications | **Interpretation:** Healthy mix = 40% extensions, 30% unit adjustments, 20% pricing, 10% other. If "cancellation" >15%, investigate client satisfaction. If "unit_swap" dominates, audit inventory quality. |
+| Line Chart | Avg Units Affected Trend | `avg(units_affected) by bin(timestamp, 1h)` | **Interpretation:** Baseline ~5-10 units. Values >20 indicate major scope changes. Sustained upward trend = inadequate upfront planning. Correlate with revenue_impact to assess severity. |
+| Table | Latest Events | Top 20 rows: `ccn_id, campaign_id, ae_id, timestamp, change_type, units_affected, revenue_impact, doc_time_min, approval_status` | **Interpretation:** Filter for `approval_status` = "pending" >48 hours. Identify AEs with highest CCN frequency (top 5% may need coaching). Check if specific campaigns generate disproportionate changes. |
 
 **Key columns:** `change_type`, `units_affected`, `revenue_impact`, `doc_time_min` (documentation burden), `approval_status`
 
 ### Page 3 — Proof Approvals
 
-Tracks creative proof approval workflows.
+**📋 Purpose:** Tracks creative proof approval workflows to identify bottlenecks and reduce time-to-market for campaigns.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `proof_approvals \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By proof_type | Count by `proof_type` — types of proofs submitted |
-| Line Chart | Avg Cycle Time (Hours) Trend | `avg(cycle_time_hours) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `approval_id, order_id, ae_id, timestamp, proof_type, status, reviewer, cycle_time_hours, revision_count` |
+**💡 Why It Matters:** Proof approval cycle time directly impacts campaign launch dates and revenue recognition. Industry benchmark is <24 hours per proof iteration. Delays cascade through production schedules.
+
+**👀 What to Look For:**
+- **cycle_time_hours >48** → Reviewer backlog or unclear approval criteria
+- **revision_count >3** → Poor initial creative quality or misaligned expectations
+- **proof_type imbalance** → Certain formats requiring disproportionate reviews
+- **status = rejected patterns** → Systematic quality issues
+
+**🎯 Actionable Insights:**
+- If `cycle_time_hours` >48hrs consistently → Add more reviewers or set SLA alerts
+- If `revision_count` >3 for specific AEs → Provide creative brief templates
+- If `proof_type` = "digital" has longest cycle → May need specialized digital reviewer
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `proof_approvals \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Peak submission times are Mon-Wed mornings (planning meetings). Thursday-Friday drops = weekend production avoidance. Monitor for after-hours submissions (burnout indicator). |
+| Pie Chart | By proof_type | Count by `proof_type` — types of proofs submitted | **Interpretation:** Should align with media mix: OOH 40-50%, digital 30-40%, print 10-20%. Imbalance suggests channel shift or portfolio problems. Track proof_type evolution over quarters. |
+| Line Chart | Avg Cycle Time (Hours) Trend | `avg(cycle_time_hours) by bin(timestamp, 1h)` | **Interpretation:** Target <24hrs. 24-48hrs = acceptable. >48hrs = escalation needed. Weekly pattern: Mon/Tue fastest (reviewer availability), Thu/Fri slowest (weekend backlog). Set alert at 72hrs. |
+| Table | Latest Events | Top 20 rows: `approval_id, order_id, ae_id, timestamp, proof_type, status, reviewer, cycle_time_hours, revision_count` | **Interpretation:** Sort by cycle_time_hours descending to identify stuck proofs. Check if specific reviewers are bottlenecks. Revision_count >5 = escalate to creative director for quality review. |
 
 **Key columns:** `proof_type`, `status`, `cycle_time_hours` (approval turnaround), `revision_count`
 
 ### Page 4 — Work Orders
 
-Monitors field installation work orders.
+**📋 Purpose:** Monitors field installation work orders to ensure timely campaign execution and track documentation overhead.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `work_orders \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By wo_type | Count by `wo_type` — install, remove, repair, etc. |
-| Line Chart | Avg Doc Time (Min) Trend | `avg(doc_time_min) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `wo_id, campaign_id, unit_id, timestamp, wo_type, posting_instructions, vendor_id, install_status, doc_time_min` |
+**💡 Why It Matters:** Work orders are the final step in campaign activation. Install delays impact guaranteed impression dates and revenue recognition. Documentation time is pure overhead for production teams.
+
+**👀 What to Look For:**
+- **wo_type = "repair" increasing** → Asset quality issues or vandalism patterns
+- **install_status = "delayed" >10%** → Vendor capacity problems or permitting issues
+- **doc_time_min >45min** → Complex posting instructions or system usability issues
+- **Vendor_id concentration** → Over-reliance on single vendor (risk)
+
+**🎯 Actionable Insights:**
+- If `wo_type` = "repair" >20% of volume → Asset durability audit needed
+- If specific `vendor_id` has high delays → Re-negotiate SLAs or add backup vendors
+- If `doc_time_min` varies widely by AE → Standardize posting instruction templates
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `work_orders \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Volume clusters Monday mornings (weekend installs) and month-end (campaign launches). Summer peaks for seasonal campaigns. Low volume = capacity for rush orders. |
+| Pie Chart | By wo_type | Count by `wo_type` — install, remove, repair, etc. | **Interpretation:** Healthy mix: 50-60% new installs, 30-40% removals, <10% repairs. High repair rate signals asset aging or location quality issues. Track ratio over time for maintenance budget planning. |
+| Line Chart | Avg Doc Time (Min) Trend | `avg(doc_time_min) by bin(timestamp, 1h)` | **Interpretation:** Baseline ~20-30 min per WO. >45min = overly complex instructions. <15min may indicate insufficient detail (quality risk). Trend up = process bloat; trend down = process improvement success. |
+| Table | Latest Events | Top 20 rows: `wo_id, campaign_id, unit_id, timestamp, wo_type, posting_instructions, vendor_id, install_status, doc_time_min` | **Interpretation:** Filter `install_status` != "completed" to find stuck work orders. Check if `posting_instructions` length correlates with doc_time_min. Identify vendors with completion rates <95%. |
 
 **Key columns:** `wo_type`, `install_status`, `doc_time_min` (documentation time), `vendor_id`
 
 ### Page 5 — POP Alerts
 
-Proof-of-Performance alert monitoring — identifies compliance issues.
+**📋 Purpose:** Proof-of-Performance alert monitoring identifies compliance issues that risk makegoods and revenue recovery.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `pop_alerts \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By alert_type | Count by `alert_type` — missing photos, expired posting, etc. |
-| Line Chart | Avg Photos Missing Trend | `avg(photos_missing) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `alert_id, campaign_id, unit_id, timestamp, alert_type, severity, description, photos_missing, resolution_status` |
+**💡 Why It Matters:** POP documentation proves campaign delivery and protects against advertiser disputes. Missing photos trigger makegoods (free impressions) costing $50K-$500K per campaign. Industry standard is <3% POP failure rate.
+
+**👀 What to Look For:**
+- **alert_type = "missing_photo" >5%** → Field crew process failure or equipment issues
+- **severity = "critical" unresolved >24hrs** → Immediate makegood liability
+- **photos_missing trending up** → Systematic process breakdown
+- **resolution_status = "unresolved" aging** → Growing compliance debt
+
+**🎯 Actionable Insights:**
+- If `alert_type` = "expired_posting" clusters in specific markets → Local permitting issues
+- If `photos_missing` correlates with specific vendors → Training or contract enforcement needed
+- If alerts spike post-installation → Quality check process gap (catch at install time)
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `pop_alerts \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Baseline <5 alerts/day. Spikes follow campaign activations (Day 7-10 post-install = first audit cycle). Month-end spikes = advertiser report deadlines driving audits. Zero alerts = audit process not running. |
+| Pie Chart | By alert_type | Count by `alert_type` — missing photos, expired posting, etc. | **Interpretation:** Target: <60% missing photos (easily fixable), <30% quality issues, <10% critical issues. If "damaged_asset" >15%, investigate vandalism patterns or asset durability. |
+| Line Chart | Avg Photos Missing Trend | `avg(photos_missing) by bin(timestamp, 1h)` | **Interpretation:** Benchmark: <0.5 photos/campaign. Per POP requires 1-4 photos (proof of posting). Values >1.0 = compliance risk. Sustained increase = field process deterioration or training gap. |
+| Table | Latest Events | Top 20 rows: `alert_id, campaign_id, unit_id, timestamp, alert_type, severity, description, photos_missing, resolution_status` | **Interpretation:** Priority queue: Filter severity="critical" + resolution_status="unresolved". Check campaign_id for high-value advertisers (priority resolution). Track time-to-resolution: <24hrs for critical, <72hrs for high. |
 
 **Key columns:** `alert_type`, `severity`, `photos_missing`, `resolution_status`
 
 ### Page 6 — Inventory Tracking
 
-Tracks advertising unit inventory status changes.
+**📋 Purpose:** Tracks advertising unit inventory status changes to maintain accurate availability and prevent double-booking.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `inventory_tracking \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By event_type | Count by `event_type` — status transitions for ad units |
-| Line Chart | Avg Doc Time (Min) Trend | `avg(doc_time_min) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `tracking_id, unit_id, timestamp, event_type, market_id, previous_status, new_status, reason, doc_time_min` |
+**💡 Why It Matters:** Inventory accuracy is critical for sales forecasting and revenue protection. Overbooking leads to makegoods; underbooking leaves revenue on the table. Real-time tracking prevents both.
+
+**👀 What to Look For:**
+- **event_type = "status_change" frequency** → Churn rate indicates market volatility
+- **previous_status → new_status patterns** → Unusual transitions (e.g., sold → available = cancellation)
+- **doc_time_min >30min** → Complex status workflows need simplification
+- **Market_id hotspots** → High-demand markets with frequent changes
+
+**🎯 Actionable Insights:**
+- If `new_status` = "maintenance" increasing → Asset aging; plan capital refresh
+- If `reason` = "cancellation" >10% → Client satisfaction or pricing issues
+- If `doc_time_min` varies by market → Process standardization needed
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `inventory_tracking \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Baseline 50-100 changes/day. Monday spikes = weekend changes processed. End-of-month peaks = contract renewals and expirations. Low activity may indicate stale data. |
+| Pie Chart | By event_type | Count by `event_type` — status transitions for ad units | **Interpretation:** Healthy distribution: 40-50% availability updates, 30-40% bookings, 10-20% releases, <10% maintenance. High maintenance = aging asset base. Track event_type mix quarterly. |
+| Line Chart | Avg Doc Time (Min) Trend | `avg(doc_time_min) by bin(timestamp, 1h)` | **Interpretation:** Target <20min per status change. >30min = workflow friction or data quality issues requiring manual cleanup. Decreased time = automation success. Monitor for sudden increases (system issues). |
+| Table | Latest Events | Top 20 rows: `tracking_id, unit_id, timestamp, event_type, market_id, previous_status, new_status, reason, doc_time_min` | **Interpretation:** Look for rapid state transitions (same unit_id with <1hr between changes = data quality issue). Check if high-value markets (top revenue) show unusual patterns. Audit “reason” for cancellations. |
 
 **Key columns:** `event_type`, `previous_status`, `new_status`, `reason`, `doc_time_min`
 
 ### Page 7 — Campaign Pacing
 
-Real-time campaign delivery pacing vs. targets.
+**📋 Purpose:** Real-time campaign delivery pacing vs targets ensures guaranteed impressions are met and budgets are optimized.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `campaign_pacing \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By pacing_status | Count by `pacing_status` — on_track, behind, ahead |
-| Line Chart | Avg Impressions Delivered Trend | `avg(impressions_delivered) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `pacing_id, campaign_id, timestamp, impressions_delivered, impressions_target, spend_pct, pacing_status` |
+**💡 Why It Matters:** Pacing determines revenue recognition timing and advertiser satisfaction. Under-delivery triggers makegoods; over-delivery erodes margins. Industry target is ±5% of plan.
+
+**👀 What to Look For:**
+- **pacing_status = "behind" >20%** → Risk of makegoods and contract penalties
+- **pacing_status = "ahead" sustained** → Burning budget too fast (margin erosion)
+- **impressions_delivered vs impressions_target gap widening** → Forecasting inaccuracy
+- **spend_pct >100% before campaign end** → Budget overrun risk
+
+**🎯 Actionable Insights:**
+- If `pacing_status` = "behind" for premium campaigns → Add inventory or extend contract
+- If `spend_pct` significantly outpaces delivery → Cost per impression higher than planned
+- If consistent "ahead" pacing → Opportunity to upsell additional impressions
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `campaign_pacing \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Pacing checks occur every 4-24 hours depending on campaign cadence. Daily campaigns show 24 events/day. Gaps >24hrs indicate monitoring issues. Frequency increases near campaign end (hourly checks). |
+| Pie Chart | By pacing_status | Count by `pacing_status` — on_track, behind, ahead | **Interpretation:** Target: 70-80% on_track, 10-15% behind, 10-15% ahead. >25% behind = systemic delivery issues. >25% ahead = over-delivering (margin concern). Track status distribution weekly. |
+| Line Chart | Avg Impressions Delivered Trend | `avg(impressions_delivered) by bin(timestamp, 1h)` | **Interpretation:** Should show steady linear growth matching flight dates. Flat periods = no delivery (investigate units). Steep curves = burst delivery (check inventory allocation). Compare to impressions_target line. |
+| Table | Latest Events | Top 20 rows: `pacing_id, campaign_id, timestamp, impressions_delivered, impressions_target, spend_pct, pacing_status` | **Interpretation:** Priority: Filter pacing_status!="on_track" + (impressions_delivered / impressions_target) <0.80. These campaigns need immediate attention. Check if spend_pct > delivery % (cost overrun). |
 
 **Key columns:** `impressions_delivered`, `impressions_target`, `spend_pct`, `pacing_status`
 
 ### Page 8 — Creative Status
 
-Tracks creative asset lifecycle through proof stages.
+**📋 Purpose:** Tracks creative asset lifecycle through proof stages to prevent launch delays and identify production bottlenecks.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `creative_status \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By creative_status | Count by `creative_status` — the current state of each creative |
-| Line Chart | Avg Days Pending Trend | `avg(days_pending) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `status_id, order_id, campaign_id, timestamp, creative_status, proof_stage, days_pending, blocker_type` |
+**💡 Why It Matters:** Creative status directly impacts campaign go-live dates and revenue recognition. Assets stuck in proof stages delay launches and cascade through the production schedule.
+
+**👀 What to Look For:**
+- **creative_status = "pending_review" aging >48hrs** → Review bottleneck
+- **proof_stage stuck at 1st/2nd review** → Quality issues or unclear briefs
+- **days_pending >7** → Risk of missing campaign start date
+- **blocker_type patterns** → Systematic issues (legal, brand approval, etc.)
+
+**🎯 Actionable Insights:**
+- If `creative_status` stuck at "pending_legal" → Add legal review capacity or pre-clear claims
+- If `days_pending` correlates with specific creative types → Adjust timelines or templates
+- If `blocker_type` = "client_feedback" dominates → Improve initial brief process
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `creative_status \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Status updates occur at each workflow stage. Baseline 20-40 updates/day. Lack of movement indicates stalled pipeline. Increased velocity near launch deadlines (last-minute changes). |
+| Pie Chart | By creative_status | Count by `creative_status` — the current state of each creative | **Interpretation:** Healthy funnel: 40% in_progress, 30% pending_review, 20% approved, 10% production. If >30% pending_review = bottleneck. If <20% approved near launch dates = risk. |
+| Line Chart | Avg Days Pending Trend | `avg(days_pending) by bin(timestamp, 1h)` | **Interpretation:** Target <3 days per stage, <10 days total cycle. >7 days indicates inefficiency. Trend up = process degradation. Trend down = improvement. Compare to proof_stage for stage-specific analysis. |
+| Table | Latest Events | Top 20 rows: `status_id, order_id, campaign_id, timestamp, creative_status, proof_stage, days_pending, blocker_type` | **Interpretation:** Filter days_pending >7 to identify at-risk assets. Group by blocker_type to find patterns. Check if campaigns with days_pending >14 still have realistic launch dates. Escalate to production manager. |
 
 **Key columns:** `creative_status`, `proof_stage`, `days_pending`, `blocker_type`
 
