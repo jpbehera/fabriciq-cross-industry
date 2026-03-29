@@ -290,46 +290,97 @@ Every page follows the same 4-tile layout:
 
 ### Page 9 — Installation Events
 
-Field crew installation event tracking with GPS and photo upload status.
+**📋 Purpose:** Field crew installation event tracking with GPS and photo upload status ensures quality execution and compliance documentation.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `installation_events \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By event_type | Count by `event_type` — started, completed, failed |
-| Line Chart | Avg GPS Lat Trend | `avg(gps_lat) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `event_id, wo_id, unit_id, timestamp, event_type, crew_id, status, photo_uploaded, gps_lat, gps_lng` |
+**💡 Why It Matters:** Installation events provide real-time visibility into field operations and proof-of-work. Photos are legal protection against disputes. GPS validates correct unit locations. Missing documentation exposes company to liability.
+
+**👀 What to Look For:**
+- **event_type = "failed" >5%** → Asset or site access issues requiring investigation
+- **photo_uploaded = false increasing** → Equipment or process failure
+- **GPS coordinates outside expected zone** → Wrong unit installed (geo-fence violation)
+- **status != "completed" aging** → Stuck work orders
+
+**🎯 Actionable Insights:**
+- If `photo_uploaded` = false correlates with specific crews → Training or equipment issue
+- If `event_type` = "failed" clusters by time/location → External factors (weather, permitting)
+- If GPS variance high → Update unit master data or enhance crew navigation tools
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `installation_events \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Peak activity 8AM-4PM local time (field crew hours). Weekend activity indicates overtime or rush jobs. Late-night events may be fraudulent (audit crew_id). Zero activity on business days = dispatch problem. |
+| Pie Chart | By event_type | Count by `event_type` — started, completed, failed | **Interpretation:** Target: 85-90% completed, 5-10% in_progress, <5% failed. High in_progress % = work stoppages. High failed % = site access or quality issues. Track completion rate by crew for performance management. |
+| Line Chart | Avg GPS Lat Trend | `avg(gps_lat) by bin(timestamp, 1h)` | **Interpretation:** Latitude drift indicates geographic spread of work. Stable values = concentrated market. Jumps = crews moving between markets. Use with gps_lng to map daily coverage. Outliers = potential geo-fence violations. |
+| Table | Latest Events | Top 20 rows: `event_id, wo_id, unit_id, timestamp, event_type, crew_id, status, photo_uploaded, gps_lat, gps_lng` | **Interpretation:** Filter photo_uploaded=false for immediate follow-up. Check GPS coordinates against unit master data (±0.001° tolerance). Identify crews with repeated failed events. Verify timestamp matches crew schedules. |
 
 **Key columns:** `event_type`, `status`, `photo_uploaded`, `crew_id`
 
 ### Page 10 — Digital Impressions
 
-Digital ad impression delivery monitoring.
+**📋 Purpose:** Digital ad impression delivery monitoring tracks audience engagement and validates billing accuracy for programmatic campaigns.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `digital_impressions \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By audience_segment | Count by `audience_segment` — targeted audience groups |
-| Line Chart | Avg Impressions Count Trend | `avg(impressions_count) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `impression_id, campaign_id, unit_id, timestamp, impressions_count, dwell_time_sec, audience_segment` |
+**💡 Why It Matters:** Digital impressions are real-time and billable. Accurate counting protects revenue and prevents disputes. Audience segmentation quality determines campaign ROI and renewal rates.
+
+**👀 What to Look For:**
+- **impressions_count drops** → Technical issues or low traffic periods
+- **dwell_time_sec <2s** → Poor creative engagement or viewability issues
+- **audience_segment concentration** → Targeting effectiveness or segment exhaustion
+- **Impression spikes** → Validate against expected traffic patterns (fraud detection)
+
+**🎯 Actionable Insights:**
+- If `dwell_time_sec` consistently low → Creative refresh needed or placement quality issue
+- If `audience_segment` underperforming vs targets → Retargeting strategy adjustment
+- If `impressions_count` significantly exceeds forecast → Check for bot traffic or counting errors
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `digital_impressions \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Follows web traffic patterns: peak noon-8PM, low 2AM-6AM. Weekday higher than weekend for B2B segments. Compare to traffic forecasts. Sudden drops = technical failure. Unusual spikes = investigate for fraud. |
+| Pie Chart | By audience_segment | Count by `audience_segment` — targeted audience groups | **Interpretation:** Should align with targeting strategy. "Demo_25-34" may be 40%, "Interest_Tech" 30%, etc. Segment shifts indicate audience fatigue or creative mismatch. Track segment performance ROI separately. |
+| Line Chart | Avg Impressions Count Trend | `avg(impressions_count) by bin(timestamp, 1h)` | **Interpretation:** Baseline varies by placement type: display ~1-5K/hr, video ~100-500/hr. Trend up = campaign gaining traction. Trend down = audience saturation or competition. Set alerts for >30% deviation from 7-day average. |
+| Table | Latest Events | Top 20 rows: `impression_id, campaign_id, unit_id, timestamp, impressions_count, dwell_time_sec, audience_segment` | **Interpretation:** Check dwell_time_sec: <2s = viewability concern, >10s = engagement success. Validate audience_segment matches campaign targeting. Identify units with anomalous impression rates for quality verification. |
 
 **Key columns:** `impressions_count`, `dwell_time_sec`, `audience_segment`
 
 ### Page 11 — Inventory Availability
 
-Real-time inventory availability and hold status.
+**📋 Purpose:** Real-time inventory availability and hold status ensures accurate sales forecasting and prevents double-booking revenue loss.
 
-| Tile | Title | KQL Summary |
-|------|-------|-------------|
-| Timechart | Events Over Time | `inventory_availability \| summarize count() by bin(timestamp, 1h)` |
-| Pie Chart | By availability_status | Count by `availability_status` — available, held, sold |
-| Line Chart | Avg Days Available Trend | `avg(days_available) by bin(timestamp, 1h)` |
-| Table | Latest Events | Top 20 rows: `avail_id, unit_id, market_id, timestamp, availability_status, hold_type, campaign_id, days_available` |
+**💡 Why It Matters:** Inventory accuracy is the foundation of revenue operations. Overbooking causes makegoods and client disputes. Stale holds tie up capacity and reduce sellable inventory by 10-20%.
+
+**👀 What to Look For:**
+- **availability_status = "available" declining** → Inventory shortage or high demand
+- **hold_type = "temporary" aging >48hrs** → Stale holds blocking real sales
+- **days_available increasing** → Unsold inventory (pricing or market issue)
+- **Status churn** (rapid status changes) → Sales process inefficiency
+
+**🎯 Actionable Insights:**
+- If `availability_status` = "held" >20% of inventory → Audit hold expiration policy
+- If `days_available` >90 for premium units → Pricing adjustment or promotion needed
+- If `hold_type` = "temporary" converting to sales <50% → Sales qualification issues
+
+| Tile | Title | KQL Summary | **Speaker Notes** |
+|------|-------|-------------|-------------------|
+| Timechart | Events Over Time | `inventory_availability \| summarize count() by bin(timestamp, 1h)` | **Interpretation:** Availability checks occur with each sales inquiry. Baseline 100-200/day. Spikes during sales push periods (month-end, promotions). Low volume = sluggish sales activity. Track events by day of week for capacity planning. |
+| Pie Chart | By availability_status | Count by `availability_status` — available, held, sold | **Interpretation:** Healthy mix: 50-60% available, 30-40% sold, <10% held. If available <40% = inventory shortage (capacity expansion needed). If held >15% = stale holds audit. Track status mix weekly vs sales targets. |
+| Line Chart | Avg Days Available Trend | `avg(days_available) by bin(timestamp, 1h)` | **Interpretation:** Target <60 days. 60-90 days = acceptable. >90 days = problem units needing intervention. Increasing trend = declining demand or pricing mismatch. Decreasing trend = healthy turnover. Segment by market and unit type. |
+| Table | Latest Events | Top 20 rows: `avail_id, unit_id, market_id, timestamp, availability_status, hold_type, campaign_id, days_available` | **Interpretation:** Filter days_available >90 + availability_status="available" = distressed inventory. Check hold_type="temporary" with no campaign_id = orphaned holds (release immediately). Prioritize high-value markets for action. |
 
 **Key columns:** `availability_status`, `hold_type`, `days_available`
 
 ---
 
 ## 2. Power BI Analytics Report
+
+**📋 Overall Purpose:** Historical analysis and KPI reporting for strategic decision-making, trend identification, and performance management.
+
+**💡 How It Differs from Real-Time Dashboard:**
+- **Real-Time = Operational:** React to immediate issues (live campaign pacing, stuck work orders)
+- **Power BI = Analytical:** Identify trends, root causes, and strategic opportunities (monthly patterns, AE performance, client satisfaction)
+
+**👥 Primary Audiences:**
+- **Executives:** Page 1 (Executive Summary) for business health at-a-glance
+- **Operations Managers:** Pages 2-4 (Orders, Charting, POP) for workflow optimization
+- **People Leaders:** Pages 5-7 (AE Wellness, Quality, Satisfaction) for team health and client retention
+- **System Analysts:** Pages 8-11 (Interactions, Changes, Approvals, Work Orders) for process improvement
 
 **Name:** `Advertising_Analytics_Report`
 **Format:** PBIR-Legacy (definition.pbir + report.json)
@@ -391,30 +442,43 @@ Numeric columns are automatically aggregated using semantic rules:
 
 ### Page 1 — Executive Summary
 
-The landing page with cross-table KPI highlights and headline charts.
+**📋 Purpose:** The landing page provides cross-table KPI highlights and headline charts for executive-level business health monitoring.
+
+**💡 Why It Matters:** Executives need a single view to answer: "Are we on track?" This page surfaces the top 4 business metrics and trends without requiring drill-down. It's optimized for monthly/quarterly business reviews.
+
+**👀 What to Look For:**
+- **KPI Card trends** → Compare to prior period and annual targets
+- **Order volume vs charting efficiency** → Operational capacity utilization
+- **POP verification rates** → Compliance health
+- **AE burden score** → Team sustainability and retention risk
+
+**🎯 Actionable Insights:**
+- If `admin_burden_score` >7.0 → Immediate process improvement needed (burnout threshold)
+- If `units_booked` declining month-over-month → Sales pipeline issue or market softness
+- If `units_verified` / `units_booked` <90% → POP compliance problem (makegood risk)
 
 **Row 1: KPI Cards (4 colored cards)**
 
-| Card | Source Table | Metric | Aggregation | Color |
-|------|-------------|--------|-------------|-------|
-| 1 | `fact_campaign_orders` | `units_booked` | Sum | Blue `#118DFF` |
-| 2 | `fact_charting_events` | `units_charted` | Sum | Navy `#12239E` |
-| 3 | `fact_pop_reports` | `units_verified` | Sum | Orange `#E66C37` |
-| 4 | `fact_ae_wellness` | `admin_burden_score` | Avg | Purple `#6B007B` |
+| Card | Source Table | Metric | Aggregation | Color | **Interpretation** |
+|------|-------------|--------|-------------|-------|---------------------|
+| 1 | `fact_campaign_orders` | `units_booked` | Sum | Blue `#118DFF` | **Target:** 10-15% month-over-month growth. Seasonal peaks Q2/Q4. Declining trend = pipeline problem. |
+| 2 | `fact_charting_events` | `units_charted` | Sum | Navy `#12239E` | **Target:** Should equal units_booked ±5%. Higher = rework; lower = charting backlog. |
+| 3 | `fact_pop_reports` | `units_verified` | Sum | Orange `#E66C37` | **Target:** ≥95% of units_booked. <90% = compliance crisis. Track verification lag (days between booking and POP). |
+| 4 | `fact_ae_wellness` | `admin_burden_score` | Avg | Purple `#6B007B` | **Target:** <5.0 (manageable), 5-7 (watch), >7.0 (critical). Correlate with turnover and sick leave data. |
 
 **Row 2: Column Chart + Donut**
 
-| Visual | Source Table | Category Axis | Value | Aggregation |
-|--------|-------------|---------------|-------|-------------|
-| Column Chart | `fact_campaign_orders` | `order_type` | `units_booked` | Sum |
-| Donut Chart | `fact_charting_events` | `charting_type` | `units_charted` | Sum |
+| Visual | Source Table | Category Axis | Value | Aggregation | **Interpretation** |
+|--------|-------------|---------------|-------|-------------|---------------------|
+| Column Chart | `fact_campaign_orders` | `order_type` | `units_booked` | Sum | **Pattern:** "new_campaign" should be 50-60%, "renewal" 30-40%, "expansion" 10-20%. Shift to renewals = mature market. Low new campaigns = acquisition problem. |
+| Donut Chart | `fact_charting_events` | `charting_type` | `units_charted` | Sum | **Pattern:** Target 30-40% automated, 60-70% manual. Increasing automation = efficiency gains. 100% manual = no automation adoption (training issue). |
 
 **Row 3: Line Chart + Bar Chart**
 
-| Visual | Source Table | Axis | Value | Aggregation |
-|--------|-------------|------|-------|-------------|
-| Line Chart | `fact_campaign_orders` | `date` | `units_booked` | Sum |
-| Bar Chart | `fact_charting_events` | `charting_type` | `manual_charts` | Sum |
+| Visual | Source Table | Axis | Value | Aggregation | **Interpretation** |
+|--------|-------------|------|-------|-------------|---------------------|
+| Line Chart | `fact_campaign_orders` | `date` | `units_booked` | Sum | **Pattern:** Should show consistent growth or seasonal pattern. Volatility = demand uncertainty or sales process issues. Flat line = market maturity or competition. |
+| Bar Chart | `fact_charting_events` | `charting_type` | `manual_charts` | Sum | **Pattern:** Manual charting workload. Ranked view shows which chart types consume most effort. Top type is automation opportunity. |
 
 ---
 
@@ -472,17 +536,40 @@ Proof-of-Performance compliance reporting — photo submission and verification 
 
 ### Page 5 — AE Wellness
 
-Account Executive wellness and workload balance — burnout risk indicators.
+**📋 Purpose:** Account Executive wellness and workload balance monitoring to prevent burnout and improve retention.
 
-| Visual | Type | Columns | Notes |
-|--------|------|---------|-------|
-| Card 1 | Card (Blue) | `Avg(admin_burden_score)` | Average admin burden score |
-| Card 2 | Card (Navy) | `Avg(quota_pressure_score)` | Average quota pressure |
-| Card 3 | Card (Orange) | `Sum(overtime_hours)` | Total overtime hours logged |
-| Line Chart | Line | `date` × `Avg(admin_burden_score)` | Burden score trend |
-| Detail Table | Table | `survey_id, ae_id, date, admin_burden_score, quota_pressure_score, overtime_hours, after_hours_doc_min` | Full-width table (no categorical column) |
+**💡 Why It Matters:** AE turnover costs $75K-$150K per replacement (recruiting, training, lost relationships). Documentation burden is the #1 driver of burnout in advertising sales. This page quantifies the problem and identifies at-risk individuals.
+
+**👀 What to Look For:**
+- **admin_burden_score >7.0** → Burnout imminent (exit risk within 3-6 months)
+- **quota_pressure_score increasing while revenue flat** → Goal misalignment
+- **overtime_hours >20/month** → Unsustainable workload
+- **after_hours_doc_min >180/month** → Work-life balance crisis
+
+**🎯 Actionable Insights:**
+- If multiple AEs show burden >7.0 → Process improvement initiative needed (not individual problem)
+- If overtime correlates with certain markets → Market complexity or understaffing issue
+- If after-hours documentation increasing → System usability or deadline structure problem
+
+**📊 Benchmarks & Targets:**
+- **admin_burden_score:** <5.0 healthy, 5-7 caution, >7 critical
+- **overtime_hours:** <10/month sustainable, 10-20 watch, >20 intervention
+- **work_life_balance:** >7.0 good, 5-7 acceptable, <5 concerning
+
+| Visual | Type | Columns | Notes | **Interpretation** |
+|--------|------|---------|-------|--------------------|
+| Card 1 | Card (Blue) | `Avg(admin_burden_score)` | Average admin burden score | **Target <5.0.** Tracks documentation vs selling time. Score >6.0 predicts turnover. Compare to revenue per AE (inverse correlation expected). |
+| Card 2 | Card (Navy) | `Avg(quota_pressure_score)` | Average quota pressure | **Target 5-7 (motivating).** <5 = goals too easy. >8 = unattainable (demotivating). Should correlate with market potential. |
+| Card 3 | Card (Orange) | `Sum(overtime_hours)` | Total overtime hours logged | **Target <10hrs/AE/month.** >20hrs = capacity issue. Segment by tenure: new AEs expect higher; veteran AEs = problem. |
+| Line Chart | Line | `date` × `Avg(admin_burden_score)` | Burden score trend | **Pattern:** Should trend down after process improvements. Upward trend = process degradation. Seasonal spikes OK (quarter-end). Sustained >7 = crisis. |
+| Detail Table | Table | `survey_id, ae_id, date, admin_burden_score, quota_pressure_score, overtime_hours, after_hours_doc_min` | Full-width table (no categorical column) | **Usage:** Filter admin_burden_score >7 for 1:1 interventions. Cross-reference with CRM data (are top performers burned out?). Track individual trends month-over-month. |
 
 **Schema:** `survey_id, ae_id, date, admin_burden_score, quota_pressure_score, overtime_hours, after_hours_doc_min, fatigue_score, work_life_balance`
+
+**🔍 Deep Dive Analysis:**
+1. **Correlation Analysis:** Does admin_burden_score correlate with revenue? (If yes, burden is worth it; if no, pure waste)
+2. **Cohort Analysis:** Compare burden scores by tenure (0-1yr, 1-3yr, 3+yr). New AEs should improve over time.
+3. **Market Analysis:** Is burden concentrated in certain markets? (If yes, market complexity; if no, process problem)
 
 ---
 
@@ -504,17 +591,42 @@ Quality metrics for campaign production — charting accuracy, proof approvals, 
 
 ### Page 7 — Advertiser Satisfaction
 
-Advertiser survey scores — campaign accuracy, POP timeliness, communication, renewal likelihood.
+**📋 Purpose:** Advertiser survey scores tracking to predict renewals and identify retention risks.
 
-| Visual | Type | Columns | Notes |
-|--------|------|---------|-------|
-| Card 1 | Card (Blue) | `Avg(campaign_accuracy_score)` | Average campaign accuracy |
-| Card 2 | Card (Navy) | `Avg(pop_timeliness_score)` | Average POP timeliness |
-| Card 3 | Card (Orange) | `Avg(communication_score)` | Average communication score |
-| Line Chart | Line | `date` × `Avg(campaign_accuracy_score)` | Satisfaction trend |
-| Detail Table | Table | `survey_id, advertiser_id, campaign_id, date, campaign_accuracy_score, pop_timeliness_score, communication_score` | Full-width table (no categorical column) |
+**💡 Why It Matters:** Client satisfaction scores predict renewal rates 12-18 months in advance. A 1-point drop in satisfaction correlates with 15-25% higher churn. Early intervention on declining scores protects recurring revenue.
+
+**👀 What to Look For:**
+- **campaign_accuracy_score <7.0** → Execution quality issues
+- **pop_timeliness_score <7.0** → Documentation delivery problems
+- **communication_score <7.0** → AE relationship issue or responsiveness problem
+- **renewal_likelihood <5.0** → Immediate churn risk (executive escalation)
+
+**🎯 Actionable Insights:**
+- If accuracy scores declining → Quality control process review needed
+- If timeliness consistently low → POP automation opportunity
+- If communication varies by AE → Training or coaching opportunity
+- If renewal_likelihood <5 on high-value accounts → Executive save plan
+
+**📊 Benchmarks & Targets:**
+- **All satisfaction scores:** 8-10 promoter, 6-7 passive, <6 detractor
+- **renewal_likelihood:** >7 safe, 5-7 at-risk, <5 critical
+- **Response rate target:** >60% (low rate = survey fatigue or timing issues)
+
+| Visual | Type | Columns | Notes | **Interpretation** |
+|--------|------|---------|-------|--------------------|
+| Card 1 | Card (Blue) | `Avg(campaign_accuracy_score)` | Average campaign accuracy | **Target 8.0+.** Measures "did we deliver what was promised?" <7.0 = systematic execution gaps. Track by order_type (new vs renewal expectations differ). |
+| Card 2 | Card (Navy) | `Avg(pop_timeliness_score)` | Average POP timeliness | **Target 8.0+.** Measures "did we document on time?" POP delays frustrate clients and risk disputes. Correlate with internal POP turnaround metrics. |
+| Card 3 | Card (Orange) | `Avg(communication_score)` | Average communication score | **Target 8.0+.** Measures AE responsiveness and proactivity. Strong relationship indicator. <7.0 = account risk even if execution is good. |
+| Line Chart | Line | `date` × `Avg(campaign_accuracy_score)` | Satisfaction trend | **Pattern:** Should be stable at 8.0+ with minor variance. Downward trend = quality erosion. Sudden drop = investigate recent campaigns. Segment by advertiser tier. |
+| Detail Table | Table | `survey_id, advertiser_id, campaign_id, date, campaign_accuracy_score, pop_timeliness_score, communication_score` | Full-width table (no categorical column) | **Usage:** Filter renewal_likelihood <5.0 for immediate account reviews. Cross-reference with revenue (  priority by annual spend). Track score changes quarter-over-quarter per account. |
 
 **Schema:** `survey_id, advertiser_id, campaign_id, date, campaign_accuracy_score, pop_timeliness_score, communication_score, renewal_likelihood`
+
+**🔍 Deep Dive Analysis:**
+1. **Net Promoter Score (NPS):** Calculate NPS from renewal_likelihood: (% 9-10) - (% 0-6). Target NPS >50.
+2. **Driver Analysis:** Which score (accuracy/timeliness/communication) has strongest correlation with renewal_likelihood? Focus improvement there.
+3. **Segment Analysis:** Compare satisfaction by advertiser annual spend tier. Do enterprise clients have different expectations?
+4. **Predictive Modeling:** Build churn prediction model using satisfaction trends + campaign complexity + AE burden scores.
 
 ---
 
