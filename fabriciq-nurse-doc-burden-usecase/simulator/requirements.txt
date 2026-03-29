@@ -1,3 +1,0 @@
-azure-eventhub>=5.11.0
-pandas>=2.0.0
-python-dotenv>=1.0.0

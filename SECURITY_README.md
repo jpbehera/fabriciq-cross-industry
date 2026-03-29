@@ -24,8 +24,6 @@ This document describes the **Zero Trust for AI (ZT4AI)** security hardening app
 
 All notebooks and scripts in this accelerator follow Microsoft's **Zero Trust for AI** framework. Security is enforced through a shared utility notebook (`ZT_Security_Utils.ipynb`) that is imported by every pipeline notebook via `%run ./ZT_Security_Utils`.
 
-The healthcare notebooks in `fabriciq-nurse-doc-burden-usecase/` include inline equivalents of the same controls since they operate independently of the core pipeline.
-
 ---
 
 ## ZT4AI Principles Applied

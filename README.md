@@ -168,14 +168,9 @@ fabriciq-cross-industry/
 │
 ├── CrossIndustry_Pipeline.json     ← 📋 Fabric Data Pipeline definition
 │
-├── datasets/                       ← 📁 Sample data for all 10 industries
-│   └── <industry>/
-│       └── data/                   # dim_*.csv, fact_*.csv, stream_*.csv
-│
-└── fabriciq-nurse-doc-burden-usecase/  ← 🏥 Healthcare deep-dive demo
-    ├── SETUP_GUIDE.md              # Complete walkthrough
-    ├── simulator/                  # Live streaming simulator
-    └── *.py / *.ipynb              # Dashboard utilities & notebooks
+└── datasets/                       ← 📁 Sample data for all 10 industries
+    └── <industry>/
+        └── data/                   # dim_*.csv, fact_*.csv, stream_*.csv
 ```
 
 ---
@@ -244,12 +239,15 @@ Each industry targets a specific documentation burden problem:
 
 ---
 
-## Two Ways to Deploy
+## Quick Start
 
-| Path | Best For | Guide |
-|------|----------|-------|
-| **Cross-Industry Pipeline** | Any of the 10 industries — fast, automated | [cross_industry_notebooks/README.md](cross_industry_notebooks/README.md) |
-| **Healthcare Deep-Dive** | Full demo with streaming simulator, real-time dashboards | [SETUP_GUIDE.md](fabriciq-nurse-doc-burden-usecase/SETUP_GUIDE.md) |
+**Set one variable. Deploy in 30 minutes.**
+
+1. Set `INDUSTRY = "healthcare"` (or any of 10 industries) in `00_Industry_Config.ipynb`
+2. Run `Deploy_Pipeline.ipynb` to create the Data Pipeline
+3. Trigger pipeline from Fabric UI
+
+See [cross_industry_notebooks/README.md](cross_industry_notebooks/README.md) for full deployment guide.
 
 ---
 
