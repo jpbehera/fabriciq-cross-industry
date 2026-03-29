@@ -82,18 +82,24 @@ EVENTHOUSE_DATABASE    = "<your_kql_database_name>"
 
 Import all notebooks into your Fabric workspace and create a Data Pipeline:
 
-**Recommended: Use the Fabric Data Pipeline** which provides:
+**Recommended: Programmatic Deployment**
+1. Upload `CrossIndustry_Pipeline.json` to your Lakehouse `Files/` folder
+2. Run **`Deploy_Pipeline.ipynb`** notebook — it creates the pipeline via REST API automatically
+3. Trigger the pipeline from Data Factory section
+
+**Alternative: Manual Import**
+1. Import `CrossIndustry_Pipeline.json` into Fabric workspace (Data Factory → Import)
+2. Trigger the pipeline manually
+
+Both provide:
 - Visual orchestration with dependencies
 - Built-in retry and timeout policies
 - Centralized monitoring
 - Full audit trail via Pipeline_Logger (persisted to Lakehouse)
 
-1. Import `CrossIndustry_Pipeline.json` into Fabric workspace (creates Data Pipeline)
-2. Trigger the pipeline manually or schedule it
-3. Monitor progress in the Fabric Monitoring hub
-4. Query audit logs: `SELECT * FROM dbo.pipeline_runs ORDER BY start_time DESC`
-
-**Alternative:** Run notebooks 00–07 individually in order (manual execution).
+After deployment:
+- Monitor progress in the Fabric Monitoring hub
+- Query audit logs: `SELECT * FROM dbo.pipeline_runs ORDER BY start_time DESC`
 
 ```mermaid
 flowchart TD

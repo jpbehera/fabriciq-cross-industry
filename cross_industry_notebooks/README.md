@@ -6,7 +6,16 @@ Change one `INDUSTRY` variable and the entire pipeline adapts — data ingestion
 
 ### Fastest Path: Fabric Data Pipeline
 
-Import **`CrossIndustry_Pipeline.json`** (from repo root) into your Fabric workspace to create a Data Pipeline that:
+**Option A — Programmatic (Recommended):**
+1. Upload `CrossIndustry_Pipeline.json` (from repo root) to your Lakehouse `Files/` folder
+2. Run **`Deploy_Pipeline.ipynb`** — it will create the pipeline via REST API
+3. Go to Data Factory section in your workspace and trigger the pipeline
+
+**Option B — Manual Import:**
+1. Import `CrossIndustry_Pipeline.json` into Fabric workspace (Data Factory → Import)
+2. Trigger the pipeline manually
+
+Both approaches create a Data Pipeline that:
 - Runs all 8 notebooks in sequence with proper dependencies
 - Provides built-in retry, timeout, and error handling
 - Logs every record, artifact, and error via `Pipeline_Logger`
@@ -252,6 +261,7 @@ Creates two dashboard types:
 ```
 cross_industry_notebooks/
 │
+├── Deploy_Pipeline.ipynb            # 🚀 Programmatically create Data Pipeline via REST API
 ├── Pipeline_Logger.ipynb            # 📋 Centralized audit & telemetry engine
 │
 ├── 00_Industry_Config.ipynb         # Universal auto-discovery config ✅ INSTRUMENTED
