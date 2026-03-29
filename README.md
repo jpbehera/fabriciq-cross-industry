@@ -80,10 +80,15 @@ EVENTHOUSE_DATABASE    = "<your_kql_database_name>"
 
 ### Step 4 — Run the Pipeline
 
-Import all notebooks into your Fabric workspace and run them **in order**:
+Import all notebooks into your Fabric workspace. You have two options:
+
+**Option A — One-Click (Recommended):** Open `Pipeline_Orchestrator.ipynb`, set `INDUSTRY`, and **Run All**. It runs all 8 notebooks in sequence with full logging, error handling, and audit trail.
+
+**Option B — Step-by-Step:** Run notebooks 00–07 individually in order.
 
 ```mermaid
 flowchart TD
+    ORCH["🚀 Pipeline Orchestrator<br/><i>One-click end-to-end deployment</i>"]
     S0["🔧 00 Industry Config<br/><i>Set INDUSTRY variable, auto-discover tables</i>"]
     S1["🔍 01 Data Ingestion<br/><i>Profile schemas, detect quality issues</i>"]
     S2["📥 02 Load Lakehouse<br/><i>dim + fact → Delta; events → Eventhouse</i>"]
@@ -92,9 +97,11 @@ flowchart TD
     S5["🧠 05 Create Ontology<br/><i>Entity types + relationships</i>"]
     S6["🤖 06 Create Data Agent<br/><i>QA Agent + Ops Agent</i>"]
     S7["📈 07 Create Dashboards<br/><i>KQL real-time + Power BI</i>"]
+    LOG["📋 Audit Log<br/><i>Delta tables for compliance</i>"]
 
-    S0 --> S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7
+    ORCH --> S0 --> S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7 --> LOG
 
+    style ORCH fill:#1a1a2e,stroke:#e94560,color:#fff
     style S0 fill:#fff3e0,stroke:#FF9800
     style S1 fill:#e8f4f8,stroke:#2196F3
     style S2 fill:#e8f5e9,stroke:#4CAF50
@@ -103,6 +110,7 @@ flowchart TD
     style S5 fill:#fce4ec,stroke:#E91E63
     style S6 fill:#e3f2fd,stroke:#2196F3
     style S7 fill:#e3f2fd,stroke:#2196F3
+    style LOG fill:#f5f5f5,stroke:#607D8B
 ```
 
 ### Step 5 — Explore
@@ -120,6 +128,8 @@ flowchart TD
 fabriciq-cross-industry/
 │
 ├── cross_industry_notebooks/       ← 🚀 START HERE
+│   ├── Pipeline_Orchestrator.ipynb # One-click: runs all 8 notebooks with logging
+│   ├── Pipeline_Logger.ipynb       # Centralized audit & telemetry engine
 │   ├── 00_Industry_Config.ipynb    # Set industry key + auto-discover tables
 │   ├── 01–07_*.ipynb               # Core pipeline (run in order)
 │   ├── *_Agent_Instructions.ipynb  # Industry-specific agent prompts

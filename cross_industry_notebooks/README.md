@@ -1,8 +1,16 @@
 # Cross-Industry Accelerator — Notebook Pipeline
 
-> **8 notebooks. Any industry. Full Fabric IQ deployment.**
+> **8 notebooks. Any industry. Full Fabric IQ deployment. One click.**
 
 Change one `INDUSTRY` variable and the entire pipeline adapts — data ingestion, Lakehouse/Warehouse loading, semantic model, ontology, AI agents, and dashboards.
+
+### Fastest Path: Pipeline Orchestrator
+
+Open **`Pipeline_Orchestrator.ipynb`**, set your `INDUSTRY`, and **Run All**. It executes all 8 notebooks in sequence with:
+- Full error handling (stop or skip on failure)
+- Centralized audit log (every record, artifact, and error tracked)
+- Post-run telemetry (record counts, artifact verification)
+- Lakehouse persistence (Delta tables for compliance: `pipeline_runs`, `pipeline_events`, `pipeline_artifacts`, `pipeline_errors`)
 
 ---
 
@@ -242,6 +250,9 @@ Creates two dashboard types:
 
 ```
 cross_industry_notebooks/
+│
+├── Pipeline_Orchestrator.ipynb      # 🚀 ONE-CLICK: runs full pipeline with logging
+├── Pipeline_Logger.ipynb            # 📋 Centralized audit & telemetry engine
 │
 ├── 00_Industry_Config.ipynb         # Universal auto-discovery config
 ├── 01_Data_Ingestion.ipynb          # Schema profiling & quality checks
