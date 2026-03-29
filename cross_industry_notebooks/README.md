@@ -1,143 +1,171 @@
-# Cross-Industry Accelerator Notebooks
+# Cross-Industry Accelerator — Notebook Pipeline
 
-A pipeline of 8 Fabric notebooks that automate end-to-end deployment of a **Fabric IQ + Real-Time Intelligence** solution for **any industry**. Change one variable (`INDUSTRY`) and the entire pipeline adapts — data ingestion, lakehouse/warehouse loading, ontology creation, agent setup, semantic model, and dashboards.
+> **8 notebooks. Any industry. Full Fabric IQ deployment.**
 
-## Supported Industries
+Change one `INDUSTRY` variable and the entire pipeline adapts — data ingestion, Lakehouse/Warehouse loading, semantic model, ontology, AI agents, and dashboards.
 
-| Key | Label | Description |
-|-----|-------|-------------|
-| `advertising` | Advertising | OOH campaign ops, charting, POP documentation |
-| `construction` | Construction | Project tracking, safety, RFIs |
-| `cpg` | CPG | Supply chain, demand planning |
-| `finance` | Finance | Trading, risk, compliance |
-| `healthcare` | Healthcare | Nursing documentation burden |
-| `insurance` | Insurance | Claims processing, underwriting |
-| `law_firms` | LawFirm | Case management, billing |
-| `media` | Media | Content ops, ad delivery |
-| `oil_and_gas` | OilGas | Production, pipeline monitoring |
-| `retail` | Retail | Omnichannel, inventory, customer |
-| `telecom` | Telecom | Network ops, customer churn |
+---
 
-## Pre-Filled Config Notebooks
+## Before You Start — Checklist
 
-For industries with ready-made sample datasets, **pre-filled config notebooks** are available as drop-in replacements for `00_Industry_Config`. These skip auto-discovery and hardcode all table names, KQL mappings, and expected row counts.
+Complete these prerequisites before running any notebook:
 
-| Config Notebook | Industry | Tables | Rows | Dataset Folder |
-|----------------|----------|--------|------|----------------|
-| `Advertising_Config.ipynb` | Advertising (OOH) | 23 | 2,095 | `advertising_campaign_operations/` |
-| `Construction_Config.ipynb` | Construction | 23 | — | `construction_site_operations/` |
-| `Finance_Config.ipynb` | Finance (Banking) | 23 | 1,342 | `finance_banking_operations/` |
-| `Healthcare_Config.ipynb` | Healthcare (Nursing) | 25 | — | `healthcare_nursing_documentation/` |
-| `Insurance_Config.ipynb` | Insurance (Claims) | 23 | 1,637 | `insurance_claims_operations/` |
-| `LawFirms_Config.ipynb` | Law Firms | 23 | 2,340 | `law_firm_operations/` |
-| `Media_Config.ipynb` | Media (Content) | 23 | — | `media_content_operations/` |
-| `OilAndGas_Config.ipynb` | Oil & Gas (Field) | 23 | 2,327 | `oil_gas_field_operations/` |
-| `Retail_Config.ipynb` | Retail (Store) | 23 | 2,555 | `retail_store_operations/` |
-| `Telecom_Config.ipynb` | Telecom (Network) | 23 | — | `telecom_network_operations/` |
+- [ ] **Fabric workspace** with capacity assigned (F2+ recommended)
+- [ ] **Lakehouse** created in the workspace
+- [ ] **Warehouse** created in the workspace
+- [ ] **Eventhouse** created (with a KQL database) — for real-time streaming tables
+- [ ] **CSV data files** uploaded to Lakehouse `Files/<industry>_data/`
+- [ ] **Ontology package** (`.iq` file) uploaded to Lakehouse `Files/` *(needed at Step 5)*
+- [ ] **fabriciq_ontology_accelerator** `.whl` uploaded to Lakehouse `Files/` *(needed at Step 5)*
 
-**Usage:** Instead of running `00_Industry_Config`, run the pre-filled config (e.g., `%run ./Advertising_Config`) and proceed directly to notebook 01.
-
-## Prerequisites
-
-1. **Microsoft Fabric workspace** with capacity assigned (F2 or higher recommended)
-2. **Fabric Lakehouse** created in the workspace
-3. **Fabric Data Warehouse** created in the workspace
-4. **Fabric Eventhouse** created (for real-time / event streaming tables)
-5. **CSV data files** uploaded to the Lakehouse `Files/` area under a folder named `<industry>_data/`
-   - e.g., `Files/healthcare_data/dim_nurses.csv`, `Files/healthcare_data/fact_documentation_events.csv`
-6. **Ontology package** (`.iq` file) uploaded to Lakehouse `Files/` (for notebook 05)
-7. **fabriciq_ontology_accelerator** `.whl` file uploaded to Lakehouse `Files/` (for notebook 05)
-
-### CSV Naming Convention
-
-The auto-discovery engine classifies tables by filename prefix:
-
-| Prefix | Classification | Targets |
-|--------|---------------|---------|
-| `dim_*` | Dimension table | Lakehouse + Warehouse |
-| `fact_*` | Fact table (batch or event) | Lakehouse + Warehouse + Eventhouse* |
-| `stream_*` | Streaming table | Eventhouse only |
-
-> \*Fact tables containing event keywords (`_events`, `_clickstream`, `_alerts`, `_vital`, etc.) are automatically routed to the Eventhouse as event-level tables.
-
-## Notebook Pipeline
-
-Run the notebooks **in order** — each builds on the previous step.
+<details>
+<summary><b>How should my Lakehouse Files look?</b> (click to expand)</summary>
 
 ```
-00_Industry_Config          ← Set industry & configure all artifact names
-       │
-01_Data_Ingestion           ← Discover schemas, profile data, detect quality issues
-       │
-02_Load_Lakehouse           ← Load dim + fact → Lakehouse Delta; events → Eventhouse
-       │
-03_Load_Warehouse           ← Load all tables → Warehouse with auto-generated DDL
-       │
-04_Create_Semantic_Model    ← Auto-generate Power BI semantic model from Lakehouse or Warehouse
-       │
-05_Create_Ontology          ← Create Fabric IQ Ontology from .iq package or RDF/OWL
-       │
-06_Create_Data_Agent        ← Create QA Agent + Ops Agent linked to ontology
-       │
-07_Create_Dashboards        ← Real-time KQL dashboard + Power BI report
+Files/
+├── fabriciq_ontology_accelerator-0.1.0-py3-none-any.whl
+├── <industry>_ontology_package.iq
+└── <industry>_data/
+    ├── dim_workers.csv
+    ├── dim_clients.csv
+    ├── fact_documentation_events.csv
+    ├── stream_realtime_alerts.csv
+    └── ... (23–25 CSV files total)
 ```
+
+</details>
+
+---
+
+## Pick Your Industry
+
+| Industry | Config Notebook | Tables | Dataset Folder |
+|----------|----------------|--------|----------------|
+| 🏥 Healthcare | `Healthcare_Config.ipynb` | 25 | `healthcare_nursing_documentation/` |
+| 🏗️ Construction | `Construction_Config.ipynb` | 23 | `construction_site_operations/` |
+| 💰 Finance | `Finance_Config.ipynb` | 23 | `finance_banking_operations/` |
+| 🛒 Retail | `Retail_Config.ipynb` | 23 | `retail_store_operations/` |
+| 📡 Telecom | `Telecom_Config.ipynb` | 23 | `telecom_network_operations/` |
+| 🛡️ Insurance | `Insurance_Config.ipynb` | 23 | `insurance_claims_operations/` |
+| ⚖️ Law Firms | `LawFirms_Config.ipynb` | 23 | `law_firm_operations/` |
+| 📺 Media | `Media_Config.ipynb` | 23 | `media_content_operations/` |
+| 🛢️ Oil & Gas | `OilAndGas_Config.ipynb` | 23 | `oil_gas_field_operations/` |
+| 📢 Advertising | `Advertising_Config.ipynb` | 23 | `advertising_campaign_operations/` |
+
+> **Tip:** Each config notebook is pre-filled with table names, KQL mappings, and expected row counts. Use it **instead of** `00_Industry_Config.ipynb` for a faster start.
+
+---
+
+## Pipeline Overview
+
+```mermaid
+flowchart TD
+    subgraph CONFIG ["🔧 CONFIGURE"]
+        S0["00 Industry Config<br/><small>Set INDUSTRY, auto-discover tables</small>"]
+        AI["Agent Instructions<br/><small>Optional: industry-specific prompts</small>"]
+    end
+
+    subgraph INGEST ["📥 INGEST & LOAD"]
+        S1["01 Data Ingestion<br/><small>Profile schemas, detect quality issues</small>"]
+        S2["02 Load Lakehouse<br/><small>dim + fact → Delta<br/>events + stream → Eventhouse</small>"]
+        S3["03 Load Warehouse<br/><small>All tables → SQL (auto DDL)</small>"]
+    end
+
+    subgraph MODEL ["🧠 MODEL & INTELLIGENCE"]
+        S4["04 Create Semantic Model<br/><small>Star-schema, DAX measures</small>"]
+        S5["05 Create Ontology<br/><small>Entity types + relationships</small>"]
+        S6["06 Create Data Agent<br/><small>QA Agent + Ops Agent</small>"]
+    end
+
+    subgraph OUTPUT ["📊 VISUALIZE"]
+        S7["07 Create Dashboards<br/><small>KQL real-time + Power BI</small>"]
+    end
+
+    S0 --> S1
+    AI -.->|optional| S6
+    S1 --> S2 --> S3 --> S4 --> S5 --> S6 --> S7
+
+    style CONFIG fill:#fff3e0,stroke:#FF9800
+    style INGEST fill:#e8f5e9,stroke:#4CAF50
+    style MODEL fill:#f3e5f5,stroke:#9C27B0
+    style OUTPUT fill:#e3f2fd,stroke:#2196F3
+```
+
+> **Every notebook** automatically loads `ZT_Security_Utils.ipynb` for Zero Trust security — input validation, injection defense, and audit logging.
+
+---
 
 ## Step-by-Step Guide
 
-### Step 0 — Configure Industry
+### Step 0 — Configure Your Industry
 
-Open **`00_Industry_Config.ipynb`** and set:
+**Open:** `00_Industry_Config.ipynb` (or use a pre-filled config like `Retail_Config.ipynb`)
 
 ```python
-INDUSTRY = "healthcare"  # Change to your target industry key
+INDUSTRY = "healthcare"  # ← Change this to your target industry key
 ```
 
-Optionally update:
-- `EVENTHOUSE_CLUSTER_URI` — your Eventhouse cluster endpoint (e.g., `https://<name>.<region>.kusto.fabric.microsoft.com`)
-- `EVENTHOUSE_DATABASE` — your Eventhouse database name
-- `CSV_BASE_PATH` — if your CSV files are in a non-default location
+**You must also set these** (found in Eventhouse → Overview):
+```python
+EVENTHOUSE_CLUSTER_URI = "https://<name>.<region>.kusto.fabric.microsoft.com"
+EVENTHOUSE_DATABASE    = "<your_kql_database_name>"
+```
 
-Run all cells. The notebook will:
-- Auto-name all Fabric artifacts (Lakehouse, Warehouse, Eventhouse, Ontology, Agents, Semantic Model)
-- Scan the CSV folder and classify all tables
-- Display a discovery summary
+**Run all cells.** The notebook will:
+
+| What Happens | Output |
+|-------------|--------|
+| Auto-names all Fabric artifacts | `LAKEHOUSE_NAME`, `WAREHOUSE_NAME`, `ONTOLOGY_NAME`, etc. |
+| Scans CSV folder | Classifies files as `dim_*`, `fact_*` (batch/event), `stream_*` |
+| Shows discovery summary | Table counts, row counts, load targets |
+
+> **Using a pre-filled config?** It already contains hardcoded table names and row counts — no auto-discovery needed.
+
+---
 
 ### Step 1 — Data Ingestion & Validation
 
-Open **`01_Data_Ingestion.ipynb`** and run all cells.
+**Open:** `01_Data_Ingestion.ipynb` → **Run all cells**
 
-This notebook:
-- Reads every CSV file and infers schemas
-- Profiles each column (nulls, distinct values, numeric ranges)
-- Flags quality issues (>50% nulls = HIGH severity, >20% = MEDIUM)
-- Generates a full **data catalog** with column-level details
-- Produces a **load plan** showing which tables go where
+| What It Does | Details |
+|-------------|---------|
+| Infers schemas | Reads every CSV, detects column types |
+| Profiles columns | Null %, distinct values, numeric ranges |
+| Flags quality issues | >50% nulls = 🔴 HIGH, >20% = 🟡 MEDIUM |
+| Generates data catalog | Column-level details for every table |
+| Produces load plan | Which tables go to Lakehouse vs. Eventhouse |
 
-> **No data is moved in this step** — it's read-only discovery and validation.
+> **This step is read-only** — no data is moved. Review the quality report before proceeding.
+
+---
 
 ### Step 2 — Load Lakehouse + Eventhouse
 
-Open **`02_Load_Lakehouse.ipynb`**, **attach your Lakehouse**, and run all cells.
+**Open:** `02_Load_Lakehouse.ipynb` → **Attach your Lakehouse** → **Run all cells**
 
-This notebook:
-- Loads all `dim_*` tables → Lakehouse as Delta tables
-- Loads all `fact_*` (batch) tables → Lakehouse as Delta tables
-- Loads all `fact_*` (event) + `stream_*` tables → Eventhouse KQL tables
-- Generates a load summary with row counts and success/failure status
+```mermaid
+flowchart LR
+    DIM["dim_* tables"] --> LH["🏠 Lakehouse<br/>Delta Tables"]
+    BATCH["fact_* (batch)"] --> LH
+    EVENT["fact_* (events)"] --> EH["⚡ Eventhouse<br/>KQL Tables"]
+    STREAM["stream_* tables"] --> EH
 
-> If `EVENTHOUSE_CLUSTER_URI` is not set, Eventhouse loading is skipped gracefully.
+    style LH fill:#e8f5e9,stroke:#4CAF50
+    style EH fill:#fff3e0,stroke:#FF9800
+```
+
+> **No Eventhouse?** If `EVENTHOUSE_CLUSTER_URI` is not set, Eventhouse loading is skipped gracefully — Lakehouse tables still load.
+
+---
 
 ### Step 3 — Load Warehouse
 
-Open **`03_Load_Warehouse.ipynb`** and run all cells.
+**Open:** `03_Load_Warehouse.ipynb` → **Run all cells**
 
-This notebook:
-- Reads each CSV and infers the Spark schema
-- Auto-generates `CREATE TABLE IF NOT EXISTS` DDL (Spark types → SQL Server types)
-- Loads data via the `synapsesql()` connector
-- Supports all table types: dimensions, batch facts, event facts, streaming
+All tables (dimensions, facts, events, streaming) are consolidated into the Warehouse with auto-generated DDL.
 
-**Type mapping used:**
+<details>
+<summary><b>Spark → SQL type mapping</b> (click to expand)</summary>
 
 | Spark Type | SQL Type |
 |-----------|----------|
@@ -150,75 +178,105 @@ This notebook:
 | TimestampType | DATETIME2 |
 | DecimalType(p,s) | DECIMAL(p,s) |
 
+</details>
+
+---
+
 ### Step 4 — Create Semantic Model
 
-Open **`04_Create_Semantic_Model.ipynb`** and run all cells.
+**Open:** `04_Create_Semantic_Model.ipynb` → **Run all cells**
 
-This notebook:
-- Reads all table schemas from CSVs
-- Builds a TMSL (Tabular Model Scripting Language) definition
-- Auto-detects star-schema relationships (FK `_id` columns → dim PK columns)
-- Auto-generates DAX measures (`SUM`, `AVERAGE`) for numeric fact columns
-- Creates the semantic model from Lakehouse or Warehouse (configurable via `SEMANTIC_MODEL_SOURCE`)
-- Creates the semantic model in Fabric via REST API
+| What It Does | How |
+|-------------|-----|
+| Builds TMSL definition | Reads schemas from all CSVs |
+| Detects relationships | FK `_id` columns → matching dim PK columns |
+| Generates DAX measures | `SUM`, `AVERAGE` for numeric fact columns |
+| Creates model in Fabric | Via REST API from Lakehouse or Warehouse |
+
+> **Source control:** Set `SEMANTIC_MODEL_SOURCE` to `"lakehouse"` or `"warehouse"` depending on your preference.
+
+---
 
 ### Step 5 — Create Ontology
 
-Open **`05_Create_Ontology.ipynb`** and run all cells.
+**Open:** `05_Create_Ontology.ipynb` → **Run all cells**
 
-Two modes are supported:
+| Mode | Set `ONTOLOGY_MODE` to | Input File |
+|------|----------------------|------------|
+| **Package** *(recommended)* | `"package"` | `.iq` ontology package |
+| **RDF/OWL** | `"rdf"` | `.rdf` / `.owl` file |
 
-| Mode | Set `ONTOLOGY_MODE` to | Input |
-|------|----------------------|-------|
-| **Package** (default) | `"package"` | `.iq` ontology package file |
-| **RDF/OWL** | `"rdf"` | `.rdf`/`.owl` file path or URL |
+The notebook automatically resolves Lakehouse, Eventhouse, and Semantic Model item IDs from the workspace — you only need the display names.
 
-The notebook will:
-- Install the `fabriciq_ontology_accelerator` wheel package
-- Auto-resolve Lakehouse, Eventhouse, and Semantic Model item IDs from the workspace
-- Generate the ontology definition with data bindings
-- Create the ontology item in Fabric
-- Display entity types, relationship types, and bindings
+---
 
 ### Step 6 — Create Data Agents
 
-Open **`06_Create_Data_Agent.ipynb`** and run all cells.
+**Open:** `06_Create_Data_Agent.ipynb` → **Run all cells**
 
-Creates two agents:
+Creates two AI agents linked to the ontology:
 
-| Agent | Name Variable | Purpose |
-|-------|--------------|---------|
-| **QA Agent** | `DATA_AGENT_NAME` | Answers ad-hoc data questions via ontology |
-| **Ops Agent** | `OPS_AGENT_NAME` | Monitors events, surfaces alerts and anomalies |
+| Agent | Purpose | Example Question |
+|-------|---------|-----------------|
+| **QA Agent** | Ad-hoc data questions | *"Which workers had the most overtime this month?"* |
+| **Ops Agent** | Event monitoring & alerts | *"Show me burnout risk trends by unit"* |
 
-Both agents are linked to the ontology created in Step 5 and backed by the semantic model from Step 4.
+> **Better agent responses:** Run the matching `*_Agent_Instructions.ipynb` (e.g., `Retail_Agent_Instructions.ipynb`) **before** this step. It provides industry-specific schema context, sample queries, and operational thresholds.
+
+---
 
 ### Step 7 — Create Dashboards
 
-Open **`07_Create_Dashboards.ipynb`** and run all cells.
+**Open:** `07_Create_Dashboards.ipynb` → **Run all cells**
 
 Creates two dashboard types:
 
-**Real-Time KQL Dashboard** (requires Eventhouse):
-- Auto-generates KQL queries from event/streaming table schemas
-- Creates tiles: time-series charts, category breakdowns, KPI trends, live event feeds
-- Pages grouped by source table, 30-second auto-refresh
+| Dashboard | Technology | Refresh | Content |
+|-----------|-----------|---------|---------|
+| **Real-Time Dashboard** | KQL Dashboard | 30-second auto-refresh | Timecharts, pie charts, trend lines, live event feeds |
+| **Analytics Report** | Power BI (PBIR-Legacy) | On-demand | Executive summary, per-table KPI cards, drill-down pages |
 
-**Power BI Report** (requires Semantic Model from Step 4):
-- Executive Summary page with key metrics
-- Per-fact-table detail pages with tables, line charts, bar charts
+> **Fallback:** If automated creation fails, the notebook outputs all KQL queries and TMSL JSON for manual creation.
 
-> Even if automated creation fails, the notebook outputs all KQL queries for manual dashboard creation.
+---
+
+## Files in This Folder
+
+```
+cross_industry_notebooks/
+│
+├── 00_Industry_Config.ipynb         # Universal auto-discovery config
+├── 01_Data_Ingestion.ipynb          # Schema profiling & quality checks
+├── 02_Load_Lakehouse.ipynb          # Lakehouse + Eventhouse loading
+├── 03_Load_Warehouse.ipynb          # Warehouse loading with auto DDL
+├── 04_Create_Semantic_Model.ipynb   # Power BI semantic model
+├── 05_Create_Ontology.ipynb         # Fabric IQ ontology
+├── 06_Create_Data_Agent.ipynb       # QA + Ops agents
+├── 07_Create_Dashboards.ipynb       # KQL + Power BI dashboards
+│
+├── ZT_Security_Utils.ipynb          # 🔒 Zero Trust security (auto-loaded)
+│
+├── *_Config.ipynb                   # Pre-filled industry configs (10)
+├── *_Agent_Instructions.ipynb       # Agent prompts per industry (10)
+│
+├── DASHBOARD_VISUALS_README.md      # Detailed visual specs for dashboards
+└── README.md                        # ← You are here
+```
+
+---
 
 ## Configuration Reference
 
-All configuration variables are set in `00_Industry_Config.ipynb` and inherited by every downstream notebook via `%run ./00_Industry_Config`.
+All variables are set in `00_Industry_Config.ipynb` and inherited by every downstream notebook via `%run ./00_Industry_Config`.
+
+<details>
+<summary><b>Full variable reference</b> (click to expand)</summary>
 
 | Variable | Description | Example |
 |----------|-------------|---------|
 | `INDUSTRY` | Industry key | `"healthcare"` |
 | `INDUSTRY_LABEL` | Display label (auto-derived) | `"Healthcare"` |
-| `CSV_BASE_PATH` | Path to CSV files in Lakehouse | `/lakehouse/default/Files/healthcare_data` |
+| `CSV_BASE_PATH` | CSV file path in Lakehouse | `/lakehouse/default/Files/healthcare_data` |
 | `LAKEHOUSE_NAME` | Lakehouse name | `Healthcare_Data_Bronze` |
 | `WAREHOUSE_NAME` | Warehouse name | `Healthcare_Datawarehouse` |
 | `EVENTHOUSE_NAME` | Eventhouse name | `healthcare_rt_store` |
@@ -229,28 +287,36 @@ All configuration variables are set in `00_Industry_Config.ipynb` and inherited 
 | `OPS_AGENT_NAME` | Ops Agent name | `HealthcareDocBurden` |
 | `SEMANTIC_MODEL_NAME` | Power BI model name | `Healthcare_DocBurden_Model` |
 
-## Auto-Discovered Table Lists
+</details>
 
-These lists are populated by `discover_data_sources()` in the config notebook:
+### Auto-Discovered Table Lists
 
-| Variable | Contents |
-|----------|----------|
-| `DIM_TABLES` | All `dim_*` CSV files |
-| `FACT_TABLES_BATCH` | `fact_*` CSVs classified as batch |
-| `FACT_TABLES_EVENT` | `fact_*` CSVs classified as event-level |
-| `STREAM_TABLES` | All `stream_*` CSV files |
-| `LAKEHOUSE_TABLES` | `DIM_TABLES + FACT_TABLES_BATCH` |
-| `WAREHOUSE_TABLES` | `DIM_TABLES + FACT_TABLES_BATCH + FACT_TABLES_EVENT` |
-| `EVENTHOUSE_TABLES` | `FACT_TABLES_EVENT + STREAM_TABLES` |
+These are populated by `discover_data_sources()` in the config notebook:
+
+| Variable | Contents | Destination |
+|----------|----------|-------------|
+| `DIM_TABLES` | All `dim_*` CSV files | Lakehouse + Warehouse |
+| `FACT_TABLES_BATCH` | `fact_*` CSVs (batch) | Lakehouse + Warehouse |
+| `FACT_TABLES_EVENT` | `fact_*` CSVs (event) | Eventhouse + Warehouse |
+| `STREAM_TABLES` | All `stream_*` CSV files | Eventhouse only |
+
+> **Auto-detection:** Fact tables with event keywords (`_events`, `_clickstream`, `_alerts`, `_vital`) are automatically classified as event-level and routed to Eventhouse.
+
+---
 
 ## Troubleshooting
 
-| Issue | Solution |
-|-------|----------|
+<details>
+<summary><b>Common Issues & Fixes</b> (click to expand)</summary>
+
+| Problem | Fix |
+|---------|-----|
 | `ERROR: Path not found` | Upload CSVs to `Files/<industry>_data/` in your Lakehouse |
 | Eventhouse cells skipped | Set `EVENTHOUSE_CLUSTER_URI` and `EVENTHOUSE_DATABASE` in notebook 00 |
 | Ontology creation fails | Ensure `.whl` and `.iq` files are uploaded to Lakehouse `Files/` |
-| Warehouse DDL errors | Check that the Warehouse exists and the notebook has connectivity |
-| Semantic model API error | Import the TMSL JSON manually via Power BI Desktop as a fallback |
-| Agent creation 403 | Verify workspace permissions (Contributor or higher) |
-| No tables discovered | Check CSV naming: files must start with `dim_`, `fact_`, or `stream_` |
+| Warehouse DDL errors | Verify the Warehouse exists and notebook has connectivity |
+| Semantic model API error | Import the TMSL JSON manually via Power BI Desktop as fallback |
+| Agent creation 403 | Workspace permissions must be **Contributor** or higher |
+| No tables discovered | CSV files must start with `dim_`, `fact_`, or `stream_` |
+
+</details>
