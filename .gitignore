@@ -36,3 +36,4 @@ EXECUTIVE_BRIEF.md
 
 # Healthcare-specific demo (not part of core pipeline)
 fabriciq-nurse-doc-burden-usecase/
+cross_industry_notebooks/05b_Create_Ontology_Package.ipynb
